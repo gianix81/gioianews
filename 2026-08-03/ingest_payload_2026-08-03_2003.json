@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-03",
+  "notizie": [
+    {
+      "titolo": "Sul tuo cedolino ora c'è il codice CNEL: a cosa serve",
+      "testo": "Dal 1° maggio 2026 la tua busta paga deve riportare un dato in più: il codice CNEL, cioè il codice alfanumerico univoco che identifica il contratto collettivo (CCNL) applicato al tuo rapporto di lavoro.\n\nPerché è importante per te? Fino a ieri sul cedolino trovavi solo il nome del contratto, spesso in forma abbreviata e non sempre chiara. Ora, grazie a un codice univoco, puoi verificare con precisione quale CCNL ti viene applicato e confrontarlo con il tuo inquadramento e la tua paga base. In pratica è uno strumento di trasparenza: serve a controllare che il trattamento economico e normativo sia davvero quello previsto dal contratto dichiarato.\n\nL'obbligo nasce dall'art. 11, comma 2, del DL 62/2026, convertito nella L. 112/2026, che ha modificato la vecchia legge sul prospetto paga (L. 4/1953). Il codice va indicato anche nella documentazione di assunzione, e la mancata o errata indicazione espone il datore a sanzioni.\n\nCosa puoi fare: controlla che nel tuo cedolino compaia il codice CNEL e che il contratto indicato sia coerente con le mansioni che svolgi. GioIA legge questo dato dal tuo cedolino e ti aiuta a capire se il CCNL e il livello applicati sono corretti, così da verificare che la tua paga base sia in linea con il contratto giusto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 11 c.2 DL 62/2026 conv. L. 112/2026 (mod. art. 1 L. 4/1953)",
+      "fonte_url": "https://www.edotto.com/articolo/codice-cnel-obbligatorio-nel-cedolino-paga-e-nellinformativa-al-lavoratore"
+    },
+    {
+      "titolo": "Malattia: perché i primi 3 giorni sono diversi dagli altri",
+      "testo": "Quando ti ammali e mandi il certificato medico, non tutti i giorni valgono allo stesso modo in busta paga. I primi 3 giorni sono la cosiddetta \"carenza\": per questo periodo l'INPS non paga nulla. A coprirli, per la generalità dei contratti collettivi, è il datore di lavoro, che di norma ti riconosce comunque il 100% della retribuzione.\n\nDal 4° giorno in poi entra in gioco l'INPS con l'indennità di malattia, calcolata sulla retribuzione media e commisurata all'anzianità dell'evento. Per gli operai di industria e commercio, ad esempio, l'indennità è generalmente pari al 50% della retribuzione media dal 4° al 20° giorno e sale al 66,66% dal 21° giorno. Molti CCNL prevedono poi un'integrazione a carico del datore, così da avvicinare l'importo al 100%.\n\nEcco perché in un mese con giorni di malattia il netto può cambiare: parte dello stipendio arriva come indennità INPS (spesso anticipata dal datore) e parte come integrazione prevista dal contratto. Le percentuali e le durate esatte dipendono dalla tua categoria e dal CCNL applicato.\n\nCome ti aiuta GioIA: caricando il cedolino, GioIA individua le voci legate alla malattia (indennità INPS e integrazione datore) e ti aiuta a verificare che i giorni di carenza e le percentuali applicate siano coerenti con le regole generali e con il tuo contratto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Prassi INPS - indennità di malattia; carenza primi 3 giorni; CCNL applicato",
+      "fonte_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit--di-malattia-e-visite-mediche-di-controllo.html"
+    },
+    {
+      "titolo": "Legge 104: 3 giorni al mese pagati, come li leggi in busta",
+      "testo": "Se assisti un familiare con disabilità grave (o se sei tu stesso in questa condizione), la Legge 104 ti riconosce 3 giorni di permesso retribuito al mese. È un diritto previsto dall'art. 33, comma 3, della L. 104/1992.\n\nUn punto che genera spesso dubbi è chi paga questi giorni: la retribuzione dei permessi 104 è al 100% ed è a carico dell'INPS, ma viene anticipata dal datore di lavoro direttamente in busta paga (che poi la recupera in compensazione con i contributi). In pratica tu non perdi stipendio, e quei giorni maturano anche contribuzione figurativa utile ai fini pensionistici.\n\nPuoi usare i permessi anche in modo frazionato a ore: in genere 2 ore al giorno se il tuo orario è pari o superiore a 6 ore, 1 ora se è inferiore. I beneficiari sono il lavoratore disabile grave, i genitori di figli con disabilità grave e i familiari fino al secondo grado (in alcuni casi anche terzo). Attenzione: tredicesima e mensilità aggiuntive sono già considerate nell'indennità, quindi non vanno aggiunte a parte.\n\nCome ti aiuta GioIA: dal tuo cedolino, GioIA riconosce le giornate e le ore di permesso 104 e la relativa indennità, e ti aiuta a controllare che siano state conteggiate e retribuite correttamente.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "L. 104/1992 art. 33 c.3 - permessi per assistenza a familiari con disabilità grave",
+      "fonte_url": "https://www.pmi.it/economia/lavoro/esperto/443253/legge-104-in-busta-paga-retribuzione-scritture-e-calcolo-permessi.html"
+    }
+  ]
+}

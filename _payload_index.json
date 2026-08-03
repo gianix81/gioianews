@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-03 16:03",
+  "aggiornato_il": "2026-08-03 20:03",
   "pubblicate": [
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
@@ -162,6 +162,30 @@
       "data_run": "2026-08-03",
       "ora_run": "1603",
       "file": "ingest_payload_2026-08-03_1603.json"
+    },
+    {
+      "chiave": "art. 11 c.2 dl 62/2026 conv. l. 112/2026; codice cnel obbligatorio in busta paga",
+      "titolo": "Sul tuo cedolino ora c'è il codice CNEL: a cosa serve",
+      "riferimento_normativo": "Art. 11 c.2 DL 62/2026 conv. L. 112/2026 (mod. art. 1 L. 4/1953)",
+      "data_run": "2026-08-03",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-03_2003.json"
+    },
+    {
+      "chiave": "prassi inps - indennità di malattia; carenza primi 3 giorni; ccnl applicato",
+      "titolo": "Malattia: perché i primi 3 giorni sono diversi dagli altri",
+      "riferimento_normativo": "Prassi INPS - indennità di malattia; carenza primi 3 giorni; CCNL applicato",
+      "data_run": "2026-08-03",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-03_2003.json"
+    },
+    {
+      "chiave": "l. 104/1992 art. 33 c.3 - permessi assistenza familiari disabilità grave",
+      "titolo": "Legge 104: 3 giorni al mese pagati, come li leggi in busta",
+      "riferimento_normativo": "L. 104/1992 art. 33 c.3 - permessi per assistenza a familiari con disabilità grave",
+      "data_run": "2026-08-03",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-03_2003.json"
     }
   ]
 }
