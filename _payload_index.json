@@ -1,0 +1,119 @@
+{
+  "schema": "gioia-payload-index",
+  "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
+  "aggiornato_il": "2026-08-03 06:20",
+  "pubblicate": [
+    {
+      "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
+      "titolo": "TFR: nuovo coefficiente di rivalutazione (giugno 2026)",
+      "riferimento_normativo": "Comunicazione ISTAT indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_2026-07-31.json"
+    },
+    {
+      "chiave": "circolare inps n. 82 del 29/07/2026",
+      "titolo": "Assunzione di madri con tre o più figli: esonero contributivo fino a 8.000 euro",
+      "riferimento_normativo": "Circolare INPS n. 82 del 29/07/2026",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_2026-07-31.json"
+    },
+    {
+      "chiave": "messaggio inps n. 2451 del 23/07/2026; artt. 22-24 d.l. 60/2024",
+      "titolo": "Bonus assunzioni Giovani, Donne e ZES: domande entro il 30 settembre 2026",
+      "riferimento_normativo": "Messaggio INPS n. 2451 del 23/07/2026; artt. 22-24 D.L. 60/2024",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_2026-07-31.json"
+    },
+    {
+      "chiave": "circolare inail n. 35 del 22/07/2026; d.m. lavoro 11/05/2026 n. 58",
+      "titolo": "INAIL: aggiornati minimale e massimale di rendita 2026",
+      "riferimento_normativo": "Circolare INAIL n. 35 del 22/07/2026; D.M. Lavoro 11/05/2026 n. 58",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_2026-07-31.json"
+    },
+    {
+      "chiave": "l. 199/2025 (revisione scaglioni irpef), decorrenza 01/01/2026",
+      "titolo": "Guadagni tra 28.000 e 50.000 euro? In busta hai qualche euro in più",
+      "riferimento_normativo": "L. 199/2025 (revisione scaglioni IRPEF), decorrenza 01/01/2026",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_dipendente_2026-07-31.json"
+    },
+    {
+      "chiave": "legge di bilancio 2025 (soglie strutturali triennio 2025-2027)",
+      "titolo": "Fringe benefit: fino a 1.000 euro esentasse (2.000 se hai figli)",
+      "riferimento_normativo": "Legge di Bilancio 2025 (soglie strutturali triennio 2025-2027)",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_dipendente_2026-07-31.json"
+    },
+    {
+      "chiave": "l. 199/2025; circ. agenzia delle entrate 3/e; imposta sostitutiva 15% entro 1.500 euro, reddito 2025 <= 40.000 euro",
+      "titolo": "Lavori di notte, nei festivi o su turni? Paghi il 15% invece dell'IRPEF",
+      "riferimento_normativo": "L. 199/2025; Circ. Agenzia delle Entrate 3/E; imposta sostitutiva 15% entro 1.500 euro, reddito 2025 <= 40.000 euro",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_dipendente_2026-07-31.json"
+    },
+    {
+      "chiave": "d.lgs. 22/2015; circ. inps 4/2026; legge di bilancio 2026 (anticipo in 2 rate)",
+      "titolo": "NASpI 2026: se perdi il lavoro, ecco cosa ti spetta",
+      "riferimento_normativo": "D.Lgs. 22/2015; Circ. INPS 4/2026; Legge di Bilancio 2026 (anticipo in 2 rate)",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_dipendente_2026-07-31.json"
+    },
+    {
+      "chiave": "art. 2120 c.c.; coefficiente istat rif. maggio 2026 (indice foi giugno 102,8)",
+      "titolo": "Il tuo TFR non resta fermo: ecco quanto si è rivalutato",
+      "riferimento_normativo": "Art. 2120 c.c.; coefficiente ISTAT rif. maggio 2026 (indice FOI giugno 102,8)",
+      "data_run": "2026-07-31",
+      "ora_run": "",
+      "file": "ingest_payload_dipendente_2026-07-31.json"
+    },
+    {
+      "chiave": "art. 4 dl 62/2026; circ. inps 72/2026; msg. inps 2518 del 29/07/2026",
+      "titolo": "Da oggi l'esonero contributivo per la stabilizzazione degli under 35",
+      "riferimento_normativo": "Art. 4 DL 62/2026; Circ. INPS 72/2026; Msg. INPS 2518 del 29/07/2026",
+      "data_run": "2026-08-01",
+      "ora_run": "2200",
+      "file": "ingest_payload_2026-08-01_2200.json"
+    },
+    {
+      "chiave": "l. 112/2026 (conversione decreto lavoro); finestra straordinaria conferimento tfr primo semestre 2026 a previdenza complementare",
+      "titolo": "TFR del primo semestre 2026: puoi spostarlo nel fondo pensione (finestra straordinaria)",
+      "riferimento_normativo": "L. 112/2026 (conversione Decreto Lavoro) - finestra straordinaria conferimento TFR 1o semestre 2026; art. da riscontrare su GU",
+      "data_run": "2026-08-03",
+      "ora_run": "0605",
+      "file": "ingest_payload_2026-08-03_0605.json"
+    },
+    {
+      "chiave": "art. 13 tuir - detrazioni da lavoro dipendente 2026",
+      "titolo": "Detrazioni da lavoro dipendente: fino a 1.955 € che ti abbassano l'IRPEF",
+      "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - detrazioni per redditi da lavoro dipendente",
+      "data_run": "2026-08-02",
+      "ora_run": "2116",
+      "file": "ingest_payload_2026-08-02_2116.json"
+    },
+    {
+      "chiave": "trattamento integrativo (ex bonus renzi) - d.l. 3/2020 conv. l. 21/2020",
+      "titolo": "Il bonus IRPEF in busta paga (voce \"TIR\"): fino a 1.200 € l'anno",
+      "riferimento_normativo": "Trattamento integrativo (ex Bonus Renzi) - D.L. 3/2020 conv. L. 21/2020",
+      "data_run": "2026-08-02",
+      "ora_run": "2116",
+      "file": "ingest_payload_2026-08-02_2116.json"
+    },
+    {
+      "chiave": "art. 12 tuir - detrazioni figli a carico 2026 (eta' 21-30)",
+      "titolo": "Figli a carico: quando passi dall'Assegno Unico alle detrazioni in busta",
+      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazioni per figli a carico; D.Lgs. 230/2021 (Assegno Unico)",
+      "data_run": "2026-08-02",
+      "ora_run": "2116",
+      "file": "ingest_payload_2026-08-02_2116.json"
+    }
+  ]
+}

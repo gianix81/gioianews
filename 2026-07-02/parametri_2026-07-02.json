@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "data": "2026-07-02",
+    "descrizione": "Parametri correnti motore verifica cedolino GioIA",
+    "legenda_affidabilita": ["CERTO", "IN_ITER", "DA_VERIFICARE"],
+    "nota": "Riscontrare numeri di legge/circolare su GU/Normattiva prima del rilascio in produzione"
+  },
+  "irpef": {
+    "scaglioni": [
+      { "fino_a": 28000, "aliquota": 0.23, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+      { "da": 28001, "fino_a": 50000, "aliquota": 0.33, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+      { "oltre": 50000, "aliquota": 0.43, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" }
+    ],
+    "no_tax_area_dipendenti": { "valore": 8500, "affidabilita": "CERTO", "fonte": "L.199/2025" },
+    "detrazione_lavoro_dipendente_fino_15000": { "valore": 1955, "affidabilita": "CERTO", "fonte": "L.199/2025" }
+  },
+  "cuneo_fiscale": {
+    "somma_esente": { "reddito_max": 20000, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025; MEF" },
+    "detrazione_aggiuntiva": { "importo": 1000, "reddito_min": 20001, "reddito_pieno_fino_a": 32000, "azzeramento_a": 40000, "affidabilita": "CERTO", "fonte": "L.199/2025; MEF" }
+  },
+  "imposte_sostitutive": {
+    "incrementi_ccnl": { "aliquota": 0.05, "requisito_reddito_2025_max": 33000, "base": "12 mensilita + 13a + 14a", "anno": 2026, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026" },
+    "notturno_festivo_turni": { "aliquota": 0.15, "cap_imponibile_annuo": 1500, "anno": 2026, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026" },
+    "premi_produttivita": { "aliquota": 0.01, "tetto": 5000, "requisito_reddito_anno_prec_max": 80000, "anni": [2026, 2027], "esteso_a_benefit": true, "affidabilita": "CERTO", "fonte": "L.199/2025; Ris. AdE 22/E 09/06/2026" }
+  },
+  "fringe_benefit": { "esenzione": 1000, "esenzione_con_figli": 2000, "anno": 2026, "affidabilita": "CERTO", "fonte": "L.199/2025 (riscontro prassi)" },
+  "buoni_pasto": { "esenzione_elettronici": 10, "esenzione_cartacei": 4, "anno": 2026, "affidabilita": "CERTO", "fonte": "L.199/2025" },
+  "previdenza_complementare": {
+    "adesione_automatica_neoassunti": { "attiva_dal": "2026-07-01", "silenzio_assenso_giorni": 60, "fondo_residuale": "COMETA (DM 85/2020)", "esclusioni": ["domestici", "contratti < 60 gg", "dipendenti pubblici"], "affidabilita": "CERTO", "fonte": "L.199/2025; Delibera COVIP 19/06/2026 in GU 148 del 29/06/2026" },
+    "plafond_deducibilita": { "valore": 5300, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "L.199/2025; Min. Lavoro" },
+    "quota_capitale_max": { "valore": 0.60, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+    "portabilita_contributo_datoriale_fondi_aperti": { "decorrenza": "2026-10-31", "anni_adesione_minimi": 2, "affidabilita": "CERTO", "fonte": "L.199/2025" }
+  },
+  "naspi": {
+    "massimale_mensile": 1584.70, "decalage_pct_mese": 0.03, "decalage_dal_mese": 6, "decalage_dal_giorno": 151, "anno": 2026, "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026"
+  },
+  "bonus_mamme": { "importo_mensile": 60, "erogazione": "una tantum dicembre 2026", "requisiti": "2+ figli, reddito <= 40000", "affidabilita": "CERTO", "fonte": "L.199/2025; INPS" },
+  "cessione_del_quinto": { "tassi": "III trimestre 2026 (valori sul messaggio)", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Msg. INPS 2145 del 30/06/2026" },
+  "codice_cnel_in_busta": { "obbligatorio": true, "esclusi": ["dirigenti"], "decorrenza": "2026-05-01", "affidabilita": "CERTO", "fonte": "L.112/2026, GU 147" },
+  "ccnl_tranche_luglio_2026": [
+    { "ccnl": "Chimici-Farmaceutici Industria", "aumento_riferimento": "60 EUR cat. D1 (TEM)", "decorrenza": "2026-07-01", "affidabilita": "CERTO_accordo_importi_da_riscontrare", "fonte": "Accordo 15/04/2025; HR Capital; Confindustria Ancona" },
+    { "ccnl": "Pulizie Artigianato", "aumento_riferimento": "25 EUR liv. 5", "decorrenza": "2026-07-01", "affidabilita": "CERTO_accordo_importi_da_riscontrare", "fonte": "Rinnovo 2026; CNA; HR Capital" },
+    { "ccnl": "Altri (Aeroporti-Gestori, Case di Cura ANPIT, Ceramica Ind., Cinema, FAIRO, Energia-ENI, Federculture, Gas e Acqua, Grafici-Editoriali Ind., Lapidei, Laterizi, Marittimi, Palestre)", "decorrenza": "2026-07-01", "affidabilita": "DA_VERIFICARE_importi", "fonte": "HR Capital 17/06/2026" }
+  ],
+  "pensioni_watchlist": {
+    "vecchiaia_2027": "67 anni + 1 mese", "vecchiaia_2028": "67 anni + 3 mesi",
+    "anticipata_2027": "42a11m uomini / 41a11m donne", "anticipata_2028": "43a1m uomini / 42a1m donne",
+    "affidabilita": "CERTO", "fonte": "Circ. INPS 41/2026"
+  }
+}

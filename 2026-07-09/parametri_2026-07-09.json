@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "data": "2026-07-09",
+    "descrizione": "Parametri di calcolo busta paga 2026 per ingest app GioIA. Dati calc-critici da riscontrare su fonte ufficiale prima della produzione.",
+    "legenda_affidabilita": {"CERTO": "in vigore", "IN_ITER": "in attuazione/conversione", "DA_VERIFICARE": "prospettico/non confermato"}
+  },
+  "irpef": {
+    "scaglioni": [
+      {"da": 0, "a": 28000, "aliquota": 0.23, "affidabilita": "CERTO"},
+      {"da": 28000, "a": 50000, "aliquota": 0.33, "affidabilita": "CERTO"},
+      {"da": 50000, "a": null, "aliquota": 0.43, "affidabilita": "CERTO"}
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_fino_15000": 1955,
+    "decorrenza": "2026-01-01",
+    "fonte": "L.199/2025 (Legge di Bilancio 2026); art.13 TUIR"
+  },
+  "cuneo_fiscale": {
+    "somma_esente_fino_a_reddito": 20000,
+    "detrazione_20001_32000": 1000,
+    "azzeramento_a": 40000,
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "imposte_sostitutive": {
+    "aumenti_ccnl": {"aliquota": 0.05, "limite_reddito_2025": 33000, "affidabilita": "CERTO"},
+    "notturno_festivo_turni": {"aliquota": 0.15, "cap": 1500, "limite_reddito_2025": 40000, "affidabilita": "CERTO"},
+    "premi_produttivita": {"aliquota": 0.01, "tetto": 5000, "limite_reddito": 80000, "affidabilita": "CERTO"},
+    "fonte": "Circ. AdE 3/E/2026; L.199/2025; Ris. AdE 22/E"
+  },
+  "incentivo_stabilizzazione_under35": {
+    "esonero_contributi_datoriali": 1.00,
+    "esclusioni_esonero": ["INAIL", "contributo Fondo Tesoreria TFR"],
+    "durata_max_mesi": 24,
+    "cap_mensile_eur": 500,
+    "finestra_trasformazioni": {"da": "2026-08-01", "a": "2026-12-31"},
+    "requisiti": {
+      "eta_max": 35,
+      "mai_occupato_tempo_indeterminato": true,
+      "rapporto_termine_instaurato_entro": "2026-04-30",
+      "durata_complessiva_termine_max_mesi": 12,
+      "incremento_occupazionale_netto": true,
+      "salario_giusto": "trattamento non inferiore ai CCNL comparativamente piu rappresentativi"
+    },
+    "esclusi": ["PA", "lavoro domestico", "apprendistato", "lavoro intermittente", "dirigenti"],
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 72/2026; art.4 D.L.62/2026 conv. L.112/2026"
+  },
+  "naspi": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "decalage": "-3%/mese dal 6 mese, uniforme per eta",
+    "anticipata_autoimprenditorialita": "70%+30%",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; Msg. INPS 1215/2026"
+  },
+  "previdenza_complementare": {
+    "adesione_automatica_neoassunti": true,
+    "termine_scelta_giorni": 60,
+    "plafond_deducibilita": 5300,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "Min. Lavoro/COVIP; L.199/2025; GU 148/2026"
+  },
+  "welfare_famiglia": {
+    "fringe_benefit_esenzione": 1000,
+    "fringe_benefit_esenzione_con_figli": 2000,
+    "bonus_mamme_mensile": 60,
+    "congedo_parentale_eta_figlio": 14,
+    "malattia_figlio_3_14_giorni": 10,
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; msg. INPS 251/2026"
+  },
+  "obblighi_cedolino": {
+    "codice_cnel": {"obbligatorio": true, "esclusi": ["dirigenti"], "decorrenza": "2026-05-01", "affidabilita": "CERTO", "fonte": "L.112/2026, GU 147"}
+  },
+  "pensioni": {
+    "vecchiaia_2027_eta": "67 anni + 1 mese",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 41/2026"
+  }
+}

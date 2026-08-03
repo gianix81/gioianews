@@ -1,0 +1,41 @@
+{
+  "data": "2026-07-31",
+  "target": "dipendente",
+  "notizie": [
+    {
+      "titolo": "Guadagni tra 28.000 e 50.000 euro? In busta hai qualche euro in più",
+      "testo": "Dal 2026 l'IRPEF sul secondo scaglione di reddito (tra 28.001 e 50.000 euro) scende dal 35% al 33%. In pratica: meno tasse e un netto un po' più alto ogni mese, con un beneficio che può arrivare a circa 440 euro l'anno per chi rientra pienamente in questa fascia. Controlla che sulla tua busta l'aliquota applicata sia davvero il 33%: GioIA lo verifica per te.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "L. 199/2025 (revisione scaglioni IRPEF), decorrenza 01/01/2026",
+      "fonte_url": "https://www.pmi.it/economia/lavoro/484539/manovra-2026-lavoratori-bonus-novita-fisco.html"
+    },
+    {
+      "titolo": "Fringe benefit: fino a 1.000 euro esentasse (2.000 se hai figli)",
+      "testo": "Buoni acquisto, rimborsi di bollette, affitto o interessi del mutuo che il datore ti riconosce non pagano tasse né contributi fino a 1.000 euro l'anno. La soglia sale a 2.000 euro se hai figli fiscalmente a carico (reddito del figlio sotto 2.840,51 euro, o sotto 4.000 se ha meno di 24 anni). Attenzione: se superi la soglia, l'intero importo diventa tassabile. È welfare in più rispetto allo stipendio: vale la pena chiederlo se l'azienda lo prevede.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Legge di Bilancio 2025 (soglie strutturali triennio 2025-2027)",
+      "fonte_url": "https://www.ilfattoquotidiano.it/2026/02/13/fringe-benefit-2026-ecco-le-soglie-sotto-cui-sono-esentasse-e-le-spese-rimborsabili-dal-datore-di-lavoro/8268738/"
+    },
+    {
+      "titolo": "Lavori di notte, nei festivi o su turni? Paghi il 15% invece dell'IRPEF",
+      "testo": "Nel 2026 le indennità e le maggiorazioni per lavoro notturno, festivo, nei giorni di riposo e su turni sono tassate con un'imposta agevolata del 15% (al posto di IRPEF e addizionali), entro 1.500 euro l'anno. Vale per i dipendenti del settore privato che nel 2025 hanno avuto un reddito fino a 40.000 euro. Il datore la applica in automatico. Nota: lo straordinario 'normale' resta escluso, tranne quando è notturno o festivo. Se fai turni, controlla che l'agevolazione sia stata applicata.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "L. 199/2025; Circ. Agenzia delle Entrate 3/E; imposta sostitutiva 15% entro 1.500 euro, reddito 2025 <= 40.000 euro",
+      "fonte_url": "https://www.fisco7.it/2026/03/detassazione-2026-sulle-maggiorazioni-e-indennita-per-lavoro-notturno-festivo-e-a-turni-come-funziona/"
+    },
+    {
+      "titolo": "NASpI 2026: se perdi il lavoro, ecco cosa ti spetta",
+      "testo": "La NASpI spetta in caso di disoccupazione involontaria (licenziamento, fine contratto, dimissioni per giusta causa o durante la maternità). Servono almeno 13 settimane di contributi negli ultimi 4 anni e 30 giorni di lavoro effettivo negli ultimi 12 mesi. L'importo massimo nel 2026 è di 1.584,70 euro lordi al mese e si riduce dopo alcuni mesi. Le dimissioni volontarie, di regola, non danno diritto alla NASpI. Novità 2026: se chiedi la NASpI anticipata in unica soluzione per avviare un'attività, ora ti viene pagata in due rate, il 70% subito e il 30% alla fine.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.Lgs. 22/2015; Circ. INPS 4/2026; Legge di Bilancio 2026 (anticipo in 2 rate)",
+      "fonte_url": "https://www.ticonsiglio.com/naspi-2026/"
+    },
+    {
+      "titolo": "Il tuo TFR non resta fermo: ecco quanto si è rivalutato",
+      "testo": "Il TFR che lasci in azienda si rivaluta ogni anno: 1,5% fisso più il 75% dell'inflazione ISTAT. Il nuovo coefficiente di rivalutazione, con riferimento a maggio 2026, è pari al 2,786543%. Sulla rivalutazione si paga un'imposta del 17%. È un importo che ti spetta e che spesso passa inosservato: GioIA controlla che il tuo TFR sia stato rivalutato correttamente.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 2120 c.c.; coefficiente ISTAT rif. maggio 2026 (indice FOI giugno 102,8)",
+      "fonte_url": "https://www.istat.it/it/archivio/30440"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "data": "2026-08-02",
+  "run": "2057",
+  "note": "Parametri di calcolo busta paga 2026 - invariati rispetto a run precedenti. Estremi normativi da riscontrare su fonte ufficiale prima dell'uso in produzione.",
+  "parametri": {
+    "irpef_scaglioni": [
+      { "aliquota": 0.23, "fino_a": 28000 },
+      { "aliquota": 0.33, "da": 28001, "fino_a": 50000 },
+      { "aliquota": 0.43, "oltre": 50000 }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "cuneo_fiscale": {
+      "somma_esente_reddito_max": 20000,
+      "detrazione_fascia": { "da": 20001, "fino_a": 40000 }
+    },
+    "detassazioni": {
+      "premi_produttivita": 0.01,
+      "aumenti_ccnl_retrib_diretta": 0.05,
+      "notturno_festivo_turni": 0.15
+    },
+    "fringe_benefit_buoni_pasto": { "elettronici_esenti": 10.00, "cartacei_esenti": 4.00 },
+    "inps_dipendente_quota_lavoratore": 0.0919,
+    "inps_addizionale_oltre_prima_fascia": 0.01,
+    "plafond_deducibilita_previdenza_complementare": 5300,
+    "adesione_automatica_prev_compl_neoassunti": { "decorrenza": "2026-07-01", "meccanismo": "silenzio-assenso", "giorni_scelta_diversa": 60 },
+    "naspi": { "retribuzione_riferimento": 1456.72, "massimale": 1584.70, "decalage_mensile_dal_6_mese": -0.03, "anticipata_tranche": "70%+30%" },
+    "massimale_cig_2026": 1423.69,
+    "inail_rendita": { "minimale": 20712.30, "massimale": 38465.70, "decorrenza": "2026-07-01" },
+    "tfr": {
+      "coeff_rivalutazione_rif_maggio_2026": 0.02786543,
+      "imposta_sostitutiva": 0.17,
+      "portabilita_fondi_pensione_decorrenza": "2026-10-01"
+    },
+    "esonero_madri_3figli": { "percentuale": 1.00, "tetto_annuo": 8000, "decorrenza": "2026-07-29", "fonte": "Circ. INPS 82/2026" },
+    "incentivo_stabilizzazione_under35": { "percentuale": 1.00, "tetto_mensile": 500, "durata_max_mesi": 24, "finestra": "2026-08-01/2026-12-31", "esclusi": ["INAIL", "TFR Fondo Tesoreria"], "fonte": "art. 4 DL 62/2026 conv. L. 112/2026; Circ. INPS 72/2026; Msg. INPS 2518/2026" }
+  },
+  "affidabilita_globale": "CERTO (carryover da fonti ufficiali, estremi da riscontrare)"
+}

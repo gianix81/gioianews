@@ -1,0 +1,66 @@
+{
+ "meta": {
+  "data": "2026-07-03",
+  "descrizione": "Parametri correnti per il motore di verifica cedolino GioIA",
+  "legenda_affidabilita": {"CERTO": "norma in vigore", "IN_ITER": "in attuazione", "DA_VERIFICARE": "non confermato da fonte ufficiale"}
+ },
+ "irpef": {
+  "scaglioni": [
+   {"fino_a": 28000, "aliquota": 0.23},
+   {"fino_a": 50000, "aliquota": 0.33},
+   {"oltre": 50000, "aliquota": 0.43}
+  ],
+  "no_tax_area_dipendenti": 8500,
+  "detrazione_lavoro_dipendente_fino_15000": 1955,
+  "decorrenza": "2026-01-01",
+  "affidabilita": "CERTO",
+  "fonte": "L.199/2025"
+ },
+ "cuneo_fiscale_2026": {
+  "somma_esente_reddito_max": 20000,
+  "detrazione_importo": 1000,
+  "detrazione_fascia": [20001, 32000],
+  "detrazione_azzeramento": 40000,
+  "affidabilita": "CERTO",
+  "fonte": "L.199/2025; MEF"
+ },
+ "imposte_sostitutive": {
+  "incrementi_ccnl": {"aliquota": 0.05, "requisito_reddito_2025_max": 33000, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026"},
+  "notturno_festivo_turni": {"aliquota": 0.15, "cap_imponibile": 1500, "requisito_reddito_2025_max": 40000, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026"},
+  "premi_produttivita": {"aliquota": 0.01, "tetto": 5000, "requisito_reddito_max": 80000, "anche_benefit": true, "decorrenza": "2026-2027", "affidabilita": "CERTO", "fonte": "L.199/2025; Ris. AdE 22/E 09/06/2026"}
+ },
+ "conguaglio_730_2026": {
+  "prima_finestra": "retribuzione di luglio 2026",
+  "calendario_per_data_invio": [
+   {"invio_entro": "2026-05-31", "conguaglio": "luglio 2026"},
+   {"invio": "2026-06-01/2026-06-20", "conguaglio": "agosto 2026"},
+   {"invio": "2026-06-21/2026-07-15", "conguaglio": "settembre 2026"},
+   {"invio": "2026-07-16/2026-08-31", "conguaglio": "ottobre 2026"},
+   {"invio": "2026-09-01/2026-09-30", "conguaglio": "novembre 2026"}
+  ],
+  "soglia_controlli_preventivi_ade": 4000,
+  "voce_cedolino": "credito/trattenuta da assistenza fiscale 730 (mod. 730-4)",
+  "affidabilita": "CERTO",
+  "fonte": "Calendario campagna dichiarativa AdE (riscontro: informazionefiscale.it, fiscomania.com)"
+ },
+ "fringe_benefit": {"soglia_generale": 1000, "soglia_con_figli": 2000, "buono_pasto_elettronico": 10, "buono_pasto_cartaceo": 4, "affidabilita": "CERTO", "fonte": "L.199/2025"},
+ "previdenza_complementare": {
+  "adesione_automatica_neoassunti": true,
+  "decorrenza": "2026-07-01",
+  "silenzio_assenso_giorni": 60,
+  "fondo_residuale": "COMETA",
+  "plafond_deducibilita": 5300,
+  "affidabilita": "CERTO",
+  "fonte": "L.199/2025; Direttive COVIP GU 148 del 29/06/2026"
+ },
+ "naspi": {"massimale_mensile": 1584.70, "soglia_calcolo": 1456.72, "decalage": "-3% al mese dal 6o mese (151o giorno)", "anticipata": "2 rate 70%+30% dal 2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026"},
+ "pensioni": {"vecchiaia_2027": "67 anni + 1 mese", "vecchiaia_2028": "67 anni + 3 mesi", "decorrenza": "2027-01-01", "affidabilita": "CERTO", "fonte": "Circ. INPS 41/2026"},
+ "cessione_quinto": {"tassi": "soglie III trimestre 2026 (valori sul messaggio)", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Msg. INPS 2145/2026"},
+ "codice_cnel_busta": {"obbligatorio": true, "esclusi": "dirigenti", "decorrenza": "2026-05-01", "affidabilita": "CERTO", "fonte": "L.112/2026, GU 147"},
+ "bonus_mamme": {"importo_mensile": 60, "erogazione": "una tantum dicembre 2026", "affidabilita": "CERTO", "fonte": "L.199/2025; INPS"},
+ "tranche_ccnl_in_decorrenza": [
+  {"ccnl": "Chimici-Farmaceutici Industria", "aumento": "+60 EUR cat. D1 (TEM)", "decorrenza": "2026-07-01", "affidabilita": "CERTO (accordo); riparametrazione livelli DA_VERIFICARE", "fonte": "Accordo 15/04/2025"},
+  {"ccnl": "Pulizie Artigianato", "aumento": "+25 EUR liv. 5", "decorrenza": "2026-07-01", "affidabilita": "CERTO (accordo); riparametrazione livelli DA_VERIFICARE", "fonte": "Rinnovo 2026 CNA/Confartigianato"},
+  {"ccnl": "Trasporto Aereo - Catering Aereo", "aumento": "+204 EUR a regime su livello parametro", "decorrenza": "accordo 17/06/2026, tranche in vigenza", "affidabilita": "CERTO (accordo); tabelle livelli DA_VERIFICARE", "fonte": "Federcatering"}
+ ]
+}

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "data_report": "2026-07-20",
+    "fonte_principale": "L. 199/2025 (Bilancio 2026); Circ. AdE 3/E; circolari INPS 2026",
+    "note": "Parametri di calcolo cedolino 2026 invariati rispetto al 2026-07-17. Numeri di norma/sentenza da riscontrare su fonte ufficiale prima dell'uso in produzione."
+  },
+  "irpef_2026": {
+    "scaglioni": [
+      { "da": 0, "a": 28000, "aliquota": 0.23, "affidabilita": "CERTO" },
+      { "da": 28001, "a": 50000, "aliquota": 0.33, "affidabilita": "CERTO" },
+      { "da": 50001, "a": null, "aliquota": 0.43, "affidabilita": "CERTO" }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_base_fino_15000": 1955,
+    "decorrenza": "2026-01-01",
+    "fonte": "L.199/2025; art.13 TUIR"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_reddito_max": 20000,
+    "detrazione_fascia": "20001-40000 (azzeramento a 40000)",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "detassazioni_2026": {
+    "premi_risultato": { "aliquota_sostitutiva": 0.01, "affidabilita": "CERTO" },
+    "aumenti_ccnl": { "aliquota_sostitutiva": 0.05, "affidabilita": "CERTO" },
+    "notturno_festivo_turni_reperibilita": { "aliquota_sostitutiva": 0.15, "tetto_annuo": 1500, "reddito_2025_max": 40000, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E; L.199/2025" }
+  },
+  "inps_2026": {
+    "aliquota_dipendente_industria_commercio": 0.0919,
+    "nota_aliquota": "quota c/lavoratore; +1% sulla quota eccedente la 1a fascia di retribuzione pensionabile",
+    "affidabilita": "CERTO"
+  },
+  "previdenza_complementare_2026": {
+    "plafond_deducibilita": 5300,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025"
+  },
+  "naspi_2026": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "decalage": "-3%/mese dal 6° mese",
+    "chiarimento_detenuti_intramuraria": "Circ. INPS 74/2026 (16/07/2026)",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; Circ. INPS 74/2026"
+  },
+  "incentivo_under35_2026": {
+    "esonero_datoriale": 1.00,
+    "durata_max_mesi": 24,
+    "cap_mensile": 500,
+    "finestra_trasformazione": "2026-08-01/2026-12-31",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 72/2026; L.112/2026"
+  },
+  "tfr_neoassunti_2026": {
+    "silenzio_assenso_giorni": 60,
+    "prima_assunzione_dopo": "2026-06-30",
+    "destinazione": "previdenza complementare di riferimento",
+    "istruzioni": "Msg. INPS 2325/2026",
+    "affidabilita": "CERTO"
+  },
+  "conguaglio_730_2026": {
+    "decorrenza_dipendenti": "luglio 2026 (dopo mod. 730-4)",
+    "credito_sospendibile_oltre": 4000,
+    "debito_rateizzabile_max_rate": 6,
+    "affidabilita": "CERTO (meccanismo) / DA_VERIFICARE (tempi)",
+    "fonte": "D.Lgs. 175/2014; D.M. 164/1999"
+  },
+  "giurisprudenza_rilevante": [
+    { "rif": "Cass. ord. 8402/2026", "deposito": "2026-04-03", "tema": "irriducibilita retribuzione: riduzione paga a parita di mansioni solo con accordo in sede protetta (art.2113 c.c.)", "affidabilita": "CERTO", "nota": "estremi da riscontrare su CED Cassazione" },
+    { "rif": "Cass. ord. 22651/2026", "deposito": "2026-07-03", "tema": "trasferimento azienda, licenziamento, reintegra + retribuzioni dalla data del licenziamento", "affidabilita": "CERTO", "nota": "estremi da riscontrare su CED Cassazione" }
+  ]
+}

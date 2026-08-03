@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "data_report": "2026-07-22",
+    "fonte_principale": "L. 199/2025 (Bilancio 2026); Circ. AdE 3/E; circolari INPS 2026",
+    "note": "Parametri di calcolo cedolino 2026 INVARIATI rispetto al 2026-07-21. Focus del giorno: aumenti+arretrati CCNL in busta di luglio (metalmecc. Industria +53,17 EUR C3 dal 01/06/2026; ANIA +100 EUR + una tantum 1.000 EUR + arretrati da 01/01/2026). Aggiunta voce INPS Circ. 75/2026 (importi malattia/maternita piccoli coloni, nicchia agricola). Numeri di norma/sentenza da riscontrare su fonte ufficiale prima dell'uso in produzione."
+  },
+  "irpef_2026": {
+    "scaglioni": [
+      { "da": 0, "a": 28000, "aliquota": 0.23, "affidabilita": "CERTO" },
+      { "da": 28001, "a": 50000, "aliquota": 0.33, "affidabilita": "CERTO" },
+      { "da": 50001, "a": null, "aliquota": 0.43, "affidabilita": "CERTO" }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_base_fino_15000": 1955,
+    "decorrenza": "2026-01-01",
+    "fonte": "L.199/2025; art.13 TUIR"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_reddito_max": 20000,
+    "detrazione_fascia": "20001-40000 (azzeramento a 40000)",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "detassazioni_2026": {
+    "premi_risultato": { "aliquota_sostitutiva": 0.01, "affidabilita": "CERTO" },
+    "aumenti_ccnl": { "aliquota_sostitutiva": 0.05, "reddito_2025_max": "verificare soglia (fonti prassi: 28.000-33.000)", "affidabilita": "CERTO (aliquota) / DA_VERIFICARE (soglia reddito)" },
+    "notturno_festivo_turni": { "aliquota_sostitutiva": 0.15, "tetto_annuo": 1500, "reddito_2025_max": 40000, "ambito": "maggiorazioni/indennita per lavoro notturno, festivo, domenicale, turni previste da CCNL; automatica salvo rinuncia scritta", "esclusione": "straordinario ordinario NON festivo/notturno escluso", "durata": "solo 2026 salvo proroghe", "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E; L.199/2025" }
+  },
+  "inps_2026": {
+    "aliquota_dipendente_industria_commercio": 0.0919,
+    "nota_aliquota": "quota c/lavoratore; +1% sulla quota eccedente la 1a fascia di retribuzione pensionabile",
+    "affidabilita": "CERTO"
+  },
+  "previdenza_complementare_2026": {
+    "plafond_deducibilita": 5300,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025"
+  },
+  "naspi_2026": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "decalage": "-3%/mese dal 6° mese",
+    "chiarimento_detenuti_intramuraria": "Circ. INPS 74/2026 (16/07/2026)",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; Circ. INPS 74/2026"
+  },
+  "incentivo_under35_2026": {
+    "esonero_datoriale": 1.00,
+    "durata_max_mesi": 24,
+    "cap_mensile": 500,
+    "finestra_trasformazione": "2026-08-01/2026-12-31",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 72/2026; L.112/2026"
+  },
+  "tfr_neoassunti_2026": {
+    "silenzio_assenso_giorni": 60,
+    "prima_assunzione_dopo": "2026-06-30",
+    "destinazione": "previdenza complementare di riferimento",
+    "istruzioni": "Msg. INPS 2325/2026",
+    "affidabilita": "CERTO"
+  },
+  "conguaglio_730_2026": {
+    "decorrenza_dipendenti": "luglio 2026 (dopo mod. 730-4)",
+    "credito_sospendibile_oltre": 4000,
+    "debito_rateizzabile_max_rate": 6,
+    "affidabilita": "CERTO (meccanismo) / DA_VERIFICARE (tempi)",
+    "fonte": "D.Lgs. 175/2014; D.M. 164/1999"
+  },
+  "anf_2026": {
+    "rivalutazione_livelli_reddito": 0.014,
+    "decorrenza": "2026-07-01",
+    "vigenza_livelli": "2026-07-01 / 2027-06-30",
+    "indice": "FOI ISTAT +1,4%",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 61 del 26/05/2026"
+  },
+  "quattordicesima_pensionati_2026": {
+    "erogazione": "mensilita luglio 2026",
+    "requisito_eta_min": 64,
+    "condizioni": "requisiti anagrafici, contributivi e reddituali",
+    "affidabilita": "CERTO",
+    "fonte": "Msg. INPS 2052 del 19/06/2026",
+    "nota": "prestazione pensionistica (cedolino pensione), non busta paga dipendente"
+  },
+  "arretrati_ccnl_luglio_2026": {
+    "descrizione": "Aumenti tabellari + arretrati dei rinnovi CCNL accreditati con la mensilita di luglio 2026; voce cedolino 'competenze arretrate' (possibile tassazione separata).",
+    "casi_certi": [
+      { "ccnl": "Metalmeccanica Industria (Federmeccanica-Assistal)", "codice_cnel": "C011", "aumento": "+53,17 EUR/mese livello C3 (3a tranche rinnovo 22/11/2025)", "minimo_C3": 2211.43, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "TuttoLavoro24; ccnl_master.json" },
+      { "ccnl": "Assicurativi ANIA", "aumento": "+100 EUR 1a tranche (a regime +280 EUR liv.IV 7a classe) + una tantum 1.000 EUR (550 retrib. + 450 welfare) + arretrati da 01/01/2026", "erogazione": "busta luglio 2026", "affidabilita": "CERTO (esistenza) / DA_VERIFICARE (importi puntuali)", "fonte": "PMI.it" }
+    ]
+  },
+  "inps_circ_75_2026_piccoli_coloni": {
+    "ambito": "malattia/maternita/paternita/TBC piccoli coloni e compartecipanti familiari (agricoltura)",
+    "maternita_reddito_medio_conv_giornaliero": 66.86,
+    "base": "D.M. 22/05/2026",
+    "decorrenza": "anno 2026",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 75 del 17/07/2026",
+    "nota": "nicchia agricola, non busta paga dipendente ordinaria"
+  },
+  "giurisprudenza_rilevante": [
+    { "rif": "Cass. ord. 24902/2025", "deposito": "2025-09-09", "tema": "straordinario forfettizzato continuativo, non correlato alle ore effettive -> si consolida in SUPERMINIMO individuale, parte della retribuzione ordinaria, NON riducibile unilateralmente dal datore", "affidabilita": "CERTO", "nota": "orientamento consolidato; estremi da riscontrare su CED Cassazione" },
+    { "rif": "Cass. ord. 8402/2026", "deposito": "2026-04-03", "tema": "irriducibilita retribuzione: riduzione paga a parita di mansioni solo con accordo in sede protetta (art.2113 c.c.)", "affidabilita": "CERTO", "nota": "estremi da riscontrare su CED Cassazione" },
+    { "rif": "Cass. ord. 18529/2026", "tema": "retribuzione feriale: nessun automatismo; criteri di connessione ed effetto dissuasivo per includere una voce nel trattamento delle ferie", "affidabilita": "CERTO", "nota": "estremi da riscontrare su CED Cassazione" }
+  ]
+}

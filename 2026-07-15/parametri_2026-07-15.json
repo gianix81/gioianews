@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "data": "2026-07-15",
+    "fonte_principale": "L.199/2025 (Legge di Bilancio 2026); D.Lgs. 252/2005 art.8 (mod. L.199/2025 commi 204-205); Msg. INPS 2325/2026 (istruzioni operative TFR adesione automatica); Circ. AdE 3/E; Circ. INPS 4/2026; Circ. INPS 72/2026; Circ. INPS 19/2026; Msg. INPS 2287/2026",
+    "note": "Valori INVARIATI vs 2026-07-13. Nessuna nuova norma primaria in GU 14-15/07. NUOVI messaggi INPS operativi: 2325/2026 (gestione TFR arretrati adesione automatica, codici causale UniEmens, retroattivita dall'assunzione), 2331/2026 (Portale TFR Esattoriali), 2295/2026 (Portale Famiglia). Tema social del giorno: quattordicesima (stagionale, non ripetere TFR usato il 13/07). Dati calc-critici da riscontrare su fonte ufficiale.",
+    "legenda_affidabilita": {"CERTO": "in vigore/pubblicato", "IN_ITER": "in attuazione", "DA_VERIFICARE": "prospettico/prassi non confermato"}
+  },
+  "irpef_2026": {
+    "scaglioni": [
+      {"da": 0, "a": 28000, "aliquota": 0.23},
+      {"da": 28000, "a": 50000, "aliquota": 0.33},
+      {"da": 50000, "a": null, "aliquota": 0.43}
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_fino_15000": 1955,
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; art.13 TUIR"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_fino_a_reddito": 20000,
+    "detrazione_20001_32000": 1000,
+    "azzeramento_a": 40000,
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "imposte_sostitutive_2026": {
+    "aumenti_ccnl": {"aliquota": 0.05, "limite_reddito_2025": 33000, "affidabilita": "CERTO"},
+    "notturno_festivo_turni": {"aliquota": 0.15, "cap": 1500, "limite_reddito_2025": 40000, "affidabilita": "CERTO"},
+    "premi_produttivita": {"aliquota": 0.01, "tetto": 5000, "limite_reddito": 80000, "affidabilita": "CERTO"},
+    "fonte": "Circ. AdE 3/E; L.199/2025; Ris. AdE 22/E"
+  },
+  "quattordicesima_2026": {
+    "trattamento": "reddito da lavoro dipendente: IRPEF ad aliquota marginale + addizionali + contributi INPS; detrazioni lavoro dip. gia' distribuite sulle mensilita' ordinarie -> netto quasi sempre inferiore a mensilita' ordinaria",
+    "erogazione_tipica": "giugno-luglio (settori che la prevedono: commercio/terziario, turismo, logistica, studi professionali)",
+    "affidabilita": "CERTO (principio); importi di esempio DA_VERIFICARE (prassi)",
+    "fonte": "art.13 TUIR; CCNL; prassi (Randstad, centri fiscali)"
+  },
+  "naspi_2026": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "aliquota_base": 0.75,
+    "decalage": {"percentuale_mensile": -0.03, "da_mese": 6, "uniforme_eta": true},
+    "anticipata_autoimpr": "70%+30%",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; Msg. INPS 1215/2026"
+  },
+  "tfr_previdenza_2026": {
+    "meccanismo": "adesione automatica dal giorno dell'assunzione; il silenzio del lavoratore per 60 gg la conferma (scelta diversa entro 60 gg, revocabile)",
+    "riferimento_normativo": "art.8 D.Lgs.252/2005 come modificato da L.199/2025 art.1 commi 204-205",
+    "silenzio_assenso_neoassunti_giorni": 60,
+    "silenzio_assenso_gia_assunti_giorni": 180,
+    "platea": "neoassunti settore privato di prima assunzione (assunti dopo il 30/06/2026), esclusi lavoratori domestici",
+    "allocazione": "linea life-cycle coerente con eta (non piu comparto garantito)",
+    "istruzioni_operative_msg_2325": {
+      "data": "2026-07-10",
+      "gestione_tfr_maturato_60gg": "il datore comunica l'adesione automatica e avvia i versamenti dal mese successivo alla scadenza dei 60 gg, con effetto retroattivo dalla data di assunzione",
+      "regolarizzazione_arretrati": "codici causale UniEmens dedicati per le quote TFR pregresse; termini distinti per regolarizzazione tempestiva e tardiva (codici specifici DA_VERIFICARE sul testo del messaggio)",
+      "opzione_mantenimento_azienda": "art. 2120 c.c. entro 60 gg, revocabile",
+      "non_prima_assunzione": "regole diverse; non si applica l'opzione di rinuncia dei neoassunti",
+      "affidabilita": "CERTO",
+      "fonte": "Msg. INPS 2325/2026"
+    },
+    "fondo_tesoreria_soglia_addetti": {"2026_2027": 60, "2028_2031": 50, "dal_2032": 40, "affidabilita": "DA_VERIFICARE"},
+    "versamento_primi_ratei_termine": "2026-07-16",
+    "causale_uniemens": "CF05",
+    "plafond_deducibilita_prev_compl": 5300,
+    "affidabilita_silenzio_assenso": "CERTO",
+    "fonte": "L.199/2025 commi 204-205; D.Lgs.252/2005 art.8; Msg. INPS 2325/2026; COVIP; Ministero del Lavoro"
+  },
+  "inps_portali_luglio_2026": {
+    "portale_tfr_esattoriali": {"msg": "2331/2026", "data": "2026-07-10", "online_dal": "2026-07-13", "doppio_binario_fino": "2026-07-31", "affidabilita": "CERTO"},
+    "portale_famiglia_genitorialita": {"msg": "2295/2026", "data": "2026-07-08", "novita": "Nuovo Bonus mamme, Bonus nuovi nati 2026, simulatori Assegno unico/asilo nido", "affidabilita": "CERTO"},
+    "siisl_operativo": {"decorrenza": "2026-07-01", "nota": "invio comunicazioni obbligatorie assunzione e gestione pratiche da piattaforma", "affidabilita": "CERTO"}
+  },
+  "uniemens_2026": {
+    "baseRif_obbligo_conguagli_L104_congedi": {
+      "decorrenza_competenza": "2026-09",
+      "permessi_L104_valorizzazione": "retribuzione teorica mese di riferimento",
+      "congedo_straordinario_e_prolungamento_parentale_valorizzazione": "retribuzione teorica mese precedente",
+      "affidabilita": "CERTO",
+      "fonte": "Msg. INPS 2287/2026"
+    }
+  },
+  "retribuzione_ferie_2026": {
+    "principio": "retribuzione feriale non inferiore in modo significativo all'ordinaria; effetto dissuasivo come soglia; confronto su base annua",
+    "caso_deciso_scostamento_non_dissuasivo": 0.0337,
+    "affidabilita": "CERTO (giurisprudenza)",
+    "fonte": "Cass. ord. 18529/2026; art.7 Dir. 2003/88/CE"
+  },
+  "incentivo_stabilizzazione_under35": {
+    "esonero": "100% contributi datoriali (esclusi INAIL e Fondo Tesoreria TFR)",
+    "cap_mensile": 500,
+    "durata_max_mesi": 24,
+    "finestra_trasformazioni": "2026-08-01/2026-12-31",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 72/2026; art.4 D.L. 62/2026 conv. L.112/2026"
+  },
+  "pensioni_2026": {
+    "quota_103": {"requisiti": "62 anni + 41 contributi, maturati entro 31/12/2025", "affidabilita": "CERTO"},
+    "opzione_donna": {"requisiti_entro": "31/12/2024", "affidabilita": "CERTO"},
+    "ape_sociale": {"prorogata_2026": true, "finestre_domanda": ["2026-03-31", "2026-07-15", "2026-11-30"], "affidabilita": "CERTO"},
+    "vecchiaia_2027": "67 anni + 1 mese",
+    "fonte": "Circ. INPS 19/2026; Circ. INPS 41/2026"
+  },
+  "altri_parametri_2026": {
+    "fringe_benefit_esenzione": {"base": 1000, "con_figli": 2000},
+    "bonus_mamme_mensile": 60,
+    "congedo_parentale_eta_figlio_max": 14,
+    "malattia_figlio_3_14_giorni": 10,
+    "codice_cnel_busta": {"obbligatorio": true, "esclusi": "dirigenti", "decorrenza": "2026-05-01"},
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; L.112/2026 GU 147; msg. INPS 251/2026"
+  }
+}

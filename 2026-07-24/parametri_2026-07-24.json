@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "data": "2026-07-24",
+    "valuta": "EUR",
+    "note": "Parametri busta paga 2026 per motore di calcolo GioIA. Valori certi/carryover da fonti ufficiali. Numeri di norma/sentenza da riscontrare su GU/Normattiva/CED.",
+    "legenda": { "CERTO": "in vigore/confermato", "IN_ITER": "in attuazione", "DA_VERIFICARE": "prospettico/prassi non ufficiale" }
+  },
+  "irpef_scaglioni": [
+    { "da": 0, "a": 28000, "aliquota": 0.23, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+    { "da": 28001, "a": 50000, "aliquota": 0.33, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+    { "da": 50001, "a": null, "aliquota": 0.43, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" }
+  ],
+  "no_tax_area_dipendenti": { "valore": 8500, "affidabilita": "CERTO", "fonte": "art.13 TUIR" },
+  "detrazione_lavoro_dipendente_base": { "valore": 1955, "condizione": "reddito <= 15000", "affidabilita": "CERTO", "fonte": "art.13 TUIR" },
+  "cuneo_fiscale_2026": {
+    "somma_esente_reddito_fino": 20000,
+    "detrazione_fascia": "20001-40000 (azzeramento a 40000)",
+    "affidabilita": "CERTO", "fonte": "L.199/2025"
+  },
+  "detassazioni": {
+    "premi_risultato": { "aliquota": 0.01, "affidabilita": "CERTO", "fonte": "L.199/2025" },
+    "aumenti_ccnl": { "aliquota": 0.05, "soglia_reddito_2025": "da verificare (prassi 28000-33000)", "affidabilita": "CERTO_aliquota_DA_VERIFICARE_soglia", "fonte": "L.199/2025" },
+    "notturno_festivo_turni": { "aliquota": 0.15, "tetto": 1500, "reddito_2025_max": 40000, "note": "straordinario ordinario escluso", "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E; L.199/2025" }
+  },
+  "inps_dipendente": { "aliquota_quota_lavoratore": 0.0919, "addizionale_oltre_prima_fascia": 0.01, "affidabilita": "CERTO", "fonte": "Circ. INPS contribuzione 2026" },
+  "previdenza_complementare": {
+    "plafond_deducibilita": 5300, "decorrenza": "2026-07-01",
+    "adesione_automatica_neoassunti": { "silenzio_assenso_giorni": 60, "decorrenza": "2026-07-01" },
+    "affidabilita": "CERTO", "fonte": "L.199/2025"
+  },
+  "anf": { "rivalutazione_livelli_reddito": 0.014, "decorrenza": "2026-07-01", "validita_fino": "2027-06-30", "affidabilita": "CERTO", "fonte": "Circ. INPS 61/2026" },
+  "naspi_2026": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "decalage": "-3%/mese dal 6° mese (dal 8° per over 55)",
+    "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026; D.Lgs. 22/2015"
+  },
+  "cig_2026": { "massimale_lordo": 1423.69, "massimale_netto": 1340.56, "percentuale_integrazione": 0.80, "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+  "cig_caldo_dl107_2026": {
+    "periodo_eventi": "2026-07-01/2026-12-31",
+    "soglia_temperatura": ">35°C",
+    "ambito": "CIGO edilizia/lapideo/escavazione; CISOA operai agricoli",
+    "eventi_eone_fuori_52_settimane": true,
+    "esonero_contributivo": true,
+    "requisito_30gg_anzianita": false,
+    "affidabilita": "CERTO",
+    "fonte": "DL 107/2026 (n. da riscontrare su GU); msg. INPS 2418/2026"
+  },
+  "ferie": {
+    "termine_fruizione_residuo": "30/06 del 2° anno successivo alla maturazione",
+    "monetizzazione_in_costanza_rapporto": false,
+    "indennita_sostitutiva_solo_a_cessazione": true,
+    "retribuzione_ferie_godute_include": "indennita stabilmente correlate alla prestazione (turno, perequative/compensative, buoni pasto)",
+    "affidabilita": "CERTO",
+    "fonte": "D.Lgs. 66/2003 art.10; Cass. 5051/2026"
+  }
+}

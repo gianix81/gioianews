@@ -1,0 +1,29 @@
+{
+  "data": "2026-08-01",
+  "run": "h2200",
+  "valuta": "EUR",
+  "parametri": {
+    "irpef_scaglioni": [
+      { "aliquota": 0.23, "fino_a": 28000, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+      { "aliquota": 0.33, "da": 28001, "fino_a": 50000, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+      { "aliquota": 0.43, "oltre": 50000, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L.199/2025" }
+    ],
+    "no_tax_area_dipendenti": { "valore": 8500, "affidabilita": "CERTO", "fonte": "art.13 TUIR" },
+    "cuneo": { "esenzione_reddito_max": 20000, "detrazione_da": 20001, "detrazione_a": 40000, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L.199/2025" },
+    "detassazioni": {
+      "premi_risultato": 0.01,
+      "aumenti_ccnl": { "aliquota": 0.05, "base": "retribuzione diretta (12 mensilita + 13a + 14a)", "affidabilita": "CERTO" },
+      "notturno_festivo_turni": { "aliquota": 0.15, "tetto": 1500, "reddito_2025_max": 40000, "affidabilita": "CERTO" }
+    },
+    "inps_dipendente_quota_lavoratore": { "aliquota": 0.0919, "addizionale_oltre_prima_fascia": 0.01, "affidabilita": "CERTO", "fonte": "Circ. INPS contribuzione 2026" },
+    "plafond_previdenza_complementare": { "valore": 5300, "affidabilita": "CERTO", "fonte": "L.199/2025" },
+    "adesione_automatica_prev_compl_neoassunti_giorni": { "valore": 60, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "L.199/2025; Msg. INPS 2325/2026" },
+    "naspi": { "retribuzione_riferimento": 1456.72, "massimale_mensile": 1584.70, "decalage": "-3%/mese dal 6° (dal 8° over 55)", "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+    "massimale_cig": { "valore_lordo": 1423.69, "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+    "inail_rendita": { "minimale": 20712.30, "massimale": 38465.70, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Circ. INAIL 35/2026; DM 58/2026" },
+    "tfr": { "coeff_rivalutazione": 0.02786543, "rif_mese": "2026-05", "indice_foi_giugno": 102.8, "imposta_sostitutiva": 0.17, "affidabilita": "CERTO", "fonte": "ISTAT; CDL" },
+    "esonero_madri_3figli": { "percentuale": 1.0, "tetto_annuo": 8000, "requisito": "disoccupate >=6 mesi", "decorrenza": "2026-07-29", "affidabilita": "CERTO", "fonte": "Circ. INPS 82/2026" },
+    "incentivo_stabilizzazione_under35": { "percentuale": 1.0, "tetto_mensile": 500, "durata_max_mesi": 24, "requisiti": "under 35 mai stabilizzato; TD instaurato entro 30/04/2026 e durata effettiva <=12 mesi; trasformazione TD->TI", "escluso": "premi INAIL e quota TFR Fondo Tesoreria", "decorrenza": "2026-08-01", "scadenza_finestra": "2026-12-31", "affidabilita": "CERTO", "fonte": "art. 4 DL 62/2026; Circ. INPS 72/2026; Msg. INPS 2518 del 29/07/2026" }
+  },
+  "nota": "Estremi di norma/circolare/messaggio da riscontrare su GU/Normattiva/portale INPS prima dell'uso in produzione."
+}

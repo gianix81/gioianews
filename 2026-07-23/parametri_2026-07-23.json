@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "data_report": "2026-07-23",
+    "fonte_principale": "L. 199/2025 (Bilancio 2026); Circ. AdE 3/E; circolari/messaggi INPS 2026; DL 107/2026",
+    "note": "Parametri di calcolo cedolino 2026 INVARIATI rispetto al 2026-07-22. Focus del giorno (NUOVO): cassa integrazione RAFFORZATA per ondate di calore >35 gradi (DL 107/2026, in vigore 27/06/2026; INPS msg. 2418 del 20/07/2026) - CIGO edilizia/lapideo/escavazione + CISOA agricoltura, periodo 01/07-31/12/2026: eventi non computati nelle 52 settimane (EONE), esonero contributivo confermato, eliminato requisito 30 gg anzianita. Aggiunta anche Corte Cost. ord. 131/2026 (17/07/2026: inammissibile la questione sul tetto 6 mensilita PMI, gia risolto da sent. 118/2025 che aveva dichiarato illegittimo il tetto). Numeri di norma/messaggio/sentenza da riscontrare su fonte ufficiale (GU/Normattiva/INPS/CED Cassazione/Corte Cost.) prima dell'uso in produzione."
+  },
+  "irpef_2026": {
+    "scaglioni": [
+      { "da": 0, "a": 28000, "aliquota": 0.23, "affidabilita": "CERTO" },
+      { "da": 28001, "a": 50000, "aliquota": 0.33, "affidabilita": "CERTO" },
+      { "da": 50001, "a": null, "aliquota": 0.43, "affidabilita": "CERTO" }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_base_fino_15000": 1955,
+    "decorrenza": "2026-01-01",
+    "fonte": "L.199/2025; art.13 TUIR"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_reddito_max": 20000,
+    "detrazione_fascia": "20001-40000 (azzeramento a 40000)",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "detassazioni_2026": {
+    "premi_risultato": { "aliquota_sostitutiva": 0.01, "affidabilita": "CERTO" },
+    "aumenti_ccnl": { "aliquota_sostitutiva": 0.05, "reddito_2025_max": "verificare soglia (fonti prassi: 28.000-33.000)", "affidabilita": "CERTO (aliquota) / DA_VERIFICARE (soglia reddito)" },
+    "notturno_festivo_turni": { "aliquota_sostitutiva": 0.15, "tetto_annuo": 1500, "reddito_2025_max": 40000, "ambito": "maggiorazioni/indennita per lavoro notturno, festivo, domenicale, turni previste da CCNL; automatica salvo rinuncia scritta", "esclusione": "straordinario ordinario NON festivo/notturno escluso", "durata": "solo 2026 salvo proroghe", "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E; L.199/2025" }
+  },
+  "inps_2026": {
+    "aliquota_dipendente_industria_commercio": 0.0919,
+    "nota_aliquota": "quota c/lavoratore; +1% sulla quota eccedente la 1a fascia di retribuzione pensionabile",
+    "affidabilita": "CERTO"
+  },
+  "previdenza_complementare_2026": {
+    "plafond_deducibilita": 5300,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025"
+  },
+  "naspi_2026": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "decalage": "-3%/mese dal 6° mese",
+    "chiarimento_detenuti_intramuraria": "Circ. INPS 74/2026 (16/07/2026)",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; Circ. INPS 74/2026"
+  },
+  "cassa_integrazione_2026": {
+    "massimale_mensile_unico_lordo": 1423.69,
+    "massimale_mensile_unico_netto": 1340.56,
+    "riduzione_contributiva_art26_L41_1986": 0.0584,
+    "percentuale_integrazione": "80% della retribuzione globale che sarebbe spettata per le ore non prestate",
+    "incremento_edile_lapideo_intemperie": "+20% del massimale",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4 del 28/01/2026",
+    "misura_straordinaria_ondate_calore_2026": {
+      "base_normativa": "DL 107/2026 (in vigore 27/06/2026) - estremi da riscontrare su GU/Normattiva",
+      "istruzioni_operative": "Msg. INPS 2418 del 20/07/2026",
+      "ambito": "CIGO settore edilizia/lapideo/escavazione + CISOA operai agricoli",
+      "soglia": "ondate di calore con temperature superiori a 35 gradi (o condizioni che compromettono la sicurezza) per lavorazioni non svolgibili da remoto",
+      "periodo": "eventi tra 01/07/2026 e 31/12/2026",
+      "benefici": "eventi EONE non computati nel tetto 52 settimane CIGO nel biennio mobile; esonero contributivo confermato; eliminato requisito minimo 30 gg di anzianita effettiva",
+      "stanziamento": "15,2 mln EUR (4,9 CIGO + 10,3 CISOA)",
+      "affidabilita": "CERTO",
+      "impatto_cedolino": "in busta compare la voce 'cassa integrazione/CIG' (80% retribuzione persa, entro massimale). GioIA verifica presenza, percentuale e massimale corretti."
+    }
+  },
+  "incentivo_under35_2026": {
+    "esonero_datoriale": 1.00,
+    "durata_max_mesi": 24,
+    "cap_mensile": 500,
+    "finestra_trasformazione": "2026-08-01/2026-12-31",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 72/2026; L.112/2026"
+  },
+  "tfr_neoassunti_2026": {
+    "silenzio_assenso_giorni": 60,
+    "prima_assunzione_dopo": "2026-06-30",
+    "destinazione": "previdenza complementare di riferimento",
+    "istruzioni": "Msg. INPS 2325/2026",
+    "affidabilita": "CERTO"
+  },
+  "anf_2026": {
+    "rivalutazione_livelli_reddito": 0.014,
+    "decorrenza": "2026-07-01",
+    "vigenza_livelli": "2026-07-01 / 2027-06-30",
+    "indice": "FOI ISTAT +1,4%",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 61 del 26/05/2026"
+  },
+  "giurisprudenza_rilevante": [
+    { "rif": "Corte Cost. ord. 131/2026", "data": "2026-07-17", "tema": "licenziamento illegittimo PMI: manifestamente inammissibile la questione sul tetto delle 6 mensilita (art.9 c.1 D.Lgs. 23/2015), gia risolta da sent. Corte Cost. 118/2025 che aveva dichiarato illegittimo il tetto per contrasto con artt. 3,4,35,117 Cost.", "affidabilita": "CERTO", "impatto": "indennita per licenziamento illegittimo in piccole imprese non piu vincolata al tetto di 6 mensilita", "nota": "estremi da riscontrare su sito Corte Costituzionale" },
+    { "rif": "Cass. ord. 24902/2025", "deposito": "2025-09-09", "tema": "straordinario forfettizzato continuativo, non correlato alle ore effettive -> si consolida in SUPERMINIMO individuale, parte della retribuzione ordinaria, NON riducibile unilateralmente dal datore", "affidabilita": "CERTO", "nota": "orientamento consolidato; estremi da riscontrare su CED Cassazione" },
+    { "rif": "Cass. ord. 8402/2026", "deposito": "2026-04-03", "tema": "irriducibilita retribuzione: riduzione paga a parita di mansioni solo con accordo in sede protetta (art.2113 c.c.)", "affidabilita": "CERTO", "nota": "estremi da riscontrare su CED Cassazione" },
+    { "rif": "Cass. ord. 18529/2026", "tema": "retribuzione feriale: nessun automatismo; criteri di connessione ed effetto dissuasivo per includere una voce nel trattamento delle ferie", "affidabilita": "CERTO", "nota": "estremi da riscontrare su CED Cassazione" }
+  ]
+}

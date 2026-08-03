@@ -1,0 +1,9 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*~
+
+# Marcatori del ponte esterno (stato di invio locale, non utili nella repo)
+*.sent

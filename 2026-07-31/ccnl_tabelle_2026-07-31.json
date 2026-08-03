@@ -1,0 +1,721 @@
+{
+  "meta": {
+    "descrizione": "Database cumulativo CCNL per verifica coerenza paga base cedolino (livello + CCNL). Letto dall'app GioIA.",
+    "ultimo_aggiornamento": "2026-07-31",
+    "nota_run_2026-07-21": "Nessun rinnovo Priorita 1 con tabelle inedite ne decorrenza aumenti tabellari tra 20-21/07. Valori INVARIATI vs 2026-07-20. Focus normativo/social del giorno: giurisprudenza Cass. ord. 24902/2025 (straordinario forfettizzato continuativo e slegato dalle ore -> superminimo individuale non riducibile unilateralmente) - impatto su voce straordinario forfait/superminimo, non modifica tabelle CCNL. Context cedolino luglio: ANF rivalutato +1,4% dal 01/07/2026 (Circ. INPS 61/2026); quattordicesima pensionati (msg. 2052/2026). Reminder tranche Commercio Confcommercio H011: +35 EUR liv.IV dal 01/11/2026 (-> 1.292,46 EUR) gia registrata negli aumenti programmati. Master INVARIATO.",
+    "nota_run_2026-07-20": "Nessun rinnovo Priorita 1 con tabelle inedite nel periodo 17-20/07. Valori INVARIATI vs 2026-07-17. Contesto del giorno: firmata parte economica CCNL Istruzione e Ricerca 2025-2027 all'ARAN (01/07/2026, settore pubblico, fuori dataset privato); ipotesi CCNL Funzioni Centrali (09/06/2026, ~162 EUR medi, IN ITER, settore pubblico). Focus normativo/social: giurisprudenza Cass. ord. 8402/2026 (irriducibilita retribuzione: riduzione paga a parita di mansioni solo con accordo in sede protetta) - impatto trasversale su paga base, non modifica tabelle CCNL. Master INVARIATO.",
+    "nota_run_2026-06-30": "Nessun rinnovo settore privato con minimi tabellari in decorrenza: valori invariati. Movimenti odierni solo settore pubblico (Funzioni Centrali, Istruzione e Ricerca) + Federculture, fuori dataset privato.",
+    "prima_costruzione": "2026-06-28",
+    "valuta": "EUR",
+    "legenda_affidabilita": {
+      "CERTO": "valore da fonte ufficiale/tabella in vigore confermata",
+      "IN_ITER": "rinnovo firmato, valori in attuazione",
+      "DA_VERIFICARE": "valore non reperito da fonte ufficiale: NON usare in produzione senza riscontro su CNEL / tabelle ufficiali del CCNL"
+    },
+    "nota_anti_invenzione": "I minimi non reperibili da fonte ufficiale sono lasciati a null e marcati DA_VERIFICARE. Nessun valore e' stato stimato.",
+    "copertura": "Priorita 1 (1a esecuzione FASE 2B). Priorita 2 da costruire nelle esecuzioni successive.",
+    "nota_run_2026-07-01": "Entrata in vigore riforma previdenza complementare (L.199/2025) - impatto trasversale, nessun rinnovo CCNL privato nuovo oggi. FASE 2B: completato dataset minimi per livello CCNL Commercio-Terziario Confcommercio (8 livelli, tranche 01/11/2025 in vigore + prossima 01/11/2026), fonte prassi lexplain coerente con accordo 22/03/2024, marcati DA_VERIFICARE in attesa di riscontro CNEL. Altri CCNL invariati.",
+    "nota_run_2026-07-02": "Codici CNEL verificati su Archivio CNEL (consultazione 02/07/2026): H011 Commercio Confcommercio, H012 Terziario Confesercenti, H052 Turismo (Confcommercio/Federalberghi/FAITA), H05Y Pubblici Esercizi-Ristorazione-Turismo (FIPE), H442 Studi Professionali Confprofessioni. Studi Professionali: minimi per livello completati da tabella ufficiale Confprofessioni (CERTO). Tranche 01/07/2026 in decorrenza: Chimici-Farmaceutici Industria (+60 EUR cat. D1, accordo 15/04/2025 - entry aggiunta, minimi per livello da raccogliere) e Pulizie Artigianato (+25 EUR liv.5 - CCNL non ancora nel dataset). Altri CCNL invariati.",
+    "nota_run_2026-07-03": "FASE 2B incrementale: CCNL Commercio-Terziario Confcommercio (H011) promosso a CERTO - paga base per livello riscontrata su tabella ufficiale Confcommercio Ascom Bologna (decorrenza 01/11/2025); differenze di centesimi corrette su Quadro/I/II. Nuovo rinnovo segnalato (blocco A): CCNL Trasporto Aereo - Catering Aereo, accordo 17/06/2026 (Federcatering), +204 EUR a regime su livello parametro: fuori Priorita 1-2, tabelle per livello da acquisire. Nessun altro CCNL del dataset con nuove tabelle oggi. Prossima priorita: riscontro ufficiale Turismo/Pubblici Esercizi (FIPE/Federalberghi), poi Edilizia, Logistica, Metalmecc. Artigianato, Confesercenti.",
+    "nota_run_2026-07-06": "Promosso a CERTO il CCNL Turismo/Pubblici Esercizi (H052): 10 livelli con minimi conglobati decorrenza maggio 2026 (fonte tabelle Confcommercio via prassi). Nessun altro rinnovo privato con minimi in decorrenza oggi.",
+    "nota_run_2026-07-07": "Nessun rinnovo con tabelle complete nuove. Aggiornata Chimica-Farmaceutica Industria: tranche +60 EUR cat. D1 dal 01/07/2026 (accordo 15/04/2025) registrata negli aumenti programmati; minimi per livello restano DA_VERIFICARE (tabelle ufficiali non reperite integralmente). Altri CCNL invariati.",
+    "nota_run_2026-07-08": "Nessun rinnovo con tabelle complete nuove. Focus normativo del giorno: adesione automatica previdenza complementare neoassunti (60 gg) dal 01/07/2026 - impatto trasversale TFR, non CCNL. FASE 2B: aggiunti minimi OPERAI del CCNL Edilizia Industria (paga base + contingenza, decorrenza 01/03/2026) da fonte di prassi (leggeinchiaro.it), marcati DA_VERIFICARE in attesa tabelle ufficiali Cassa Edile; impiegati per livello ancora da acquisire. NB: la fonte indica rinnovo 29/01/2025 con +178 EUR su liv.1 (75+35+35+33) - lieve discrepanza con lo schema +180 EUR/tranche 03 gia' registrato: da riscontrare su testo ANCE. Commercio Confcommercio (H011) invariato/CERTO, ribadita sequenza +35 EUR (01/11/2026) e +40 EUR (01/02/2027). Altri CCNL invariati.",
+    "nota_run_2026-07-09": "Nessun nuovo CCNL Priorita 1 con tabelle complete inedite. Trigger di luglio: aumenti minimi dal 01/07/2026 per vari CCNL (Chimici Farmaceutici, Ceramica, Aeroporti, Gas-Acqua, ecc.) e adeguamenti previdenza complementare (Previmoda 2,30%, Concreto 2,65%, Arco 1,90%) - fonte prassi HR Capital. Aggiornata scheda Chimica-Farmaceutica: 3a tranche +60 EUR cat. D1 (TEM) in decorrenza 01/07/2026; TEM range ~1.821 EUR (F) - ~3.338 EUR (A1) da prassi, tabella per-categoria ufficiale ancora da reperire (NON stimata).",
+    "nota_run_2026-07-10": "Nessun nuovo CCNL Priorita 1 con tabelle complete inedite in data odierna. Focus del giorno: giurisprudenza (Cass. 18529/2026 su retribuzione feriale, impatto trasversale non CCNL) e prassi gestionale (msg. INPS 2287/2026 UniEmens BaseRif; TFR silenzio-assenso 60 gg). Nessun aumento tabellare con decorrenza odierna oltre a quelli 01/07 gia' recepiti. Dataset CCNL invariato rispetto al 09/07.",
+    "nota_run_2026-07-13": "Nessun rinnovo CCNL Priorita 1 con tabelle inedite nel periodo 11-13/07. Nessuna decorrenza aumenti tabellari in questa data. Valori invariati vs 2026-07-10. Metalmeccanica Industria: aumento minimi da giugno 2026 gia recepito.",
+    "nota_run_2026-07-15": "Nessun rinnovo Priorita 1 con tabelle inedite ne decorrenza aumenti tra 14-15/07. Valori invariati vs 2026-07-13. Movimenti INPS del giorno solo su prassi/gestionale (msg. 2325/2331/2295), fuori dataset minimi CCNL.",
+    "note_run_2026_07_16": null,
+    "nota_run_2026-07-16": "Nessun nuovo rinnovo CCNL Priorita 1 con tabelle inedite ne decorrenza aumenti tabellari tra 16/07. Valori INVARIATI vs 2026-07-15. Movimenti del giorno solo prassi/gestionale INPS (msg. 2370 norme collocamento per riduzioni contributive, msg. 2371 sospensione estiva notifiche, msg. 2354 Casellario pensioni) - fuori dataset minimi CCNL. Metalmeccanica Industria: 3a tranche dal 01/06/2026 gia recepita (minimo C3 2.211,43 EUR). Master invariato.",
+    "nota_run_2026-07-17": "Nessun rinnovo Priorita 1 con tabelle inedite che modifichi le voci consolidate. Monitorati: rinnovo Commercio CONFLAVORO (sottoscr. 19/05/2026, vigenza 01/06/2026-31/05/2029, distinto da Confcommercio H011) e rinnovo Autostrade/Trafori (27/06/2026, +250 EUR liv.C in 4 tranche, una tantum 700 EUR) - non in Priorita 1/dataset core. Dataset INVARIATO.",
+    "nota_run_2026-07-22": "Nessun rinnovo Priorita 1 con tabelle inedite ne nuova decorrenza aumenti tabellari tra 21-22/07. Valori INVARIATI vs 2026-07-21. Focus del giorno: aumenti+arretrati CCNL in busta di luglio (Metalmecc. Industria C011 3a tranche +53,17 EUR C3 dal 01/06/2026 gia recepita, minimo C3 2.211,43 EUR; Assicurativi ANIA +100 EUR + una tantum 1.000 EUR + arretrati da 01/01/2026 in busta luglio - fuori Priorita 1). Contrattazione pubblica: ipotesi CCNL Funzioni Locali 2025-2027 firmata ARAN 21/07/2026 (~135-152 EUR/mese, arretrati ~1.136 EUR, Titolo IA) - settore pubblico, fuori dataset privato. Commercio Confcommercio (H011) confermato: minimi 873 EUR liv.VII -> 2.183 EUR Quadro; prossima tranche +35 EUR liv.IV 01/11/2026 (-> 1.292,46 EUR) gia registrata. Monitorato Conflavoro Multiservizi 2026-2028 (decorrenza 01/06/2026, minimi progressivi, variante Conflavoro non core). Master INVARIATO.",
+    "nota_run_2026-07-23": "Nessun rinnovo Priorita 1 del settore PRIVATO con tabelle inedite ne nuova decorrenza aumenti tabellari tra 22-23/07. Valori INVARIATI vs 2026-07-22. Focus normativo del giorno: (1) cassa integrazione RAFFORZATA per ondate di calore >35 gradi (DL 107/2026 in vigore 27/06/2026; msg. INPS 2418 del 20/07/2026) per CIGO edilizia/lapideo/escavazione e CISOA agricoltura - impatto su ammortizzatori/voce CIG in busta, NON modifica tabelle CCNL; (2) Corte Cost. ord. 131/2026 (17/07/2026) su tetto 6 mensilita PMI (inammissibile, gia illegittimo con sent. 118/2025) - impatto indennita licenziamento, non CCNL. Contrattazione: CCNL Scuola sottoscritto 01/07/2026 e ipotesi Funzioni Locali 21/07/2026 - settore PUBBLICO, fuori dataset privato. Arretrati CCNL luglio (Metalmecc. Industria C011 +53,17 EUR C3 dal 01/06/2026 gia recepito, minimo C3 2.211,43 EUR; ANIA una tantum 1.000 EUR + arretrati - fuori Priorita 1). Commercio Confcommercio H011 confermato (873 EUR liv.VII -> 2.183 EUR Quadro; tranche +35 EUR liv.IV 01/11/2026 gia registrata). Master INVARIATO.",
+    "nota_run_2026-07-24": "Nessun rinnovo Priorita 1 con tabelle inedite ne decorrenza aumenti tabellari in data 24/07. Valori INVARIATI vs 2026-07-23. Focus normativo/social del giorno: giurisprudenza Cass. 5051/2026 (retribuzione ferie: include indennita stabilmente correlate - turno, perequative/compensative, buoni pasto; nulle le clausole collettive escludenti; riduzione valutata in concreto, 3,37% non dissuasiva) -> impatto su voce 'ferie godute', non modifica tabelle CCNL. Context: CIG caldo DL 107/2026 + msg INPS 2418/2026 (ribadito); CCNL Commercio Conflavoro 2026-2027 (welfare 200->250, permessi 5->7 gg) - associazione minore, Confcommercio gia a dataset. Metalmecc. Industria +53,17 EUR C3 dal 01/06/2026 gia recepito. Master INVARIATO.",
+    "nota_run_2026-07-31": "Nessun rinnovo Priorita 1 con tabelle inedite CERTIFICATE tra 25-31/07/2026. Valori CCNL privati INVARIATI vs 2026-07-24. Settimana: CCNL Istruzione e Ricerca 2025-2027 (PUBBLICO IMPIEGO, fuori scope busta privata) con aumenti+arretrati nel cedolino agosto 2026 e una tantum 110 EUR ATA gen-2027. Commercio Confcommercio H011: tranche +35 EUR liv.IV dal 01/11/2026 gia tracciata; ulteriori tranche (feb-2027) e valori per livello dal riscontro ufficiale ancora DA_VERIFICARE (fonti prassi discordanti). Archivio CNEL non consultato in questa run automatica (Claude in Chrome richiede browser connesso; non disponibile in esecuzione non interattiva) -> codici CNEL noti invariati (C011, H052, H011, H442, K574, H012)."
+  },
+  "ccnl": [
+    {
+      "ccnl": "Metalmeccanica Industria (Federmeccanica-Assistal)",
+      "codice_cnel": "C011",
+      "parti_firmatarie": "Federmeccanica, Assistal, Fim-Cisl, Fiom-Cgil, Uilm-Uil",
+      "ultimo_rinnovo": "in vigore - adeguamento automatico IPCA-NEI",
+      "vigenza": "fino al 2028 (tranche annuali)",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "scatti_anzianita": true,
+      "meccanismo_aumenti": "adeguamento automatico minimi su IPCA-NEI ISTAT 2025 = 1,9% (pubblicato 15/06/2026)",
+      "livelli": [
+        {
+          "livello": "D1",
+          "minimo_tabellare_mensile": 1784.94,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "D2",
+          "minimo_tabellare_mensile": 1979.37,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "C1",
+          "minimo_tabellare_mensile": 2022.12,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "C2",
+          "minimo_tabellare_mensile": 2064.88,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "C3",
+          "minimo_tabellare_mensile": 2211.43,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "B1",
+          "minimo_tabellare_mensile": 2370.33,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "B2",
+          "minimo_tabellare_mensile": 2542.98,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "B3",
+          "minimo_tabellare_mensile": 2838.99,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        },
+        {
+          "livello": "A1",
+          "minimo_tabellare_mensile": 2907.01,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.studiocampesato.it/ccnl-metalmeccanici-industria-aumento-giugno-2026/"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2027-06-01",
+          "nota": "+59,58 EUR su livello C3 (poi riparametrato), salvo nuovo IPCA-NEI"
+        },
+        {
+          "decorrenza": "2028-06-01",
+          "nota": "+64,87 EUR su livello C3 (poi riparametrato)"
+        }
+      ],
+      "indennita_principali": "Elemento perequativo 485 EUR/anno per aziende prive di contrattazione di 2 livello"
+    },
+    {
+      "ccnl": "Lavoro Domestico (colf, badanti, baby sitter)",
+      "codice_cnel": "da verificare su CNEL",
+      "parti_firmatarie": "Fidaldo, Domina, Filcams-Cgil, Fisascat-Cisl, Uiltucs, Federcolf",
+      "ultimo_rinnovo": "tabelle Commissione nazionale - pubblicate 11/02/2026",
+      "vigenza": "tariffe in vigore dal 2026-01-01",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "scatti_anzianita": true,
+      "note": "Importi mensili per CONVIVENTI. Esiste anche tariffa oraria per non conviventi. Esclusi dall'adesione automatica TFR.",
+      "livelli": [
+        {
+          "livello": "A",
+          "minimo_tabellare_mensile_convivente": 908.1,
+          "tariffa_oraria_non_convivente": 6.51,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        },
+        {
+          "livello": "AS",
+          "minimo_tabellare_mensile_convivente": 958.55,
+          "tariffa_oraria_non_convivente": 6.76,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        },
+        {
+          "livello": "B",
+          "minimo_tabellare_mensile_convivente": 983.16,
+          "tariffa_oraria_non_convivente": 7.01,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        },
+        {
+          "livello": "BS",
+          "minimo_tabellare_mensile_convivente": 1053.39,
+          "tariffa_oraria_non_convivente": 7.45,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        },
+        {
+          "livello": "C",
+          "minimo_tabellare_mensile_convivente": 1123.63,
+          "tariffa_oraria_non_convivente": 7.86,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        },
+        {
+          "livello": "CS",
+          "minimo_tabellare_mensile_convivente": 1193.84,
+          "tariffa_oraria_non_convivente": 8.3,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        },
+        {
+          "livello": "D",
+          "minimo_tabellare_mensile_convivente": 1612.2,
+          "tariffa_oraria_non_convivente": 9.57,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        },
+        {
+          "livello": "DS",
+          "minimo_tabellare_mensile_convivente": 1682.42,
+          "tariffa_oraria_non_convivente": 9.97,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2027-01-01",
+          "nota": "secondo step del percorso +100 EUR entro 2028 + adeguamento ISTAT"
+        }
+      ]
+    },
+    {
+      "ccnl": "Turismo / Pubblici Esercizi (Federalberghi-FIPE aziende alberghiere)",
+      "codice_cnel": "H052",
+      "parti_firmatarie": "Federalberghi, FIPE, FAITA, Fiavet, Federreti, Filcams-Cgil, Fisascat-Cisl, Uiltucs",
+      "ultimo_rinnovo": "2024-07-05",
+      "vigenza": "tabelle in vigore da maggio 2026",
+      "tredicesima": true,
+      "quattordicesima": true,
+      "scatti_anzianita": true,
+      "note": "Aziende alberghiere. Paga base conglobata (incl. ex indennita contingenza), decorrenza tabelle maggio 2026. Alberghi 1-2 stelle: valori leggermente inferiori. 14 mensilita. Rinnovo 5/7/2024, tranche fino 31/12/2027.",
+      "livelli": [
+        {
+          "livello": "Quadro A",
+          "minimo_tabellare_mensile": 2416.82,
+          "indennita_quadri": 75.0,
+          "minimo_con_indennita": 2491.82,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "Quadro B",
+          "minimo_tabellare_mensile": 2237.53,
+          "indennita_quadri": 70.0,
+          "minimo_con_indennita": 2307.53,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "1",
+          "minimo_tabellare_mensile": 2084.71,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "2",
+          "minimo_tabellare_mensile": 1905.4,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "3",
+          "minimo_tabellare_mensile": 1797.04,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "4",
+          "minimo_tabellare_mensile": 1695.69,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "5",
+          "minimo_tabellare_mensile": 1590.27,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "6 super",
+          "minimo_tabellare_mensile": 1529.13,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "6",
+          "minimo_tabellare_mensile": 1507.45,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "7",
+          "minimo_tabellare_mensile": 1412.6,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-06-01",
+          "nota": "terza tranche di aumento dei minimi (pubblici esercizi)"
+        }
+      ],
+      "codice_cnel_verificato": "Archivio CNEL 2026-07-02",
+      "minimi_note": "minimo_tabellare_mensile = paga base conglobata; per i Quadri indennita_quadri a parte"
+    },
+    {
+      "ccnl": "Commercio - Terziario, Distribuzione e Servizi (Confcommercio)",
+      "codice_cnel": "H011",
+      "parti_firmatarie": "Confcommercio, Filcams-Cgil, Fisascat-Cisl, Uiltucs",
+      "ultimo_rinnovo": "2024-03-22",
+      "vigenza": "2023-01-01 / 2027-03-31",
+      "tredicesima": true,
+      "quattordicesima": true,
+      "scatti_anzianita": true,
+      "note": "8 livelli (Quadro..VII). PROMOSSO A CERTO il 03/07/2026: paga base per livello riscontrata su tabella ufficiale Confcommercio Ascom Bologna (parte firmataria, tabelle rinnovo 22/03/2024): valori in vigore dal 01/11/2025 (validi fino al 31/10/2026). In busta si aggiungono: ex-contingenza (campo ex_contingenza), terzo elemento 2,07 EUR (tutti i livelli), 'altri elementi' 260,76 EUR solo Quadro e 5,16 EUR solo VII (campo terzo_elemento_edr storico), scatti. Campo 'minimo_dal_2026_11' = prossima tranche 01/11/2026 (+35 EUR liv.IV riparametrato) da fonte di prassi: DA_VERIFICARE.",
+      "livelli": [
+        {
+          "livello": "Quadro",
+          "minimo_tabellare_mensile": 2183.09,
+          "ex_contingenza": 540.37,
+          "terzo_elemento_edr": 260.76,
+          "minimo_dal_2026_11": 2243.85,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        },
+        {
+          "livello": "I",
+          "minimo_tabellare_mensile": 1966.54,
+          "ex_contingenza": 537.52,
+          "terzo_elemento_edr": 0.0,
+          "minimo_dal_2026_11": 2021.29,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        },
+        {
+          "livello": "II",
+          "minimo_tabellare_mensile": 1701.04,
+          "ex_contingenza": 532.54,
+          "terzo_elemento_edr": 0.0,
+          "minimo_dal_2026_11": 1748.41,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        },
+        {
+          "livello": "III",
+          "minimo_tabellare_mensile": 1453.94,
+          "ex_contingenza": 527.9,
+          "terzo_elemento_edr": 0.0,
+          "minimo_dal_2026_11": 1494.41,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        },
+        {
+          "livello": "IV",
+          "minimo_tabellare_mensile": 1257.46,
+          "ex_contingenza": 524.22,
+          "terzo_elemento_edr": 0.0,
+          "minimo_dal_2026_11": 1292.46,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        },
+        {
+          "livello": "V",
+          "minimo_tabellare_mensile": 1136.07,
+          "ex_contingenza": 521.94,
+          "terzo_elemento_edr": 0.0,
+          "minimo_dal_2026_11": 1167.69,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        },
+        {
+          "livello": "VI",
+          "minimo_tabellare_mensile": 1019.94,
+          "ex_contingenza": 519.76,
+          "terzo_elemento_edr": 0.0,
+          "minimo_dal_2026_11": 1048.33,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        },
+        {
+          "livello": "VII",
+          "minimo_tabellare_mensile": 873.22,
+          "ex_contingenza": 517.51,
+          "terzo_elemento_edr": 5.16,
+          "minimo_dal_2026_11": 897.53,
+          "decorrenza": "2025-11-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://ascom.bo.it/2025/03/21/ccnl-terziario-distribuzione-e-servizi-i-prossimi-aumenti-retributivi-da-marzo-e-novembre-2025/",
+          "terzo_elemento_mensile": 2.07
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-11-01",
+          "nota": "tranche aumenti minimi (es. IV liv 1.257,46 -> 1.292,46)"
+        },
+        {
+          "decorrenza": "2027-02-01",
+          "nota": "ultima tranche (es. IV liv 1.292,46 -> 1.332,46)"
+        }
+      ],
+      "codice_cnel_verificato": "Archivio CNEL 2026-07-02"
+    },
+    {
+      "ccnl": "Studi Professionali (Confprofessioni)",
+      "codice_cnel": "H442",
+      "parti_firmatarie": "Confprofessioni, Filcams-Cgil, Fisascat-Cisl, Uiltucs",
+      "ultimo_rinnovo": "2024-02-16",
+      "vigenza": "rinnovo 16/02/2024 - tranche fino a dicembre 2026",
+      "tredicesima": true,
+      "quattordicesima": true,
+      "scatti_anzianita": true,
+      "note": "8 livelli (Q, I, II, IIIS, III, IVS, IV, V) su tabella retributiva unica. Fondo CADIPROF. Minimi COMPLETATI il 02/07/2026 da tabella ufficiale Confprofessioni (PDF \"Tabelle retributive uniche\"): valori in vigore dal 01/10/2025 (terza tranche), validi fino al 30/11/2026. Quarta tranche dal 01/12/2026 (campo minimo_dal_2026_12). Per i livelli I, II e IIIS esiste un \"Elemento nazionale allineamento contrattuale\" aggiuntivo (dall 01/05/2008).",
+      "livelli": [
+        {
+          "livello": "Q",
+          "minimo_tabellare_mensile": 2408.53,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 2436.76,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf"
+        },
+        {
+          "livello": "I",
+          "minimo_tabellare_mensile": 2131.39,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 2156.38,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf",
+          "elemento_nazionale_allineamento": 42.35
+        },
+        {
+          "livello": "II",
+          "minimo_tabellare_mensile": 1856.5,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 1878.26,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf",
+          "elemento_nazionale_allineamento": 102.53
+        },
+        {
+          "livello": "IIIS",
+          "minimo_tabellare_mensile": 1722.01,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 1742.2,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf",
+          "elemento_nazionale_allineamento": 110.4
+        },
+        {
+          "livello": "III",
+          "minimo_tabellare_mensile": 1706.37,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 1726.37,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf"
+        },
+        {
+          "livello": "IVS",
+          "minimo_tabellare_mensile": 1654.7,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 1674.1,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf"
+        },
+        {
+          "livello": "IV",
+          "minimo_tabellare_mensile": 1595.42,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 1614.12,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf"
+        },
+        {
+          "livello": "V",
+          "minimo_tabellare_mensile": 1484.78,
+          "ex_contingenza": null,
+          "minimo_dal_2026_12": 1502.19,
+          "decorrenza": "2025-10-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://confprofessioni.eu/wp-content/uploads/2025/11/Tabelle-retributive-uniche-CCNL-Studi-Professionali.pdf"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-12-01",
+          "nota": "Quarta tranche rinnovo 2024: +20,00 EUR liv. III riparametrato (Q +28,23; I +24,99; II +21,76; IIIS +20,19; IVS +19,40; IV +18,70; V +17,41). Fonte: tabella ufficiale Confprofessioni."
+        }
+      ],
+      "codice_cnel_verificato": "Archivio CNEL 2026-07-02"
+    },
+    {
+      "ccnl": "Edilizia Industria (ANCE)",
+      "codice_cnel": "da verificare su CNEL",
+      "parti_firmatarie": "ANCE, Feneal-Uil, Filca-Cisl, Fillea-Cgil",
+      "ultimo_rinnovo": "2025-01-29",
+      "vigenza": "rinnovo 2025 - tranche fino a marzo 2027",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "scatti_anzianita": false,
+      "note": "Aumenti su liv.1 operai su piu tranche 2025-2028. Minimi OPERAI aggiunti 08/07/2026 da fonte di prassi (paga base + contingenza, decorrenza 01/03/2026): DA_VERIFICARE in attesa tabelle ufficiali Cassa Edile. Impiegati (liv.1-7) per livello NON ancora reperiti. Nota: nell'edilizia agli operai si aggiungono EDT/EVR provinciali (Cassa Edile) e accantonamento 18,5% (ferie+gratifica).",
+      "livelli": [
+        {
+          "livello": "1 (operaio comune, par. 100)",
+          "paga_base": 1117.36,
+          "contingenza": 512.87,
+          "minimo_tabellare_mensile": 1630.23,
+          "decorrenza": "2026-03-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/ (prassi)"
+        },
+        {
+          "livello": "2 (operaio qualificato)",
+          "paga_base": 1307.31,
+          "contingenza": 516.43,
+          "minimo_tabellare_mensile": 1823.74,
+          "decorrenza": "2026-03-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/ (prassi)"
+        },
+        {
+          "livello": "3 (operaio specializzato)",
+          "paga_base": 1452.56,
+          "contingenza": 519.16,
+          "minimo_tabellare_mensile": 1971.72,
+          "decorrenza": "2026-03-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/ (prassi)"
+        },
+        {
+          "livello": "4 (operaio IV livello)",
+          "paga_base": 1564.31,
+          "contingenza": 521.25,
+          "minimo_tabellare_mensile": 2085.56,
+          "decorrenza": "2026-03-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/ (prassi)"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-03-01",
+          "nota": "seconda tranche (+ su 180 EUR complessivi par.100)"
+        },
+        {
+          "decorrenza": "2027-03-01",
+          "nota": "terza e ultima tranche"
+        }
+      ]
+    },
+    {
+      "ccnl": "Pulizie / Multiservizi - Conflavoro",
+      "codice_cnel": "K574",
+      "parti_firmatarie": "Conflavoro PMI, Confsal, Confsal Federlavoratori, Fesica-Confsal",
+      "ultimo_rinnovo": "2026-05-19",
+      "vigenza": "2026-06-01 / 2029-05-31",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "scatti_anzianita": true,
+      "note": "8 posizioni (Quadri, I..VII). Aumenti distribuiti su piu decorrenze (06/2026, 10/2026, 05/2027, 12/2027, 07/2028, 10/2028). Minimi per livello non reperiti da fonte ufficiale: DA_VERIFICARE. NB: esiste anche CCNL Pulizie/Multiservizi 'storico' (Legacoop/Confcooperative/AGCI, rinnovo 13/06/2025, +215 EUR a regime, tabelle in vigore dal 01/05/2026).",
+      "livelli": [
+        {
+          "livello": "Quadri",
+          "minimo_tabellare_mensile": null,
+          "decorrenza": "2026-06-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.fiscoetasse.com/new-rassegna-stampa/4074-ccnl-conflavoro-multiservizi-2026-aumenti-livelli-altre-novita.html"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-10-01",
+          "nota": "tranche aumenti minimi"
+        },
+        {
+          "decorrenza": "2027-05-01",
+          "nota": "tranche aumenti minimi"
+        }
+      ]
+    },
+    {
+      "ccnl": "Logistica, Trasporto Merci e Spedizione",
+      "codice_cnel": "da verificare su CNEL",
+      "parti_firmatarie": "associazioni datoriali logistica/trasporto, Filt-Cgil, Fit-Cisl, Uiltrasporti",
+      "ultimo_rinnovo": "2024-12-06",
+      "vigenza": "2024-2027",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "scatti_anzianita": true,
+      "note": "8 livelli (6..Quadro). Range minimi indicato 1591-2477 EUR (prassi). Seconda tranche dal 01/01/2026 (incrementi ~33-51 EUR). Livello 6J eliminato dal 31/12/2025. Minimi per livello non reperiti puntualmente da fonte ufficiale: DA_VERIFICARE.",
+      "livelli": [
+        {
+          "livello": "Q",
+          "minimo_tabellare_mensile": null,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contrattotrasporti.it/art-106-tabelle-retributive/"
+        },
+        {
+          "livello": "6",
+          "minimo_tabellare_mensile": null,
+          "decorrenza": "2026-01-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contrattotrasporti.it/art-106-tabelle-retributive/"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2027-01-01",
+          "nota": "ulteriore revisione minimi"
+        }
+      ]
+    },
+    {
+      "ccnl": "Metalmeccanica Artigianato (Confartigianato/CNA/Casartigiani/Claai)",
+      "codice_cnel": "da verificare su CNEL",
+      "parti_firmatarie": "Confartigianato, CNA, Casartigiani, Claai, Fim-Cisl, Fiom-Cgil, Uilm-Uil",
+      "ultimo_rinnovo": "2024-11-19",
+      "vigenza": "rinnovo 2024 - tranche 2025/2026 e oltre",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "scatti_anzianita": true,
+      "note": "Terza tranche aumenti dal 01/03/2026; ulteriore +50 EUR dal 01/06/2026 (soggetto a imposta sostitutiva 5% per il 2026); prossimo aggiornamento minimi novembre 2026. Minimi per livello non reperiti da fonte ufficiale: DA_VERIFICARE.",
+      "livelli": [
+        {
+          "livello": "da verificare",
+          "minimo_tabellare_mensile": null,
+          "decorrenza": "2026-03-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.sondrio.lombardia.cisl.it/ccnl-artigianato-area-meccanica-dal-1-marzo-2026-terza-tranche-degli-aumenti-salariali/"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-06-01",
+          "nota": "+50 EUR (imposta sostitutiva 5% 2026)"
+        },
+        {
+          "decorrenza": "2026-11-01",
+          "nota": "ulteriore aggiornamento minimi"
+        }
+      ]
+    },
+    {
+      "ccnl": "Terziario - Confesercenti",
+      "codice_cnel": "H012",
+      "parti_firmatarie": "Confesercenti, Filcams-Cgil, Fisascat-Cisl, Uiltucs",
+      "ultimo_rinnovo": "da verificare",
+      "vigenza": "da verificare",
+      "tredicesima": true,
+      "quattordicesima": true,
+      "scatti_anzianita": true,
+      "note": "Struttura allineata al CCNL Commercio Confcommercio (8 livelli). Minimi per livello non raccolti in questa esecuzione: DA_VERIFICARE su Confesercenti/CNEL.",
+      "livelli": [],
+      "aumenti_programmati": [],
+      "codice_cnel_verificato": "Archivio CNEL 2026-07-02"
+    },
+    {
+      "ccnl": "Chimica - Chimico-Farmaceutica Industria (Federchimica/Farmindustria)",
+      "codice_cnel": "da verificare su CNEL (settore B)",
+      "parti_firmatarie": "Federchimica, Farmindustria, Filctem-Cgil, Femca-Cisl, Uiltec-Uil",
+      "ultimo_rinnovo": "2025-04-15",
+      "vigenza": "2025-07-01 / 2028-06-30",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "scatti_anzianita": true,
+      "note": "Entry creata il 02/07/2026 per la tranche in decorrenza 01/07/2026. Aumento TEM cat. D1: +60 EUR dal 01/07/2026 (totale a regime 257 EUR in 5 tranche: 101 dal 07/2025, 20 dal 12/2025, 60 dal 07/2026, 60 dal 07/2027, 16 dal 06/2028; EDR 26 EUR dal 07/2027). Minimi per livello NON ancora raccolti da fonte ufficiale: DA_VERIFICARE su testo accordo/Federchimica.",
+      "livelli": [
+        {
+          "livello": "D1 (riferimento)",
+          "minimo_tabellare_mensile": null,
+          "aumento_dal_2026_07": 60.0,
+          "decorrenza": "2026-07-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.confindustria.an.it/rinnovo-ccnl-industria-chimica/",
+          "nota": "TEM range prassi ~1.821 EUR (cat. F) - ~3.338 EUR (cat. A1) dal 01/07/2026; valore per-categoria ufficiale da reperire, non stimato."
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-07-01",
+          "nota": "Terza tranche: +60 EUR cat. D1 (TEM), riparametrata sugli altri livelli. IN DECORRENZA."
+        },
+        {
+          "decorrenza": "2027-07-01",
+          "nota": "Quarta tranche: +60 EUR cat. D1 + EDR 26 EUR."
+        },
+        {
+          "decorrenza": "2028-06-01",
+          "nota": "Quinta tranche: +16 EUR cat. D1."
+        }
+      ],
+      "note_run_2026-07-07": "Tranche 01/07/2026 registrata. Minimi per livello ancora DA_VERIFICARE.",
+      "_diff_2026-07-09": "Confermata 3a tranche +60 EUR cat. D1 (TEM) in decorrenza 01/07/2026 (accordo 15/04/2025)."
+    }
+  ]
+}

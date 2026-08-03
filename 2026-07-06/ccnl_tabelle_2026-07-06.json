@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "data": "2026-07-06",
+    "aggiornati": [
+      "Turismo/Pubblici Esercizi (H052)"
+    ]
+  },
+  "ccnl": [
+    {
+      "ccnl": "Turismo / Pubblici Esercizi (Federalberghi-FIPE aziende alberghiere)",
+      "codice_cnel": "H052",
+      "parti_firmatarie": "Federalberghi, FIPE, FAITA, Fiavet, Federreti, Filcams-Cgil, Fisascat-Cisl, Uiltucs",
+      "ultimo_rinnovo": "2024-07-05",
+      "vigenza": "tabelle in vigore da maggio 2026",
+      "tredicesima": true,
+      "quattordicesima": true,
+      "scatti_anzianita": true,
+      "note": "Aziende alberghiere. Paga base conglobata (incl. ex indennita contingenza), decorrenza tabelle maggio 2026. Alberghi 1-2 stelle: valori leggermente inferiori. 14 mensilita. Rinnovo 5/7/2024, tranche fino 31/12/2027.",
+      "livelli": [
+        {
+          "livello": "Quadro A",
+          "minimo_tabellare_mensile": 2416.82,
+          "indennita_quadri": 75.0,
+          "minimo_con_indennita": 2491.82,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "Quadro B",
+          "minimo_tabellare_mensile": 2237.53,
+          "indennita_quadri": 70.0,
+          "minimo_con_indennita": 2307.53,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "1",
+          "minimo_tabellare_mensile": 2084.71,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "2",
+          "minimo_tabellare_mensile": 1905.4,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "3",
+          "minimo_tabellare_mensile": 1797.04,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "4",
+          "minimo_tabellare_mensile": 1695.69,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "5",
+          "minimo_tabellare_mensile": 1590.27,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "6 super",
+          "minimo_tabellare_mensile": 1529.13,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "6",
+          "minimo_tabellare_mensile": 1507.45,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        },
+        {
+          "livello": "7",
+          "minimo_tabellare_mensile": 1412.6,
+          "ex_contingenza": "conglobata",
+          "decorrenza": "2026-05-01",
+          "affidabilita": "CERTO",
+          "fonte": "https://leggeinchiaro.it/ccnl-turismo-pubblici-esercizi-tabelle-retributive/ (tabelle Confcommercio, decorrenza maggio 2026)"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-06-01",
+          "nota": "terza tranche di aumento dei minimi (pubblici esercizi)"
+        }
+      ],
+      "codice_cnel_verificato": "Archivio CNEL 2026-07-02",
+      "minimi_note": "minimo_tabellare_mensile = paga base conglobata; per i Quadri indennita_quadri a parte"
+    }
+  ]
+}

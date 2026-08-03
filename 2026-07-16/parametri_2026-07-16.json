@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "data": "2026-07-16",
+    "fonte_principale": "L.199/2025 (Legge di Bilancio 2026); Circ. AdE 3/E (FAQ detassazione 5%/15%); D.Lgs. 252/2005 art.8 (mod. L.199/2025 commi 204-205); Msg. INPS 2325/2026 (TFR adesione automatica); Circ. INPS 4/2026 (NASpI); Circ. INPS 72/2026 (under 35); Circ. INPS 19/2026 (pensioni); Msg. INPS 2287/2026 (UniEmens BaseRif); Msg. INPS 2370-2371/2026",
+    "note": "Valori INVARIATI vs 2026-07-15. Nessuna nuova norma primaria in GU 15-16/07. Novita del giorno solo prassi/gestionale INPS: msg. 2371/2026 (sospensione estiva notifiche e recupero crediti), msg. 2370/2026 (norme collocamento per riduzione contributiva), msg. 2354/2026 (Casellario Centrale Pensioni). OGGI 16/07 scade il versamento dei primi ratei al Fondo di Tesoreria INPS (1 sem. 2026) senza sanzioni. Tema social del giorno: DETASSAZIONE 15% lavoro notturno/festivo/turni/reperibilita + straordinario notturno-festivo (non ripetere quattordicesima 15/07, TFR 13/07, ferie 10/07). Dati calc-critici da riscontrare su fonte ufficiale.",
+    "legenda_affidabilita": {"CERTO": "in vigore/pubblicato", "IN_ITER": "in attuazione", "DA_VERIFICARE": "prospettico/prassi non confermato"}
+  },
+  "irpef_2026": {
+    "scaglioni": [
+      {"da": 0, "a": 28000, "aliquota": 0.23},
+      {"da": 28000, "a": 50000, "aliquota": 0.33},
+      {"da": 50000, "a": null, "aliquota": 0.43}
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_fino_15000": 1955,
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; art.13 TUIR"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_fino_a_reddito": 20000,
+    "detrazione_20001_32000": 1000,
+    "azzeramento_a": 40000,
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "imposte_sostitutive_2026": {
+    "aumenti_ccnl": {"aliquota": 0.05, "limite_reddito_2025": 33000, "affidabilita": "CERTO", "note": "Circ. AdE 3/E: estesa a indennita di mansione, arretrati contrattuali e ferie"},
+    "notturno_festivo_turni_reperibilita": {
+      "aliquota": 0.15,
+      "cap_annuo": 1500,
+      "limite_reddito_2025": 40000,
+      "ambito": "indennita/maggiorazioni per lavoro notturno, festivo, riposo settimanale, turni; indennita di reperibilita prevista dal CCNL (agevolata anche senza intervento effettivo); per lo STRAORDINARIO notturno o festivo il 15% si applica sull'INTERO compenso (non solo sulla maggiorazione)",
+      "esclusi": "somme che sostituiscono la retribuzione ordinaria; straordinario ordinario diurno-feriale",
+      "applicazione": "automatica salvo rinuncia scritta del lavoratore",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. AdE 3/E; L.199/2025"
+    },
+    "premi_produttivita": {"aliquota": 0.01, "tetto": 5000, "limite_reddito": 80000, "affidabilita": "CERTO"},
+    "fonte": "Circ. AdE 3/E; L.199/2025; Ris. AdE 22/E"
+  },
+  "quattordicesima_2026": {
+    "trattamento": "reddito da lavoro dipendente: IRPEF ad aliquota marginale + addizionali + contributi INPS; detrazioni lavoro dip. gia' distribuite sulle mensilita' ordinarie -> netto quasi sempre inferiore a mensilita' ordinaria",
+    "erogazione_tipica": "giugno-luglio (settori che la prevedono: commercio/terziario, turismo, logistica, studi professionali)",
+    "affidabilita": "CERTO (principio); importi di esempio DA_VERIFICARE (prassi)",
+    "fonte": "art.13 TUIR; CCNL; prassi"
+  },
+  "naspi_2026": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "aliquota_base": 0.75,
+    "decalage": {"percentuale_mensile": -0.03, "da_mese": 6, "uniforme_eta": true},
+    "anticipata_autoimpr": "70%+30%",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; Msg. INPS 1215/2026"
+  },
+  "tfr_previdenza_2026": {
+    "meccanismo": "adesione automatica dal giorno dell'assunzione; il silenzio del lavoratore per 60 gg la conferma (scelta diversa entro 60 gg, revocabile)",
+    "riferimento_normativo": "art.8 D.Lgs.252/2005 come modificato da L.199/2025 art.1 commi 204-205",
+    "silenzio_assenso_neoassunti_giorni": 60,
+    "silenzio_assenso_gia_assunti_giorni": 180,
+    "platea": "neoassunti settore privato di prima assunzione (assunti dopo il 30/06/2026), esclusi lavoratori domestici",
+    "allocazione": "linea life-cycle coerente con eta (non piu comparto garantito)",
+    "istruzioni_operative_msg_2325": {
+      "data": "2026-07-10",
+      "gestione_tfr_maturato_60gg": "versamenti dal mese successivo alla scadenza dei 60 gg, con effetto retroattivo dalla data di assunzione",
+      "regolarizzazione_arretrati": "codici causale UniEmens dedicati per le quote TFR pregresse; termini distinti tempestiva/tardiva (codici specifici DA_VERIFICARE sul testo)",
+      "opzione_mantenimento_azienda": "art. 2120 c.c. entro 60 gg, revocabile",
+      "affidabilita": "CERTO",
+      "fonte": "Msg. INPS 2325/2026"
+    },
+    "fondo_tesoreria_soglia_addetti": {"2026_2027": 60, "2028_2031": 50, "dal_2032": 40, "affidabilita": "DA_VERIFICARE"},
+    "versamento_primi_ratei_termine": "2026-07-16",
+    "versamento_note": "OGGI 16/07/2026 e' il termine per i ratei 1 sem. 2026 senza sanzioni",
+    "causale_uniemens": "CF05",
+    "plafond_deducibilita_prev_compl": 5300,
+    "affidabilita_silenzio_assenso": "CERTO",
+    "fonte": "L.199/2025 commi 204-205; D.Lgs.252/2005 art.8; Msg. INPS 2325/2026; COVIP; Ministero del Lavoro"
+  },
+  "inps_prassi_luglio_2026": {
+    "sospensione_estiva_notifiche": {"msg": "2371/2026", "data": "2026-07-15", "note_rettifica_diffide_dpa_sospese": "2026-07-27/2026-08-31", "verbali_ava_accertamenti_sospesi": "2026-08-01/2026-08-31", "affidabilita": "CERTO"},
+    "norme_collocamento_riduzione_contributiva": {"msg": "2370/2026", "data": "2026-07-15", "oggetto": "nozione e contenuto delle norme sul collocamento per l'accesso alle riduzioni contributive e comunicazioni obbligatorie", "affidabilita": "CERTO"},
+    "casellario_centrale_pensioni": {"msg": "2354/2026", "data": "2026-07-14", "oggetto": "ricognizione del quadro normativo del Casellario Centrale delle Pensioni", "affidabilita": "CERTO"},
+    "portale_tfr_esattoriali": {"msg": "2331/2026", "online_dal": "2026-07-13", "doppio_binario_fino": "2026-07-31", "affidabilita": "CERTO"},
+    "portale_famiglia_genitorialita": {"msg": "2295/2026", "affidabilita": "CERTO"},
+    "siisl_operativo": {"decorrenza": "2026-07-01", "affidabilita": "CERTO"}
+  },
+  "uniemens_2026": {
+    "baseRif_obbligo_conguagli_L104_congedi": {
+      "decorrenza_competenza": "2026-09",
+      "affidabilita": "CERTO",
+      "fonte": "Msg. INPS 2287/2026"
+    }
+  },
+  "incentivo_stabilizzazione_under35": {
+    "esonero": "100% contributi datoriali (esclusi INAIL e Fondo Tesoreria TFR)",
+    "cap_mensile": 500,
+    "durata_max_mesi": 24,
+    "finestra_trasformazioni": "2026-08-01/2026-12-31",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 72/2026; art.4 D.L. 62/2026 conv. L.112/2026"
+  },
+  "pensioni_2026": {
+    "quota_103": {"requisiti": "62 anni + 41 contributi, maturati entro 31/12/2025", "affidabilita": "CERTO"},
+    "opzione_donna": {"requisiti_entro": "31/12/2024", "affidabilita": "CERTO"},
+    "ape_sociale": {"prorogata_2026": true, "finestre_domanda": ["2026-03-31", "2026-07-15", "2026-11-30"], "affidabilita": "CERTO"},
+    "vecchiaia_2027": "67 anni + 1 mese",
+    "fonte": "Circ. INPS 19/2026; Circ. INPS 41/2026"
+  },
+  "altri_parametri_2026": {
+    "fringe_benefit_esenzione": {"base": 1000, "con_figli": 2000},
+    "bonus_mamme_mensile": 60,
+    "congedo_parentale_eta_figlio_max": 14,
+    "codice_cnel_busta": {"obbligatorio": true, "esclusi": "dirigenti", "decorrenza": "2026-05-01"},
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; L.112/2026 GU 147; msg. INPS 251/2026"
+  }
+}

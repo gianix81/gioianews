@@ -1,0 +1,34 @@
+{
+  "data": "2026-07-08",
+  "tipo": "aggiornamento_incrementale",
+  "ccnl_modificati": [
+    {
+      "ccnl": "Edilizia Industria (ANCE)",
+      "codice_cnel": "da verificare su CNEL",
+      "ultimo_rinnovo": "2025-01-29",
+      "categoria": "operai",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "nota": "Minimo nazionale = paga base + contingenza. Esclusi EDT/EVR provinciali e accantonamento Cassa Edile 18,5%. Impiegati per livello non reperiti.",
+      "livelli": [
+        { "livello": "1 operaio comune (par.100)", "paga_base": 1117.36, "contingenza": 512.87, "minimo_tabellare_mensile": 1630.23, "decorrenza": "2026-03-01", "affidabilita": "DA_VERIFICARE", "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/" },
+        { "livello": "2 operaio qualificato", "paga_base": 1307.31, "contingenza": 516.43, "minimo_tabellare_mensile": 1823.74, "decorrenza": "2026-03-01", "affidabilita": "DA_VERIFICARE", "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/" },
+        { "livello": "3 operaio specializzato", "paga_base": 1452.56, "contingenza": 519.16, "minimo_tabellare_mensile": 1971.72, "decorrenza": "2026-03-01", "affidabilita": "DA_VERIFICARE", "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/" },
+        { "livello": "4 operaio IV livello", "paga_base": 1564.31, "contingenza": 521.25, "minimo_tabellare_mensile": 2085.56, "decorrenza": "2026-03-01", "affidabilita": "DA_VERIFICARE", "fonte": "https://leggeinchiaro.it/ccnl-edilizia-industria-tabelle-retributive/" }
+      ],
+      "aumenti_programmati": [
+        { "decorrenza": "2027-01-01", "nota": "+35 EUR liv.1 (prassi, da riscontrare)" },
+        { "decorrenza": "2028-01-01", "nota": "+33 EUR liv.1 (prassi, da riscontrare)" }
+      ]
+    },
+    {
+      "ccnl": "Commercio - Terziario Confcommercio (H011)",
+      "codice_cnel": "H011",
+      "stato": "invariato_CERTO",
+      "aumenti_programmati": [
+        { "decorrenza": "2026-11-01", "nota": "+35 EUR IV liv. (1.257,46 -> 1.292,46), riparametrato" },
+        { "decorrenza": "2027-02-01", "nota": "+40 EUR IV liv. (ultima tranche), riparametrato" }
+      ]
+    }
+  ]
+}

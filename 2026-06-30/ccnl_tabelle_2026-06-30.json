@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "data": "2026-06-30",
+    "modalita": "incrementale",
+    "diff_vs": "2026-06-29",
+    "esito": "nessun nuovo rinnovo settore privato con minimi tabellari in decorrenza oggi; ccnl_master.json invariato nei valori",
+    "anti_invenzione": "nessun valore stimato"
+  },
+  "movimenti_contrattuali_oggi": [
+    { "ccnl": "Funzioni Centrali (Statali)", "settore": "pubblico", "evento": "firma ipotesi rinnovo 2025-2027", "data": "2026-06-09", "aumento_mensile_range_eur": [126, 221], "arretrati_eur": 1200, "affidabilita": "CERTO", "nel_dataset_privato_app": false, "fonte": "https://www.fanpage.it/politica/rinnovo-contratto-statali-arriva-la-firma-aumenti-fino-a-221-euro-e-arretrati-in-busta-paga/" },
+    { "ccnl": "Istruzione e Ricerca", "settore": "pubblico", "evento": "rinnovo 2025-2027", "data": "2026-06", "aumento_medio_eur": 137, "affidabilita": "CERTO", "nel_dataset_privato_app": false, "fonte": "https://www.flcgil.it/contratto-istruzione-ricerca/ccnl-istruzione-e-ricerca-2025-2027-tabelle-aumenti-e-arretrati.flc" },
+    { "ccnl": "Federculture", "settore": "cultura", "evento": "rinnovo 2022-2024", "data": "2026-04-30", "aumento_pct_minimi": 7.5, "arretrati_max_eur": 1850, "affidabilita": "CERTO", "nel_dataset_privato_app": false, "fonte": "https://www.pmi.it/economia/lavoro/493352/ccnl-federculture-rinnovo.html" }
+  ],
+  "ccnl_privati_invariati": true
+}

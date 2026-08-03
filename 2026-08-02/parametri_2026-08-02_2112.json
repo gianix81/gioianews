@@ -1,0 +1,86 @@
+{
+  "schema": "gioia-parametri-calcolo",
+  "data_run": "2026-08-02",
+  "ora_run": "2112",
+  "anno": 2026,
+  "note": "Valori confermati/carryover da fonti ufficiali. Estremi normativi da riscontrare su GU/Normattiva/INPS prima dell'uso in produzione. Nessuna variazione rispetto alla run h2057.",
+  "irpef": {
+    "scaglioni": [
+      { "fino_a": 28000, "aliquota": 0.23 },
+      { "da": 28001, "fino_a": 50000, "aliquota": 0.33 },
+      { "oltre": 50000, "aliquota": 0.43 }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025; art. 13 TUIR"
+  },
+  "cuneo_fiscale": {
+    "esenzione_reddito_fino_a": 20000,
+    "detrazione_reddito_da": 20001,
+    "detrazione_reddito_fino_a": 40000,
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025"
+  },
+  "detassazioni": {
+    "premi_produttivita": 0.01,
+    "aumenti_ccnl_retrib_diretta": 0.05,
+    "notturno_festivo_turni": 0.15,
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025; Circ. AdE 2/2026"
+  },
+  "fringe_benefit_buoni_pasto": {
+    "elettronici_esenti": 10.00,
+    "cartacei_esenti": 4.00,
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025"
+  },
+  "inps_dipendente": {
+    "aliquota_c_lavoratore": 0.0919,
+    "addizionale_oltre_prima_fascia": 0.01,
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS contribuzione 2026"
+  },
+  "previdenza_complementare": {
+    "plafond_deducibilita": 5300,
+    "quota_capitale_massima": 0.50,
+    "quota_capitale_decorrenza": "2026-07-01",
+    "adesione_automatica_neoassunti": "silenzio-assenso 60 gg dal 2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025; L. 112/2026; Msg. INPS 2325/2026"
+  },
+  "naspi": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale": 1584.70,
+    "decalage_dal_6_mese": -0.03,
+    "erogazione_anticipata": "70% + 30%",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; Msg. INPS 1215/2026"
+  },
+  "cig": {
+    "massimale_2026": 1423.69,
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026"
+  },
+  "inail_rendita": {
+    "minimale": 20712.30,
+    "massimale": 38465.70,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INAIL 35/2026"
+  },
+  "tfr": {
+    "coeff_rivalutazione": 2.786543,
+    "riferimento": "maggio 2026",
+    "imposta_sostitutiva": 0.17,
+    "portabilita_fondi_decorrenza": "2026-10-01",
+    "affidabilita": "CERTO",
+    "fonte": "ISTAT; art. 2120 c.c.; L. 50/2026"
+  },
+  "esoneri_contributivi": {
+    "madri_3_piu_figli": { "tipo": "100% c/datore", "max_annuo": 8000, "decorrenza": "2026-07-29", "affidabilita": "CERTO", "fonte": "Circ. INPS 82/2026" },
+    "stabilizzazione_under_35": { "tipo": "100% c/datore (escl. INAIL e TFR Fondo Tesoreria)", "max_mensile": 500, "durata_mesi": 24, "finestra": "2026-08-01/2026-12-31", "affidabilita": "CERTO", "fonte": "art. 4 DL 62/2026 conv. L. 112/2026; Circ. INPS 72/2026; Msg. INPS 2518/2026" },
+    "bonus_giovani_donne_zes_dl60": { "scadenza_domande": "2026-09-30", "affidabilita": "CERTO", "fonte": "Msg. INPS 2451/2026; artt. 22-24 DL 60/2024" }
+  }
+}

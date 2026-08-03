@@ -1,0 +1,33 @@
+{
+  "data": "2026-07-31",
+  "notizie": [
+    {
+      "titolo": "TFR: nuovo coefficiente di rivalutazione (giugno 2026)",
+      "testo": "Aggiornato il coefficiente ISTAT per rivalutare il TFR accantonato. Con l'indice dei prezzi di giugno 2026 (102,8), il coefficiente di rivalutazione delle quote di TFR con riferimento al mese di maggio 2026 è pari al 2,786543%. In busta paga (o nel prospetto TFR) questo incide sulla voce di rivalutazione del fondo maturato, su cui si applica l'imposta sostitutiva del 17%. GioIA controlla che la rivalutazione del tuo TFR sia calcolata con il coefficiente corretto e aggiornato.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Comunicazione ISTAT indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
+      "fonte_url": "https://www.istat.it/it/archivio/30440"
+    },
+    {
+      "titolo": "Assunzione di madri con tre o più figli: esonero contributivo fino a 8.000 euro",
+      "testo": "L'INPS ha pubblicato le istruzioni operative per l'esonero contributivo destinato ai datori che assumono donne madri di almeno tre figli under 18, disoccupate da almeno sei mesi. Lo sgravio arriva al 100% dei contributi a carico del datore, nel limite di 8.000 euro l'anno, e si richiede tramite il modulo ELM3 sul Portale delle Agevolazioni INPS. È un'agevolazione sui contributi del datore: non cambia la quota a carico della lavoratrice (9,19%). GioIA verifica che gli sgravi contributivi risultino applicati correttamente in busta.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Circolare INPS n. 82 del 29/07/2026",
+      "fonte_url": "https://www.consulentidellavoro.it/home/storico-articoli/19788-esonero-assunzioni-per-madri-con-tre-figli-online-le-istruzioni-inps"
+    },
+    {
+      "titolo": "Bonus assunzioni Giovani, Donne e ZES: domande entro il 30 settembre 2026",
+      "testo": "L'INPS ricorda che le domande per gli esoneri contributivi del decreto Coesione (Bonus Giovani under 35, Bonus Donne e Bonus ZES) relativi ad assunzioni e trasformazioni effettuate tra il 1° settembre 2024 e il 31 dicembre 2025 vanno presentate entro il 30 settembre 2026. Dal 1° ottobre lo sportello chiude. Sono sgravi che si traducono in un abbattimento dei contributi in busta: chi ha diritto deve muoversi per tempo.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Messaggio INPS n. 2451 del 23/07/2026; artt. 22-24 D.L. 60/2024",
+      "fonte_url": "https://www.dottrinalavoro.it/notizie-c/inps-bonus-under35-donne-e-zes-domande-entro-il-30-09"
+    },
+    {
+      "titolo": "INAIL: aggiornati minimale e massimale di rendita 2026",
+      "testo": "Dal 1° luglio 2026 l'INAIL ha aggiornato il minimale (20.712,30 euro) e il massimale (38.465,70 euro) di rendita per infortunio e malattia professionale. Cambiano di conseguenza i limiti di retribuzione imponibile usati per il calcolo dei premi assicurativi e per alcune categorie con retribuzione convenzionale. È un aggiornamento tecnico che i software paghe devono recepire.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Circolare INAIL n. 35 del 22/07/2026; D.M. Lavoro 11/05/2026 n. 58",
+      "fonte_url": "https://www.consulentidellavoro.it/files/PDF/2026/Circolare_n35_22lug2026.pdf"
+    }
+  ]
+}

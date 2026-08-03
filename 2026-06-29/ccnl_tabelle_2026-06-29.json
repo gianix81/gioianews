@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "data": "2026-06-29",
+    "tipo": "delta_incrementale",
+    "descrizione": "Snapshot datato. Nessun nuovo rinnovo CCNL in data odierna. Unica variazione: conferma IV livello Commercio Confcommercio.",
+    "master_riferimento": "_DB_CCNL/ccnl_master.json"
+  },
+  "variazioni": [
+    {
+      "ccnl": "Commercio - Terziario, Distribuzione e Servizi (Confcommercio)",
+      "livello": "IV",
+      "minimo_tabellare_mensile": 1292.46,
+      "nota": "paga base tabellare senza ex-contingenza/EDR",
+      "decorrenza": "2026-11-01",
+      "affidabilita": "CERTO",
+      "fonte": "https://www.hrcapital.it/pubblicazioni/ccnl-terziario-distribuzione-e-servizi-nuovi-minimi-tabellari-e-aumenti-retributivi-dal-2026/",
+      "stato_precedente": "DA_VERIFICARE (null)"
+    }
+  ],
+  "ccnl_invariati": [
+    "Metalmeccanica Industria (C011)",
+    "Lavoro Domestico",
+    "Turismo/Pubblici Esercizi",
+    "Studi Professionali",
+    "Edilizia Industria",
+    "Pulizie/Multiservizi (K574)",
+    "Logistica",
+    "Metalmeccanica Artigianato",
+    "Terziario Confesercenti"
+  ]
+}

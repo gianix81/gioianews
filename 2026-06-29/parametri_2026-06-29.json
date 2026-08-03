@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "data": "2026-06-29",
+    "descrizione": "Parametri di calcolo correnti per il motore di verifica cedolino GioIA",
+    "valuta": "EUR",
+    "legenda_affidabilita": { "CERTO": "norma in vigore/circolare emanata", "IN_ITER": "in attuazione/conversione", "DA_VERIFICARE": "prospettico o non confermato" }
+  },
+  "irpef_2026": {
+    "scaglioni": [
+      { "fino_a": 28000, "aliquota": 0.23, "affidabilita": "CERTO" },
+      { "da": 28001, "fino_a": 50000, "aliquota": 0.33, "affidabilita": "CERTO" },
+      { "oltre": 50000, "aliquota": 0.43, "affidabilita": "CERTO" }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "sterilizzazione_detrazioni_oltre_200k": 440,
+    "decorrenza": "2026-01-01",
+    "fonte": "L.199/2025; Agenzia delle Entrate"
+  },
+  "imposte_sostitutive_2026": {
+    "incrementi_ccnl": { "aliquota": 0.05, "limite_reddito_2025": 33000, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026" },
+    "notturno_festivo_turni": { "aliquota": 0.15, "cap_imponibile_annuo": 1500, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026" },
+    "premi_produttivita": { "aliquota": 0.01, "soglia": 5000, "affidabilita": "CERTO", "fonte": "L.199/2025" }
+  },
+  "previdenza_complementare": {
+    "plafond_deducibilita_annuo": 5300,
+    "plafond_precedente": 5164.57,
+    "decorrenza_formale": "2026-07-01",
+    "applicazione": "intero periodo d'imposta 2026 (interpretazione Assogestioni)",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025"
+  },
+  "tfr_adesione_automatica": {
+    "decorrenza": "2026-07-01",
+    "platea": "neoassunti settore privato",
+    "silenzio_assenso_giorni": 60,
+    "confluisce": "TFR maturando + contribuzione datore e lavoratore",
+    "esclusi": ["lavoratori domestici"],
+    "irrevocabile_dopo_giorni": 60,
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; direttive COVIP pubblicate 22/06/2026"
+  },
+  "naspi_2026": {
+    "massimale_mensile": 1584.70,
+    "soglia_75pct": 1456.72,
+    "decalage_mensile": 0.03,
+    "decalage_dal_mese": 6,
+    "decalage_dal_mese_over55": 8,
+    "requisito_settimane_contributi": 13,
+    "anticipo_in_due_quote": "70%+30% (DA_VERIFICARE prassi)",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS n. 4/2026"
+  },
+  "fondo_tesoreria_inps": {
+    "soglia_dipendenti_2026_2027": 60,
+    "soglia_2028_2031": 50,
+    "soglia_dal_2032": 40,
+    "calcolo": "media annua anno precedente",
+    "affidabilita": "CERTO/IN_ITER",
+    "fonte": "INPS news 02/2026"
+  },
+  "codice_cnel_busta": {
+    "obbligatorio": true,
+    "esclusi": ["dirigenti"],
+    "decorrenza": "2026-05-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.112/2026, GU n.147 del 27/06/2026"
+  },
+  "welfare_2026": {
+    "buoni_pasto_elettronici_esenzione": 10,
+    "buoni_pasto_cartacei_esenzione": 4,
+    "bonus_mamme_mensile": 60,
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025"
+  }
+}

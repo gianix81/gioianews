@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-02",
+  "notizie": [
+    {
+      "titolo": "Detrazioni da lavoro dipendente: fino a 1.955 € che ti abbassano l'IRPEF",
+      "testo": "Ogni mese, prima di calcolare quanto versi di IRPEF, il datore ti applica una \"detrazione da lavoro dipendente\": uno sconto d'imposta previsto dall'art. 13 del TUIR solo per chi ha redditi da lavoro dipendente.\n\nCome funziona nel 2026:\n- Importo base pieno di 1.955 € l'anno se il tuo reddito complessivo non supera 15.000 € (e hai lavorato tutti i 365 giorni).\n- Oltre i 15.000 € la detrazione si riduce progressivamente, fino ad azzerarsi sopra i 50.000 € di reddito.\n- Tra 25.000 e 35.000 € di reddito spetta un piccolo aumento di 65 € l'anno.\n- L'importo è sempre rapportato ai giorni di lavoro nell'anno: meno giorni lavorati, detrazione più bassa.\n\nÈ una delle voci che pesa di più sul netto: se applicata male, paghi più IRPEF del dovuto. Sul cedolino la trovi tra le detrazioni che riducono l'imposta lorda. GioIA verifica che l'importo sia corretto rispetto al tuo reddito e ai giorni lavorati.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - detrazioni per redditi da lavoro dipendente",
+      "fonte_url": "https://fiscomania.com/detrazioni-per-redditi-da-lavoro-dipendente/"
+    },
+    {
+      "titolo": "Il bonus IRPEF in busta paga (voce \"TIR\"): fino a 1.200 € l'anno",
+      "testo": "Sul cedolino di molti lavoratori compare una voce chiamata \"TIR\": è il trattamento integrativo, l'ex Bonus Renzi. Sono soldi netti in più, non tassati.\n\nA chi spetta nel 2026:\n- Reddito fino a 15.000 €: spetta l'intero importo, 1.200 € l'anno (100 € al mese), a condizione che la tua IRPEF lorda sia superiore alle detrazioni da lavoro spettanti (meno una franchigia di 75 €).\n- Reddito tra 15.000 e 28.000 €: spetta in misura ridotta, pari alla differenza tra le detrazioni a cui hai diritto e l'imposta lorda.\n- Reddito oltre 28.000 €: non spetta.\n\nDi norma lo ricevi ripartito ogni mese in busta paga; se non erogato mensilmente, ti viene riconosciuto con la dichiarazione dei redditi (730). Attenzione: se il tuo reddito cambia durante l'anno, l'importo può essere ricalcolato a conguaglio. GioIA controlla che la voce TIR sia presente e coerente con il tuo reddito.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Trattamento integrativo (ex Bonus Renzi) - D.L. 3/2020 conv. L. 21/2020",
+      "fonte_url": "https://fiscomania.com/trattamento-integrativo-come-funziona/"
+    },
+    {
+      "titolo": "Figli a carico: quando passi dall'Assegno Unico alle detrazioni in busta",
+      "testo": "Per i figli il fisco cambia strumento a seconda dell'età, e questo si vede anche in busta paga.\n\nCome funziona nel 2026:\n- Fino a 21 anni: niente detrazione in busta, spetta l'Assegno Unico Universale (domanda all'INPS).\n- Da 21 a 30 anni (cioè fino ai 29 anni compiuti): scatta la detrazione IRPEF per figli a carico, che riduce l'imposta.\n- Perché il figlio sia \"a carico\" il suo reddito annuo non deve superare 4.000 € fino a 24 anni di età, e 2.840,51 € da 24 a 30 anni.\n- Oltre i 30 anni la detrazione non spetta più, salvo il caso di figlio con disabilità: in quel caso la detrazione resta senza limiti di età ed è cumulabile con l'Assegno Unico.\n\nÈ un passaggio che molti non notano: al compimento dei 21 anni del figlio l'Assegno Unico si interrompe e va comunicata la detrazione al datore. GioIA aiuta a capire se la detrazione per figli è stata applicata correttamente sul tuo cedolino.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazioni per figli a carico; D.Lgs. 230/2021 (Assegno Unico)",
+      "fonte_url": "https://fiscomania.com/detrazione-figli-a-carico-come-cambiano/"
+    }
+  ]
+}

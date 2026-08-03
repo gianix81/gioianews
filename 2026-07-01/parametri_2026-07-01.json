@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "data": "2026-07-01",
+    "descrizione": "Parametri di calcolo correnti per il motore di verifica cedolino GioIA",
+    "valuta": "EUR",
+    "note_giorno": "Entrata in vigore riforma previdenza complementare (L.199/2025): adesione automatica neoassunti, plafond deducibilita 5.300 EUR, quota capitale 60%, portabilita contributo datoriale.",
+    "legenda_affidabilita": { "CERTO": "norma in vigore/circolare emanata", "IN_ITER": "in attuazione/conversione", "DA_VERIFICARE": "prospettico o non confermato" }
+  },
+  "irpef_2026": {
+    "scaglioni": [
+      { "fino_a": 28000, "aliquota": 0.23, "affidabilita": "CERTO" },
+      { "da": 28001, "fino_a": 50000, "aliquota": 0.33, "affidabilita": "CERTO" },
+      { "oltre": 50000, "aliquota": 0.43, "affidabilita": "CERTO" }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dipendente_max": 1955,
+    "detrazione_lavoro_dipendente_soglia": 15000,
+    "sterilizzazione_detrazioni_oltre_200k": 440,
+    "decorrenza": "2026-01-01",
+    "fonte": "L.199/2025; Agenzia delle Entrate"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_reddito_max": 20000,
+    "detrazione_aggiuntiva": { "importo": 1000, "fascia_piena_fino_a": 32000, "azzeramento_a": 40000 },
+    "struttura": "strutturale dal 2026",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "imposte_sostitutive_2026": {
+    "incrementi_ccnl": { "aliquota": 0.05, "limite_reddito_2025": 33000, "base": "12 mensilita + 13a + 14a + istituti indiretti (quota datore in assenze tutelate)", "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026" },
+    "notturno_festivo_turni": { "aliquota": 0.15, "cap_imponibile_annuo": 1500, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E 24/06/2026" },
+    "premi_produttivita": { "aliquota": 0.01, "soglia": 5000, "nota": "tetto 5.000 vale anche se erogato come benefit", "affidabilita": "CERTO", "fonte": "L.199/2025; Ris. AdE 22/2026 del 09/06/2026" }
+  },
+  "previdenza_complementare_2026": {
+    "in_vigore_da": "2026-07-01",
+    "adesione_automatica_neoassunti_privati": true,
+    "silenzio_assenso_giorni": 60,
+    "confluenza": "TFR maturando + contribuzione datore e lavoratore da accordo collettivo",
+    "fondo_residuale_default": "COMETA (DM 31/03/2020 n. 85)",
+    "esclusioni": ["lavoratori domestici", "dipendenti pubblici", "contratti a termine < 60 giorni", "rapporti cessati prima dei 60 giorni"],
+    "plafond_deducibilita_annuo": 5300,
+    "plafond_precedente": 5164.57,
+    "quota_capitale_max": 0.60,
+    "quota_capitale_precedente": 0.50,
+    "clausola_salvaguardia_100pct": "se 70% del montante genera rendita < 1/2 assegno sociale INPS",
+    "portabilita_contributo_datoriale_fondi_aperti_pip": { "decorrenza": "2026-10-31", "anzianita_minima_anni": 2 },
+    "cumulo_contributi_per_pensione_anticipata_pubblica": "eliminato",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; Ministero del Lavoro (nota 01/07/2026); COVIP 19/06/2026; DM 85/2020"
+  },
+  "tfr_2026": {
+    "fondo_tesoreria_inps_soglia_dipendenti": 60,
+    "rivalutazione": "1,5% fisso + 75% indice ISTAT FOI (regola ordinaria)",
+    "affidabilita": "CERTO",
+    "fonte": "INPS news 02/2026; art. 2120 c.c."
+  },
+  "naspi_2026": {
+    "massimale_mensile": 1584.70,
+    "soglia_75pct": 1456.72,
+    "decalage": "-3%/mese dal 6° mese (dall'8° per over 55)",
+    "anticipo_liquidazione": { "prima_rata_pct": 0.70, "seconda_rata_pct": 0.30, "fonte_msg": "Msg. INPS 1215/2026" },
+    "requisiti": "13 settimane contribuzione nei 4 anni; 30 gg lavoro effettivo nei 12 mesi",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4 del 28/01/2026"
+  },
+  "welfare_famiglia_2026": {
+    "buoni_pasto_esenzione_elettronici": 10,
+    "buoni_pasto_esenzione_cartacei": 4,
+    "bonus_mamme_mensile": 60,
+    "bonus_mamme_nota": "2+ figli, reddito <= 40.000; erogazione una tantum dicembre 2026",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; INPS"
+  },
+  "codice_cnel_busta": {
+    "obbligatorio": true,
+    "esclusi": "dirigenti",
+    "decorrenza": "2026-05-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.112/2026, GU 147"
+  }
+}

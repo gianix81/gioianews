@@ -1,0 +1,55 @@
+{
+  "data_riferimento": "2026-07-08",
+  "valuta": "EUR",
+  "legenda_affidabilita": { "CERTO": "in vigore/pubblicato", "IN_ITER": "in attuazione", "DA_VERIFICARE": "prospettico/non confermato" },
+  "irpef_2026": {
+    "scaglioni": [
+      { "da": 0, "a": 28000, "aliquota": 0.23 },
+      { "da": 28000, "a": 50000, "aliquota": 0.33 },
+      { "da": 50000, "a": null, "aliquota": 0.43 }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_fino_a_reddito": 20000,
+    "detrazione_20001_32000": 1000,
+    "azzeramento_detrazione_a": 40000,
+    "affidabilita": "CERTO",
+    "fonte": "L.199/2025; MEF"
+  },
+  "imposte_sostitutive_2026": {
+    "aumenti_ccnl": { "aliquota": 0.05, "limite_reddito_2025": 33000, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E" },
+    "notturno_festivo_turni": { "aliquota": 0.15, "cap": 1500, "limite_reddito_2025": 40000, "affidabilita": "CERTO", "fonte": "Circ. AdE 3/E" },
+    "premi_produttivita": { "aliquota": 0.01, "tetto": 5000, "limite_reddito": 80000, "affidabilita": "CERTO", "fonte": "L.199/2025; Ris. AdE 22/E" }
+  },
+  "naspi_2026": {
+    "retribuzione_riferimento": 1456.72,
+    "massimale_mensile": 1584.70,
+    "decalage": "-3%/mese dal 6° mese (151° giorno), uniforme per età",
+    "anticipata_autoimprenditorialita": "70% + 30% (domande dal 2026-01-01)",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026; msg. INPS 1215/2026"
+  },
+  "previdenza_complementare_2026": {
+    "adesione_automatica_neoassunti": true,
+    "decorrenza": "2026-07-01",
+    "termine_scelta_diversa_giorni": 60,
+    "nota": "Iscrizione automatica all'assunzione per neoassunti settore privato; 60 giorni per mantenere TFR in azienda o scegliere altro fondo. Supera il silenzio-assenso a 6 mesi.",
+    "plafond_deducibilita": 5300.00,
+    "affidabilita": "CERTO",
+    "fonte": "Min. Lavoro/COVIP; L.199/2025; GU 148/2026"
+  },
+  "fringe_benefit_2026": { "esenzione_base": 1000, "esenzione_con_figli": 2000, "affidabilita": "CERTO", "fonte": "L.199/2025" },
+  "bonus_mamme_2026": { "importo_mensile": 60, "affidabilita": "CERTO", "fonte": "L.199/2025" },
+  "congedi_2026": {
+    "congedo_parentale_eta_figlio": 14,
+    "malattia_figlio_3_14_anni_giorni": 10,
+    "affidabilita": "CERTO",
+    "fonte": "LdB 2026; msg. INPS 251/2026"
+  },
+  "codice_cnel_busta": { "obbligatorio": true, "esclusi": "dirigenti", "decorrenza": "2026-05-01", "affidabilita": "CERTO", "fonte": "L.112/2026, GU 147" },
+  "pensione_vecchiaia_2027": { "requisito": "67 anni + 1 mese", "affidabilita": "CERTO", "fonte": "Circ. INPS 41/2026" }
+}
