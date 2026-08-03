@@ -1,17 +1,16 @@
 name: Sync newsletter payloads to GioIA
 
-# Si attiva ad ogni push che tocca un file ingest_payload*.json.
-# NOTA: questo repo viene talvolta aggiornato con una rigenerazione
-# completa (non solo commit incrementali), quindi NON ci si affida a
-# un diff tra commit — ad ogni esecuzione vengono inviati TUTTI i
-# payload presenti nel checkout. La deduplica per titolo, già attiva
-# lato server GioIA, scarta automaticamente quelli già pubblicati:
-# nessun doppione, indipendentemente da come è avvenuto il push.
+# Si attiva ad OGNI push su main, senza filtro sui path: un commit
+# vuoto ("trigger manuale") o che tocca solo altri file fa comunque
+# scattare l'invio. Ad ogni esecuzione vengono inviati TUTTI i payload
+# presenti nel checkout (il repo può anche essere rigenerato da zero,
+# non solo aggiornato incrementalmente). La deduplica per titolo, già
+# attiva lato server GioIA, scarta automaticamente quelli già
+# pubblicati: nessun doppione, indipendentemente da come è avvenuto
+# il push o da quanti file (ri)invia ogni volta.
 on:
   push:
     branches: [main]
-    paths:
-      - '*/ingest_payload_*.json'
 
 jobs:
   ingest:
