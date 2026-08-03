@@ -37,12 +37,15 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             echo "→ Invio $f"
-            HTTP_CODE=$(curl -sS -o /tmp/resp.json -w "%{http_code}" -X POST \
+            HTTP_CODE=$(curl -v -sS --connect-timeout 10 --max-time 30 -o /tmp/resp.json -w "%{http_code}" -X POST \
               "https://www.chiediagioia.it/api/newsletter/ingest" \
               -H "Authorization: Bearer $TOKEN" \
               -H "Content-Type: application/json" \
               -H "Accept: application/json" \
-              --data-binary "@$f")
+              --data-binary "@$f" 2>/tmp/curl_verbose.log || echo "CURL_FAILED")
+            echo "  --- curl verbose ---"
+            cat /tmp/curl_verbose.log
+            echo "  --------------------"
             echo "  HTTP $HTTP_CODE:"
             cat /tmp/resp.json
             echo ""
