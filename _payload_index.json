@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-03 10:10",
+  "aggiornato_il": "2026-08-03 16:03",
   "pubblicate": [
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
@@ -138,6 +138,30 @@
       "data_run": "2026-08-03",
       "ora_run": "1003",
       "file": "ingest_payload_2026-08-03_1003.json"
+    },
+    {
+      "chiave": "art. 23 dpr 600/1973 - conguaglio del sostituto d'imposta",
+      "titolo": "Conguaglio di fine anno: perché a dicembre la busta paga cambia",
+      "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta",
+      "data_run": "2026-08-03",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-03_1603.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - gratifica natalizia; art. 2099 c.c.; art. 13 tuir (detrazioni)",
+      "titolo": "Tredicesima: come si calcola e perché ci paghi più tasse",
+      "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.; art. 13 TUIR (detrazioni)",
+      "data_run": "2026-08-03",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-03_1603.json"
+    },
+    {
+      "chiave": "d.lgs. 66/2003 artt. 4-5 - orario di lavoro e straordinario",
+      "titolo": "Straordinari: quante ore puoi fare e quanto ti devono pagare in più",
+      "riferimento_normativo": "D.Lgs. 66/2003 artt. 4-5 - orario di lavoro e straordinario",
+      "data_run": "2026-08-03",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-03_1603.json"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-03",
+  "notizie": [
+    {
+      "titolo": "Conguaglio di fine anno: perché a dicembre la busta paga cambia",
+      "testo": "Ogni mese il tuo datore di lavoro trattiene l'IRPEF in via provvisoria. Ma è solo a fine anno che i conti si chiudono davvero: è il conguaglio fiscale.\n\nA dicembre il datore, in qualità di sostituto d'imposta, somma tutti i redditi che hai percepito da gennaio a dicembre, ricalcola l'IRPEF dovuta in base al reddito complessivo e alle detrazioni che ti spettano, e la confronta con le ritenute già versate durante l'anno. Da questo confronto può uscire un rimborso (se hai pagato più del dovuto) oppure una trattenuta (se hai pagato meno).\n\nPerché capita uno scostamento? Le cause più comuni: variazioni di stipendio nel corso dell'anno, cambi di detrazioni (un figlio che smette di essere a carico, per esempio), premi o arretrati, o un secondo rapporto di lavoro. In busta lo vedi come voce \"conguaglio IRPEF\".\n\nLa legge fissa l'obbligo di conguaglio entro il 28 febbraio dell'anno successivo, ma nella pratica quasi tutte le aziende lo effettuano già sul cedolino di dicembre. Se la trattenuta è alta, può essere ripartita anche sui mesi seguenti.\n\nGioIA controlla il tuo cedolino di dicembre e verifica che il conguaglio sia coerente con i redditi e le detrazioni dell'anno, così sai se quel rimborso (o quella trattenuta) è corretto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta",
+      "fonte_url": "https://www.pmi.it/economia/lavoro/348063/conguaglio-fine-anno-in-busta-paga-regole-e-scadenze.html"
+    },
+    {
+      "titolo": "Tredicesima: come si calcola e perché ci paghi più tasse",
+      "testo": "La tredicesima è una mensilità aggiuntiva prevista dai contratti collettivi, di solito pagata a dicembre. Si matura durante l'anno: in linea generale spetta un dodicesimo per ogni mese di lavoro. Se hai lavorato tutto l'anno a tempo pieno, la tredicesima è pari a una mensilità; se sei entrato a metà anno o lavori part-time, viene proporzionata.\n\nIl punto che sorprende molti: sulla tredicesima paghi più tasse rispetto a una busta normale. Il motivo non è un'aliquota più alta, ma l'assenza delle detrazioni. Le detrazioni da lavoro dipendente (art. 13 TUIR) vengono infatti distribuite sulle mensilità ordinarie: quando arriva la tredicesima, su quella somma si applica l'IRPEF piena, senza lo sconto delle detrazioni. Restano invece i contributi INPS (9,19% a tuo carico) e, salvo casi particolari, non si applicano le addizionali regionali e comunali, che seguono un calcolo annuale a parte.\n\nRisultato: il netto della tredicesima è più basso, in percentuale, rispetto allo stipendio mensile. È normale, non è un errore.\n\nGioIA legge la voce tredicesima del tuo cedolino e verifica che l'importo maturato e la tassazione applicata siano corretti in base alla tua anzianità e al tuo CCNL.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.; art. 13 TUIR (detrazioni)",
+      "fonte_url": "https://www.calcolatorifiscali.it/guide/tredicesima-quattordicesima-come-vengono-tassate"
+    },
+    {
+      "titolo": "Straordinari: quante ore puoi fare e quanto ti devono pagare in più",
+      "testo": "Lo straordinario è il lavoro svolto oltre il normale orario. La legge (D.Lgs. 66/2003) lo considera eccezionale e fissa alcuni paletti chiari.\n\nIl limite generale è di 250 ore di straordinario all'anno per lavoratore, ma vale solo in assenza di regole diverse del contratto collettivo: molti CCNL alzano l'asticella (in alcuni settori fino a 300-400 ore) per far fronte ai picchi di lavoro. C'è poi un secondo tetto: la media di 48 ore settimanali (orario ordinario più straordinario) calcolata su un periodo di riferimento, di norma quattro mesi, estendibile dalla contrattazione.\n\nSul fronte paga, le ore di straordinario vanno retribuite con una maggiorazione rispetto alla paga oraria ordinaria. La percentuale non è fissata dalla legge ma dal tuo CCNL, e cambia a seconda che lo straordinario sia diurno, notturno o festivo. In busta le ore extra devono comparire come voce separata, con la relativa maggiorazione.\n\nUn dettaglio che conviene ricordare: dal 2026, entro certi limiti, alcune maggiorazioni per lavoro notturno, festivo e a turni godono di una tassazione agevolata al 15%.\n\nGioIA verifica che le ore di straordinario in busta siano conteggiate a parte e che la maggiorazione applicata rispetti quella prevista dal tuo contratto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.Lgs. 66/2003 artt. 4-5 - orario di lavoro e straordinario",
+      "fonte_url": "https://www.laleggepertutti.it/731849_lavoro-straordinario-regole-limiti-rifiuto-e-retribuzione"
+    }
+  ]
+}
