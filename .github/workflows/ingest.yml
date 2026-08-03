@@ -25,7 +25,7 @@ jobs:
           TOKEN: ${{ secrets.NEWSLETTER_INGEST_TOKEN }}
         run: |
           set -e
-          FILES=$(find . -maxdepth 2 -type f -name 'ingest_payload_*.json' | sed 's|^\./||' | sort)
+          FILES=$(find . -type f -name 'ingest_payload_*.json' | sed 's|^\./||' | sort)
           if [ -z "$FILES" ]; then
             echo "Nessun payload trovato."
             exit 0
