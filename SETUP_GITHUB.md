@@ -2,6 +2,8 @@
 
 Cartella dei risultati = **`D:\gioia-laravel\aggiornamenti`** → repo **https://github.com/gianix81/gioianews**
 
+> **Ruolo del repo: ARCHIVIO/cronologia.** L'invio dei post alla newsletter avviene dal **ponte locale** `sync-newsletter-ingest.ps1` (Task Scheduler, ogni 15 min), non da GitHub. Questo push serve solo a conservare lo storico dei risultati. I due meccanismi sono indipendenti e non entrano in conflitto.
+
 ## 1. Cancella il `.git` incompleto lasciato dall'automazione
 Apri **PowerShell** e incolla:
 

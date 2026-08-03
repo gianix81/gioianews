@@ -1,0 +1,31 @@
+{
+  "schema": "gioia-parametri-calcolo",
+  "data": "2026-08-03",
+  "run": "1003",
+  "note": "Valori 2026 confermati/carryover. Estremi normativi da riscontrare su fonte ufficiale prima dell'uso in produzione.",
+  "parametri": [
+    { "voce": "IRPEF_scaglioni", "valore": "23% fino a 28.000; 33% 28.001-50.000; 43% oltre 50.000", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "no_tax_area_dipendenti", "valore": 8500.00, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 13 TUIR" },
+    { "voce": "cuneo_esenzione_fino", "valore": 20000.00, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "cuneo_detrazione_fascia", "valore": "20.001-40.000", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "detassazione_premi", "valore": "1%", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "detassazione_aumenti_ccnl", "valore": "5% (redditi fino a 33.000)", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 199/2025; Circ. AdE 2/2026, 3/E" },
+    { "voce": "detassazione_notturno_festivo_turni", "valore": "15%", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 199/2025; Circ. AdE 2/2026, 3/E" },
+    { "voce": "fringe_benefit_buoni_pasto", "valore": "elettronici 10,00; cartacei 4,00 (esenti)", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "inps_lavoratore_IVS", "valore": "9,19% (+1% oltre prima fascia)", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS contribuzione 2026" },
+    { "voce": "inps_datore_IVS", "valore": "23,81% (IVS complessiva 33%)", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "prassi INPS" },
+    { "voce": "addizionale_regionale", "valore": "0,70%-3,33% (base 1,23%)", "decorrenza": "rate 2026 su redditi 2025", "affidabilita": "CERTO", "fonte": "D.Lgs. 360/1998" },
+    { "voce": "addizionale_comunale", "valore": "max 0,80%", "decorrenza": "acconto+saldo 2026", "affidabilita": "CERTO", "fonte": "L. 42/2009" },
+    { "voce": "plafond_deducibilita_prev_compl", "valore": 5300.00, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "fondi_pensione_quota_capitale_max", "valore": "50% del montante", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "L. 112/2026" },
+    { "voce": "tfr_finestra_straordinaria_1sem2026", "valore": "conferibilita quote gen-giu 2026 a fondi senza consenso datore", "decorrenza": "2026-07-01 (temporanea)", "affidabilita": "CERTO", "fonte": "L. 112/2026" },
+    { "voce": "tfr_anticipazione", "valore": "8 anni anzianita; max 70% del maturato; una volta; causali spese sanitarie/prima casa", "decorrenza": "vigente", "affidabilita": "CERTO", "fonte": "art. 2120 c.c." },
+    { "voce": "naspi_riferimento_massimale_decalage", "valore": "1.456,72 rif.; 1.584,70 massimale; -3%/mese dal 6°", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+    { "voce": "massimale_cig", "valore": 1423.69, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+    { "voce": "inail_minimale_massimale_rendita", "valore": "20.712,30 / 38.465,70", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Circ. INAIL 35/2026" },
+    { "voce": "tfr_coeff_rivalutazione", "valore": "2,786543%", "decorrenza": "luglio 2026 (rif. maggio 2026)", "affidabilita": "CERTO", "fonte": "ISTAT; CDL" },
+    { "voce": "tfr_portabilita_posizioni", "valore": "rinvio a 01/10/2026", "decorrenza": "2026-10-01", "affidabilita": "IN_ITER", "fonte": "L. 50/2026" },
+    { "voce": "esonero_madri_3figli", "valore": "100% c/datore, max 8.000/anno", "decorrenza": "2026-07-29", "affidabilita": "CERTO", "fonte": "Circ. INPS 82/2026" },
+    { "voce": "incentivo_stabilizzazione_under35", "valore": "100% c/datore, max 500/mese, max 24 mesi", "decorrenza": "2026-08-01 / 2026-12-31", "affidabilita": "CERTO", "fonte": "art. 4 DL 62/2026 conv. L. 112/2026; Circ. INPS 72/2026" }
+  ]
+}

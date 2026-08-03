@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-03 06:20",
+  "aggiornato_il": "2026-08-03 10:10",
   "pubblicate": [
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
@@ -114,6 +114,30 @@
       "data_run": "2026-08-02",
       "ora_run": "2116",
       "file": "ingest_payload_2026-08-02_2116.json"
+    },
+    {
+      "chiave": "d.lgs. 360/1998 e l. 42/2009 - addizionali irpef",
+      "titolo": "Ad agosto il netto scende? Ecco le addizionali regionali e comunali",
+      "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF",
+      "data_run": "2026-08-03",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-03_1003.json"
+    },
+    {
+      "chiave": "aliquota contributiva ivs lavoratore dipendente 9,19%",
+      "titolo": "Quel 9,19% trattenuto ogni mese: dove finiscono i tuoi contributi",
+      "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%",
+      "data_run": "2026-08-03",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-03_1003.json"
+    },
+    {
+      "chiave": "art. 2120 c.c. commi 6-9 - anticipazione tfr",
+      "titolo": "TFR: quando puoi chiedere un anticipo (e quanto ti spetta)",
+      "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR",
+      "data_run": "2026-08-03",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-03_1003.json"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-03",
+  "notizie": [
+    {
+      "titolo": "Ad agosto il netto scende? Ecco le addizionali regionali e comunali",
+      "testo": "Se la tua busta di agosto è più leggera, spesso la causa sono le addizionali IRPEF. Sono due imposte locali distinte dall'IRPEF statale: l'addizionale regionale e l'addizionale comunale. Si calcolano sullo stesso reddito su cui paghi l'IRPEF, ma le aliquote le decidono Regione e Comune del tuo domicilio fiscale.\n\nCome le riconosci in busta? Compaiono come due voci separate: \"addizionale regionale IRPEF\" e \"addizionale comunale IRPEF\". Non si pagano in un colpo solo: la regionale relativa all'anno precedente viene trattenuta in massimo 11 rate, da gennaio a novembre; la comunale prevede un acconto durante l'anno e un saldo che tipicamente parte da luglio, insieme al conguaglio IRPEF. Ecco perché tra luglio e agosto molti vedono il netto calare.\n\nQuanto pesano? La regionale varia da regione a regione entro i limiti di legge (in molte regioni intorno all'1,23%, con il minimo del Friuli-Venezia Giulia allo 0,70%); la comunale può arrivare fino allo 0,80%. Su un reddito di 25.000 euro, una regionale all'1,23% fa circa 307 euro l'anno, cioè quasi 28 euro al mese spalmati sulle rate.\n\nGioIA legge il tuo cedolino e verifica che le addizionali trattenute siano coerenti con il tuo reddito e con le aliquote del tuo Comune e della tua Regione, così sai se il calo del netto è normale o se c'è qualcosa da controllare.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF",
+      "fonte_url": "https://www.money.it/addizionali-comunali-regionali-2026-cosa-sono-come-si-calcolano"
+    },
+    {
+      "titolo": "Quel 9,19% trattenuto ogni mese: dove finiscono i tuoi contributi",
+      "testo": "In ogni busta paga trovi una trattenuta per i contributi previdenziali: per il lavoratore dipendente del settore privato è il 9,19% della retribuzione lorda. Spesso compare come \"contributi c/dipendente\" o con la sigla IVS (Invalidità, Vecchiaia, Superstiti).\n\nMa attenzione: quel 9,19% è solo la tua quota. Il datore di lavoro versa un ulteriore 23,81%, per un totale del 33% che finanzia la tua futura pensione. In pratica per ogni mese di lavoro accantoni contributi molto più alti di quello che vedi trattenuto in busta.\n\nUn esempio concreto: con un lordo di 2.500 euro al mese, a te vengono trattenuti 229,75 euro (2.500 × 9,19%), mentre l'azienda ne versa altri 595,25, per 825 euro complessivi di contributi. La base di calcolo è la retribuzione lorda e comprende anche tredicesima, quattordicesima, straordinari e indennità. C'è poi un +1% aggiuntivo a tuo carico sulla parte di stipendio che supera una certa fascia annua.\n\nGioIA controlla che l'aliquota applicata sul tuo cedolino sia corretta e che la trattenuta contributiva corrisponda davvero al tuo imponibile, così eviti errori che si ripercuoterebbero sulla tua posizione previdenziale.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%",
+      "fonte_url": "https://www.randstad.it/blog-e-news/diritti-dei-lavoratori/contributo-ivs/"
+    },
+    {
+      "titolo": "TFR: quando puoi chiedere un anticipo (e quanto ti spetta)",
+      "testo": "Il TFR (trattamento di fine rapporto) non è solo una somma che ricevi quando lasci il lavoro: in alcuni casi puoi chiederne un anticipo mentre sei ancora in azienda. Lo prevede l'articolo 2120 del Codice Civile, con regole precise.\n\nI requisiti: devi avere almeno 8 anni di anzianità presso lo stesso datore di lavoro. L'anticipo può essere richiesto una sola volta durante il rapporto e non può superare il 70% di quanto hai maturato fino a quel momento.\n\nLe causali ammesse dalla legge sono due: spese sanitarie per terapie o interventi straordinari riconosciuti dalle strutture pubbliche competenti; acquisto della prima casa di abitazione, per te o per i tuoi figli, documentato con atto notarile. La contrattazione collettiva può aggiungere altre causali (ad esempio congedi o spese per la formazione).\n\nUn limite da conoscere: l'azienda è tenuta ad accogliere le richieste solo entro il 10% degli aventi diritto e comunque non oltre il 4% del totale dei dipendenti in ciascun anno. Oltre quelle soglie l'anticipo diventa una concessione, non un diritto.\n\nGioIA ti aiuta a leggere la quota di TFR maturata indicata nel cedolino e a capire se e quando puoi far valere il diritto all'anticipazione.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR",
+      "fonte_url": "https://www.brocardi.it/codice-civile/libro-quinto/titolo-ii/capo-i/sezione-iii/art2120.html"
+    }
+  ]
+}
