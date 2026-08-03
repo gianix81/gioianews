@@ -1,0 +1,56 @@
+name: Sync newsletter payloads to GioIA
+
+# Si attiva ad ogni push che tocca un file ingest_payload*.json.
+# NOTA: questo repo viene talvolta aggiornato con una rigenerazione
+# completa (non solo commit incrementali), quindi NON ci si affida a
+# un diff tra commit — ad ogni esecuzione vengono inviati TUTTI i
+# payload presenti nel checkout. La deduplica per titolo, già attiva
+# lato server GioIA, scarta automaticamente quelli già pubblicati:
+# nessun doppione, indipendentemente da come è avvenuto il push.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*/ingest_payload_*.json'
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Invia tutti i payload presenti a GioIA
+        env:
+          TOKEN: ${{ secrets.NEWSLETTER_INGEST_TOKEN }}
+        run: |
+          set -e
+          FILES=$(find . -maxdepth 2 -type f -name 'ingest_payload_*.json' | sed 's|^\./||' | sort)
+          if [ -z "$FILES" ]; then
+            echo "Nessun payload trovato."
+            exit 0
+          fi
+          echo "File trovati:"
+          echo "$FILES"
+          echo ""
+
+          FAILED=0
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            echo "→ Invio $f"
+            HTTP_CODE=$(curl -sS -o /tmp/resp.json -w "%{http_code}" -X POST \
+              "https://www.chiediagioia.it/api/newsletter/ingest" \
+              -H "Authorization: Bearer $TOKEN" \
+              -H "Content-Type: application/json" \
+              -H "Accept: application/json" \
+              --data-binary "@$f")
+            echo "  HTTP $HTTP_CODE:"
+            cat /tmp/resp.json
+            echo ""
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "::error file=$f::Invio fallito (HTTP $HTTP_CODE)"
+              FAILED=1
+            fi
+          done <<< "$FILES"
+
+          exit $FAILED
