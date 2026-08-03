@@ -7,3 +7,6 @@ desktop.ini
 
 # Marcatori del ponte esterno (stato di invio locale, non utili nella repo)
 *.sent
+
+# Log locale dello script di sync
+_git_sync.log

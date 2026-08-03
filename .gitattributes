@@ -1,0 +1,6 @@
+# Normalizza i fine-riga: nel repo restano LF, niente avvisi CRLF ad ogni add.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
