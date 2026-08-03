@@ -44,8 +44,8 @@ git add -A 2>&1 | Out-Null
 git diff --cached --quiet
 if ($LASTEXITCODE -ne 0) {
     $msg = "Aggiornamento automatico GioIA " + (Get-Date -Format "yyyy-MM-dd HH:mm")
-    git commit -m $msg 2>&1 | Tee-Object -FilePath $log -Append | Out-Null
-    git push origin main 2>&1 | Tee-Object -FilePath $log -Append
+    cmd /c "git commit -m ""$msg"" >> ""$log"" 2>&1"
+    cmd /c "git push origin main >> ""$log"" 2>&1"
     if ($LASTEXITCODE -eq 0) {
         "[$ts] push OK" | Out-File -FilePath $log -Append -Encoding utf8
         Write-Host "[gioianews] Push completato."
