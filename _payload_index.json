@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-04 16:06",
+  "aggiornato_il": "2026-08-04 2003",
   "pubblicate": [
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
@@ -258,6 +258,30 @@
       "data_run": "2026-08-04",
       "ora_run": "1604",
       "file": "ingest_payload_2026-08-04_1604.json"
+    },
+    {
+      "chiave": "circolare inps n. 75 del 17/07/2026",
+      "titolo": "Malattia e maternità 2026: l'INPS aggiorna i limiti dell'indennità",
+      "riferimento_normativo": "Circolare INPS n. 75 del 17/07/2026",
+      "data_run": "2026-08-04",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-04_2003.json"
+    },
+    {
+      "chiave": "art. 13 tuir - no tax area lavoro dipendente 2026",
+      "titolo": "Guadagni fino a 8.500 euro l'anno? Non paghi IRPEF: la no tax area",
+      "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - no tax area lavoro dipendente 2026",
+      "data_run": "2026-08-04",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-04_2003.json"
+    },
+    {
+      "chiave": "l. 203/2024 (collegato lavoro); circolare inps n. 154 del 22/12/2025 - dimissioni per fatti concludenti",
+      "titolo": "Sparire dal lavoro non conviene: le dimissioni per fatti concludenti",
+      "riferimento_normativo": "L. 203/2024 (Collegato Lavoro); Circolare INPS n. 154 del 22/12/2025",
+      "data_run": "2026-08-04",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-04_2003.json"
     }
   ]
 }

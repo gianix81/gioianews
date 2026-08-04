@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-04",
+  "notizie": [
+    {
+      "titolo": "Malattia e maternità 2026: l'INPS aggiorna i limiti dell'indennità",
+      "testo": "Quando ti assenti per malattia o maternità, una parte dello stipendio non la paga più il datore ma l'INPS: è l'indennità, che ti trovi anticipata in busta paga e poi conguagliata. Con la Circolare n. 75 del 17 luglio 2026 l'Istituto ha aggiornato per il 2026 i limiti di retribuzione su cui questa indennità viene calcolata.\n\nI numeri chiave: il massimale annuo dell'indennità è fissato a 43.486,00 euro, con un tetto giornaliero di 119,14 euro. Questi stessi valori valgono anche come limite della retribuzione \"figurativa\", cioè quella che ti viene accreditata ai fini pensionistici durante i periodi di assenza tutelata, con un tetto settimanale di 836,27 euro.\n\nIn pratica: se sei un dipendente con stipendio nella media, l'indennità copre una percentuale della tua retribuzione (varia per malattia, maternità e categoria). Questi massimali servono a stabilire il valore massimo su cui si applica la percentuale, così l'importo che vedi in busta durante l'assenza è calcolato su parametri ufficiali aggiornati.\n\nGioIA controlla che, nei mesi con malattia o maternità, la quota di indennità esposta nel tuo cedolino sia coerente con i limiti INPS 2026: carica la busta e verifica se i conti tornano.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Circolare INPS n. 75 del 17/07/2026",
+      "fonte_url": "https://www.fiscoetasse.com/normativa-prassi/13570-malattia-maternita-inps-2026-tutti-gli-importi-aggiornati.html"
+    },
+    {
+      "titolo": "Guadagni fino a 8.500 euro l'anno? Non paghi IRPEF: la no tax area",
+      "testo": "Esiste una soglia di reddito sotto la quale, da lavoratore dipendente, non versi un euro di IRPEF: è la cosiddetta \"no tax area\". Nel 2026 per i dipendenti è fissata a circa 8.500 euro di reddito annuo, allineata a quella dei pensionati.\n\nCome funziona il meccanismo? Non è un'esenzione automatica, ma il risultato delle detrazioni da lavoro dipendente previste dall'articolo 13 del TUIR. Su un reddito di 8.500 euro l'IRPEF lorda al 23% sarebbe 1.955 euro; la detrazione da lavoro dipendente, salita fino a 1.955 euro, azzera esattamente quell'imposta. Risultato: imposta netta pari a zero.\n\nCosa significa in busta paga: se il tuo reddito annuo resta entro quella soglia, nel cedolino non dovresti vedere trattenute IRPEF (restano invece i contributi INPS a tuo carico, il 9,19%, che seguono regole diverse). Attenzione: la no tax area ragiona sul reddito annuo complessivo, non sul singolo mese, quindi mensilità più alte (come la tredicesima) possono spostare il conteggio.\n\nGioIA legge le detrazioni e l'IRPEF applicata sul tuo cedolino e ti segnala se qualcosa non quadra con la tua fascia di reddito.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - no tax area lavoro dipendente 2026",
+      "fonte_url": "https://www.fiscomania.com/no-tax-area-chi-non-paga-le-tasse/"
+    },
+    {
+      "titolo": "Sparire dal lavoro non conviene: le dimissioni per fatti concludenti",
+      "testo": "Da tempo, se smetti semplicemente di presentarti al lavoro senza giustificazione, non sei più un lavoratore \"in attesa\": rischi le dimissioni per fatti concludenti. La regola, introdotta dalla Legge n. 203/2024 (Collegato Lavoro) e chiarita dalla Circolare INPS n. 154 del 22 dicembre 2025, stabilisce che l'assenza ingiustificata protratta oltre il termine previsto dal tuo CCNL - o, se il contratto non dice nulla, oltre 15 giorni - fa considerare il rapporto risolto per tua volontà.\n\nPerché è importante saperlo: la cessazione con causale \"FC\" (dimissioni per fatti concludenti) NON è una perdita involontaria del lavoro. Di conseguenza, di regola, ti preclude l'accesso alla NASpI, l'indennità di disoccupazione. Chi \"sparisce\" per evitare il preavviso rischia quindi di restare senza ammortizzatore sociale.\n\nLa via corretta resta sempre quella delle dimissioni telematiche, tramite il portale del Ministero del Lavoro: è l'unico modo per chiudere il rapporto in modo tracciato e senza brutte sorprese sul cedolino finale (competenze di fine rapporto, TFR, ratei).\n\nGioIA ti aiuta a leggere la busta paga di cessazione e a verificare che TFR, ratei di tredicesima e ferie residue siano calcolati correttamente.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "L. 203/2024 (Collegato Lavoro); Circolare INPS n. 154 del 22/12/2025",
+      "fonte_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa.html"
+    }
+  ]
+}
