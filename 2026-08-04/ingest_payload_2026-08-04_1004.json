@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-04",
+  "notizie": [
+    {
+      "titolo": "Quattordicesima: chi ce l'ha e come si matura mese per mese",
+      "testo": "Non tutti i lavoratori ricevono la quattordicesima: dipende dal contratto collettivo (CCNL) applicato. È prevista tipicamente nel commercio e terziario, nel turismo e pubblici esercizi, nella vigilanza privata. Se lavori con uno di questi contratti, ogni anno a giugno/luglio trovi in busta una mensilità aggiuntiva oltre alla tredicesima.\n\nCome si matura? Per ratei mensili, di solito da luglio dell'anno precedente a giugno di quello in corso. Ogni mese lavorato per intero (con almeno 15 giorni) vale 1/12 della mensilità: se hai lavorato tutto il periodo, prendi la quattordicesima piena; se sei stato assunto a metà anno, prendi la quota proporzionale ai mesi maturati. Restano fuori dal calcolo voci come straordinari e rimborsi spese.\n\nAttenzione a due cose in busta: la quattordicesima è imponibile IRPEF come una normale retribuzione, ma su di essa non spettano le detrazioni mensili da lavoro dipendente, quindi la tassazione netta risulta più pesante rispetto a una mensilità ordinaria. Inoltre non tutti i contratti la prevedono: nel CCNL Metalmeccanici, ad esempio, non c'è.\n\nGioIA legge il tuo cedolino e verifica se la quattordicesima corrisposta è coerente con il CCNL applicato, con la tua anzianità e con i mesi effettivamente maturati, così sai se l'importo è corretto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Contrattazione collettiva - quattordicesima (gratifica); art. 2099 c.c.",
+      "fonte_url": "https://fiscomania.com/quattordicesima-2/"
+    },
+    {
+      "titolo": "Periodo di comporto: quanto puoi stare in malattia senza rischiare il posto",
+      "testo": "Quando ti ammali, la legge ti protegge: durante la malattia il rapporto di lavoro è sospeso e il datore non può licenziarti per la sola assenza. Questa tutela dura per un arco di tempo preciso, chiamato periodo di comporto, previsto dall'articolo 2110 del Codice Civile.\n\nLa regola generale la fissa la legge, ma la durata concreta la stabilisce il tuo CCNL: varia da settore a settore e spesso aumenta con l'anzianità di servizio. In molti contratti il comporto si aggira intorno ai mesi, con estensioni per patologie gravi documentate. Finché non superi questo limite, il posto è garantito; una volta superato, il datore può recedere concedendo il preavviso previsto dal contratto. Restano sempre possibili, a parte, il licenziamento per giusta causa o giustificato motivo.\n\nPerché ti riguarda in busta paga? Durante la malattia ricevi l'indennità (in parte a carico INPS, in parte integrata dal datore secondo il CCNL), con i primi giorni di carenza che seguono regole specifiche. Tenere il conto dei giorni di assenza è importante proprio per sapere a che punto sei rispetto al comporto.\n\nGioIA analizza le voci di malattia sul tuo cedolino e ti aiuta a capire come vengono calcolate indennità e integrazioni secondo il contratto che ti viene applicato.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 2110 c.c. - periodo di comporto; CCNL applicato",
+      "fonte_url": "https://www.wikilabour.it/dizionario/licenziamento-e-dimissioni/periodo-di-comporto-comporto-per-malattia/"
+    },
+    {
+      "titolo": "Perché in busta ci sono due imponibili diversi (fiscale e previdenziale)",
+      "testo": "Guardando il cedolino con attenzione noti due basi di calcolo che non coincidono: l'imponibile previdenziale e l'imponibile fiscale. Non è un errore: servono a cose diverse.\n\nL'imponibile previdenziale è la base su cui si calcolano i contributi INPS a tuo carico (l'aliquota IVS del 9,19%). Si parte dalla retribuzione lorda e comprende gran parte delle voci retributive.\n\nL'imponibile fiscale è la base su cui si calcola l'IRPEF. Si ottiene partendo dal lordo e sottraendo, tra l'altro, proprio i contributi previdenziali a tuo carico: per questo l'imponibile fiscale è di solito più basso di quello previdenziale. In pratica prima si tolgono i contributi, poi su quello che resta si applica l'IRPEF con gli scaglioni e si scalano le detrazioni.\n\nCapire questa differenza spiega perché non basta moltiplicare il lordo per un'aliquota per ottenere il netto: il percorso passa prima dai contributi (che riducono la base fiscale) e poi dalle imposte. Alcune voci, inoltre, seguono regole particolari e possono entrare in un imponibile ma non nell'altro.\n\nGioIA ricostruisce per te i due imponibili a partire dal cedolino e verifica che contributi e IRPEF siano calcolati sulle basi corrette, segnalando eventuali incongruenze.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "TUIR (DPR 917/1986) e normativa contributiva - basi imponibili fiscale e previdenziale; aliquota IVS 9,19%",
+      "fonte_url": "https://centrofiscale.com/contributi-inps-busta-paga-2026/"
+    }
+  ]
+}

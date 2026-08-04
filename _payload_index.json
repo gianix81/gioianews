@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-04 06:05",
+  "aggiornato_il": "2026-08-04 10:06",
   "pubblicate": [
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
@@ -210,6 +210,30 @@
       "data_run": "2026-08-04",
       "ora_run": "0605",
       "file": "ingest_payload_2026-08-04_0605.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - quattordicesima (gratifica); art. 2099 c.c.",
+      "titolo": "Quattordicesima: chi ce l'ha e come si matura mese per mese",
+      "riferimento_normativo": "Contrattazione collettiva - quattordicesima (gratifica); art. 2099 c.c.",
+      "data_run": "2026-08-04",
+      "ora_run": "1004",
+      "file": "ingest_payload_2026-08-04_1004.json"
+    },
+    {
+      "chiave": "art. 2110 c.c. - periodo di comporto; ccnl applicato",
+      "titolo": "Periodo di comporto: quanto puoi stare in malattia senza rischiare il posto",
+      "riferimento_normativo": "Art. 2110 c.c. - periodo di comporto; CCNL applicato",
+      "data_run": "2026-08-04",
+      "ora_run": "1004",
+      "file": "ingest_payload_2026-08-04_1004.json"
+    },
+    {
+      "chiave": "tuir e normativa contributiva - basi imponibili fiscale e previdenziale; aliquota ivs 9,19%",
+      "titolo": "Perché in busta ci sono due imponibili diversi (fiscale e previdenziale)",
+      "riferimento_normativo": "TUIR (DPR 917/1986) e normativa contributiva - basi imponibili fiscale e previdenziale; aliquota IVS 9,19%",
+      "data_run": "2026-08-04",
+      "ora_run": "1004",
+      "file": "ingest_payload_2026-08-04_1004.json"
     }
   ]
 }
