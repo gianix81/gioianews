@@ -1,0 +1,98 @@
+{
+  "schema": "gioia-parametri-calcolo",
+  "data": "2026-08-04",
+  "run": "0605",
+  "note": "Parametri correnti busta paga 2026. Identici alla run 2026-08-03 h2003 (nessuna variazione). Ogni valore va riscontrato su fonte ufficiale prima dell'uso in produzione.",
+  "irpef": {
+    "scaglioni": [
+      { "da": 0, "a": 28000, "aliquota": 0.23 },
+      { "da": 28000, "a": 50000, "aliquota": 0.33 },
+      { "da": 50000, "a": null, "aliquota": 0.43 }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025"
+  },
+  "cuneo_fiscale": {
+    "somma_esente_fino_a": 20000,
+    "detrazione_fascia": { "da": 20001, "a": 40000 },
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025"
+  },
+  "contributi": {
+    "inps_lavoratore_ivs": 0.0919,
+    "aliquota_aggiuntiva_1pct_oltre_prima_fascia": true,
+    "affidabilita": "CERTO",
+    "fonte": "Circolare contribuzione INPS 2026"
+  },
+  "addizionali": {
+    "regionale_range": "0,70%-3,33% (base 1,23%)",
+    "comunale_max": 0.008,
+    "affidabilita": "CERTO",
+    "fonte": "D.Lgs. 360/1998; L. 42/2009"
+  },
+  "previdenza_complementare": {
+    "plafond_deducibilita_annuo": 5300,
+    "quota_max_capitale_montante": 0.50,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "Manovra 2026; DL 62/2026 conv. L. 112/2026"
+  },
+  "tfr": {
+    "coeff_rivalutazione": 0.02786543,
+    "coeff_rivalutazione_rif": "maggio 2026",
+    "tassazione_in_azienda": "tassazione separata, aliquota media IRPEF ultimi 5 anni, minimo 23%",
+    "tassazione_nel_fondo": "sostitutiva 15% -> 9% (0,30%/anno oltre il 15°, min dopo 35 anni)",
+    "anticipazione": { "anzianita_min_anni": 8, "max_percentuale": 0.70 },
+    "affidabilita": "CERTO",
+    "fonte": "art. 2120 c.c.; D.Lgs. 252/2005; ISTAT; L. 112/2026"
+  },
+  "malattia": {
+    "carenza_giorni": 3,
+    "carenza_a_carico": "datore",
+    "affidabilita": "CERTO",
+    "fonte": "prassi INPS; CCNL applicato"
+  },
+  "scatti_anzianita": {
+    "numero_massimo_tipico": "5-12 secondo CCNL",
+    "affidabilita": "CERTO",
+    "fonte": "contrattazione collettiva (CCNL applicato)"
+  },
+  "orario": {
+    "straordinario_limite_legale_ore_anno": 250,
+    "affidabilita": "CERTO",
+    "fonte": "D.Lgs. 66/2003 art. 5"
+  },
+  "permessi_104": {
+    "giorni_mese": 3,
+    "retribuzione": "100% a carico INPS (anticipata dal datore)",
+    "affidabilita": "CERTO",
+    "fonte": "L. 104/1992 art. 33 c.3"
+  },
+  "naspi": {
+    "massimale_mensile": 1584.70,
+    "decalage": "-3%/mese dal 6° mese",
+    "anno": 2026,
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS 4/2026"
+  },
+  "inail": {
+    "minimale_rendita": 20712.30,
+    "massimale_rendita": 38465.70,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INAIL 35/2026"
+  },
+  "esoneri": {
+    "madri_3_figli": { "esonero": "100% c/datore", "max_annuo": 8000, "decorrenza": "2026-07-29", "fonte": "Circ. INPS 82/2026" },
+    "under_35_stabilizzazione": { "esonero": "100% c/datore", "max_mensile": 500, "durata_mesi": 24, "decorrenza": "2026-08-01/12-31", "fonte": "art. 4 DL 62/2026; Circ. INPS 72/2026" }
+  },
+  "codice_cnel_busta": {
+    "obbligo": true,
+    "decorrenza": "2026-05-01",
+    "affidabilita": "CERTO",
+    "fonte": "art. 11 c.2 DL 62/2026 conv. L. 112/2026 (mod. art. 1 L. 4/1953)"
+  }
+}

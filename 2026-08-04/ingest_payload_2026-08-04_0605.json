@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-04",
+  "notizie": [
+    {
+      "titolo": "TFR in azienda o nel fondo pensione: la differenza è nelle tasse",
+      "testo": "Ogni mese metti da parte una quota di TFR (trattamento di fine rapporto): in pratica una parte del tuo stipendio che ti verrà liquidata quando lasci il lavoro. Ma dove finisce quel TFR fa una grande differenza su quanto ne incassi davvero, per via delle tasse.\n\nSe lasci il TFR in azienda, ogni anno viene accantonato (in sostanza la retribuzione lorda annua divisa per 13,5) e rivalutato: 1,5% fisso più il 75% dell'inflazione. Quando lo ritiri, viene tassato con la \"tassazione separata\", cioè l'aliquota media IRPEF dei tuoi ultimi anni, con un minimo del 23% che può salire parecchio.\n\nSe invece destini il TFR a un fondo pensione (D.Lgs. 252/2005), la tassazione finale è molto più leggera: si parte dal 15% e scende dello 0,30% per ogni anno di adesione oltre il quindicesimo, fino a un minimo del 9% dopo 35 anni. Su montanti importanti la differenza può valere diverse migliaia di euro.\n\nNon esiste una scelta giusta per tutti: il fondo pensione offre un vantaggio fiscale e un possibile rendimento, ma vincola le somme fino alla pensione (salvo anticipazioni per casa, spese sanitarie o dopo 8 anni). Il TFR in azienda resta più \"a portata di mano\". La scelta è personale e, di norma, va fatta entro 6 mesi dall'assunzione.\n\nCome ti aiuta GioIA: dal tuo cedolino, GioIA individua la quota di TFR accantonata e la sua destinazione, così puoi verificare che l'importo mensile sia coerente con la tua retribuzione e capire dove sta andando il tuo trattamento di fine rapporto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.Lgs. 252/2005 - destinazione e tassazione del TFR; art. 2120 c.c.",
+      "fonte_url": "https://www.money.it/tassazione-fondi-pensione-2026-guida-completa"
+    },
+    {
+      "titolo": "Scatti di anzianità: quegli aumenti che arrivano col tempo",
+      "testo": "Tra le voci della busta paga può comparire, dopo un po' di anni nella stessa azienda, la dicitura \"scatti di anzianità\". Sono aumenti periodici della retribuzione che ti vengono riconosciuti semplicemente per l'anzianità di servizio maturata presso lo stesso datore di lavoro.\n\nCome funzionano? Le regole non sono uguali per tutti: periodicità, importo e numero massimo di scatti sono stabiliti dal contratto collettivo (CCNL) applicato al tuo rapporto. Nella maggior parte dei casi lo scatto è biennale o triennale ed è una cifra fissa che si aggiunge alla paga. Il numero massimo di scatti varia in genere da 5 a 12 a seconda del settore: ad esempio il CCNL Commercio ne prevede fino a 10, mentre nel Metalmeccanico Industria sono 5, a maturazione biennale.\n\nUn dettaglio importante: lo scatto entra in busta dalla mensilità successiva a quella in cui matura, e una volta acquisito è retribuzione a tutti gli effetti. Questo significa che fa aumentare anche tredicesima, eventuale quattordicesima, TFR e le altre voci calcolate sulla paga.\n\nCome ti aiuta GioIA: caricando il cedolino, GioIA riconosce la voce degli scatti di anzianità e ti aiuta a verificare che il numero e l'importo siano coerenti con la tua anzianità e con quanto previsto dal CCNL applicato, così non ti sfugge un aumento che ti spetta.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Contrattazione collettiva - scatti di anzianità (CCNL applicato)",
+      "fonte_url": "https://factorial.it/blog/quando-spettano-gli-scatti-di-anzianita/"
+    },
+    {
+      "titolo": "Dal lordo al netto: dove finisce la differenza in busta paga",
+      "testo": "La domanda più comune davanti a un cedolino è sempre la stessa: perché il netto è così più basso del lordo? La risposta sta in due grandi prelievi, che valgono per tutti i lavoratori dipendenti.\n\nPrimo: i contributi previdenziali. Ogni mese ti viene trattenuto il 9,19% della retribuzione a titolo di contributi IVS a tuo carico (con un ulteriore 1% sulla parte di stipendio più alta). Questi soldi vanno all'INPS e costruiscono la tua pensione futura. Sottraendo i contributi dal lordo ottieni l'imponibile fiscale.\n\nSecondo: l'IRPEF, l'imposta sul reddito. Nel 2026 si calcola con tre aliquote a scaglioni: 23% fino a 28.000 euro, 33% da 28.000 a 50.000 euro, 43% oltre. Su questa imposta si applicano poi le detrazioni da lavoro dipendente (art. 13 TUIR), che la riducono, e una \"no tax area\": sotto 8.500 euro di reddito non si paga IRPEF. Infine ci sono le addizionali regionale e comunale, che pesano soprattutto in alcuni mesi dell'anno.\n\nQuindi il percorso è: lordo, meno contributi INPS, uguale imponibile fiscale; su questo si calcola l'IRPEF (al netto delle detrazioni) e le addizionali. Ciò che resta è il tuo netto in busta.\n\nCome ti aiuta GioIA: GioIA ricostruisce per te tutto il passaggio dal lordo al netto leggendo le singole voci del cedolino, e segnala se contributi, IRPEF, detrazioni o addizionali non tornano rispetto alle regole in vigore.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Struttura della retribuzione - lordo/netto; art. 13 TUIR; aliquota IVS 9,19%; L. 199/2025 (scaglioni IRPEF)",
+      "fonte_url": "https://cafinforma.it/novita-irpef-tassazione-dipendenti-2026/"
+    }
+  ]
+}

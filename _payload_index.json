@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-03 20:03",
+  "aggiornato_il": "2026-08-04 06:05",
   "pubblicate": [
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
@@ -186,6 +186,30 @@
       "data_run": "2026-08-03",
       "ora_run": "2003",
       "file": "ingest_payload_2026-08-03_2003.json"
+    },
+    {
+      "chiave": "d.lgs. 252/2005 - destinazione e tassazione del tfr; art. 2120 c.c.",
+      "titolo": "TFR in azienda o nel fondo pensione: la differenza è nelle tasse",
+      "riferimento_normativo": "D.Lgs. 252/2005 - destinazione e tassazione del TFR; art. 2120 c.c.",
+      "data_run": "2026-08-04",
+      "ora_run": "0605",
+      "file": "ingest_payload_2026-08-04_0605.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - scatti di anzianità (ccnl applicato)",
+      "titolo": "Scatti di anzianità: quegli aumenti che arrivano col tempo",
+      "riferimento_normativo": "Contrattazione collettiva - scatti di anzianità (CCNL applicato)",
+      "data_run": "2026-08-04",
+      "ora_run": "0605",
+      "file": "ingest_payload_2026-08-04_0605.json"
+    },
+    {
+      "chiave": "struttura della retribuzione - lordo/netto; art. 13 tuir; aliquota ivs 9,19%; l. 199/2025 (scaglioni irpef)",
+      "titolo": "Dal lordo al netto: dove finisce la differenza in busta paga",
+      "riferimento_normativo": "Struttura della retribuzione - lordo/netto; art. 13 TUIR; aliquota IVS 9,19%; L. 199/2025 (scaglioni IRPEF)",
+      "data_run": "2026-08-04",
+      "ora_run": "0605",
+      "file": "ingest_payload_2026-08-04_0605.json"
     }
   ]
 }
