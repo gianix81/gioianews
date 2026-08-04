@@ -1,0 +1,89 @@
+{
+  "schema": "gioia-parametri-busta-paga",
+  "data_run": "2026-08-04",
+  "ora_run": "1604",
+  "note": "Parametri di calcolo correnti per l'app GioIA. Ogni valore marcato con affidabilita e fonte. Riscontrare su fonte ufficiale prima dell'uso in produzione. Nessuna novita rispetto alla run h1004.",
+  "parametri": {
+    "irpef_2026": {
+      "scaglioni": [
+        { "da": 0, "a": 28000, "aliquota": 0.23 },
+        { "da": 28000, "a": 50000, "aliquota": 0.33 },
+        { "da": 50000, "a": null, "aliquota": 0.43 }
+      ],
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    "no_tax_area_dipendenti": {
+      "valore": 8500.00,
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "art. 13 TUIR"
+    },
+    "inps_ivs_lavoratore": {
+      "aliquota": 0.0919,
+      "nota": "+1% oltre la prima fascia di retribuzione pensionabile",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "circolare contribuzione INPS 2026"
+    },
+    "cuneo_fiscale_2026": {
+      "somma_esente_soglia_reddito": 20000.00,
+      "detrazione_fascia": { "da": 20001.00, "a": 40000.00 },
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    "detrazioni_lavoro_dipendente": {
+      "importo_base_massimo": 1955.00,
+      "azzeramento_a_reddito": 50000.00,
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "art. 13 TUIR"
+    },
+    "previdenza_complementare": {
+      "plafond_deducibilita_annuo": 5300.00,
+      "quota_max_capitale": 0.50,
+      "decorrenza": "2026-07-01",
+      "affidabilita": "CERTO",
+      "fonte": "DL 62/2026 conv. L. 112/2026"
+    },
+    "tfr": {
+      "coeff_rivalutazione": 2.786543,
+      "riferimento": "maggio 2026",
+      "tassazione_azienda": "separata (media IRPEF ultimi 5 anni, min 23%)",
+      "tassazione_fondo": "sostitutiva 15% -> fino a 9% (-0,30%/anno oltre il 15mo)",
+      "anticipazione": "8 anni anzianita, max 70%",
+      "affidabilita": "CERTO",
+      "fonte": "art. 2120 c.c.; D.Lgs. 252/2005; ISTAT"
+    },
+    "naspi_2026": {
+      "massimale_mensile": 1584.70,
+      "decalage": "-3%/mese dal 6 mese",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 4/2026"
+    },
+    "inail_rendite_2026": {
+      "minimale": 20712.30,
+      "massimale": 38465.70,
+      "decorrenza": "2026-07-01",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INAIL 35/2026; D.M. Lavoro 11/05/2026 n. 58"
+    },
+    "fringe_benefit_2026": {
+      "soglia_base": 1000.00,
+      "soglia_con_figli": 2000.00,
+      "regola": "a soglia (superamento -> tassazione intero importo)",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Legge di Bilancio 2025; Ris. AE 22/2026"
+    },
+    "codice_cnel_busta": {
+      "obbligo": true,
+      "decorrenza": "2026-05-01",
+      "affidabilita": "CERTO",
+      "fonte": "art. 11 c.2 DL 62/2026 conv. L. 112/2026"
+    }
+  }
+}

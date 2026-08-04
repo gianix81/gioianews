@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-04 10:06",
+  "aggiornato_il": "2026-08-04 16:06",
   "pubblicate": [
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
@@ -234,6 +234,30 @@
       "data_run": "2026-08-04",
       "ora_run": "1004",
       "file": "ingest_payload_2026-08-04_1004.json"
+    },
+    {
+      "chiave": "d.lgs. 151/2001 art. 16 - congedo di maternità obbligatorio (indennità 80%)",
+      "titolo": "Congedo di maternità: 5 mesi di astensione all'80% (spesso al 100%)",
+      "riferimento_normativo": "d.lgs. 151/2001 art. 16",
+      "data_run": "2026-08-04",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-04_1604.json"
+    },
+    {
+      "chiave": "d.lgs. 66/2003 art. 10 c.2 - ferie annuali e divieto di monetizzazione",
+      "titolo": "Le tue ferie non si pagano al posto di goderle: ecco perché",
+      "riferimento_normativo": "d.lgs. 66/2003 art. 10 c.2",
+      "data_run": "2026-08-04",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-04_1604.json"
+    },
+    {
+      "chiave": "certificazione unica - art. 4 dpr 322/1998; termine rilascio 16 marzo",
+      "titolo": "Certificazione Unica (CU): la \"fotografia\" annuale della tua busta paga",
+      "riferimento_normativo": "certificazione unica",
+      "data_run": "2026-08-04",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-04_1604.json"
     }
   ]
 }
