@@ -1,31 +1,157 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-03",
+  "aggiornato_il": "2026-08-05",
   "argomenti": [
-    { "id": "ev-no-tax-area", "tema": "No tax area dipendenti (8.500 €)", "riferimento_normativo": "Art. 13 TUIR - no tax area lavoro dipendente", "angolo": "Sotto una certa soglia non paghi IRPEF: come funziona la no tax area." },
-    { "id": "ev-addizionali", "tema": "Addizionali regionali e comunali", "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF", "angolo": "Perche' da marzo/aprile il netto cala: acconto e saldo addizionali." },
-    { "id": "ev-conguaglio-fine-anno", "tema": "Conguaglio fiscale di fine anno", "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta", "angolo": "Perche' a dicembre la busta cambia: il conguaglio IRPEF annuale." },
-    { "id": "ev-tredicesima", "tema": "Tredicesima mensilita'", "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.", "angolo": "Come si calcola la tredicesima e perche' e' tassata di piu'." },
-    { "id": "ev-quattordicesima", "tema": "Quattordicesima mensilita'", "riferimento_normativo": "Contrattazione collettiva - quattordicesima", "angolo": "Chi ha diritto alla quattordicesima e come si matura." },
-    { "id": "ev-tfr-anticipazione", "tema": "Anticipazione del TFR", "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR", "angolo": "Quando puoi chiedere l'anticipo del TFR: 8 anni di anzianita', max 70%, causali." },
-    { "id": "ev-scatti-anzianita", "tema": "Scatti di anzianita'", "riferimento_normativo": "Contrattazione collettiva - scatti di anzianita'", "angolo": "Cosa sono gli scatti di anzianita' e come compaiono in busta." },
-    { "id": "ev-straordinario", "tema": "Lavoro straordinario e maggiorazioni", "riferimento_normativo": "D.Lgs. 66/2003 art. 5 - lavoro straordinario", "angolo": "Straordinario: limite 250h/anno e maggiorazioni previste dal CCNL." },
-    { "id": "ev-ferie-non-monetizzabili", "tema": "Ferie: divieto di monetizzazione", "riferimento_normativo": "D.Lgs. 66/2003 art. 10 - ferie annuali", "angolo": "Perche' le 4 settimane di ferie non si possono pagare al posto di goderle." },
-    { "id": "ev-permessi-rol", "tema": "Permessi ROL ed ex festivita'", "riferimento_normativo": "Contrattazione collettiva - ROL e permessi", "angolo": "ROL ed ex festivita': cosa sono e come si leggono in busta." },
-    { "id": "ev-malattia-carenza", "tema": "Malattia: giorni di carenza", "riferimento_normativo": "Prassi INPS e CCNL - carenza malattia", "angolo": "I primi 3 giorni di malattia: chi paga e le regole di carenza." },
-    { "id": "ev-comporto", "tema": "Periodo di comporto", "riferimento_normativo": "Art. 2110 c.c. - comporto per malattia", "angolo": "Comporto: quanto puoi restare in malattia senza rischiare il licenziamento." },
-    { "id": "ev-maternita-congedo", "tema": "Congedo di maternita' obbligatorio", "riferimento_normativo": "D.Lgs. 151/2001 - congedo di maternita'", "angolo": "5 mesi di maternita' obbligatoria: indennita' e come funziona in busta." },
-    { "id": "ev-congedo-parentale", "tema": "Congedo parentale", "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale", "angolo": "Congedo parentale: mesi spettanti e percentuali di indennita'." },
-    { "id": "ev-permessi-104", "tema": "Permessi Legge 104", "riferimento_normativo": "L. 104/1992 art. 33 - permessi assistenza disabili", "angolo": "3 giorni al mese di permesso retribuito: requisiti e come si indicano." },
-    { "id": "ev-codice-cnel", "tema": "Codice CNEL obbligatorio in busta", "riferimento_normativo": "Obbligo indicazione codice CNEL del CCNL applicato in busta paga", "angolo": "Il codice CNEL sul cedolino: cosa e' e perche' e' obbligatorio." },
-    { "id": "ev-inps-9-19", "tema": "Contributi INPS a carico del lavoratore (9,19%)", "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%", "angolo": "Quel 9,19% trattenuto ogni mese: dove va e a cosa serve." },
-    { "id": "ev-imponibile-fiscale-vs-previdenziale", "tema": "Imponibile fiscale vs imponibile previdenziale", "riferimento_normativo": "TUIR e normativa contributiva - basi imponibili", "angolo": "Perche' in busta ci sono due imponibili diversi e come si calcolano." },
-    { "id": "ev-lordo-netto", "tema": "Dal lordo al netto", "riferimento_normativo": "Struttura della retribuzione - lordo/netto", "angolo": "Il percorso dal lordo al netto: tutte le trattenute spiegate." },
-    { "id": "ev-detrazione-coniuge", "tema": "Detrazione per coniuge a carico", "riferimento_normativo": "Art. 12 TUIR - detrazione coniuge a carico", "angolo": "Coniuge a carico: quando spetta la detrazione e quanto vale." },
-    { "id": "ev-tfr-fondo-vs-azienda", "tema": "TFR in azienda o nel fondo pensione", "riferimento_normativo": "D.Lgs. 252/2005 - destinazione del TFR", "angolo": "Lasciare il TFR in azienda o versarlo al fondo: differenze e scelta." },
-    { "id": "ev-cud-cu", "tema": "Certificazione Unica (CU)", "riferimento_normativo": "Certificazione Unica - art. 4 DPR 322/1998", "angolo": "La CU: cos'e', quando arriva e come si collega alla busta paga." },
-    { "id": "ev-preavviso-dimissioni", "tema": "Preavviso e dimissioni telematiche", "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26", "angolo": "Dimissioni: preavviso, procedura telematica e cosa succede in busta." },
-    { "id": "ev-detrazione-familiari-altri", "tema": "Detrazioni per altri familiari a carico", "riferimento_normativo": "Art. 12 TUIR - altri familiari a carico", "angolo": "Genitori o parenti conviventi a carico: quando danno diritto a detrazione." }
+    {
+      "id": "ev-no-tax-area",
+      "tema": "No tax area dipendenti (8.500 €)",
+      "riferimento_normativo": "Art. 13 TUIR - no tax area lavoro dipendente",
+      "angolo": "Sotto una certa soglia non paghi IRPEF: come funziona la no tax area."
+    },
+    {
+      "id": "ev-addizionali",
+      "tema": "Addizionali regionali e comunali",
+      "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF",
+      "angolo": "Perche' da marzo/aprile il netto cala: acconto e saldo addizionali."
+    },
+    {
+      "id": "ev-conguaglio-fine-anno",
+      "tema": "Conguaglio fiscale di fine anno",
+      "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta",
+      "angolo": "Perche' a dicembre la busta cambia: il conguaglio IRPEF annuale."
+    },
+    {
+      "id": "ev-tredicesima",
+      "tema": "Tredicesima mensilita'",
+      "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.",
+      "angolo": "Come si calcola la tredicesima e perche' e' tassata di piu'."
+    },
+    {
+      "id": "ev-quattordicesima",
+      "tema": "Quattordicesima mensilita'",
+      "riferimento_normativo": "Contrattazione collettiva - quattordicesima",
+      "angolo": "Chi ha diritto alla quattordicesima e come si matura."
+    },
+    {
+      "id": "ev-tfr-anticipazione",
+      "tema": "Anticipazione del TFR",
+      "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR",
+      "angolo": "Quando puoi chiedere l'anticipo del TFR: 8 anni di anzianita', max 70%, causali."
+    },
+    {
+      "id": "ev-scatti-anzianita",
+      "tema": "Scatti di anzianita'",
+      "riferimento_normativo": "Contrattazione collettiva - scatti di anzianita'",
+      "angolo": "Cosa sono gli scatti di anzianita' e come compaiono in busta."
+    },
+    {
+      "id": "ev-straordinario",
+      "tema": "Lavoro straordinario e maggiorazioni",
+      "riferimento_normativo": "D.Lgs. 66/2003 art. 5 - lavoro straordinario",
+      "angolo": "Straordinario: limite 250h/anno e maggiorazioni previste dal CCNL."
+    },
+    {
+      "id": "ev-ferie-non-monetizzabili",
+      "tema": "Ferie: divieto di monetizzazione",
+      "riferimento_normativo": "D.Lgs. 66/2003 art. 10 - ferie annuali",
+      "angolo": "Perche' le 4 settimane di ferie non si possono pagare al posto di goderle."
+    },
+    {
+      "id": "ev-permessi-rol",
+      "tema": "Permessi ROL ed ex festivita'",
+      "riferimento_normativo": "Contrattazione collettiva - ROL e permessi",
+      "angolo": "ROL ed ex festivita': cosa sono e come si leggono in busta."
+    },
+    {
+      "id": "ev-malattia-carenza",
+      "tema": "Malattia: giorni di carenza",
+      "riferimento_normativo": "Prassi INPS e CCNL - carenza malattia",
+      "angolo": "I primi 3 giorni di malattia: chi paga e le regole di carenza."
+    },
+    {
+      "id": "ev-comporto",
+      "tema": "Periodo di comporto",
+      "riferimento_normativo": "Art. 2110 c.c. - comporto per malattia",
+      "angolo": "Comporto: quanto puoi restare in malattia senza rischiare il licenziamento."
+    },
+    {
+      "id": "ev-maternita-congedo",
+      "tema": "Congedo di maternita' obbligatorio",
+      "riferimento_normativo": "D.Lgs. 151/2001 - congedo di maternita'",
+      "angolo": "5 mesi di maternita' obbligatoria: indennita' e come funziona in busta."
+    },
+    {
+      "id": "ev-congedo-parentale",
+      "tema": "Congedo parentale",
+      "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale",
+      "angolo": "Congedo parentale: mesi spettanti e percentuali di indennita'."
+    },
+    {
+      "id": "ev-permessi-104",
+      "tema": "Permessi Legge 104",
+      "riferimento_normativo": "L. 104/1992 art. 33 - permessi assistenza disabili",
+      "angolo": "3 giorni al mese di permesso retribuito: requisiti e come si indicano."
+    },
+    {
+      "id": "ev-codice-cnel",
+      "tema": "Codice CNEL obbligatorio in busta",
+      "riferimento_normativo": "Obbligo indicazione codice CNEL del CCNL applicato in busta paga",
+      "angolo": "Il codice CNEL sul cedolino: cosa e' e perche' e' obbligatorio."
+    },
+    {
+      "id": "ev-inps-9-19",
+      "tema": "Contributi INPS a carico del lavoratore (9,19%)",
+      "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%",
+      "angolo": "Quel 9,19% trattenuto ogni mese: dove va e a cosa serve."
+    },
+    {
+      "id": "ev-imponibile-fiscale-vs-previdenziale",
+      "tema": "Imponibile fiscale vs imponibile previdenziale",
+      "riferimento_normativo": "TUIR e normativa contributiva - basi imponibili",
+      "angolo": "Perche' in busta ci sono due imponibili diversi e come si calcolano."
+    },
+    {
+      "id": "ev-lordo-netto",
+      "tema": "Dal lordo al netto",
+      "riferimento_normativo": "Struttura della retribuzione - lordo/netto",
+      "angolo": "Il percorso dal lordo al netto: tutte le trattenute spiegate."
+    },
+    {
+      "id": "ev-detrazione-coniuge",
+      "tema": "Detrazione per coniuge a carico",
+      "riferimento_normativo": "Art. 12 TUIR - detrazione coniuge a carico",
+      "angolo": "Coniuge a carico: quando spetta la detrazione e quanto vale."
+    },
+    {
+      "id": "ev-tfr-fondo-vs-azienda",
+      "tema": "TFR in azienda o nel fondo pensione",
+      "riferimento_normativo": "D.Lgs. 252/2005 - destinazione del TFR",
+      "angolo": "Lasciare il TFR in azienda o versarlo al fondo: differenze e scelta."
+    },
+    {
+      "id": "ev-cud-cu",
+      "tema": "Certificazione Unica (CU)",
+      "riferimento_normativo": "Certificazione Unica - art. 4 DPR 322/1998",
+      "angolo": "La CU: cos'e', quando arriva e come si collega alla busta paga."
+    },
+    {
+      "id": "ev-preavviso-dimissioni",
+      "tema": "Preavviso e dimissioni telematiche",
+      "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26",
+      "angolo": "Dimissioni: preavviso, procedura telematica e cosa succede in busta."
+    },
+    {
+      "id": "ev-detrazione-familiari-altri",
+      "tema": "Detrazioni per altri familiari a carico",
+      "riferimento_normativo": "Art. 12 TUIR - altri familiari a carico",
+      "angolo": "Genitori o parenti conviventi a carico: quando danno diritto a detrazione."
+    },
+    {
+      "id": "ev-buoni-pasto",
+      "tema": "Buoni pasto (ticket restaurant)",
+      "riferimento_normativo": "Buoni pasto - esenzione fiscale (elettronici/cartacei)",
+      "angolo": "Soglie esenti dei buoni pasto: elettronici 10 €/gg, cartacei 4 €/gg; tassazione dell'eccedenza."
+    }
   ]
 }

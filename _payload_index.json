@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-05 1005",
+  "aggiornato_il": "2026-08-05 1603",
   "pubblicate": [
     {
       "chiave": "d.lgs. 151/2001 artt. 32 e ss. - congedo parentale",
@@ -306,6 +306,30 @@
       "data_run": "2026-08-04",
       "ora_run": "2003",
       "file": "ingest_payload_2026-08-04_2003.json"
+    },
+    {
+      "chiave": "buoni pasto - esenzione l. 199/2025 (legge di bilancio 2026) art. 1 c. 14; elettronici 10 €/gg, cartacei 4 €/gg",
+      "titolo": "Buoni pasto 2026: quelli elettronici sono esentasse fino a 10 € al giorno",
+      "riferimento_normativo": "Buoni pasto - esenzione L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 14; elettronici 10 €/gg, cartacei 4 €/gg",
+      "data_run": "2026-08-05",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-05_1603.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - rol (riduzione orario di lavoro) ed ex festività; ccnl applicato",
+      "titolo": "ROL ed ex festività: cosa sono quelle ore che vedi accantonate in busta",
+      "riferimento_normativo": "Contrattazione collettiva - ROL (riduzione orario di lavoro) ed ex festività; CCNL applicato",
+      "data_run": "2026-08-05",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-05_1603.json"
+    },
+    {
+      "chiave": "art. 12 tuir (dpr 917/1986) - detrazione altri familiari a carico (ascendenti conviventi); l. 207/2024; d.lgs. 192/2025",
+      "titolo": "Genitori o nonni a carico: dal 2026 la detrazione spetta solo se convivono",
+      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione altri familiari a carico (ascendenti conviventi); L. 207/2024; D.Lgs. 192/2025",
+      "data_run": "2026-08-05",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-05_1603.json"
     }
   ]
 }

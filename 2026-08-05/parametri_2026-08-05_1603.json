@@ -1,0 +1,79 @@
+{
+  "schema": "gioia-parametri-calcolo",
+  "data_run": "2026-08-05",
+  "ora_run": "1603",
+  "nota": "Valori invariati rispetto alla run 2026-08-05 h1005. Nessuna nuova norma privata con impatto diretto sul cedolino nella finestra 30gg. Aggiunta voce buoni_pasto_2026 (confermata da prassi). Tutti i valori riscontrati su fonte ufficiale/prassi coerente.",
+  "irpef_2026": {
+    "scaglioni": [
+      { "da": 0, "a": 28000, "aliquota": 0.23 },
+      { "da": 28000, "a": 50000, "aliquota": 0.33 },
+      { "da": 50000, "a": null, "aliquota": 0.43 }
+    ],
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_max": 1955,
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025; art. 13 TUIR"
+  },
+  "cuneo_fiscale_2026": {
+    "somma_esente_soglia_reddito": 20000,
+    "detrazione_fascia": { "da": 20001, "a": 40000, "tipo": "decrescente" },
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025"
+  },
+  "contributi_inps_2026": {
+    "ivs_lavoratore_dipendente": 0.0919,
+    "affidabilita": "CERTO",
+    "fonte": "normativa contributiva INPS 2026"
+  },
+  "previdenza_complementare_2026": {
+    "plafond_deducibilita_annuo": 5300.00,
+    "quota_max_capitale_montante": 0.50,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "DL 62/2026 conv. L. 112/2026"
+  },
+  "naspi_2026": {
+    "massimale_mensile": 1584.70,
+    "affidabilita": "CERTO",
+    "fonte": "D.Lgs. 22/2015; Circ. INPS 4/2026"
+  },
+  "inail_rendite_2026": {
+    "minimale_annuo": 20712.30,
+    "massimale_annuo": 38465.70,
+    "decorrenza": "2026-07-01",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INAIL n. 35 del 22/07/2026; D.M. Lavoro 11/05/2026 n. 58"
+  },
+  "fringe_benefit_2026": {
+    "soglia_generale": 1000,
+    "soglia_con_figli_a_carico": 2000,
+    "meccanismo": "a soglia (superamento -> intero importo tassato)",
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "Legge di Bilancio 2025 (soglie triennio 2025-2027)"
+  },
+  "buoni_pasto_2026": {
+    "esente_elettronici_giornaliero": 10.00,
+    "esente_cartacei_giornaliero": 4.00,
+    "meccanismo": "esenzione entro soglia; eccedenza imponibile fiscale+contributivo",
+    "decorrenza": "2026-01-01",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 14"
+  },
+  "detrazioni_familiari_2026": {
+    "ascendenti_conviventi": { "importo_teorico": 750, "formula": "750 * (80000 - reddito_complessivo) / 80000", "condizione": "convivenza obbligatoria" },
+    "coniuge_a_carico": { "soglia_reddito_carico": 2840.51, "importo_teorico_max": 800 },
+    "decorrenza": "2026",
+    "affidabilita": "CERTO",
+    "fonte": "Art. 12 TUIR; L. 207/2024; D.Lgs. 192/2025"
+  },
+  "indennita_malattia_maternita_2026": {
+    "massimale_annuo": 43486.00,
+    "massimale_giornaliero": 119.14,
+    "decorrenza": "2026",
+    "affidabilita": "CERTO",
+    "fonte": "Circ. INPS n. 75 del 17/07/2026"
+  }
+}

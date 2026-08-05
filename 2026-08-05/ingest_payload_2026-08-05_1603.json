@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-05",
+  "notizie": [
+    {
+      "titolo": "Buoni pasto 2026: quelli elettronici sono esentasse fino a 10 € al giorno",
+      "testo": "Se ricevi i buoni pasto (ticket), hai un piccolo vantaggio in più dal 2026. La soglia entro cui il buono NON fa reddito - cioè non ci paghi né IRPEF né contributi - è salita.\n\nLe soglie oggi:\n- buoni pasto elettronici: esenti fino a 10 € al giorno (prima erano 8 €);\n- buoni pasto cartacei: esenti fino a 4 € al giorno (invariati).\n\nÈ una scelta voluta dal legislatore per premiare il formato digitale e tracciabile. Il cambio è stato introdotto dalla Legge di Bilancio 2026 (L. 199/2025).\n\nCome funziona se il buono vale di più? Conta solo l'eccedenza. Esempio: un ticket elettronico da 12 € è esente per i primi 10 €, mentre i restanti 2 € diventano reddito imponibile e su quella parte paghi IRPEF e contributi. Con i cartacei la soglia esente resta 4 €.\n\nUn dettaglio utile: i buoni pasto non entrano nel calcolo del TFR e, entro la soglia, non pesano sulle trattenute.\n\nGioIA controlla che i buoni pasto in busta siano esposti correttamente e che venga tassata solo l'eventuale parte eccedente la soglia: così non ti trovi trattenute di troppo su un benefit che dovrebbe restare netto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Buoni pasto - esenzione L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 14; elettronici 10 €/gg, cartacei 4 €/gg",
+      "fonte_url": "https://www.fiscoetasse.com/approfondimenti/17162-buoni-pasto-2026-natura-giuridica-regime-fiscale-e-novita.html"
+    },
+    {
+      "titolo": "ROL ed ex festività: cosa sono quelle ore che vedi accantonate in busta",
+      "testo": "In fondo alla tua busta paga, di solito in un riquadro dedicato, trovi voci come \"ROL\" e \"ex festività\" con un saldo di ore. Vediamo cosa sono.\n\nROL sta per Riduzione Orario di Lavoro: sono permessi retribuiti che maturano ogni mese in base a quanto previsto dal tuo CCNL. Nascono dalla riduzione contrattuale dell'orario settimanale: invece di lavorare meno ore, accumuli un monte-ore di permessi da usare durante l'anno.\n\nLe ex festività sono permessi che sostituiscono alcune festività religiose civili abolite negli anni '70 (come San Giuseppe o l'Ascensione): siccome quei giorni non sono più festivi ma il diritto è rimasto, ti vengono riconosciuti come permessi retribuiti.\n\nCome si leggono: la busta mostra di norma le ore maturate, quelle godute e il residuo. Puoi usarle come permessi orari o giornalieri secondo le regole del contratto. Quanti ROL ed ex festività spettano dipende dallo specifico CCNL applicato: non è un valore uguale per tutti.\n\nAttenzione: a differenza delle ferie, in molti CCNL i ROL non goduti entro un certo termine possono essere pagati (monetizzati) o azzerati. Vale la pena controllarli.\n\nGioIA legge il tuo CCNL e verifica che ROL ed ex festività siano maturati nella misura corretta e correttamente conteggiati: sono ore che valgono soldi, meglio non perderle di vista.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Contrattazione collettiva - ROL (riduzione orario di lavoro) ed ex festività; CCNL applicato",
+      "fonte_url": "https://www.fiscoetasse.com/new-rassegna-stampa/3341-busta-paga-dipendenti-2026-cosa-cambia-con-la-manovra.html"
+    },
+    {
+      "titolo": "Genitori o nonni a carico: dal 2026 la detrazione spetta solo se convivono",
+      "testo": "Oltre a coniuge e figli, in alcuni casi puoi avere una detrazione IRPEF anche per altri familiari a carico. Ma dal 2026 le regole si sono strette: contano solo gli ascendenti conviventi (genitori e nonni che vivono con te).\n\nCosa è cambiato: fino al 2024 la detrazione per \"altri familiari a carico\" poteva spettare per una platea più ampia di parenti. Con la riforma (L. 207/2024 e D.Lgs. 192/2025) il beneficio, per i familiari diversi da coniuge e figli, è limitato agli ascendenti (genitori, nonni) che convivono con te nella stessa abitazione. Non basta più che siano fiscalmente a carico: serve anche la convivenza.\n\nQuando un familiare è \"a carico\": deve avere un reddito complessivo annuo non superiore a 2.840,51 €.\n\nQuanto vale: l'importo teorico è 750 € l'anno, ma decrescente in base al tuo reddito, con la formula 750 × (80.000 − reddito complessivo) / 80.000. Oltre 80.000 € di reddito la detrazione si azzera. Se più persone hanno diritto alla detrazione per lo stesso familiare, l'importo si divide tra loro.\n\nCome ogni detrazione, non è un rimborso in contanti: riduce l'IRPEF trattenuta e quindi alza il netto. Per averla in busta devi comunicarla al datore con la dichiarazione dei familiari a carico.\n\nGioIA verifica che le detrazioni per familiari a carico applicate in busta siano corrette e aggiornate alle nuove regole: un errore qui ti fa pagare più IRPEF del dovuto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione altri familiari a carico (ascendenti conviventi); L. 207/2024; D.Lgs. 192/2025",
+      "fonte_url": "https://fiscomania.com/familiari-a-carico-limiti-detrazione/"
+    }
+  ]
+}
