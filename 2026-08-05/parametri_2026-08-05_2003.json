@@ -1,0 +1,29 @@
+{
+  "data": "2026-08-05",
+  "run": "2003",
+  "valuta": "EUR",
+  "parametri": [
+    { "id": "irpef_scaglione_1", "descrizione": "IRPEF primo scaglione", "valore": "23%", "soglia": "fino a 28.000", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025; art. 11 TUIR" },
+    { "id": "irpef_scaglione_2", "descrizione": "IRPEF secondo scaglione", "valore": "33%", "soglia": "28.000-50.000", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "id": "irpef_scaglione_3", "descrizione": "IRPEF terzo scaglione", "valore": "43%", "soglia": "oltre 50.000", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "id": "no_tax_area_dip", "descrizione": "No tax area lavoro dipendente", "valore": 8500.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "art. 13 TUIR" },
+    { "id": "detrazione_lav_dip_max", "descrizione": "Detrazione lavoro dipendente massima", "valore": 1955.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "art. 13 TUIR" },
+    { "id": "ivs_dipendente", "descrizione": "Aliquota IVS a carico dipendente", "valore": "9,19%", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "normativa contributiva INPS 2026" },
+    { "id": "cuneo_soglia_esente", "descrizione": "Cuneo - somma esente fino a", "valore": 20000.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "id": "cuneo_detrazione_fascia", "descrizione": "Cuneo - detrazione fascia reddito", "valore": "20.001-40.000 decrescente", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "id": "premio_risultato_imposta", "descrizione": "Premi di risultato - imposta sostitutiva agevolata", "valore": "1% entro 5.000 lordi (reddito lav.dip. anno prec. <= 80.000)", "decorrenza": "2026-2027", "affidabilita": "CERTO", "fonte": "L. 208/2015 art. 1 co. 182 e ss.; Legge di Bilancio 2026" },
+    { "id": "prev_compl_plafond", "descrizione": "Previdenza complementare - plafond deducibilita' annuo", "valore": 5300.00, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "DL 62/2026 conv. L. 112/2026" },
+    { "id": "prev_compl_max_capitale", "descrizione": "Previdenza complementare - quota massima in capitale", "valore": "50% del montante", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "DL 62/2026 conv. L. 112/2026" },
+    { "id": "naspi_massimale_mensile", "descrizione": "NASpI - massimale mensile", "valore": 1584.70, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+    { "id": "inail_rendite_minimale", "descrizione": "INAIL rendite - minimale annuo", "valore": 20712.30, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Circ. INAIL 35/2026; D.M. Lavoro 11/05/2026 n. 58" },
+    { "id": "inail_rendite_massimale", "descrizione": "INAIL rendite - massimale annuo", "valore": 38465.70, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Circ. INAIL 35/2026; D.M. Lavoro 11/05/2026 n. 58" },
+    { "id": "fringe_benefit_generale", "descrizione": "Fringe benefit esente - generale", "valore": 1000.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "Legge di Bilancio 2025 (soglie triennio 2025-2027)" },
+    { "id": "fringe_benefit_con_figli", "descrizione": "Fringe benefit esente - con figli a carico", "valore": 2000.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "Legge di Bilancio 2025 (soglie triennio 2025-2027)" },
+    { "id": "malattia_maternita_massimale_annuo", "descrizione": "Indennita' malattia/maternita' - massimale annuo", "valore": 43486.00, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 75/2026" },
+    { "id": "malattia_maternita_massimale_giornaliero", "descrizione": "Indennita' malattia/maternita' - massimale giornaliero", "valore": 119.14, "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 75/2026" },
+    { "id": "buoni_pasto_esente_elettronici", "descrizione": "Buoni pasto esenti - elettronici", "valore": 10.00, "unita": "euro/giorno", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025 art. 1 c. 14" },
+    { "id": "buoni_pasto_esente_cartacei", "descrizione": "Buoni pasto esenti - cartacei", "valore": 4.00, "unita": "euro/giorno", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025 art. 1 c. 14" },
+    { "id": "congedo_paternita_obbligatorio", "descrizione": "Congedo di paternita' obbligatorio", "valore": "10 giorni al 100%", "decorrenza": "in vigore", "affidabilita": "CERTO", "fonte": "art. 27-bis D.Lgs. 151/2001" },
+    { "id": "pignoramento_stipendio_limite", "descrizione": "Pignoramento stipendio - limite ordinario", "valore": "1/5 del netto (cumulo max 1/2; alimentari fino 1/3)", "decorrenza": "in vigore", "affidabilita": "CERTO", "fonte": "art. 545 c.p.c." }
+  ]
+}

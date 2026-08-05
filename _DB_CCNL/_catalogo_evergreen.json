@@ -1,8 +1,26 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-05",
+  "aggiornato_il": "2026-08-05 2003",
   "argomenti": [
+    {
+      "id": "ev-congedo-paternita-obbligatorio",
+      "tema": "Congedo di paternita' obbligatorio (10 giorni)",
+      "riferimento_normativo": "Art. 27-bis D.Lgs. 151/2001 - congedo di paternita' obbligatorio",
+      "angolo": "10 giorni obbligatori al 100% per il padre: quando spettano e come si vedono in busta."
+    },
+    {
+      "id": "ev-premio-risultato",
+      "tema": "Premio di risultato detassato",
+      "riferimento_normativo": "L. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva premi di risultato (aliquota agevolata)",
+      "angolo": "Il premio di produttivita' tassato con imposta sostitutiva agevolata invece dell'IRPEF: soglie e requisiti."
+    },
+    {
+      "id": "ev-pignoramento-stipendio",
+      "tema": "Pignoramento e cessione del quinto dello stipendio",
+      "riferimento_normativo": "Art. 545 c.p.c. - limiti di pignorabilita' dello stipendio",
+      "angolo": "Quanto dello stipendio e' pignorabile: limite 1/5, alimentari fino 1/3, cumulo max 1/2."
+    },
     {
       "id": "ev-no-tax-area",
       "tema": "No tax area dipendenti (8.500 €)",

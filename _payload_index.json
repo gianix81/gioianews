@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-05 1603",
+  "aggiornato_il": "2026-08-05 2003",
   "pubblicate": [
     {
       "chiave": "d.lgs. 151/2001 artt. 32 e ss. - congedo parentale",
@@ -330,6 +330,30 @@
       "data_run": "2026-08-05",
       "ora_run": "1603",
       "file": "ingest_payload_2026-08-05_1603.json"
+    },
+    {
+      "chiave": "art. 27-bis d.lgs. 151/2001 - congedo di paternità obbligatorio (10 giorni al 100%)",
+      "titolo": "Congedo di paternità: 10 giorni pagati al 100% che spettano al papà",
+      "riferimento_normativo": "Art. 27-bis D.Lgs. 151/2001 - congedo di paternità obbligatorio (10 giorni al 100%)",
+      "data_run": "2026-08-05",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-05_2003.json"
+    },
+    {
+      "chiave": "premi di risultato - l. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva 1% (biennio 2026-2027)",
+      "titolo": "Premio di risultato: nel 2026-2027 lo paghi con l'1% di tasse invece dell'IRPEF",
+      "riferimento_normativo": "Premi di risultato - L. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva 1% (biennio 2026-2027) entro 5.000 € lordi, reddito lav. dip. anno precedente ≤ 80.000 € - Legge di Bilancio 2026",
+      "data_run": "2026-08-05",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-05_2003.json"
+    },
+    {
+      "chiave": "art. 545 c.p.c. - limiti di pignorabilità dello stipendio",
+      "titolo": "Pignoramento dello stipendio: quanto ti possono trattenere (e quanto resta intoccabile)",
+      "riferimento_normativo": "Art. 545 c.p.c. - limiti di pignorabilità dello stipendio (1/5 ordinario; cumulo max 1/2; alimentari fino a 1/3)",
+      "data_run": "2026-08-05",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-05_2003.json"
     }
   ]
 }
