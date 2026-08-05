@@ -1,8 +1,32 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-04 2003",
+  "aggiornato_il": "2026-08-05 1005",
   "pubblicate": [
+    {
+      "chiave": "d.lgs. 151/2001 artt. 32 e ss. - congedo parentale",
+      "titolo": "Congedo parentale: quanti mesi ti spettano e quanto ti pagano",
+      "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale",
+      "data_run": "2026-08-05",
+      "ora_run": "1005",
+      "file": "ingest_payload_2026-08-05_1005.json"
+    },
+    {
+      "chiave": "art. 12 tuir (dpr 917/1986) - detrazione per coniuge a carico",
+      "titolo": "Coniuge a carico: la detrazione che ti abbassa l'IRPEF (fino a 800 €)",
+      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione per coniuge a carico",
+      "data_run": "2026-08-05",
+      "ora_run": "1005",
+      "file": "ingest_payload_2026-08-05_1005.json"
+    },
+    {
+      "chiave": "dimissioni telematiche - d.lgs. 151/2015 art. 26",
+      "titolo": "Dimissioni: si danno solo online, e hai 7 giorni per ripensarci",
+      "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26",
+      "data_run": "2026-08-05",
+      "ora_run": "1005",
+      "file": "ingest_payload_2026-08-05_1005.json"
+    },
     {
       "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
       "titolo": "TFR: nuovo coefficiente di rivalutazione (giugno 2026)",

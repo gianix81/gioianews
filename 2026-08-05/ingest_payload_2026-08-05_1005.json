@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-05",
+  "notizie": [
+    {
+      "titolo": "Congedo parentale: quanti mesi ti spettano e quanto ti pagano",
+      "testo": "Se sei diventato genitore, il congedo parentale è il periodo di astensione facoltativa dal lavoro che puoi usare per stare con tuo figlio, oltre alla maternità o paternità obbligatoria. Vediamo come funziona in busta paga.\n\nDurata: ogni genitore lavoratore dipendente ha diritto a un massimo di 6 mesi, entro un tetto complessivo di coppia di 10 mesi (che salgono a 11 se il padre ne usa almeno 3). Puoi prenderlo anche a giorni o a ore, secondo le regole del tuo contratto.\n\nQuanto ti viene pagato: i primi 3 mesi sono indennizzati all'80% della retribuzione (sono un bonus della coppia, non 3 mesi ciascuno). Dal 4° al 9° mese l'indennità scende al 30%. I mesi eventualmente ulteriori, di norma, non sono indennizzati salvo condizioni di reddito particolari.\n\nUn'attenzione sulle età: i 3 mesi all'80% vanno fruiti nei primi anni di vita del bambino (in gran parte entro il 6° anno). La Legge di Bilancio 2026 ha ampliato fino ai 14 anni del figlio la possibilità di usare il congedo, ma questo riguarda la fruibilità, non estende l'indennità all'80%.\n\nIn busta paga il congedo compare come voce di assenza indennizzata (l'indennità è anticipata dal datore per conto dell'INPS). GioIA verifica che la percentuale applicata (80% o 30%) e i giorni conteggiati siano corretti, così non perdi quello che ti spetta.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale",
+      "fonte_url": "https://www.cgil.it/ci-occupiamo-di/famiglia-e-infanzia/congedo-parentale-per-i-lavoratori-dipendenti-focus-della-guida-inca-e-cgil-genitori-che-lavorano-pa8moqsj"
+    },
+    {
+      "titolo": "Coniuge a carico: la detrazione che ti abbassa l'IRPEF (fino a 800 €)",
+      "testo": "Se tuo marito o tua moglie ha redditi bassi, puoi avere una detrazione in busta paga che riduce l'IRPEF che paghi. Ecco come funziona.\n\nQuando il coniuge è \"a carico\": deve avere un reddito complessivo annuo non superiore a 2.840,51 € (al lordo degli oneri deducibili). Sotto questa soglia, hai diritto alla detrazione.\n\nQuanto vale: l'importo teorico è di 800 € l'anno, ma è decrescente in base al tuo reddito. In pratica:\n- fino a 15.000 € di reddito: 800 € più una piccola maggiorazione;\n- da 15.001 a 40.000 €: un importo fisso di 690 €;\n- da 40.001 a 80.000 €: la detrazione cala progressivamente;\n- oltre 80.000 €: la detrazione si azzera.\n\nLa detrazione non è un rimborso in contanti: è uno sconto sull'imposta che riduce le trattenute IRPEF, quindi alza il netto che ti arriva ogni mese. Per averla in busta devi comunicarla al datore di lavoro con la dichiarazione dei familiari a carico.\n\nGioIA controlla che la detrazione per coniuge sia calcolata sull'importo giusto in base al tuo reddito: un errore qui può farti pagare più IRPEF del dovuto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione per coniuge a carico",
+      "fonte_url": "https://www.brocardi.it/testo-unico-imposte-redditi/titolo-i/capo-i/art12.html"
+    },
+    {
+      "titolo": "Dimissioni: si danno solo online, e hai 7 giorni per ripensarci",
+      "testo": "Vuoi lasciare il lavoro? Da diversi anni le dimissioni volontarie (e la risoluzione consensuale) si comunicano esclusivamente per via telematica. Un foglio consegnato al datore o una mail non bastano: senza la procedura online le dimissioni non sono valide. La regola nasce per bloccare le \"dimissioni in bianco\", cioè i moduli firmati all'assunzione e usati in modo scorretto.\n\nCome si fa: ti colleghi al portale del Ministero del Lavoro (cliclavoro.gov.it), sezione dimissioni, e accedi con SPID, CIE (Carta d'Identità Elettronica) o CNS. Compili i dati del datore, la data di cessazione e il tipo di recesso. In alternativa puoi farti assistere da un intermediario abilitato (patronato, consulente) con delega firmata.\n\nIl preavviso: la data di fine rapporto che indichi deve rispettare il preavviso previsto dal tuo CCNL. Se non lavori il preavviso e non c'è accordo, il datore può trattenerti in busta l'indennità di mancato preavviso.\n\nHai cambiato idea? Entro 7 giorni dalla trasmissione puoi revocare le dimissioni con la stessa procedura online, e il rapporto prosegue.\n\nQuando cessi il rapporto, l'ultima busta paga contiene le competenze finali (ferie e permessi non goduti, ratei di 13ª/14ª, TFR). GioIA ti aiuta a controllare che il conguaglio di fine rapporto sia corretto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26",
+      "fonte_url": "https://www.cliclavoro.gov.it/focus-on/tutele-e-sostegno-al-reddito/dimissioni-telematiche"
+    }
+  ]
+}
