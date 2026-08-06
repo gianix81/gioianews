@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-06 1603",
+  "aggiornato_il": "2026-08-06 2004",
   "pubblicate": [
     {
       "chiave": "messaggio inps n. 2540 del 03/08/2026; art. 3 d.lgs. 22/2015; art. 2119 c.c.",
@@ -426,6 +426,30 @@
       "data_run": "2026-08-06",
       "ora_run": "1003",
       "file": "ingest_payload_2026-08-06_1003.json"
+    },
+    {
+      "chiave": "cassazione ord. n. 18529 dell'08/06/2026 - retribuzione durante le ferie; d.lgs. 66/2003 art. 10",
+      "titolo": "In ferie la busta è più bassa? Non sempre è un errore",
+      "riferimento_normativo": "Cassazione ord. n. 18529 dell'08/06/2026; D.Lgs. 66/2003 art. 10 (ferie annuali)",
+      "data_run": "2026-08-06",
+      "ora_run": "2004",
+      "file": "ingest_payload_2026-08-06_2004.json"
+    },
+    {
+      "chiave": "lavoro festivo e domenicale - maggiorazioni ccnl e riposo compensativo; d.lgs. 66/2003",
+      "titolo": "Lavori la domenica o nei festivi? Ti spetta una maggiorazione (e spesso un riposo)",
+      "riferimento_normativo": "D.Lgs. 66/2003 (riposo settimanale e compensativo); maggiorazioni festivo/domenicale da CCNL applicato",
+      "data_run": "2026-08-06",
+      "ora_run": "2004",
+      "file": "ingest_payload_2026-08-06_2004.json"
+    },
+    {
+      "chiave": "art. 19 tuir - tfr tassazione separata (aliquota media); art. 11 d.lgs. 47/2000",
+      "titolo": "TFR: perché alla liquidazione paghi meno tasse (la tassazione separata)",
+      "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR; art. 11 D.Lgs. 47/2000",
+      "data_run": "2026-08-06",
+      "ora_run": "2004",
+      "file": "ingest_payload_2026-08-06_2004.json"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-06 1003",
+  "aggiornato_il": "2026-08-06 2004",
   "argomenti": [
     {
       "id": "ev-congedo-paternita-obbligatorio",
@@ -212,6 +212,24 @@
       "tema": "Superminimo individuale (assorbibile e non)",
       "riferimento_normativo": "Contrattazione individuale/collettiva - superminimo; principi giurisprudenziali su assorbibilita'",
       "angolo": "Cos'e' il superminimo in busta e quando puo' essere assorbito dagli aumenti contrattuali."
+    },
+    {
+      "id": "ev-retribuzione-ferie",
+      "tema": "Retribuzione durante le ferie",
+      "riferimento_normativo": "D.Lgs. 66/2003 art. 10 - ferie annuali; Cassazione ord. n. 18529/2026 - retribuzione feriale comparabile ma non identica",
+      "angolo": "Perche' nel mese di ferie il netto puo' risultare piu' basso: le voci legate all'attivita' effettiva (notturno/festivo/turni) possono non comparire in ferie."
+    },
+    {
+      "id": "ev-lavoro-festivo-domenicale",
+      "tema": "Lavoro festivo e domenicale: maggiorazioni",
+      "riferimento_normativo": "D.Lgs. 66/2003 - riposo settimanale e compensativo; maggiorazioni festivo/domenicale da CCNL applicato",
+      "angolo": "Maggiorazione (indicativamente 15-50% a seconda del CCNL), riposo compensativo e festivita' non goduta: come si leggono in busta."
+    },
+    {
+      "id": "ev-tfr-tassazione-separata",
+      "tema": "TFR: tassazione separata alla liquidazione",
+      "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR (aliquota media); art. 11 D.Lgs. 47/2000",
+      "angolo": "Perche' alla liquidazione il TFR e' tassato con aliquota media e non con l'IRPEF ordinaria: come si calcola il reddito di riferimento."
     }
   ]
 }

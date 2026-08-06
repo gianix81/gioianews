@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-06",
+  "notizie": [
+    {
+      "titolo": "In ferie la busta è più bassa? Non sempre è un errore",
+      "testo": "Ti sei mai accorto che nel mese in cui prendi le ferie lo stipendio netto sembra un po' più basso? Non è per forza uno sbaglio.\n\nLa regola di fondo è chiara: quando sei in ferie devi ricevere una retribuzione paragonabile a quella che avresti lavorando, così da non essere \"scoraggiato\" dal riposarti. Ma \"paragonabile\" non vuol dire identica al centesimo.\n\nLa Corte di Cassazione, con l'ordinanza n. 18529 dell'8 giugno 2026, ha confermato questo principio di equilibrio: durante le ferie il lavoratore non deve subire una penalizzazione economica significativa, ma la legge non impone che ogni singola voce presente nella busta di un mese lavorato venga replicata identica. In pratica: le voci legate all'attività effettivamente svolta (per esempio alcune indennità o maggiorazioni che maturano solo se lavori di notte, nei festivi o su turni) possono non comparire nel periodo di riposo, perché in ferie quell'attività non c'è.\n\nQuindi un netto leggermente diverso nel mese di ferie può essere normale. Diventa un problema solo se la differenza è consistente e ti toglie parti \"fisse\" della retribuzione.\n\nCome capirlo? Confrontando la busta del mese di ferie con quella di un mese ordinario, voce per voce. È esattamente ciò che fa GioIA: legge il tuo cedolino e ti segnala se in ferie ti hanno tolto qualcosa che invece doveva restare.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Cassazione ord. n. 18529 dell'08/06/2026; D.Lgs. 66/2003 art. 10 (ferie annuali)",
+      "fonte_url": "https://www.fiscoetasse.com/new-rassegna-stampa/3752-retribuzione-ferie-le-regole-della-cassazione.html"
+    },
+    {
+      "titolo": "Lavori la domenica o nei festivi? Ti spetta una maggiorazione (e spesso un riposo)",
+      "testo": "Se ti capita di lavorare di domenica o in un giorno festivo, quel lavoro va pagato di più. Non è una cortesia del datore: è un tuo diritto.\n\nEcco come funziona:\n\n- Maggiorazione retributiva. Le ore lavorate nei festivi o nel giorno di riposo settimanale danno diritto a una maggiorazione sulla paga oraria. La percentuale la fissa il contratto collettivo (CCNL) applicato e varia parecchio: si va, a seconda del contratto e dell'inquadramento, da circa il 15% fino al 50%. Per farti due esempi reali: nel CCNL Commercio la domenica è tipicamente maggiorata del 30%, mentre in alcuni CCNL delle cooperative sociali la maggiorazione festiva/domenicale è del 15%.\n- Riposo compensativo. Se lavori nel tuo giorno di riposo settimanale, oltre alla maggiorazione hai diritto a recuperare quel riposo in un altro giorno, di norma entro pochi giorni.\n- Festività non goduta. Se lavori in una festività, di regola ti spetta anche il compenso o il riposo per la festività non goduta.\n\nTutte queste voci (maggiorazione, riposo, festività) devono comparire correttamente in busta paga e rientrano nell'imponibile fiscale e previdenziale.\n\nIl problema è che, tra sigle e codici, è facile che una maggiorazione venga dimenticata o calcolata male. GioIA controlla il tuo cedolino e verifica se le ore festive e domenicali sono state pagate con la maggiorazione prevista dal tuo CCNL.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.Lgs. 66/2003 (riposo settimanale e compensativo); maggiorazioni festivo/domenicale da CCNL applicato",
+      "fonte_url": "https://leggeinchiaro.it/lavoro-festivo-domenicale-pagamento/"
+    },
+    {
+      "titolo": "TFR: perché alla liquidazione paghi meno tasse (la tassazione separata)",
+      "testo": "Quando lasci un lavoro e ricevi il TFR (il trattamento di fine rapporto, la \"liquidazione\"), potresti aspettarti una batosta fiscale. In realtà il TFR è tassato in modo agevolato, con un meccanismo chiamato tassazione separata.\n\nPerché \"separata\"? Perché il TFR è frutto di anni di lavoro, ma ti viene pagato tutto in un colpo solo. Se venisse sommato al reddito dell'anno, l'aliquota IRPEF schizzerebbe verso lo scaglione più alto (fino al 43%) e pagheresti moltissimo. Per evitare questo effetto, la legge (art. 19 del TUIR) lo tassa a parte.\n\nCome si calcola, in parole semplici:\n\n1. Si trova un \"reddito di riferimento\": TFR maturato diviso gli anni di servizio, moltiplicato per dodici.\n2. Su questo reddito teorico si applicano gli scaglioni IRPEF e si ricava un'aliquota media.\n3. Quell'aliquota media si applica a tutto il TFR.\n\nIl risultato è quasi sempre un'aliquota più bassa dell'IRPEF ordinaria. Due dettagli utili: le rivalutazioni annue del TFR sono già tassate ogni anno con un'imposta sostitutiva (17%) e non vengono ritassate alla fine; e le quote di TFR maturate fino al 31/12/2006 seguono regole in parte diverse.\n\nAlla liquidazione conviene controllare che l'aliquota applicata e gli importi siano corretti: è una cifra che pesa. GioIA legge il tuo prospetto di TFR e ti aiuta a capire se la tassazione separata è stata calcolata bene.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR; art. 11 D.Lgs. 47/2000 (imposta sostitutiva 17% sulle rivalutazioni)",
+      "fonte_url": "https://leggeinchiaro.it/tassazione-separata-tfr/"
+    }
+  ]
+}

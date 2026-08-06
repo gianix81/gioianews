@@ -1,0 +1,25 @@
+{
+  "schema": "gioia-parametri-calcolo",
+  "data_run": "2026-08-06",
+  "ora_run": "2004",
+  "note": "Valori IRPEF/INPS/cuneo/TFR/NASpI/INAIL/fringe/indennita malattia-maternita invariati rispetto alle run precedenti del 06/08/2026. Nessun nuovo parametro di calcolo certificato in questa run: gli atti della finestra (Msg INPS 2550/2026 riforma disabilita telematica; conguagli 730 su pensioni) non modificano il calcolo del cedolino privato standard.",
+  "parametri": [
+    { "voce": "IRPEF scaglioni", "valore": "23% fino a 28.000; 33% da 28.000 a 50.000; 43% oltre", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025; art. 11 e 13 TUIR" },
+    { "voce": "No tax area dipendenti", "valore": "8.500 EUR", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "art. 13 TUIR" },
+    { "voce": "Detrazione lavoro dipendente (max base)", "valore": "1.955 EUR", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 13 TUIR" },
+    { "voce": "Contributo IVS a carico lavoratore", "valore": "9,19%", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "normativa contributiva INPS 2026 (Circ. INPS 6/2026 valori)" },
+    { "voce": "Massimale annuo base contributiva", "valore": "122.295 EUR", "decorrenza": "2026", "affidabilita": "DA_VERIFICARE", "fonte": "da riscontrare su circolare INPS valori 2026" },
+    { "voce": "Cuneo fiscale - soglia somma esente", "valore": "reddito <= 20.000 EUR", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "Cuneo fiscale - detrazione fascia", "valore": "20.001 - 40.000 EUR (decrescente)", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "voce": "Previdenza complementare - plafond deducibilita", "valore": "5.300 EUR/anno", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "DL 62/2026 conv. L. 112/2026" },
+    { "voce": "NASpI massimale mensile", "valore": "1.584,70 EUR/mese", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+    { "voce": "INAIL rendite (min/max)", "valore": "20.712,30 / 38.465,70 EUR", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Circ. INAIL 35 del 22/07/2026; D.M. Lavoro 11/05/2026 n. 58" },
+    { "voce": "Indennita malattia/maternita - massimale annuo", "valore": "43.486,00 EUR", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 75 del 17/07/2026" },
+    { "voce": "Indennita malattia/maternita - massimale giornaliero", "valore": "119,14 EUR", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 75 del 17/07/2026" },
+    { "voce": "TFR - coefficiente rivalutazione (giugno 2026)", "valore": "2,786543 (FOI 102,8)", "decorrenza": "2026-06", "affidabilita": "CERTO", "fonte": "ISTAT 16/07/2026" },
+    { "voce": "TFR - imposta sostitutiva su rivalutazione", "valore": "17%", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 11 c.3 D.Lgs. 47/2000" },
+    { "voce": "Congedo malattia figlio 3-14 anni", "valore": "10 gg/anno per genitore, non retribuito", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025; art. 47 D.Lgs. 151/2001" },
+    { "voce": "Buoni pasto esenti (elettronici/cartacei)", "valore": "10 EUR/gg / 4 EUR/gg", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 51 c.2 lett. c TUIR; L. 199/2025" },
+    { "voce": "Fringe benefit soglia esente (con/senza figli)", "valore": "2.000 / 1.000 EUR", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Legge di Bilancio 2025 (triennio 2025-2027)" }
+  ]
+}
