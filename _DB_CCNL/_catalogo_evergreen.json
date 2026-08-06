@@ -1,7 +1,7 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-05 2003",
+  "aggiornato_il": "2026-08-06 0606",
   "argomenti": [
     {
       "id": "ev-congedo-paternita-obbligatorio",
@@ -170,6 +170,24 @@
       "tema": "Buoni pasto (ticket restaurant)",
       "riferimento_normativo": "Buoni pasto - esenzione fiscale (elettronici/cartacei)",
       "angolo": "Soglie esenti dei buoni pasto: elettronici 10 €/gg, cartacei 4 €/gg; tassazione dell'eccedenza."
+    },
+    {
+      "id": "ev-assegno-unico",
+      "tema": "Assegno Unico Universale (AUU)",
+      "riferimento_normativo": "Assegno Unico Universale - D.Lgs. 230/2021; importi annuali da circolare INPS",
+      "angolo": "Perche' l'assegno per i figli non e' piu' in busta paga e quanto vale in base all'ISEE."
+    },
+    {
+      "id": "ev-indennita-trasferta",
+      "tema": "Indennita' di trasferta (esenzione fiscale)",
+      "riferimento_normativo": "Art. 51 comma 5 TUIR - indennita' di trasferta",
+      "angolo": "Quota esente dell'indennita' di trasferta: 46,48 €/gg Italia, 77,47 €/gg estero; riduzioni con rimborso spese."
+    },
+    {
+      "id": "ev-visite-fiscali",
+      "tema": "Visite fiscali e fasce di reperibilita'",
+      "riferimento_normativo": "Fasce di reperibilita' visite fiscali (regole INPS/Legge di Bilancio)",
+      "angolo": "Fasce orarie 10-12 e 17-19 (festivi inclusi) e effetti sull'indennita' di malattia in busta."
     }
   ]
 }

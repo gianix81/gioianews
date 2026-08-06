@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-06",
+  "notizie": [
+    {
+      "titolo": "Assegno unico 2026: perché non lo trovi più in busta paga (e quanto vale)",
+      "testo": "Molti dipendenti cercano l'assegno per i figli nel cedolino e non lo trovano: è normale. Dal 2022 l'Assegno Unico e Universale non passa più dalla busta paga del datore di lavoro, ma viene versato direttamente dall'INPS sul tuo conto (o con altre modalità che scegli nella domanda). In busta, quindi, non c'è più alcuna voce \"assegni familiari\" legata ai figli minori.\n\nQuanto vale nel 2026? L'importo dipende dall'ISEE del tuo nucleo e va da un minimo di circa 58,30 € a un massimo di circa 203,80 € al mese per ciascun figlio minorenne. L'importo pieno spetta con ISEE fino a 17.468,51 €; si riduce salendo di reddito fino alla soglia massima della tabella di 46.582,71 €, oltre la quale (o senza ISEE) spetta comunque l'importo minimo. Per il 2026 gli importi sono stati rivalutati del +1,4% in base all'indice ISTAT, come indicato nella circolare INPS n. 7 del 30 gennaio 2026. Sono previste maggiorazioni (ad esempio per famiglie numerose, figli piccoli, genitori entrambi lavoratori o figli con disabilità).\n\nUn dettaglio pratico: per avere gli importi corretti nel 2026 devi aggiornare l'ISEE. In assenza di ISEE valido scatta l'importo minimo, indipendentemente dal reddito reale.\n\nGioIA analizza il tuo cedolino voce per voce: se ti aspetti ancora gli \"assegni familiari\" in busta e non li vedi, ti spiega perché e ti aiuta a capire cosa è passato all'assegno unico e cosa invece è un errore da segnalare.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Assegno Unico Universale - D.Lgs. 230/2021; Circ. INPS n. 7 del 30/01/2026 (importi 2026)",
+      "fonte_url": "https://www.fiscoetasse.com/new-rassegna-stampa/3476-assegno-unico-2026-tabelle-importi-isee-domanda.html"
+    },
+    {
+      "titolo": "Indennità di trasferta: fino a 46,48 € al giorno esentasse (77,47 € all'estero)",
+      "testo": "Se il tuo lavoro ti porta spesso fuori dalla sede, in busta paga può comparire un'indennità di trasferta. La buona notizia è che una parte di questa somma non viene tassata.\n\nLa regola è fissata dall'articolo 51, comma 5, del TUIR: l'indennità di trasferta per spostamenti fuori dal Comune sede di lavoro è esente fino a 46,48 € al giorno in Italia e fino a 77,47 € al giorno per le trasferte all'estero. La parte che supera questi limiti, invece, entra nell'imponibile e viene tassata come normale retribuzione.\n\nAttenzione a due punti che spesso generano confusione: 1) l'esenzione si riduce di un terzo se l'azienda ti rimborsa a parte (a piè di lista) le spese di vitto o di alloggio, e di due terzi se te le rimborsa entrambe; 2) le indennità per trasferte dentro il Comune sede di lavoro sono invece interamente tassate. Dal 2025, inoltre, per l'esenzione di alcuni rimborsi (vitto, alloggio, viaggio) i pagamenti devono essere tracciabili.\n\nÈ una voce facile da sbagliare: capita che venga tassato tutto l'importo o che si applichi il limite sbagliato tra Italia ed estero.\n\nGioIA controlla proprio queste voci: verifica se la tua indennità di trasferta rispetta i limiti di esenzione e ti segnala se stai pagando imposte che non dovresti.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 51 comma 5 TUIR (DPR 917/1986) - indennità di trasferta",
+      "fonte_url": "https://www.brocardi.it/testo-unico-imposte-redditi/titolo-i/capo-iv/art51.html"
+    },
+    {
+      "titolo": "Malattia 2026: le nuove fasce per la visita fiscale (10-12 e 17-19, uguali per tutti)",
+      "testo": "Quando sei in malattia con un certificato medico, devi essere reperibile a casa per l'eventuale visita di controllo. Dal 2026 le fasce orarie di reperibilità sono le stesse per tutti i lavoratori, dipendenti privati e pubblici: dalle 10:00 alle 12:00 e dalle 17:00 alle 19:00. Valgono tutti i giorni, compresi sabato, domenica e festivi, e per l'intera durata della prognosi indicata nel certificato.\n\nLa Legge di Bilancio 2026 ha unificato le regole, eliminando la vecchia distinzione tra pubblico e privato e recependo un orientamento della giustizia amministrativa. Sono state anche potenziate le verifiche, con più medici disponibili per i controlli domiciliari.\n\nCosa c'entra con la busta paga? Se durante la visita fiscale risulti assente ingiustificato, puoi perdere una parte dell'indennità di malattia per i giorni previsti dalle regole: in busta lo vedresti come una riduzione dell'importo. Ecco perché conviene rispettare le fasce anche se ti senti in via di guarigione.\n\nGioIA legge il tuo cedolino e ti aiuta a capire come vengono calcolate le giornate di malattia e l'indennità: se un importo non torna, te lo segnala così puoi chiedere chiarimenti.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Legge di Bilancio 2026 - fasce di reperibilità visite fiscali unificate; prassi INPS 2026",
+      "fonte_url": "https://www.pmi.it/card/regole-visite-fiscali"
+    }
+  ]
+}
