@@ -1,0 +1,60 @@
+{
+  "schema": "gioia-parametri-calcolo",
+  "data_run": "2026-08-06",
+  "ora_run": "1003",
+  "note": "Valori IRPEF/INPS/cuneo/TFR/NASpI/INAIL/fringe/indennita' malattia-maternita' invariati rispetto a 2026-08-06 h0606. Aggiunti coefficienti fringe benefit auto uso promiscuo.",
+  "parametri": {
+    "irpef_scaglioni": [
+      { "fino_a": 28000, "aliquota": 0.23 },
+      { "da": 28000, "fino_a": 50000, "aliquota": 0.33 },
+      { "oltre": 50000, "aliquota": 0.43 }
+    ],
+    "irpef_decorrenza": "2026-01-01",
+    "irpef_fonte": "L. 199/2025; art. 13 TUIR",
+    "no_tax_area_dipendenti": { "valore": 8500, "decorrenza": "2026-01-01", "affidabilita": "CERTO" },
+    "detrazione_lavoro_dipendente_max": { "valore": 1955, "anno": 2026, "affidabilita": "CERTO" },
+    "ivs_lavoratore": { "valore": 0.0919, "anno": 2026, "affidabilita": "CERTO", "fonte": "normativa contributiva INPS 2026" },
+    "cuneo_2026": {
+      "somma_esente_reddito_fino": 20000,
+      "detrazione_fascia": "20.001-40.000 (decrescente)",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    "previdenza_complementare": {
+      "plafond_deducibilita_annuo": 5300,
+      "quota_max_capitale": 0.50,
+      "decorrenza": "2026-07-01",
+      "affidabilita": "CERTO",
+      "fonte": "DL 62/2026 conv. L. 112/2026"
+    },
+    "naspi_massimale_mensile": { "valore": 1584.70, "anno": 2026, "affidabilita": "CERTO" },
+    "inail_rendite": { "minimale": 20712.30, "massimale": 38465.70, "decorrenza": "2026-07-01", "affidabilita": "CERTO" },
+    "indennita_malattia_maternita": {
+      "massimale_annuo": 43486.00,
+      "massimale_giornaliero": 119.14,
+      "anno": 2026,
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS n. 75 del 17/07/2026"
+    },
+    "tfr_coefficiente_rivalutazione": {
+      "riferimento": "giugno 2026",
+      "indice_foi": 102.8,
+      "coefficiente": 2.786543,
+      "base": "TFR maturato al 31/12/2025",
+      "affidabilita": "CERTO",
+      "fonte": "ISTAT 16/07/2026",
+      "nota": "coefficiente luglio 2026 atteso il 12/08/2026"
+    },
+    "fringe_benefit_auto_uso_promiscuo": {
+      "base_calcolo": "costo chilometrico ACI x 15.000 km convenzionali x percentuale alimentazione",
+      "percorrenza_convenzionale_km": 15000,
+      "percentuali": { "BEV_elettrico": 0.10, "PHEV_ibrido_plugin": 0.20, "altri": 0.50 },
+      "tabelle_aci": "pubblicate in GU 23/12/2025",
+      "anno": 2026,
+      "affidabilita": "CERTO",
+      "fonte": "art. 51 c.4 lett. a) TUIR",
+      "nota_iter": "Decreto Omnibus: proposta +50% imponibile per veicoli oltre 5 anni dalla prima immatricolazione (+5% accessori) - IN ITER, non in vigore"
+    }
+  }
+}

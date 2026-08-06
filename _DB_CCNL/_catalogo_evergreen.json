@@ -1,7 +1,7 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-06 0606",
+  "aggiornato_il": "2026-08-06 1003",
   "argomenti": [
     {
       "id": "ev-congedo-paternita-obbligatorio",
@@ -188,6 +188,30 @@
       "tema": "Visite fiscali e fasce di reperibilita'",
       "riferimento_normativo": "Fasce di reperibilita' visite fiscali (regole INPS/Legge di Bilancio)",
       "angolo": "Fasce orarie 10-12 e 17-19 (festivi inclusi) e effetti sull'indennita' di malattia in busta."
+    },
+    {
+      "id": "ev-fringe-auto-uso-promiscuo",
+      "tema": "Fringe benefit auto aziendale uso promiscuo",
+      "riferimento_normativo": "Art. 51 comma 4 lett. a) TUIR - fringe benefit auto uso promiscuo",
+      "angolo": "Valore forfettario tassato in busta: 15.000 km x costo km ACI x % alimentazione (10% BEV, 20% PHEV, 50% altri)."
+    },
+    {
+      "id": "ev-lavoro-notturno",
+      "tema": "Lavoro notturno: definizione e maggiorazioni",
+      "riferimento_normativo": "D.Lgs. 66/2003 - lavoro notturno; maggiorazioni da CCNL",
+      "angolo": "Quando scatta il lavoro notturno (periodo 24-5, 7h consecutive) e maggiorazione prevista dal CCNL in busta."
+    },
+    {
+      "id": "ev-congedo-malattia-figlio",
+      "tema": "Congedo per malattia del figlio",
+      "riferimento_normativo": "D.Lgs. 151/2001 art. 47 - congedo per malattia del bambino",
+      "angolo": "Permessi per malattia del figlio: illimitati e non retribuiti fino a 3 anni, 5 giorni/anno tra 3 e 8 anni; come incide in busta."
+    },
+    {
+      "id": "ev-superminimo",
+      "tema": "Superminimo individuale (assorbibile e non)",
+      "riferimento_normativo": "Contrattazione individuale/collettiva - superminimo; principi giurisprudenziali su assorbibilita'",
+      "angolo": "Cos'e' il superminimo in busta e quando puo' essere assorbito dagli aumenti contrattuali."
     }
   ]
 }

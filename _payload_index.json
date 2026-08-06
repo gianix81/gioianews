@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-06 0606",
+  "aggiornato_il": "2026-08-06 1003",
   "pubblicate": [
     {
       "chiave": "d.lgs. 151/2001 artt. 32 e ss. - congedo parentale",
@@ -378,6 +378,30 @@
       "data_run": "2026-08-06",
       "ora_run": "0606",
       "file": "ingest_payload_2026-08-06_0606.json"
+    },
+    {
+      "chiave": "circolare inps n. 81 del 24/07/2026; art. 7-bis dl 19/2026 conv. l. 50/2026",
+      "titolo": "Assegno unico: ora spetta anche per i figli residenti in un altro Paese UE",
+      "riferimento_normativo": "Circolare INPS n. 81 del 24/07/2026; art. 7-bis DL 19/2026 conv. L. 50/2026",
+      "data_run": "2026-08-06",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-06_1003.json"
+    },
+    {
+      "chiave": "art. 51 comma 4 tuir (dpr 917/1986) - fringe benefit auto aziendale uso promiscuo",
+      "titolo": "Auto aziendale a uso promiscuo: perché la trovi tassata in busta paga",
+      "riferimento_normativo": "Art. 51 comma 4 lett. a) TUIR (DPR 917/1986); tabelle ACI 2026 (GU 23/12/2025)",
+      "data_run": "2026-08-06",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-06_1003.json"
+    },
+    {
+      "chiave": "d.lgs. 66/2003 - lavoro notturno (definizione e maggiorazioni ccnl)",
+      "titolo": "Lavoro notturno: quando \"scatta\" e perché in busta trovi una maggiorazione",
+      "riferimento_normativo": "D.Lgs. 66/2003 (definizione periodo e lavoratore notturno); maggiorazioni da CCNL applicato",
+      "data_run": "2026-08-06",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-06_1003.json"
     }
   ]
 }
