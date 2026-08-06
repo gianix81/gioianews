@@ -1,8 +1,32 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-06 1003",
+  "aggiornato_il": "2026-08-06 1603",
   "pubblicate": [
+    {
+      "chiave": "messaggio inps n. 2540 del 03/08/2026; art. 3 d.lgs. 22/2015; art. 2119 c.c.",
+      "titolo": "NASpI: chi si dimette per violenza o stalking ora ha diritto alla disoccupazione",
+      "riferimento_normativo": "Messaggio INPS n. 2540 del 03/08/2026; art. 3 D.Lgs. 22/2015; art. 2119 c.c.",
+      "data_run": "2026-08-06",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-06_1603.json"
+    },
+    {
+      "chiave": "art. 47 d.lgs. 151/2001 - congedo per malattia del figlio; l. 199/2025",
+      "titolo": "Figlio malato? Dal 2026 hai fino a 10 giorni l'anno (ma non pagati)",
+      "riferimento_normativo": "Art. 47 D.Lgs. 151/2001; L. 199/2025 (Legge di Bilancio 2026)",
+      "data_run": "2026-08-06",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-06_1603.json"
+    },
+    {
+      "chiave": "superminimo individuale - contrattazione individuale/collettiva; principi giurisprudenziali su assorbibilita'",
+      "titolo": "Superminimo in busta paga: quell'extra che a volte sparisce con gli aumenti",
+      "riferimento_normativo": "Superminimo individuale - contrattazione individuale/collettiva; principi giurisprudenziali su assorbibilita'",
+      "data_run": "2026-08-06",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-06_1603.json"
+    },
     {
       "chiave": "d.lgs. 151/2001 artt. 32 e ss. - congedo parentale",
       "titolo": "Congedo parentale: quanti mesi ti spettano e quanto ti pagano",

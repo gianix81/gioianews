@@ -1,0 +1,21 @@
+{
+  "schema": "gioia-parametri-calcolo",
+  "data_run": "2026-08-06",
+  "ora_run": "1603",
+  "note": "Valori IRPEF/INPS/cuneo/TFR/NASpI/INAIL/indennita' invariati rispetto a run 2026-08-06 h1003. Aggiunto parametro congedo malattia figlio (L. 199/2025).",
+  "parametri": [
+    { "id": "irpef_scaglioni", "descrizione": "Aliquote IRPEF per scaglioni", "valore": "23% fino a 28.000; 33% da 28.000 a 50.000; 43% oltre", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025; art. 11 TUIR" },
+    { "id": "no_tax_area_dipendenti", "descrizione": "No tax area lavoro dipendente", "valore": 8500.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "art. 13 TUIR" },
+    { "id": "ivs_lavoratore", "descrizione": "Aliquota contributiva IVS a carico dipendente (industria/terziario standard)", "valore": "9,19%", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "Circ. INPS 6/2026" },
+    { "id": "cuneo_soglia_esente", "descrizione": "Soglia reddito per somma esente cuneo fiscale", "valore": 20000.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025" },
+    { "id": "detrazione_lavoro_dip", "descrizione": "Detrazione base lavoro dipendente (max)", "valore": 1955.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "art. 13 TUIR" },
+    { "id": "prev_compl_plafond", "descrizione": "Plafond annuo deducibilita' previdenza complementare", "valore": 5300.00, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "DL 62/2026 conv. L. 112/2026" },
+    { "id": "naspi_massimale_mese", "descrizione": "Massimale mensile NASpI 2026", "valore": 1584.70, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "Circ. INPS 4/2026" },
+    { "id": "inail_rendita_min", "descrizione": "Minimale annuo rendita INAIL", "valore": 20712.30, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Circ. INAIL 35/2026" },
+    { "id": "inail_rendita_max", "descrizione": "Massimale annuo rendita INAIL", "valore": 38465.70, "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "Circ. INAIL 35/2026" },
+    { "id": "indennita_malattia_mat_massimale_annuo", "descrizione": "Massimale annuo indennita' malattia/maternita'", "valore": 43486.00, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "Circ. INPS 75/2026" },
+    { "id": "indennita_malattia_mat_massimale_giorn", "descrizione": "Massimale giornaliero indennita' malattia/maternita'", "valore": 119.14, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "Circ. INPS 75/2026" },
+    { "id": "tfr_coefficiente_rivalutazione", "descrizione": "Coefficiente rivalutazione TFR (rif. giugno 2026, FOI 102,8)", "valore": 2.786543, "decorrenza": "2026-06-30", "affidabilita": "CERTO", "fonte": "ISTAT 16/07/2026; art. 2120 c.c." },
+    { "id": "congedo_malattia_figlio_3_14", "descrizione": "Giorni congedo per malattia figlio 3-14 anni (per genitore, non retribuiti)", "valore": 10, "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025; art. 47 D.Lgs. 151/2001" }
+  ]
+}
