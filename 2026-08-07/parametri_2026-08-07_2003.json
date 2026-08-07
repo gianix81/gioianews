@@ -1,0 +1,28 @@
+{
+  "schema": "gioia-parametri-busta-paga",
+  "data_run": "2026-08-07",
+  "ora_run": "2003",
+  "note": "Valori invariati rispetto alle run 2026-08-07 h0603/h1003/h1603. Nessuna nuova norma calc-critica nella finestra 30gg (INPS in sospensione estiva notifiche fino 31/08/2026).",
+  "parametri": [
+    {"voce": "IRPEF scaglioni", "valore": "23% fino a 28.000; 33% da 28.001 a 50.000; 43% oltre", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025; art. 13 TUIR"},
+    {"voce": "No tax area dipendenti", "valore": 8500.00, "unita": "EUR/anno", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "art. 13 TUIR"},
+    {"voce": "IVS lavoratore (aliquota contributiva a carico dipendente)", "valore": 9.19, "unita": "%", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "normativa contributiva INPS 2026"},
+    {"voce": "Cuneo - soglia somma esente", "valore": 20000.00, "unita": "EUR/anno", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025"},
+    {"voce": "Cuneo - fascia detrazione decrescente", "valore": "20.001 - 40.000", "unita": "EUR/anno", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "L. 199/2025"},
+    {"voce": "Detrazione lavoro dipendente (base max)", "valore": 1955.00, "unita": "EUR/anno", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 13 TUIR"},
+    {"voce": "Previdenza complementare - plafond deducibilita", "valore": 5300.00, "unita": "EUR/anno", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "L. 112/2026"},
+    {"voce": "NASpI - massimale mensile", "valore": 1584.70, "unita": "EUR/mese", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "circolare INPS valori 2026"},
+    {"voce": "INAIL - retribuzione rendite (min)", "valore": 20712.30, "unita": "EUR/anno", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "INAIL 2026"},
+    {"voce": "INAIL - retribuzione rendite (max)", "valore": 38465.70, "unita": "EUR/anno", "decorrenza": "2026-07-01", "affidabilita": "CERTO", "fonte": "INAIL 2026"},
+    {"voce": "Indennita malattia/maternita - massimale annuo", "valore": 43486.00, "unita": "EUR/anno", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 75/2026"},
+    {"voce": "Indennita malattia/maternita - massimale giornaliero", "valore": 119.14, "unita": "EUR/giorno", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "Circ. INPS 75/2026"},
+    {"voce": "TFR - coefficiente rivalutazione giugno 2026", "valore": 2.786543, "nota": "FOI 102,8", "decorrenza": "2026-06", "affidabilita": "CERTO", "fonte": "ISTAT 16/07/2026"},
+    {"voce": "TFR - imposta sostitutiva su rivalutazione", "valore": 17.0, "unita": "%", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "normativa TFR"},
+    {"voce": "Premi di risultato - imposta sostitutiva", "valore": 1.0, "unita": "%", "nota": "biennio 2026-2027, premi fino a 3.000 EUR lordi, reddito anno prec. <= 80.000 EUR", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "L. 208/2015 e Legge di Bilancio 2026"},
+    {"voce": "Buoni pasto esenti - elettronici", "valore": 10.00, "unita": "EUR/giorno", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 51 c.2 lett. c) TUIR; L. 199/2025"},
+    {"voce": "Buoni pasto esenti - cartacei", "valore": 4.00, "unita": "EUR/giorno", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 51 c.2 lett. c) TUIR"},
+    {"voce": "Fringe benefit soglia esente - con figli a carico", "valore": 2000.00, "unita": "EUR/anno", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 51 TUIR; Legge di Bilancio 2026"},
+    {"voce": "Fringe benefit soglia esente - senza figli", "valore": 1000.00, "unita": "EUR/anno", "decorrenza": "2026", "affidabilita": "CERTO", "fonte": "art. 51 TUIR; Legge di Bilancio 2026"},
+    {"voce": "Congedo malattia figlio 3-14 anni", "valore": "10 giorni/anno per genitore, non retribuito", "decorrenza": "2026-01-01", "affidabilita": "CERTO", "fonte": "D.Lgs. 151/2001 come modif."}
+  ]
+}

@@ -516,6 +516,27 @@
       "data_run": "2026-08-07",
       "ora_run": "1603",
       "file": "ingest_payload_2026-08-07_1603.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - quattordicesima mensilità; art. 2099 c.c.",
+      "titolo": "Quattordicesima: la mensilità in più che (forse) hai appena ricevuto",
+      "data_run": "2026-08-07",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-07_2003.json"
+    },
+    {
+      "chiave": "periodo di carenza malattia - prassi inps e ccnl applicato (indennità dal 4° giorno)",
+      "titolo": "Malattia: perché i primi 3 giorni li paga l'azienda (e non l'INPS)",
+      "data_run": "2026-08-07",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-07_2003.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - scatti di anzianità (numero, importo e periodicità da ccnl applicato)",
+      "titolo": "Scatti di anzianità: l'aumento automatico che premia gli anni di lavoro",
+      "data_run": "2026-08-07",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-07_2003.json"
     }
   ]
 }
