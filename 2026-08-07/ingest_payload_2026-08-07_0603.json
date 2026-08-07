@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-07",
+  "notizie": [
+    {
+      "titolo": "Congedo matrimoniale: 15 giorni di stipendio pieno per chi si sposa",
+      "testo": "Ti sposi? Hai diritto a un congedo matrimoniale di 15 giorni di calendario, retribuiti. È un permesso specifico, distinto dalle ferie: quei giorni non ti vengono scalati dal monte ferie.\n\nCome funziona in busta paga. Per gli impiegati sei considerato al 100% in servizio: il datore di lavoro ti paga direttamente la normale retribuzione per il periodo. Per gli operai una parte (pari a 7 giorni) è coperta da un assegno a carico dell'INPS, e il datore integra fino a garantirti comunque la retribuzione piena per tutti i 15 giorni. Il diritto vale per operai, impiegati, apprendisti e quadri.\n\nQuando decorre. Di norma parte entro pochi giorni dalla data del matrimonio (la maggior parte dei CCNL indica il terzo giorno prima della cerimonia) e va richiesto con un breve preavviso, allegando poi il certificato di matrimonio. Durata e modalità esatte dipendono dal CCNL applicato, che trovi indicato in busta paga.\n\nNel cedolino, il congedo compare come voce di assenza retribuita: se sei operaio, vedrai una parte a carico INPS più l'integrazione aziendale. È una delle voci in cui gli errori sono frequenti (giorni conteggiati come ferie, integrazione mancante). GioIA legge il tuo cedolino e verifica che il congedo matrimoniale sia stato trattato correttamente, senza intaccare le tue ferie.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Assegno per congedo matrimoniale (INPS); disciplina CCNL applicato",
+      "fonte_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-per-congedo-matrimoniale-50089.assegno-per-congedo-matrimoniale-a-pagamento-diretto.html"
+    },
+    {
+      "titolo": "Studi e lavori? Fino a 150 ore di permessi retribuiti l'anno",
+      "testo": "Se sei un lavoratore-studente, la legge ti riconosce permessi retribuiti per studiare: sono i cosiddetti permessi delle 150 ore per il diritto allo studio.\n\nDa dove nascono. Il principio è nell'articolo 10 dello Statuto dei Lavoratori (Legge 300/1970): chi frequenta corsi di studio ha diritto a orari che agevolino la frequenza e a permessi retribuiti per sostenere gli esami. La misura concreta è demandata al contratto collettivo.\n\nQuanto spetta. La gran parte dei CCNL prevede un tetto di 150 ore in un triennio (in media circa 50 ore l'anno), retribuite, da usare per la frequenza dei corsi. Di solito il monte è riservato a una quota del personale (indicativamente il 3% dei dipendenti a tempo indeterminato), per non far coincidere troppe assenze. Oltre a queste ore, in genere spettano permessi retribuiti anche per le giornate d'esame.\n\nQuali corsi. Valgono per corsi in scuole statali o legalmente riconosciute, dalle superiori all'università, fino a percorsi di qualifica professionale: i dettagli su titoli ammessi e documentazione sono nel tuo CCNL.\n\nIn busta paga queste ore vanno esposte come permesso retribuito, senza taglio della retribuzione. GioIA controlla il tuo cedolino e ti segnala se i permessi di studio risultano decurtati o gestiti come assenze non pagate.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 10 L. 300/1970 (Statuto dei Lavoratori); disciplina CCNL applicato",
+      "fonte_url": "https://www.brocardi.it/statuto-lavoratori/titolo-i/art10.html"
+    },
+    {
+      "titolo": "Welfare aziendale: i servizi che NON pagano tasse (e non sono i fringe benefit)",
+      "testo": "Non tutto quello che l'azienda ti offre in più dello stipendio segue le stesse regole fiscali. Molti confondono il welfare aziendale con i fringe benefit, ma sono due cose diverse.\n\nI fringe benefit (articolo 51, comma 3 del TUIR) sono beni e servizi con un tetto di esenzione: nel 2026 fino a 1.000 euro l'anno, che salgono a 2.000 se hai figli fiscalmente a carico. Superata la soglia, l'intero valore diventa imponibile e lo vedi tassato in busta.\n\nIl welfare aziendale in senso stretto è invece nell'articolo 51, comma 2 del TUIR: opere e servizi con finalità sociale (istruzione, educazione, assistenza sociale e sanitaria, ricreazione), rimborsi per asili nido e scuola dei familiari, contributi a previdenza complementare e casse sanitarie entro i limiti, buoni pasto nei tetti previsti. La differenza chiave: se sono offerti alla generalità dei dipendenti o a categorie omogenee, questi servizi sono esenti a prescindere dall'importo e non erodono il plafond dei fringe benefit.\n\nCosa cambia per te. Le somme di welfare del comma 2 non compaiono come imponibile e quindi non alzano le tasse in busta, a differenza dei fringe benefit oltre soglia. Distinguere le due voci è essenziale per capire se il netto è corretto. GioIA analizza il tuo cedolino e verifica che welfare e fringe benefit siano classificati e tassati nel modo giusto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 51 commi 2 e 3 TUIR (DPR 917/1986)",
+      "fonte_url": "https://leggeinchiaro.it/welfare-aziendale-deducibilita-art-51-100-tuir-buoni-pasto/"
+    }
+  ]
+}

@@ -230,6 +230,24 @@
       "tema": "TFR: tassazione separata alla liquidazione",
       "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR (aliquota media); art. 11 D.Lgs. 47/2000",
       "angolo": "Perche' alla liquidazione il TFR e' tassato con aliquota media e non con l'IRPEF ordinaria: come si calcola il reddito di riferimento."
+    },
+    {
+      "id": "ev-congedo-matrimoniale",
+      "tema": "Congedo matrimoniale (15 giorni retribuiti)",
+      "riferimento_normativo": "Assegno per congedo matrimoniale (INPS); disciplina CCNL applicato",
+      "angolo": "15 giorni retribuiti per chi si sposa: come si legge in busta e differenza operai/impiegati"
+    },
+    {
+      "id": "ev-permessi-studio-150-ore",
+      "tema": "Permessi 150 ore per il diritto allo studio",
+      "riferimento_normativo": "Art. 10 L. 300/1970 (Statuto dei Lavoratori); disciplina CCNL applicato",
+      "angolo": "Fino a 150 ore/triennio retribuite per studiare: chi ne ha diritto e come compaiono in busta"
+    },
+    {
+      "id": "ev-welfare-aziendale-c2",
+      "tema": "Welfare aziendale (art. 51 c.2 TUIR) vs fringe benefit",
+      "riferimento_normativo": "Art. 51 commi 2 e 3 TUIR (DPR 917/1986)",
+      "angolo": "Servizi a finalita' sociale esenti senza limite: differenza con i fringe benefit e impatto sul netto"
     }
   ]
 }
