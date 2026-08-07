@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-06 2004",
+  "aggiornato_il": "2026-08-07 1603",
   "pubblicate": [
     {
       "chiave": "messaggio inps n. 2540 del 03/08/2026; art. 3 d.lgs. 22/2015; art. 2119 c.c.",
@@ -492,6 +492,30 @@
       "data_run": "2026-08-07",
       "ora_run": "1003",
       "file": "ingest_payload_2026-08-07_1003.json"
+    },
+    {
+      "chiave": "artt. 2118 e 2121 c.c. - indennità sostitutiva del preavviso e sua base di computo",
+      "titolo": "Indennità sostitutiva del preavviso: cos'è quella cifra quando il lavoro finisce di colpo",
+      "riferimento_normativo": "Artt. 2118 e 2121 c.c. - indennità sostitutiva del preavviso e sua base di computo",
+      "data_run": "2026-08-07",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-07_1603.json"
+    },
+    {
+      "chiave": "art. 4 l. 53/2000 - permessi per eventi e gravi motivi familiari (3 giorni retribuiti/anno)",
+      "titolo": "Permessi per lutto: 3 giorni retribuiti l'anno, ecco quando spettano",
+      "riferimento_normativo": "Art. 4 L. 53/2000 - permessi per eventi e gravi motivi familiari (3 giorni retribuiti/anno)",
+      "data_run": "2026-08-07",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-07_1603.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - indennità di reperibilità (ccnl applicato); imponibile irpef e inps",
+      "titolo": "Indennità di reperibilità: la paghi per stare \"a disposizione\", anche senza lavorare",
+      "riferimento_normativo": "Contrattazione collettiva - indennità di reperibilità (CCNL applicato); imponibile IRPEF e INPS",
+      "data_run": "2026-08-07",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-07_1603.json"
     }
   ]
 }

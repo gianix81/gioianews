@@ -1,8 +1,26 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-06 2004",
+  "aggiornato_il": "2026-08-07 1603",
   "argomenti": [
+    {
+      "id": "ev-indennita-preavviso",
+      "tema": "Indennita' sostitutiva del preavviso",
+      "riferimento_normativo": "Artt. 2118 e 2121 c.c. - indennita' sostitutiva del preavviso",
+      "angolo": "Se il rapporto finisce senza preavviso lavorato, in busta compare un'indennita' pari alla retribuzione del periodo di preavviso (ratei 13a/14a inclusi): come si legge alla cessazione."
+    },
+    {
+      "id": "ev-permessi-lutto",
+      "tema": "Permessi per lutto e gravi motivi familiari",
+      "riferimento_normativo": "Art. 4 L. 53/2000 - permessi per eventi e gravi motivi familiari",
+      "angolo": "3 giorni retribuiti l'anno per lutto o grave infermita' di coniuge/convivente/parente entro il 2o grado: requisiti, termine dei 7 giorni ed estensioni del CCNL."
+    },
+    {
+      "id": "ev-indennita-reperibilita",
+      "tema": "Indennita' di reperibilita'",
+      "riferimento_normativo": "Contrattazione collettiva - indennita' di reperibilita' (CCNL applicato)",
+      "angolo": "La quota per stare 'a disposizione' fuori orario: importo fisso o percentuale da CCNL, tassata IRPEF+INPS; gli interventi effettivi si pagano a parte."
+    },
     {
       "id": "ev-congedo-paternita-obbligatorio",
       "tema": "Congedo di paternita' obbligatorio (10 giorni)",
