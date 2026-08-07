@@ -471,6 +471,27 @@
       "data_run": "2026-08-07",
       "ora_run": "0603",
       "file": "ingest_payload_2026-08-07_0603.json"
+    },
+    {
+      "chiave": "Art. 33 L. 104/1992 - permessi per assistenza a familiari con disabilità grave",
+      "titolo": "Legge 104: 3 giorni al mese di permesso retribuito, ecco come si leggono in busta",
+      "data_run": "2026-08-07",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-07_1003.json"
+    },
+    {
+      "chiave": "Art. 51 comma 2 lett. c) TUIR; Legge di Bilancio 2026 - soglie esenzione buoni pasto",
+      "titolo": "Buoni pasto 2026: esenti fino a 10 € (elettronici) o 4 € (cartacei), il resto è tassato",
+      "data_run": "2026-08-07",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-07_1003.json"
+    },
+    {
+      "chiave": "Art. 2110 c.c. - sospensione del rapporto e conservazione del posto (comporto)",
+      "titolo": "Periodo di comporto: per quanto tempo la malattia non mette a rischio il posto",
+      "data_run": "2026-08-07",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-07_1003.json"
     }
   ]
 }
