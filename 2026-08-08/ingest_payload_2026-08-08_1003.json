@@ -1,0 +1,19 @@
+{
+  "data": "2026-08-08",
+  "notizie": [
+    {
+      "titolo": "Guadagni oltre 4.685 € al mese? Su quella parte paghi un 1% di contributi in più",
+      "testo": "Se hai uno stipendio elevato, in busta paga può comparire una trattenuta previdenziale in più rispetto al solito 9,19%: è il cosiddetto contributo aggiuntivo dell'1%.\n\nCome funziona? Ogni anno l'INPS fissa la \"prima fascia di pensionabilità\". Per il 2026 è pari a 56.224 euro all'anno, cioè circa 4.685 euro al mese. Sulla parte di retribuzione che supera questa soglia scatta un contributo aggiuntivo dell'1% a tuo carico, che si somma alla normale aliquota INPS.\n\nUn esempio: se un mese la tua retribuzione imponibile è 5.685 euro, i primi 4.685 euro seguono l'aliquota ordinaria; sui 1.000 euro eccedenti si applica anche l'1% in più (cioè 10 euro di trattenuta aggiuntiva quel mese). Il conteggio si fa mese per mese, quindi la trattenuta può comparire solo nelle mensilità più \"pesanti\" (per esempio quando arrivano premi o la tredicesima).\n\nÈ una voce che molti non conoscono e che spiega perché, in certi mesi, la percentuale di contributi trattenuti sembra più alta. Caricando la busta paga su GioIA puoi verificare se il contributo aggiuntivo dell'1% è stato applicato correttamente, e solo sulla quota che effettivamente supera la soglia annua.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 3-ter L. 438/1992 - contributo aggiuntivo 1% IVS; soglia prima fascia 2026 = 56.224 €/anno (Circ. INPS n. 6 del 30/01/2026)",
+      "fonte_url": "https://www.ecnews.it/lavoro/news-del-giorno/contributi-inps-2026-stabiliti-minimali-massimali/"
+    },
+    {
+      "titolo": "Part-time: come si legge in busta paga uno stipendio \"riproporzionato\"",
+      "testo": "Se lavori part-time, la tua busta paga segue una regola semplice ma importante: quasi tutto viene riproporzionato in base alle ore che fai rispetto al tempo pieno previsto dal tuo contratto.\n\nCosa significa in pratica? La paga base, la tredicesima (e l'eventuale quattordicesima), il TFR e in genere gli istituti economici sono calcolati in proporzione. Se ad esempio lavori il 50% delle ore di un full-time, la paga base è circa la metà di quella prevista dal contratto per il tuo livello a tempo pieno. È il principio di proporzionalità, insieme a quello di non discriminazione: il part-time ha gli stessi diritti del full-time, ma commisurati alle ore effettive.\n\nAttenzione a un punto spesso frainteso: le ferie. La legge non impone automaticamente la riduzione dei giorni di ferie; è il contratto collettivo applicato che può stabilire come vengono calcolate. Quindi la modalità corretta dipende dal tuo CCNL.\n\nUn errore tipico è il riproporzionamento fatto male: divisori orari sbagliati, tredicesima non ridotta correttamente o, al contrario, ferie tagliate senza che il contratto lo preveda. Caricando la busta paga su GioIA puoi controllare che paga base, mensilità aggiuntive e istituti siano riproporzionati in modo corretto rispetto al tuo orario e al contratto applicato.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.Lgs. 81/2015 artt. 7 e 25 - lavoro a tempo parziale: principio di proporzionalità e non discriminazione",
+      "fonte_url": "https://www.money.it/stipendio-part-time-ecco-come-calcola-retribuzione-busta-paga"
+    }
+  ]
+}

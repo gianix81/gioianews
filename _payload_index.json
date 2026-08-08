@@ -1,8 +1,24 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-07 1603",
+  "aggiornato_il": "2026-08-08 1003",
   "pubblicate": [
+    {
+      "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
+      "titolo": "Guadagni oltre 4.685 € al mese? Su quella parte paghi un 1% di contributi in più",
+      "riferimento_normativo": "Art. 3-ter L. 438/1992 - contributo aggiuntivo 1% IVS; soglia prima fascia 2026 = 56.224 €/anno (Circ. INPS n. 6 del 30/01/2026)",
+      "data_run": "2026-08-08",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-08_1003.json"
+    },
+    {
+      "chiave": "d.lgs. 81/2015 artt. 7 e 25 - part-time: proporzionalita' e non discriminazione (riproporzionamento retribuzione)",
+      "titolo": "Part-time: come si legge in busta paga uno stipendio \"riproporzionato\"",
+      "riferimento_normativo": "D.Lgs. 81/2015 artt. 7 e 25 - lavoro a tempo parziale: principio di proporzionalità e non discriminazione",
+      "data_run": "2026-08-08",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-08_1003.json"
+    },
     {
       "chiave": "messaggio inps n. 2540 del 03/08/2026; art. 3 d.lgs. 22/2015; art. 2119 c.c.",
       "titolo": "NASpI: chi si dimette per violenza o stalking ora ha diritto alla disoccupazione",
@@ -537,6 +553,30 @@
       "data_run": "2026-08-07",
       "ora_run": "2003",
       "file": "ingest_payload_2026-08-07_2003.json"
+    },
+    {
+      "chiave": "ccnl metalmeccanica pmi - confapi (unionmeccanica), codice cnel c018; ipotesi sottoscritta 04/06/2026, approvata 29/07/2026",
+      "titolo": "Rinnovato il contratto dei metalmeccanici delle piccole e medie imprese (Confapi)",
+      "riferimento_normativo": "CCNL Metalmeccanica PMI - Confapi (Unionmeccanica), codice CNEL C018; ipotesi sottoscritta 04/06/2026, approvata 29/07/2026",
+      "data_run": "2026-08-08",
+      "ora_run": "0739",
+      "file": "ingest_payload_2026-08-08_0739.json"
+    },
+    {
+      "chiave": "art. 39 e 40 d.lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennità a carico inps",
+      "titolo": "Riposi per allattamento: due ore al giorno pagate nel primo anno del bambino",
+      "riferimento_normativo": "Art. 39 e 40 D.Lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennità a carico INPS",
+      "data_run": "2026-08-08",
+      "ora_run": "0739",
+      "file": "ingest_payload_2026-08-08_0739.json"
+    },
+    {
+      "chiave": "art. 5 l. 260/1949 - festività cadente di domenica (retribuzione aggiuntiva)",
+      "titolo": "Una festività cade di domenica? Ti spetta un giorno di paga in più",
+      "riferimento_normativo": "Art. 5 L. 260/1949 - festività cadente di domenica (retribuzione aggiuntiva)",
+      "data_run": "2026-08-08",
+      "ora_run": "0739",
+      "file": "ingest_payload_2026-08-08_0739.json"
     }
   ]
 }

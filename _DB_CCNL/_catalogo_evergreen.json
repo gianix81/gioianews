@@ -1,7 +1,7 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-07 1603",
+  "aggiornato_il": "2026-08-08 0739",
   "argomenti": [
     {
       "id": "ev-indennita-preavviso",
@@ -266,6 +266,30 @@
       "tema": "Welfare aziendale (art. 51 c.2 TUIR) vs fringe benefit",
       "riferimento_normativo": "Art. 51 commi 2 e 3 TUIR (DPR 917/1986)",
       "angolo": "Servizi a finalita' sociale esenti senza limite: differenza con i fringe benefit e impatto sul netto"
+    },
+    {
+      "id": "ev-riposi-allattamento",
+      "tema": "Riposi giornalieri per allattamento",
+      "riferimento_normativo": "Art. 39 e 40 D.Lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennita' a carico INPS",
+      "angolo": "Due ore al giorno retribuite nel primo anno del bambino (una se orario <6h, doppie per parto gemellare): ore lavorate a tutti gli effetti, indennita' INPS anticipata dal datore in busta. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-festivita-domenica",
+      "tema": "Festivita' cadente di domenica: retribuzione aggiuntiva",
+      "riferimento_normativo": "Art. 5 L. 260/1949 - festivita' cadente di domenica",
+      "angolo": "Quando una festivita' nazionale cade di domenica spetta una quota di paga in piu' (per i mensilizzati circa 1/26 della mensilita'), a prescindere dal lavoro svolto. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-contributo-aggiuntivo-1pct",
+      "tema": "Contributo aggiuntivo IVS 1% sulla quota eccedente la prima fascia di pensionabilita'",
+      "riferimento_normativo": "Art. 3-ter L. 438/1992 - contributo aggiuntivo 1%",
+      "angolo": "Sui redditi elevati, sulla parte di retribuzione oltre la prima fascia di pensionabilita (2026: 56.224 EUR/anno = 4.685 EUR/mese, Circ. INPS 6/2026), si aggiunge un 1% di contributo a carico del lavoratore. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-part-time-riproporzionamento",
+      "tema": "Part-time: riproporzionamento di paga e istituti",
+      "riferimento_normativo": "D.Lgs. 81/2015 (disciplina del lavoro a tempo parziale)",
+      "angolo": "Nel part-time paga base, ferie, permessi, 13a/14a e TFR sono riproporzionati alle ore effettive: come si legge in busta e cosa controllare. PUBBLICATO 2026-08-08."
     }
   ]
 }

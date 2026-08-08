@@ -1,0 +1,45 @@
+{
+  "schema": "gioia-parametri-cedolino",
+  "data_run": "2026-08-08",
+  "ora_run": "0739",
+  "note": "Valori invariati rispetto alle run precedenti. Nessun nuovo atto calc-critico nella finestra. Novita del giorno: rinnovo CCNL Metalmecc. PMI-Confapi (C018) - impatto su tabelle CCNL, non sui parametri fiscali/contributivi generali.",
+  "parametri": {
+    "irpef_scaglioni": [
+      { "fascia": "0-28000", "aliquota": 23, "decorrenza": "2026-01-01", "affidabilita": "CERTO" },
+      { "fascia": "28000-50000", "aliquota": 33, "decorrenza": "2026-01-01", "affidabilita": "CERTO" },
+      { "fascia": "oltre-50000", "aliquota": 43, "decorrenza": "2026-01-01", "affidabilita": "CERTO" }
+    ],
+    "no_tax_area_dipendenti_eur": 8500,
+    "ivs_lavoratore_pct": 9.19,
+    "cuneo_soglia_esente_eur": 20000,
+    "cuneo_fascia_detrazione": "20001-40000",
+    "detrazione_lavoro_dip_max_eur": 1955,
+    "detassazione_incrementi_sostitutiva_pct": 5,
+    "detassazione_incrementi_limite_annuo_eur": 1500,
+    "detassazione_incrementi_reddito_max_2025_eur": 40000,
+    "detassazione_notturno_festivo_turni_reperibilita_pct": 15,
+    "previdenza_compl_plafond_deducibilita_eur": 5300,
+    "naspi_massimale_mensile_eur": 1584.70,
+    "inail_rendita_minimale_eur": 20712.30,
+    "inail_rendita_massimale_eur": 38465.70,
+    "indennita_malattia_maternita_massimale_annuo_eur": 43486.00,
+    "indennita_malattia_maternita_massimale_giornaliero_eur": 119.14,
+    "tfr_coefficiente_rivalutazione_giugno_2026": 2.786543,
+    "tfr_indice_foi_giugno_2026": 102.8,
+    "tfr_imposta_sostitutiva_rivalutazione_pct": 17,
+    "premi_risultato_imposta_sostitutiva_pct": 1,
+    "premi_risultato_limite_eur": 3000,
+    "buoni_pasto_esente_elettronici_eur": 10,
+    "buoni_pasto_esente_cartacei_eur": 4,
+    "fringe_benefit_soglia_con_figli_eur": 2000,
+    "fringe_benefit_soglia_senza_figli_eur": 1000,
+    "congedo_malattia_figlio_3_14_giorni_anno": 10
+  },
+  "fonti": {
+    "irpef_cuneo": "L. 199/2025 (Legge di Bilancio 2026); art. 13 TUIR",
+    "detassazione": "Circ. Agenzia delle Entrate n. 3/E del 24/06/2026",
+    "tfr": "ISTAT 16/07/2026 (indici prezzi rivalutazioni monetarie)",
+    "malattia_maternita": "Circ. INPS n. 75 del 17/07/2026",
+    "previdenza_compl": "L. 112/2026"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "gioia-ccnl-tabelle-daily",
+  "data_run": "2026-08-08",
+  "ora_run": "0739",
+  "nota": "Aggiornamento incrementale FASE 2B: aggiunta scheda CCNL Metalmeccanica PMI-Confapi (C018) con minimi per categoria. ccnl_master.json allineato. Segnalato CCNL Commercio Conflavoro (H02H) - minimi per livello DA_VERIFICARE. Altri CCNL invariati.",
+  "ccnl_aggiornati": [
+    {
+      "ccnl": "Metalmeccanica PMI - Confapi (Unionmeccanica)",
+      "codice_cnel": "C018",
+      "parti_firmatarie": "Unionmeccanica-Confapi, Fim-Cisl, Fiom-Cgil, Uilm-Uil",
+      "ultimo_rinnovo": "2026-06-04",
+      "vigenza": "2026-06-04 / 2028-12-31",
+      "tredicesima": true,
+      "quattordicesima": false,
+      "livelli": [
+        { "livello": "1", "minimo_tabellare_mensile": 1639.96, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "2", "minimo_tabellare_mensile": 1811.11, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "3", "minimo_tabellare_mensile": 2009.48, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "4", "minimo_tabellare_mensile": 2096.58, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "5", "minimo_tabellare_mensile": 2245.87, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "6", "minimo_tabellare_mensile": 2407.97, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "7", "minimo_tabellare_mensile": 2583.36, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "8-8Q", "minimo_tabellare_mensile": 2809.37, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" },
+        { "livello": "9-9Q", "minimo_tabellare_mensile": 3124.30, "decorrenza": "2026-06-01", "affidabilita": "CERTO", "fonte": "https://www.fiscoetasse.com/rassegna-stampa/31901-metalmeccanici-confapi-200-euro-di-welfare-entro-il-282.html" }
+      ],
+      "aumenti_programmati": [
+        { "decorrenza": "2027-06-01", "nota": "tranche aumenti minimi" },
+        { "decorrenza": "2028-06-01", "nota": "tranche aumenti minimi" }
+      ]
+    }
+  ],
+  "ccnl_segnalati_da_verificare": [
+    {
+      "ccnl": "Commercio - Terziario, Distribuzione e Servizi (Conflavoro PMI)",
+      "codice_cnel": "H02H",
+      "ultimo_rinnovo": "2026-05-19",
+      "vigenza": "2026-06-01 / 2029-05-31",
+      "nota": "Incremento complessivo minimi ~52 EUR (7 liv.) -> ~131 EUR (Quadri) tra minimi attuali e 01/02/2027; tranche 01/11/2026 e 01/02/2027. Minimi per livello dietro PDF - DA_VERIFICARE.",
+      "fonte": "https://www.fiscoetasse.com/new-rassegna-stampa/4135-ccnl-commercio-conflavoro-2026-aumenti.html"
+    }
+  ]
+}
