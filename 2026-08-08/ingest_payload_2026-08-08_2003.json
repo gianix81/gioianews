@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-08",
+  "notizie": [
+    {
+      "titolo": "Lavori nel turismo? Sulle mance paghi solo il 5% di tasse",
+      "testo": "Se lavori come cameriere, barista, cuoco o addetto al ricevimento in un hotel, ristorante o bar, le mance che ricevi dai clienti hanno una tassazione di favore: non entrano nell'IRPEF ordinaria, ma vengono tassate con un'imposta sostitutiva del 5% (che sostituisce IRPEF e addizionali regionali e comunali).\n\nCome funziona il limite? L'aliquota agevolata del 5% si applica fino al 30% del reddito che hai percepito nell'anno per il lavoro nel settore. Attenzione: quel 30% non e un tetto rigido ma una franchigia. Le mance che rientrano nella soglia sono tassate al 5%; l'eventuale parte eccedente torna a essere tassata con le normali aliquote IRPEF. Per accedere all'agevolazione il tuo reddito da lavoro dipendente non deve superare i 75.000 euro nell'anno.\n\nDue cose utili da sapere: le mance, anche se pagate con carta o app e girate dal datore, vanno comunque tracciate e riportate; e puoi rinunciare al regime agevolato con una dichiarazione scritta al datore di lavoro, se per te e piu conveniente la tassazione ordinaria.\n\nIn busta paga le mance compaiono in una voce dedicata: e li che si vede se e stato applicato il 5% e se la franchigia del 30% e stata calcolata bene. Con GioIA puoi caricare il cedolino e verificare che l'imposta sostitutiva sulle mance sia corretta e che non ti stiano tassando piu del dovuto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 1 co. 58-62 L. 197/2022, come modif. da art. 1 co. 520 L. 207/2024 - imposta sostitutiva 5% sulle mance nel turismo",
+      "fonte_url": "https://fiscomania.com/tassazione-mance/"
+    },
+    {
+      "titolo": "Il tuo TFR e all'INPS, non in azienda? Ecco perche (e perche non perdi nulla)",
+      "testo": "Molti lavoratori scoprono che il loro TFR non resta in azienda ma viene versato a un fondo gestito dall'INPS, chiamato Fondo di Tesoreria. Non e una scelta tua ne una penalizzazione: e un obbligo di legge per le aziende private con almeno 50 addetti, quando il TFR non e destinato a un fondo di previdenza complementare.\n\nCosa cambia per te? In pratica poco o nulla. Il datore di lavoro versa mensilmente all'INPS le quote di TFR maturate, con gli stessi tempi dei contributi (entro il 16 del mese successivo). Ma il TFR resta un tuo credito personale: continua a maturare e a rivalutarsi ogni anno secondo i coefficienti di legge, esattamente come se fosse rimasto in azienda.\n\nE alla fine del rapporto? La procedura per te non cambia: e sempre il datore di lavoro a liquidarti l'intero TFR maturato. Sara poi l'azienda a farsi rimborsare dall'INPS la parte versata al Fondo di Tesoreria. Quindi non devi rincorrere l'INPS: il tuo interlocutore resta il datore.\n\nQuesto meccanismo riguarda solo le aziende sopra i 50 addetti; nelle imprese piu piccole il TFR non conferito a un fondo pensione resta accantonato in azienda. Con GioIA puoi verificare che le quote di TFR indicate nel tuo cedolino siano coerenti e correttamente accantonate mese dopo mese.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "L. 296/2006 (Legge Finanziaria 2007) art. 1 co. 755-757 - Fondo di Tesoreria INPS (aziende >= 50 addetti)",
+      "fonte_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50018.tfr-a-carico-del-fondo-di-tesoreria.html"
+    },
+    {
+      "titolo": "Sei un apprendista? Perche in busta paga prendi meno (ma non troppo meno)",
+      "testo": "Il contratto di apprendistato ha una parte di formazione: in cambio, la legge permette al datore di pagare l'apprendista meno del livello che gli spetterebbe a fine percorso. Ma ci sono regole precise, e conoscerle ti aiuta a capire se la tua busta paga e corretta.\n\nLa legge prevede due modalita alternative, ed e il tuo CCNL a scegliere quale applicare. La prima e il sotto-inquadramento: puoi essere inquadrato fino a un massimo di due livelli piu bassi rispetto a quello di destinazione (quello che raggiungerai una volta qualificato). La seconda e la retribuzione in percentuale: prendi una quota della paga piena, che cresce con l'anzianita di servizio man mano che avanzi nel percorso.\n\nDue punti importanti. Il limite dei due livelli e invalicabile: nessun CCNL puo farti scendere di piu. E le due modalita non si sommano: o l'una o l'altra, secondo quanto stabilito dal contratto collettivo applicato.\n\nRicorda che, a parte la paga base ridotta, come apprendista maturi ferie, permessi, tredicesima e TFR come gli altri lavoratori. Con GioIA puoi caricare la busta paga da apprendista e controllare che il sotto-inquadramento (o la percentuale) rispetti il tuo CCNL e che non ti stiano applicando una riduzione superiore a quella consentita.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 42 comma 5 lett. b) D.Lgs. 81/2015 - retribuzione apprendista (sotto-inquadramento max 2 livelli o percentuale)",
+      "fonte_url": "https://www.wikilabour.it/dizionario/assunzione-e-formazione/contratto-di-apprendistato/"
+    }
+  ]
+}

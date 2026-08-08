@@ -1,7 +1,7 @@
 {
  "schema": "gioia-payload-index",
  "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
- "aggiornato_il": "2026-08-08 1003",
+ "aggiornato_il": "2026-08-08 2003",
  "pubblicate": [
   {
    "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
@@ -598,6 +598,30 @@
    "data_run": "2026-08-08",
    "ora_run": "1603",
    "file": "ingest_payload_2026-08-08_1603.json"
+  },
+  {
+   "chiave": "art. 1 co. 58-62 l. 197/2022, mod. art. 1 co. 520 l. 207/2024 - imposta sostitutiva 5% sulle mance nel turismo",
+   "titolo": "Lavori nel turismo? Sulle mance paghi solo il 5% di tasse",
+   "riferimento_normativo": "Art. 1 co. 58-62 L. 197/2022, come modif. da art. 1 co. 520 L. 207/2024 - imposta sostitutiva 5% sulle mance nel turismo",
+   "data_run": "2026-08-08",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-08_2003.json"
+  },
+  {
+   "chiave": "l. 296/2006 (legge finanziaria 2007) art. 1 co. 755-757 - fondo di tesoreria inps (aziende >= 50 addetti)",
+   "titolo": "Il tuo TFR e all'INPS, non in azienda? Ecco perche (e perche non perdi nulla)",
+   "riferimento_normativo": "L. 296/2006 (Legge Finanziaria 2007) art. 1 co. 755-757 - Fondo di Tesoreria INPS (aziende >= 50 addetti)",
+   "data_run": "2026-08-08",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-08_2003.json"
+  },
+  {
+   "chiave": "art. 42 comma 5 lett. b) d.lgs. 81/2015 - retribuzione apprendista (sotto-inquadramento max 2 livelli o percentuale)",
+   "titolo": "Sei un apprendista? Perche in busta paga prendi meno (ma non troppo meno)",
+   "riferimento_normativo": "Art. 42 comma 5 lett. b) D.Lgs. 81/2015 - retribuzione apprendista (sotto-inquadramento max 2 livelli o percentuale)",
+   "data_run": "2026-08-08",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-08_2003.json"
   }
  ]
 }
