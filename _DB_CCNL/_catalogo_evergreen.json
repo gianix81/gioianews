@@ -1,7 +1,7 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-08 0739",
+  "aggiornato_il": "2026-08-08 1603",
   "argomenti": [
     {
       "id": "ev-indennita-preavviso",
@@ -290,6 +290,18 @@
       "tema": "Part-time: riproporzionamento di paga e istituti",
       "riferimento_normativo": "D.Lgs. 81/2015 (disciplina del lavoro a tempo parziale)",
       "angolo": "Nel part-time paga base, ferie, permessi, 13a/14a e TFR sono riproporzionati alle ore effettive: come si legge in busta e cosa controllare. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-trasfertista",
+      "tema": "Trasfertista: indennita imponibile al 50%",
+      "riferimento_normativo": "Art. 51 comma 6 TUIR (DPR 917/1986) - indennita trasfertista (imponibile 50%)",
+      "angolo": "Chi non ha una sede di lavoro fissa (trasfertista) riceve un'indennita fissa mensile tassata solo per meta: regime alternativo a quello della trasferta occasionale (comma 5). PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-periodo-prova",
+      "tema": "Periodo di prova: retribuzione e regole",
+      "riferimento_normativo": "Art. 2096 c.c. - assunzione in prova (retribuzione e durata)",
+      "angolo": "Durante la prova spetta la retribuzione piena del livello; patto in forma scritta, durata max 6 mesi (minori da CCNL), recesso senza preavviso. PUBBLICATO 2026-08-08."
     }
   ]
 }

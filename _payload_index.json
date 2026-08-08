@@ -1,582 +1,603 @@
 {
-  "schema": "gioia-payload-index",
-  "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-08 1003",
-  "pubblicate": [
-    {
-      "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
-      "titolo": "Guadagni oltre 4.685 € al mese? Su quella parte paghi un 1% di contributi in più",
-      "riferimento_normativo": "Art. 3-ter L. 438/1992 - contributo aggiuntivo 1% IVS; soglia prima fascia 2026 = 56.224 €/anno (Circ. INPS n. 6 del 30/01/2026)",
-      "data_run": "2026-08-08",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-08_1003.json"
-    },
-    {
-      "chiave": "d.lgs. 81/2015 artt. 7 e 25 - part-time: proporzionalita' e non discriminazione (riproporzionamento retribuzione)",
-      "titolo": "Part-time: come si legge in busta paga uno stipendio \"riproporzionato\"",
-      "riferimento_normativo": "D.Lgs. 81/2015 artt. 7 e 25 - lavoro a tempo parziale: principio di proporzionalità e non discriminazione",
-      "data_run": "2026-08-08",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-08_1003.json"
-    },
-    {
-      "chiave": "messaggio inps n. 2540 del 03/08/2026; art. 3 d.lgs. 22/2015; art. 2119 c.c.",
-      "titolo": "NASpI: chi si dimette per violenza o stalking ora ha diritto alla disoccupazione",
-      "riferimento_normativo": "Messaggio INPS n. 2540 del 03/08/2026; art. 3 D.Lgs. 22/2015; art. 2119 c.c.",
-      "data_run": "2026-08-06",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-06_1603.json"
-    },
-    {
-      "chiave": "art. 47 d.lgs. 151/2001 - congedo per malattia del figlio; l. 199/2025",
-      "titolo": "Figlio malato? Dal 2026 hai fino a 10 giorni l'anno (ma non pagati)",
-      "riferimento_normativo": "Art. 47 D.Lgs. 151/2001; L. 199/2025 (Legge di Bilancio 2026)",
-      "data_run": "2026-08-06",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-06_1603.json"
-    },
-    {
-      "chiave": "superminimo individuale - contrattazione individuale/collettiva; principi giurisprudenziali su assorbibilita'",
-      "titolo": "Superminimo in busta paga: quell'extra che a volte sparisce con gli aumenti",
-      "riferimento_normativo": "Superminimo individuale - contrattazione individuale/collettiva; principi giurisprudenziali su assorbibilita'",
-      "data_run": "2026-08-06",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-06_1603.json"
-    },
-    {
-      "chiave": "d.lgs. 151/2001 artt. 32 e ss. - congedo parentale",
-      "titolo": "Congedo parentale: quanti mesi ti spettano e quanto ti pagano",
-      "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale",
-      "data_run": "2026-08-05",
-      "ora_run": "1005",
-      "file": "ingest_payload_2026-08-05_1005.json"
-    },
-    {
-      "chiave": "art. 12 tuir (dpr 917/1986) - detrazione per coniuge a carico",
-      "titolo": "Coniuge a carico: la detrazione che ti abbassa l'IRPEF (fino a 800 €)",
-      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione per coniuge a carico",
-      "data_run": "2026-08-05",
-      "ora_run": "1005",
-      "file": "ingest_payload_2026-08-05_1005.json"
-    },
-    {
-      "chiave": "dimissioni telematiche - d.lgs. 151/2015 art. 26",
-      "titolo": "Dimissioni: si danno solo online, e hai 7 giorni per ripensarci",
-      "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26",
-      "data_run": "2026-08-05",
-      "ora_run": "1005",
-      "file": "ingest_payload_2026-08-05_1005.json"
-    },
-    {
-      "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
-      "titolo": "TFR: nuovo coefficiente di rivalutazione (giugno 2026)",
-      "riferimento_normativo": "Comunicazione ISTAT indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_2026-07-31.json"
-    },
-    {
-      "chiave": "circolare inps n. 82 del 29/07/2026",
-      "titolo": "Assunzione di madri con tre o più figli: esonero contributivo fino a 8.000 euro",
-      "riferimento_normativo": "Circolare INPS n. 82 del 29/07/2026",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_2026-07-31.json"
-    },
-    {
-      "chiave": "messaggio inps n. 2451 del 23/07/2026; artt. 22-24 d.l. 60/2024",
-      "titolo": "Bonus assunzioni Giovani, Donne e ZES: domande entro il 30 settembre 2026",
-      "riferimento_normativo": "Messaggio INPS n. 2451 del 23/07/2026; artt. 22-24 D.L. 60/2024",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_2026-07-31.json"
-    },
-    {
-      "chiave": "circolare inail n. 35 del 22/07/2026; d.m. lavoro 11/05/2026 n. 58",
-      "titolo": "INAIL: aggiornati minimale e massimale di rendita 2026",
-      "riferimento_normativo": "Circolare INAIL n. 35 del 22/07/2026; D.M. Lavoro 11/05/2026 n. 58",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_2026-07-31.json"
-    },
-    {
-      "chiave": "l. 199/2025 (revisione scaglioni irpef), decorrenza 01/01/2026",
-      "titolo": "Guadagni tra 28.000 e 50.000 euro? In busta hai qualche euro in più",
-      "riferimento_normativo": "L. 199/2025 (revisione scaglioni IRPEF), decorrenza 01/01/2026",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_dipendente_2026-07-31.json"
-    },
-    {
-      "chiave": "legge di bilancio 2025 (soglie strutturali triennio 2025-2027)",
-      "titolo": "Fringe benefit: fino a 1.000 euro esentasse (2.000 se hai figli)",
-      "riferimento_normativo": "Legge di Bilancio 2025 (soglie strutturali triennio 2025-2027)",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_dipendente_2026-07-31.json"
-    },
-    {
-      "chiave": "l. 199/2025; circ. agenzia delle entrate 3/e; imposta sostitutiva 15% entro 1.500 euro, reddito 2025 <= 40.000 euro",
-      "titolo": "Lavori di notte, nei festivi o su turni? Paghi il 15% invece dell'IRPEF",
-      "riferimento_normativo": "L. 199/2025; Circ. Agenzia delle Entrate 3/E; imposta sostitutiva 15% entro 1.500 euro, reddito 2025 <= 40.000 euro",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_dipendente_2026-07-31.json"
-    },
-    {
-      "chiave": "d.lgs. 22/2015; circ. inps 4/2026; legge di bilancio 2026 (anticipo in 2 rate)",
-      "titolo": "NASpI 2026: se perdi il lavoro, ecco cosa ti spetta",
-      "riferimento_normativo": "D.Lgs. 22/2015; Circ. INPS 4/2026; Legge di Bilancio 2026 (anticipo in 2 rate)",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_dipendente_2026-07-31.json"
-    },
-    {
-      "chiave": "art. 2120 c.c.; coefficiente istat rif. maggio 2026 (indice foi giugno 102,8)",
-      "titolo": "Il tuo TFR non resta fermo: ecco quanto si è rivalutato",
-      "riferimento_normativo": "Art. 2120 c.c.; coefficiente ISTAT rif. maggio 2026 (indice FOI giugno 102,8)",
-      "data_run": "2026-07-31",
-      "ora_run": "",
-      "file": "ingest_payload_dipendente_2026-07-31.json"
-    },
-    {
-      "chiave": "art. 4 dl 62/2026; circ. inps 72/2026; msg. inps 2518 del 29/07/2026",
-      "titolo": "Da oggi l'esonero contributivo per la stabilizzazione degli under 35",
-      "riferimento_normativo": "Art. 4 DL 62/2026; Circ. INPS 72/2026; Msg. INPS 2518 del 29/07/2026",
-      "data_run": "2026-08-01",
-      "ora_run": "2200",
-      "file": "ingest_payload_2026-08-01_2200.json"
-    },
-    {
-      "chiave": "l. 112/2026 (conversione decreto lavoro); finestra straordinaria conferimento tfr primo semestre 2026 a previdenza complementare",
-      "titolo": "TFR del primo semestre 2026: puoi spostarlo nel fondo pensione (finestra straordinaria)",
-      "riferimento_normativo": "L. 112/2026 (conversione Decreto Lavoro) - finestra straordinaria conferimento TFR 1o semestre 2026; art. da riscontrare su GU",
-      "data_run": "2026-08-03",
-      "ora_run": "0605",
-      "file": "ingest_payload_2026-08-03_0605.json"
-    },
-    {
-      "chiave": "art. 13 tuir - detrazioni da lavoro dipendente 2026",
-      "titolo": "Detrazioni da lavoro dipendente: fino a 1.955 € che ti abbassano l'IRPEF",
-      "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - detrazioni per redditi da lavoro dipendente",
-      "data_run": "2026-08-02",
-      "ora_run": "2116",
-      "file": "ingest_payload_2026-08-02_2116.json"
-    },
-    {
-      "chiave": "trattamento integrativo (ex bonus renzi) - d.l. 3/2020 conv. l. 21/2020",
-      "titolo": "Il bonus IRPEF in busta paga (voce \"TIR\"): fino a 1.200 € l'anno",
-      "riferimento_normativo": "Trattamento integrativo (ex Bonus Renzi) - D.L. 3/2020 conv. L. 21/2020",
-      "data_run": "2026-08-02",
-      "ora_run": "2116",
-      "file": "ingest_payload_2026-08-02_2116.json"
-    },
-    {
-      "chiave": "art. 12 tuir - detrazioni figli a carico 2026 (eta' 21-30)",
-      "titolo": "Figli a carico: quando passi dall'Assegno Unico alle detrazioni in busta",
-      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazioni per figli a carico; D.Lgs. 230/2021 (Assegno Unico)",
-      "data_run": "2026-08-02",
-      "ora_run": "2116",
-      "file": "ingest_payload_2026-08-02_2116.json"
-    },
-    {
-      "chiave": "d.lgs. 360/1998 e l. 42/2009 - addizionali irpef",
-      "titolo": "Ad agosto il netto scende? Ecco le addizionali regionali e comunali",
-      "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF",
-      "data_run": "2026-08-03",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-03_1003.json"
-    },
-    {
-      "chiave": "aliquota contributiva ivs lavoratore dipendente 9,19%",
-      "titolo": "Quel 9,19% trattenuto ogni mese: dove finiscono i tuoi contributi",
-      "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%",
-      "data_run": "2026-08-03",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-03_1003.json"
-    },
-    {
-      "chiave": "art. 2120 c.c. commi 6-9 - anticipazione tfr",
-      "titolo": "TFR: quando puoi chiedere un anticipo (e quanto ti spetta)",
-      "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR",
-      "data_run": "2026-08-03",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-03_1003.json"
-    },
-    {
-      "chiave": "art. 23 dpr 600/1973 - conguaglio del sostituto d'imposta",
-      "titolo": "Conguaglio di fine anno: perché a dicembre la busta paga cambia",
-      "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta",
-      "data_run": "2026-08-03",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-03_1603.json"
-    },
-    {
-      "chiave": "contrattazione collettiva - gratifica natalizia; art. 2099 c.c.; art. 13 tuir (detrazioni)",
-      "titolo": "Tredicesima: come si calcola e perché ci paghi più tasse",
-      "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.; art. 13 TUIR (detrazioni)",
-      "data_run": "2026-08-03",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-03_1603.json"
-    },
-    {
-      "chiave": "d.lgs. 66/2003 artt. 4-5 - orario di lavoro e straordinario",
-      "titolo": "Straordinari: quante ore puoi fare e quanto ti devono pagare in più",
-      "riferimento_normativo": "D.Lgs. 66/2003 artt. 4-5 - orario di lavoro e straordinario",
-      "data_run": "2026-08-03",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-03_1603.json"
-    },
-    {
-      "chiave": "art. 11 c.2 dl 62/2026 conv. l. 112/2026; codice cnel obbligatorio in busta paga",
-      "titolo": "Sul tuo cedolino ora c'è il codice CNEL: a cosa serve",
-      "riferimento_normativo": "Art. 11 c.2 DL 62/2026 conv. L. 112/2026 (mod. art. 1 L. 4/1953)",
-      "data_run": "2026-08-03",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-03_2003.json"
-    },
-    {
-      "chiave": "prassi inps - indennità di malattia; carenza primi 3 giorni; ccnl applicato",
-      "titolo": "Malattia: perché i primi 3 giorni sono diversi dagli altri",
-      "riferimento_normativo": "Prassi INPS - indennità di malattia; carenza primi 3 giorni; CCNL applicato",
-      "data_run": "2026-08-03",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-03_2003.json"
-    },
-    {
-      "chiave": "l. 104/1992 art. 33 c.3 - permessi assistenza familiari disabilità grave",
-      "titolo": "Legge 104: 3 giorni al mese pagati, come li leggi in busta",
-      "riferimento_normativo": "L. 104/1992 art. 33 c.3 - permessi per assistenza a familiari con disabilità grave",
-      "data_run": "2026-08-03",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-03_2003.json"
-    },
-    {
-      "chiave": "d.lgs. 252/2005 - destinazione e tassazione del tfr; art. 2120 c.c.",
-      "titolo": "TFR in azienda o nel fondo pensione: la differenza è nelle tasse",
-      "riferimento_normativo": "D.Lgs. 252/2005 - destinazione e tassazione del TFR; art. 2120 c.c.",
-      "data_run": "2026-08-04",
-      "ora_run": "0605",
-      "file": "ingest_payload_2026-08-04_0605.json"
-    },
-    {
-      "chiave": "contrattazione collettiva - scatti di anzianità (ccnl applicato)",
-      "titolo": "Scatti di anzianità: quegli aumenti che arrivano col tempo",
-      "riferimento_normativo": "Contrattazione collettiva - scatti di anzianità (CCNL applicato)",
-      "data_run": "2026-08-04",
-      "ora_run": "0605",
-      "file": "ingest_payload_2026-08-04_0605.json"
-    },
-    {
-      "chiave": "struttura della retribuzione - lordo/netto; art. 13 tuir; aliquota ivs 9,19%; l. 199/2025 (scaglioni irpef)",
-      "titolo": "Dal lordo al netto: dove finisce la differenza in busta paga",
-      "riferimento_normativo": "Struttura della retribuzione - lordo/netto; art. 13 TUIR; aliquota IVS 9,19%; L. 199/2025 (scaglioni IRPEF)",
-      "data_run": "2026-08-04",
-      "ora_run": "0605",
-      "file": "ingest_payload_2026-08-04_0605.json"
-    },
-    {
-      "chiave": "contrattazione collettiva - quattordicesima (gratifica); art. 2099 c.c.",
-      "titolo": "Quattordicesima: chi ce l'ha e come si matura mese per mese",
-      "riferimento_normativo": "Contrattazione collettiva - quattordicesima (gratifica); art. 2099 c.c.",
-      "data_run": "2026-08-04",
-      "ora_run": "1004",
-      "file": "ingest_payload_2026-08-04_1004.json"
-    },
-    {
-      "chiave": "art. 2110 c.c. - periodo di comporto; ccnl applicato",
-      "titolo": "Periodo di comporto: quanto puoi stare in malattia senza rischiare il posto",
-      "riferimento_normativo": "Art. 2110 c.c. - periodo di comporto; CCNL applicato",
-      "data_run": "2026-08-04",
-      "ora_run": "1004",
-      "file": "ingest_payload_2026-08-04_1004.json"
-    },
-    {
-      "chiave": "tuir e normativa contributiva - basi imponibili fiscale e previdenziale; aliquota ivs 9,19%",
-      "titolo": "Perché in busta ci sono due imponibili diversi (fiscale e previdenziale)",
-      "riferimento_normativo": "TUIR (DPR 917/1986) e normativa contributiva - basi imponibili fiscale e previdenziale; aliquota IVS 9,19%",
-      "data_run": "2026-08-04",
-      "ora_run": "1004",
-      "file": "ingest_payload_2026-08-04_1004.json"
-    },
-    {
-      "chiave": "d.lgs. 151/2001 art. 16 - congedo di maternità obbligatorio (indennità 80%)",
-      "titolo": "Congedo di maternità: 5 mesi di astensione all'80% (spesso al 100%)",
-      "riferimento_normativo": "d.lgs. 151/2001 art. 16",
-      "data_run": "2026-08-04",
-      "ora_run": "1604",
-      "file": "ingest_payload_2026-08-04_1604.json"
-    },
-    {
-      "chiave": "d.lgs. 66/2003 art. 10 c.2 - ferie annuali e divieto di monetizzazione",
-      "titolo": "Le tue ferie non si pagano al posto di goderle: ecco perché",
-      "riferimento_normativo": "d.lgs. 66/2003 art. 10 c.2",
-      "data_run": "2026-08-04",
-      "ora_run": "1604",
-      "file": "ingest_payload_2026-08-04_1604.json"
-    },
-    {
-      "chiave": "certificazione unica - art. 4 dpr 322/1998; termine rilascio 16 marzo",
-      "titolo": "Certificazione Unica (CU): la \"fotografia\" annuale della tua busta paga",
-      "riferimento_normativo": "certificazione unica",
-      "data_run": "2026-08-04",
-      "ora_run": "1604",
-      "file": "ingest_payload_2026-08-04_1604.json"
-    },
-    {
-      "chiave": "circolare inps n. 75 del 17/07/2026",
-      "titolo": "Malattia e maternità 2026: l'INPS aggiorna i limiti dell'indennità",
-      "riferimento_normativo": "Circolare INPS n. 75 del 17/07/2026",
-      "data_run": "2026-08-04",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-04_2003.json"
-    },
-    {
-      "chiave": "art. 13 tuir - no tax area lavoro dipendente 2026",
-      "titolo": "Guadagni fino a 8.500 euro l'anno? Non paghi IRPEF: la no tax area",
-      "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - no tax area lavoro dipendente 2026",
-      "data_run": "2026-08-04",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-04_2003.json"
-    },
-    {
-      "chiave": "l. 203/2024 (collegato lavoro); circolare inps n. 154 del 22/12/2025 - dimissioni per fatti concludenti",
-      "titolo": "Sparire dal lavoro non conviene: le dimissioni per fatti concludenti",
-      "riferimento_normativo": "L. 203/2024 (Collegato Lavoro); Circolare INPS n. 154 del 22/12/2025",
-      "data_run": "2026-08-04",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-04_2003.json"
-    },
-    {
-      "chiave": "buoni pasto - esenzione l. 199/2025 (legge di bilancio 2026) art. 1 c. 14; elettronici 10 €/gg, cartacei 4 €/gg",
-      "titolo": "Buoni pasto 2026: quelli elettronici sono esentasse fino a 10 € al giorno",
-      "riferimento_normativo": "Buoni pasto - esenzione L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 14; elettronici 10 €/gg, cartacei 4 €/gg",
-      "data_run": "2026-08-05",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-05_1603.json"
-    },
-    {
-      "chiave": "contrattazione collettiva - rol (riduzione orario di lavoro) ed ex festività; ccnl applicato",
-      "titolo": "ROL ed ex festività: cosa sono quelle ore che vedi accantonate in busta",
-      "riferimento_normativo": "Contrattazione collettiva - ROL (riduzione orario di lavoro) ed ex festività; CCNL applicato",
-      "data_run": "2026-08-05",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-05_1603.json"
-    },
-    {
-      "chiave": "art. 12 tuir (dpr 917/1986) - detrazione altri familiari a carico (ascendenti conviventi); l. 207/2024; d.lgs. 192/2025",
-      "titolo": "Genitori o nonni a carico: dal 2026 la detrazione spetta solo se convivono",
-      "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione altri familiari a carico (ascendenti conviventi); L. 207/2024; D.Lgs. 192/2025",
-      "data_run": "2026-08-05",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-05_1603.json"
-    },
-    {
-      "chiave": "art. 27-bis d.lgs. 151/2001 - congedo di paternità obbligatorio (10 giorni al 100%)",
-      "titolo": "Congedo di paternità: 10 giorni pagati al 100% che spettano al papà",
-      "riferimento_normativo": "Art. 27-bis D.Lgs. 151/2001 - congedo di paternità obbligatorio (10 giorni al 100%)",
-      "data_run": "2026-08-05",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-05_2003.json"
-    },
-    {
-      "chiave": "premi di risultato - l. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva 1% (biennio 2026-2027)",
-      "titolo": "Premio di risultato: nel 2026-2027 lo paghi con l'1% di tasse invece dell'IRPEF",
-      "riferimento_normativo": "Premi di risultato - L. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva 1% (biennio 2026-2027) entro 5.000 € lordi, reddito lav. dip. anno precedente ≤ 80.000 € - Legge di Bilancio 2026",
-      "data_run": "2026-08-05",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-05_2003.json"
-    },
-    {
-      "chiave": "art. 545 c.p.c. - limiti di pignorabilità dello stipendio",
-      "titolo": "Pignoramento dello stipendio: quanto ti possono trattenere (e quanto resta intoccabile)",
-      "riferimento_normativo": "Art. 545 c.p.c. - limiti di pignorabilità dello stipendio (1/5 ordinario; cumulo max 1/2; alimentari fino a 1/3)",
-      "data_run": "2026-08-05",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-05_2003.json"
-    },
-    {
-      "chiave": "assegno unico universale - d.lgs. 230/2021; circ. inps n. 7 del 30/01/2026 (importi 2026)",
-      "titolo": "Assegno unico 2026: perché non lo trovi più in busta paga (e quanto vale)",
-      "riferimento_normativo": "Assegno Unico Universale - D.Lgs. 230/2021; Circ. INPS n. 7 del 30/01/2026 (importi 2026)",
-      "data_run": "2026-08-06",
-      "ora_run": "0606",
-      "file": "ingest_payload_2026-08-06_0606.json"
-    },
-    {
-      "chiave": "art. 51 comma 5 tuir (dpr 917/1986) - indennità di trasferta",
-      "titolo": "Indennità di trasferta: fino a 46,48 € al giorno esentasse (77,47 € all'estero)",
-      "riferimento_normativo": "Art. 51 comma 5 TUIR (DPR 917/1986) - indennità di trasferta",
-      "data_run": "2026-08-06",
-      "ora_run": "0606",
-      "file": "ingest_payload_2026-08-06_0606.json"
-    },
-    {
-      "chiave": "legge di bilancio 2026 - fasce di reperibilità visite fiscali unificate; prassi inps 2026",
-      "titolo": "Malattia 2026: le nuove fasce per la visita fiscale (10-12 e 17-19, uguali per tutti)",
-      "riferimento_normativo": "Legge di Bilancio 2026 - fasce di reperibilità visite fiscali unificate; prassi INPS 2026",
-      "data_run": "2026-08-06",
-      "ora_run": "0606",
-      "file": "ingest_payload_2026-08-06_0606.json"
-    },
-    {
-      "chiave": "circolare inps n. 81 del 24/07/2026; art. 7-bis dl 19/2026 conv. l. 50/2026",
-      "titolo": "Assegno unico: ora spetta anche per i figli residenti in un altro Paese UE",
-      "riferimento_normativo": "Circolare INPS n. 81 del 24/07/2026; art. 7-bis DL 19/2026 conv. L. 50/2026",
-      "data_run": "2026-08-06",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-06_1003.json"
-    },
-    {
-      "chiave": "art. 51 comma 4 tuir (dpr 917/1986) - fringe benefit auto aziendale uso promiscuo",
-      "titolo": "Auto aziendale a uso promiscuo: perché la trovi tassata in busta paga",
-      "riferimento_normativo": "Art. 51 comma 4 lett. a) TUIR (DPR 917/1986); tabelle ACI 2026 (GU 23/12/2025)",
-      "data_run": "2026-08-06",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-06_1003.json"
-    },
-    {
-      "chiave": "d.lgs. 66/2003 - lavoro notturno (definizione e maggiorazioni ccnl)",
-      "titolo": "Lavoro notturno: quando \"scatta\" e perché in busta trovi una maggiorazione",
-      "riferimento_normativo": "D.Lgs. 66/2003 (definizione periodo e lavoratore notturno); maggiorazioni da CCNL applicato",
-      "data_run": "2026-08-06",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-06_1003.json"
-    },
-    {
-      "chiave": "cassazione ord. n. 18529 dell'08/06/2026 - retribuzione durante le ferie; d.lgs. 66/2003 art. 10",
-      "titolo": "In ferie la busta è più bassa? Non sempre è un errore",
-      "riferimento_normativo": "Cassazione ord. n. 18529 dell'08/06/2026; D.Lgs. 66/2003 art. 10 (ferie annuali)",
-      "data_run": "2026-08-06",
-      "ora_run": "2004",
-      "file": "ingest_payload_2026-08-06_2004.json"
-    },
-    {
-      "chiave": "lavoro festivo e domenicale - maggiorazioni ccnl e riposo compensativo; d.lgs. 66/2003",
-      "titolo": "Lavori la domenica o nei festivi? Ti spetta una maggiorazione (e spesso un riposo)",
-      "riferimento_normativo": "D.Lgs. 66/2003 (riposo settimanale e compensativo); maggiorazioni festivo/domenicale da CCNL applicato",
-      "data_run": "2026-08-06",
-      "ora_run": "2004",
-      "file": "ingest_payload_2026-08-06_2004.json"
-    },
-    {
-      "chiave": "art. 19 tuir - tfr tassazione separata (aliquota media); art. 11 d.lgs. 47/2000",
-      "titolo": "TFR: perché alla liquidazione paghi meno tasse (la tassazione separata)",
-      "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR; art. 11 D.Lgs. 47/2000",
-      "data_run": "2026-08-06",
-      "ora_run": "2004",
-      "file": "ingest_payload_2026-08-06_2004.json"
-    },
-    {
-      "chiave": "assegno per congedo matrimoniale (inps); disciplina ccnl applicato",
-      "titolo": "Congedo matrimoniale: 15 giorni di stipendio pieno per chi si sposa",
-      "data_run": "2026-08-07",
-      "ora_run": "0603",
-      "file": "ingest_payload_2026-08-07_0603.json"
-    },
-    {
-      "chiave": "art. 10 l. 300/1970 (statuto dei lavoratori); disciplina ccnl applicato",
-      "titolo": "Studi e lavori? Fino a 150 ore di permessi retribuiti l'anno",
-      "data_run": "2026-08-07",
-      "ora_run": "0603",
-      "file": "ingest_payload_2026-08-07_0603.json"
-    },
-    {
-      "chiave": "art. 51 commi 2 e 3 tuir (dpr 917/1986)",
-      "titolo": "Welfare aziendale: i servizi che NON pagano tasse (e non sono i fringe benefit)",
-      "data_run": "2026-08-07",
-      "ora_run": "0603",
-      "file": "ingest_payload_2026-08-07_0603.json"
-    },
-    {
-      "chiave": "Art. 33 L. 104/1992 - permessi per assistenza a familiari con disabilità grave",
-      "titolo": "Legge 104: 3 giorni al mese di permesso retribuito, ecco come si leggono in busta",
-      "data_run": "2026-08-07",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-07_1003.json"
-    },
-    {
-      "chiave": "Art. 51 comma 2 lett. c) TUIR; Legge di Bilancio 2026 - soglie esenzione buoni pasto",
-      "titolo": "Buoni pasto 2026: esenti fino a 10 € (elettronici) o 4 € (cartacei), il resto è tassato",
-      "data_run": "2026-08-07",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-07_1003.json"
-    },
-    {
-      "chiave": "Art. 2110 c.c. - sospensione del rapporto e conservazione del posto (comporto)",
-      "titolo": "Periodo di comporto: per quanto tempo la malattia non mette a rischio il posto",
-      "data_run": "2026-08-07",
-      "ora_run": "1003",
-      "file": "ingest_payload_2026-08-07_1003.json"
-    },
-    {
-      "chiave": "artt. 2118 e 2121 c.c. - indennità sostitutiva del preavviso e sua base di computo",
-      "titolo": "Indennità sostitutiva del preavviso: cos'è quella cifra quando il lavoro finisce di colpo",
-      "riferimento_normativo": "Artt. 2118 e 2121 c.c. - indennità sostitutiva del preavviso e sua base di computo",
-      "data_run": "2026-08-07",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-07_1603.json"
-    },
-    {
-      "chiave": "art. 4 l. 53/2000 - permessi per eventi e gravi motivi familiari (3 giorni retribuiti/anno)",
-      "titolo": "Permessi per lutto: 3 giorni retribuiti l'anno, ecco quando spettano",
-      "riferimento_normativo": "Art. 4 L. 53/2000 - permessi per eventi e gravi motivi familiari (3 giorni retribuiti/anno)",
-      "data_run": "2026-08-07",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-07_1603.json"
-    },
-    {
-      "chiave": "contrattazione collettiva - indennità di reperibilità (ccnl applicato); imponibile irpef e inps",
-      "titolo": "Indennità di reperibilità: la paghi per stare \"a disposizione\", anche senza lavorare",
-      "riferimento_normativo": "Contrattazione collettiva - indennità di reperibilità (CCNL applicato); imponibile IRPEF e INPS",
-      "data_run": "2026-08-07",
-      "ora_run": "1603",
-      "file": "ingest_payload_2026-08-07_1603.json"
-    },
-    {
-      "chiave": "contrattazione collettiva - quattordicesima mensilità; art. 2099 c.c.",
-      "titolo": "Quattordicesima: la mensilità in più che (forse) hai appena ricevuto",
-      "data_run": "2026-08-07",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-07_2003.json"
-    },
-    {
-      "chiave": "periodo di carenza malattia - prassi inps e ccnl applicato (indennità dal 4° giorno)",
-      "titolo": "Malattia: perché i primi 3 giorni li paga l'azienda (e non l'INPS)",
-      "data_run": "2026-08-07",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-07_2003.json"
-    },
-    {
-      "chiave": "contrattazione collettiva - scatti di anzianità (numero, importo e periodicità da ccnl applicato)",
-      "titolo": "Scatti di anzianità: l'aumento automatico che premia gli anni di lavoro",
-      "data_run": "2026-08-07",
-      "ora_run": "2003",
-      "file": "ingest_payload_2026-08-07_2003.json"
-    },
-    {
-      "chiave": "ccnl metalmeccanica pmi - confapi (unionmeccanica), codice cnel c018; ipotesi sottoscritta 04/06/2026, approvata 29/07/2026",
-      "titolo": "Rinnovato il contratto dei metalmeccanici delle piccole e medie imprese (Confapi)",
-      "riferimento_normativo": "CCNL Metalmeccanica PMI - Confapi (Unionmeccanica), codice CNEL C018; ipotesi sottoscritta 04/06/2026, approvata 29/07/2026",
-      "data_run": "2026-08-08",
-      "ora_run": "0739",
-      "file": "ingest_payload_2026-08-08_0739.json"
-    },
-    {
-      "chiave": "art. 39 e 40 d.lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennità a carico inps",
-      "titolo": "Riposi per allattamento: due ore al giorno pagate nel primo anno del bambino",
-      "riferimento_normativo": "Art. 39 e 40 D.Lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennità a carico INPS",
-      "data_run": "2026-08-08",
-      "ora_run": "0739",
-      "file": "ingest_payload_2026-08-08_0739.json"
-    },
-    {
-      "chiave": "art. 5 l. 260/1949 - festività cadente di domenica (retribuzione aggiuntiva)",
-      "titolo": "Una festività cade di domenica? Ti spetta un giorno di paga in più",
-      "riferimento_normativo": "Art. 5 L. 260/1949 - festività cadente di domenica (retribuzione aggiuntiva)",
-      "data_run": "2026-08-08",
-      "ora_run": "0739",
-      "file": "ingest_payload_2026-08-08_0739.json"
-    }
-  ]
+ "schema": "gioia-payload-index",
+ "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
+ "aggiornato_il": "2026-08-08 1003",
+ "pubblicate": [
+  {
+   "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
+   "titolo": "Guadagni oltre 4.685 € al mese? Su quella parte paghi un 1% di contributi in più",
+   "riferimento_normativo": "Art. 3-ter L. 438/1992 - contributo aggiuntivo 1% IVS; soglia prima fascia 2026 = 56.224 €/anno (Circ. INPS n. 6 del 30/01/2026)",
+   "data_run": "2026-08-08",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-08_1003.json"
+  },
+  {
+   "chiave": "d.lgs. 81/2015 artt. 7 e 25 - part-time: proporzionalita' e non discriminazione (riproporzionamento retribuzione)",
+   "titolo": "Part-time: come si legge in busta paga uno stipendio \"riproporzionato\"",
+   "riferimento_normativo": "D.Lgs. 81/2015 artt. 7 e 25 - lavoro a tempo parziale: principio di proporzionalità e non discriminazione",
+   "data_run": "2026-08-08",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-08_1003.json"
+  },
+  {
+   "chiave": "messaggio inps n. 2540 del 03/08/2026; art. 3 d.lgs. 22/2015; art. 2119 c.c.",
+   "titolo": "NASpI: chi si dimette per violenza o stalking ora ha diritto alla disoccupazione",
+   "riferimento_normativo": "Messaggio INPS n. 2540 del 03/08/2026; art. 3 D.Lgs. 22/2015; art. 2119 c.c.",
+   "data_run": "2026-08-06",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-06_1603.json"
+  },
+  {
+   "chiave": "art. 47 d.lgs. 151/2001 - congedo per malattia del figlio; l. 199/2025",
+   "titolo": "Figlio malato? Dal 2026 hai fino a 10 giorni l'anno (ma non pagati)",
+   "riferimento_normativo": "Art. 47 D.Lgs. 151/2001; L. 199/2025 (Legge di Bilancio 2026)",
+   "data_run": "2026-08-06",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-06_1603.json"
+  },
+  {
+   "chiave": "superminimo individuale - contrattazione individuale/collettiva; principi giurisprudenziali su assorbibilita'",
+   "titolo": "Superminimo in busta paga: quell'extra che a volte sparisce con gli aumenti",
+   "riferimento_normativo": "Superminimo individuale - contrattazione individuale/collettiva; principi giurisprudenziali su assorbibilita'",
+   "data_run": "2026-08-06",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-06_1603.json"
+  },
+  {
+   "chiave": "d.lgs. 151/2001 artt. 32 e ss. - congedo parentale",
+   "titolo": "Congedo parentale: quanti mesi ti spettano e quanto ti pagano",
+   "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale",
+   "data_run": "2026-08-05",
+   "ora_run": "1005",
+   "file": "ingest_payload_2026-08-05_1005.json"
+  },
+  {
+   "chiave": "art. 12 tuir (dpr 917/1986) - detrazione per coniuge a carico",
+   "titolo": "Coniuge a carico: la detrazione che ti abbassa l'IRPEF (fino a 800 €)",
+   "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione per coniuge a carico",
+   "data_run": "2026-08-05",
+   "ora_run": "1005",
+   "file": "ingest_payload_2026-08-05_1005.json"
+  },
+  {
+   "chiave": "dimissioni telematiche - d.lgs. 151/2015 art. 26",
+   "titolo": "Dimissioni: si danno solo online, e hai 7 giorni per ripensarci",
+   "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26",
+   "data_run": "2026-08-05",
+   "ora_run": "1005",
+   "file": "ingest_payload_2026-08-05_1005.json"
+  },
+  {
+   "chiave": "comunicazione istat indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
+   "titolo": "TFR: nuovo coefficiente di rivalutazione (giugno 2026)",
+   "riferimento_normativo": "Comunicazione ISTAT indici prezzi (giugno 2026); art. 2120 c.c.; decorrenza rivalutazione mensile",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_2026-07-31.json"
+  },
+  {
+   "chiave": "circolare inps n. 82 del 29/07/2026",
+   "titolo": "Assunzione di madri con tre o più figli: esonero contributivo fino a 8.000 euro",
+   "riferimento_normativo": "Circolare INPS n. 82 del 29/07/2026",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_2026-07-31.json"
+  },
+  {
+   "chiave": "messaggio inps n. 2451 del 23/07/2026; artt. 22-24 d.l. 60/2024",
+   "titolo": "Bonus assunzioni Giovani, Donne e ZES: domande entro il 30 settembre 2026",
+   "riferimento_normativo": "Messaggio INPS n. 2451 del 23/07/2026; artt. 22-24 D.L. 60/2024",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_2026-07-31.json"
+  },
+  {
+   "chiave": "circolare inail n. 35 del 22/07/2026; d.m. lavoro 11/05/2026 n. 58",
+   "titolo": "INAIL: aggiornati minimale e massimale di rendita 2026",
+   "riferimento_normativo": "Circolare INAIL n. 35 del 22/07/2026; D.M. Lavoro 11/05/2026 n. 58",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_2026-07-31.json"
+  },
+  {
+   "chiave": "l. 199/2025 (revisione scaglioni irpef), decorrenza 01/01/2026",
+   "titolo": "Guadagni tra 28.000 e 50.000 euro? In busta hai qualche euro in più",
+   "riferimento_normativo": "L. 199/2025 (revisione scaglioni IRPEF), decorrenza 01/01/2026",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_dipendente_2026-07-31.json"
+  },
+  {
+   "chiave": "legge di bilancio 2025 (soglie strutturali triennio 2025-2027)",
+   "titolo": "Fringe benefit: fino a 1.000 euro esentasse (2.000 se hai figli)",
+   "riferimento_normativo": "Legge di Bilancio 2025 (soglie strutturali triennio 2025-2027)",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_dipendente_2026-07-31.json"
+  },
+  {
+   "chiave": "l. 199/2025; circ. agenzia delle entrate 3/e; imposta sostitutiva 15% entro 1.500 euro, reddito 2025 <= 40.000 euro",
+   "titolo": "Lavori di notte, nei festivi o su turni? Paghi il 15% invece dell'IRPEF",
+   "riferimento_normativo": "L. 199/2025; Circ. Agenzia delle Entrate 3/E; imposta sostitutiva 15% entro 1.500 euro, reddito 2025 <= 40.000 euro",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_dipendente_2026-07-31.json"
+  },
+  {
+   "chiave": "d.lgs. 22/2015; circ. inps 4/2026; legge di bilancio 2026 (anticipo in 2 rate)",
+   "titolo": "NASpI 2026: se perdi il lavoro, ecco cosa ti spetta",
+   "riferimento_normativo": "D.Lgs. 22/2015; Circ. INPS 4/2026; Legge di Bilancio 2026 (anticipo in 2 rate)",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_dipendente_2026-07-31.json"
+  },
+  {
+   "chiave": "art. 2120 c.c.; coefficiente istat rif. maggio 2026 (indice foi giugno 102,8)",
+   "titolo": "Il tuo TFR non resta fermo: ecco quanto si è rivalutato",
+   "riferimento_normativo": "Art. 2120 c.c.; coefficiente ISTAT rif. maggio 2026 (indice FOI giugno 102,8)",
+   "data_run": "2026-07-31",
+   "ora_run": "",
+   "file": "ingest_payload_dipendente_2026-07-31.json"
+  },
+  {
+   "chiave": "art. 4 dl 62/2026; circ. inps 72/2026; msg. inps 2518 del 29/07/2026",
+   "titolo": "Da oggi l'esonero contributivo per la stabilizzazione degli under 35",
+   "riferimento_normativo": "Art. 4 DL 62/2026; Circ. INPS 72/2026; Msg. INPS 2518 del 29/07/2026",
+   "data_run": "2026-08-01",
+   "ora_run": "2200",
+   "file": "ingest_payload_2026-08-01_2200.json"
+  },
+  {
+   "chiave": "l. 112/2026 (conversione decreto lavoro); finestra straordinaria conferimento tfr primo semestre 2026 a previdenza complementare",
+   "titolo": "TFR del primo semestre 2026: puoi spostarlo nel fondo pensione (finestra straordinaria)",
+   "riferimento_normativo": "L. 112/2026 (conversione Decreto Lavoro) - finestra straordinaria conferimento TFR 1o semestre 2026; art. da riscontrare su GU",
+   "data_run": "2026-08-03",
+   "ora_run": "0605",
+   "file": "ingest_payload_2026-08-03_0605.json"
+  },
+  {
+   "chiave": "art. 13 tuir - detrazioni da lavoro dipendente 2026",
+   "titolo": "Detrazioni da lavoro dipendente: fino a 1.955 € che ti abbassano l'IRPEF",
+   "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - detrazioni per redditi da lavoro dipendente",
+   "data_run": "2026-08-02",
+   "ora_run": "2116",
+   "file": "ingest_payload_2026-08-02_2116.json"
+  },
+  {
+   "chiave": "trattamento integrativo (ex bonus renzi) - d.l. 3/2020 conv. l. 21/2020",
+   "titolo": "Il bonus IRPEF in busta paga (voce \"TIR\"): fino a 1.200 € l'anno",
+   "riferimento_normativo": "Trattamento integrativo (ex Bonus Renzi) - D.L. 3/2020 conv. L. 21/2020",
+   "data_run": "2026-08-02",
+   "ora_run": "2116",
+   "file": "ingest_payload_2026-08-02_2116.json"
+  },
+  {
+   "chiave": "art. 12 tuir - detrazioni figli a carico 2026 (eta' 21-30)",
+   "titolo": "Figli a carico: quando passi dall'Assegno Unico alle detrazioni in busta",
+   "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazioni per figli a carico; D.Lgs. 230/2021 (Assegno Unico)",
+   "data_run": "2026-08-02",
+   "ora_run": "2116",
+   "file": "ingest_payload_2026-08-02_2116.json"
+  },
+  {
+   "chiave": "d.lgs. 360/1998 e l. 42/2009 - addizionali irpef",
+   "titolo": "Ad agosto il netto scende? Ecco le addizionali regionali e comunali",
+   "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF",
+   "data_run": "2026-08-03",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-03_1003.json"
+  },
+  {
+   "chiave": "aliquota contributiva ivs lavoratore dipendente 9,19%",
+   "titolo": "Quel 9,19% trattenuto ogni mese: dove finiscono i tuoi contributi",
+   "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%",
+   "data_run": "2026-08-03",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-03_1003.json"
+  },
+  {
+   "chiave": "art. 2120 c.c. commi 6-9 - anticipazione tfr",
+   "titolo": "TFR: quando puoi chiedere un anticipo (e quanto ti spetta)",
+   "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR",
+   "data_run": "2026-08-03",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-03_1003.json"
+  },
+  {
+   "chiave": "art. 23 dpr 600/1973 - conguaglio del sostituto d'imposta",
+   "titolo": "Conguaglio di fine anno: perché a dicembre la busta paga cambia",
+   "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta",
+   "data_run": "2026-08-03",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-03_1603.json"
+  },
+  {
+   "chiave": "contrattazione collettiva - gratifica natalizia; art. 2099 c.c.; art. 13 tuir (detrazioni)",
+   "titolo": "Tredicesima: come si calcola e perché ci paghi più tasse",
+   "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.; art. 13 TUIR (detrazioni)",
+   "data_run": "2026-08-03",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-03_1603.json"
+  },
+  {
+   "chiave": "d.lgs. 66/2003 artt. 4-5 - orario di lavoro e straordinario",
+   "titolo": "Straordinari: quante ore puoi fare e quanto ti devono pagare in più",
+   "riferimento_normativo": "D.Lgs. 66/2003 artt. 4-5 - orario di lavoro e straordinario",
+   "data_run": "2026-08-03",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-03_1603.json"
+  },
+  {
+   "chiave": "art. 11 c.2 dl 62/2026 conv. l. 112/2026; codice cnel obbligatorio in busta paga",
+   "titolo": "Sul tuo cedolino ora c'è il codice CNEL: a cosa serve",
+   "riferimento_normativo": "Art. 11 c.2 DL 62/2026 conv. L. 112/2026 (mod. art. 1 L. 4/1953)",
+   "data_run": "2026-08-03",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-03_2003.json"
+  },
+  {
+   "chiave": "prassi inps - indennità di malattia; carenza primi 3 giorni; ccnl applicato",
+   "titolo": "Malattia: perché i primi 3 giorni sono diversi dagli altri",
+   "riferimento_normativo": "Prassi INPS - indennità di malattia; carenza primi 3 giorni; CCNL applicato",
+   "data_run": "2026-08-03",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-03_2003.json"
+  },
+  {
+   "chiave": "l. 104/1992 art. 33 c.3 - permessi assistenza familiari disabilità grave",
+   "titolo": "Legge 104: 3 giorni al mese pagati, come li leggi in busta",
+   "riferimento_normativo": "L. 104/1992 art. 33 c.3 - permessi per assistenza a familiari con disabilità grave",
+   "data_run": "2026-08-03",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-03_2003.json"
+  },
+  {
+   "chiave": "d.lgs. 252/2005 - destinazione e tassazione del tfr; art. 2120 c.c.",
+   "titolo": "TFR in azienda o nel fondo pensione: la differenza è nelle tasse",
+   "riferimento_normativo": "D.Lgs. 252/2005 - destinazione e tassazione del TFR; art. 2120 c.c.",
+   "data_run": "2026-08-04",
+   "ora_run": "0605",
+   "file": "ingest_payload_2026-08-04_0605.json"
+  },
+  {
+   "chiave": "contrattazione collettiva - scatti di anzianità (ccnl applicato)",
+   "titolo": "Scatti di anzianità: quegli aumenti che arrivano col tempo",
+   "riferimento_normativo": "Contrattazione collettiva - scatti di anzianità (CCNL applicato)",
+   "data_run": "2026-08-04",
+   "ora_run": "0605",
+   "file": "ingest_payload_2026-08-04_0605.json"
+  },
+  {
+   "chiave": "struttura della retribuzione - lordo/netto; art. 13 tuir; aliquota ivs 9,19%; l. 199/2025 (scaglioni irpef)",
+   "titolo": "Dal lordo al netto: dove finisce la differenza in busta paga",
+   "riferimento_normativo": "Struttura della retribuzione - lordo/netto; art. 13 TUIR; aliquota IVS 9,19%; L. 199/2025 (scaglioni IRPEF)",
+   "data_run": "2026-08-04",
+   "ora_run": "0605",
+   "file": "ingest_payload_2026-08-04_0605.json"
+  },
+  {
+   "chiave": "contrattazione collettiva - quattordicesima (gratifica); art. 2099 c.c.",
+   "titolo": "Quattordicesima: chi ce l'ha e come si matura mese per mese",
+   "riferimento_normativo": "Contrattazione collettiva - quattordicesima (gratifica); art. 2099 c.c.",
+   "data_run": "2026-08-04",
+   "ora_run": "1004",
+   "file": "ingest_payload_2026-08-04_1004.json"
+  },
+  {
+   "chiave": "art. 2110 c.c. - periodo di comporto; ccnl applicato",
+   "titolo": "Periodo di comporto: quanto puoi stare in malattia senza rischiare il posto",
+   "riferimento_normativo": "Art. 2110 c.c. - periodo di comporto; CCNL applicato",
+   "data_run": "2026-08-04",
+   "ora_run": "1004",
+   "file": "ingest_payload_2026-08-04_1004.json"
+  },
+  {
+   "chiave": "tuir e normativa contributiva - basi imponibili fiscale e previdenziale; aliquota ivs 9,19%",
+   "titolo": "Perché in busta ci sono due imponibili diversi (fiscale e previdenziale)",
+   "riferimento_normativo": "TUIR (DPR 917/1986) e normativa contributiva - basi imponibili fiscale e previdenziale; aliquota IVS 9,19%",
+   "data_run": "2026-08-04",
+   "ora_run": "1004",
+   "file": "ingest_payload_2026-08-04_1004.json"
+  },
+  {
+   "chiave": "d.lgs. 151/2001 art. 16 - congedo di maternità obbligatorio (indennità 80%)",
+   "titolo": "Congedo di maternità: 5 mesi di astensione all'80% (spesso al 100%)",
+   "riferimento_normativo": "d.lgs. 151/2001 art. 16",
+   "data_run": "2026-08-04",
+   "ora_run": "1604",
+   "file": "ingest_payload_2026-08-04_1604.json"
+  },
+  {
+   "chiave": "d.lgs. 66/2003 art. 10 c.2 - ferie annuali e divieto di monetizzazione",
+   "titolo": "Le tue ferie non si pagano al posto di goderle: ecco perché",
+   "riferimento_normativo": "d.lgs. 66/2003 art. 10 c.2",
+   "data_run": "2026-08-04",
+   "ora_run": "1604",
+   "file": "ingest_payload_2026-08-04_1604.json"
+  },
+  {
+   "chiave": "certificazione unica - art. 4 dpr 322/1998; termine rilascio 16 marzo",
+   "titolo": "Certificazione Unica (CU): la \"fotografia\" annuale della tua busta paga",
+   "riferimento_normativo": "certificazione unica",
+   "data_run": "2026-08-04",
+   "ora_run": "1604",
+   "file": "ingest_payload_2026-08-04_1604.json"
+  },
+  {
+   "chiave": "circolare inps n. 75 del 17/07/2026",
+   "titolo": "Malattia e maternità 2026: l'INPS aggiorna i limiti dell'indennità",
+   "riferimento_normativo": "Circolare INPS n. 75 del 17/07/2026",
+   "data_run": "2026-08-04",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-04_2003.json"
+  },
+  {
+   "chiave": "art. 13 tuir - no tax area lavoro dipendente 2026",
+   "titolo": "Guadagni fino a 8.500 euro l'anno? Non paghi IRPEF: la no tax area",
+   "riferimento_normativo": "Art. 13 TUIR (DPR 917/1986) - no tax area lavoro dipendente 2026",
+   "data_run": "2026-08-04",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-04_2003.json"
+  },
+  {
+   "chiave": "l. 203/2024 (collegato lavoro); circolare inps n. 154 del 22/12/2025 - dimissioni per fatti concludenti",
+   "titolo": "Sparire dal lavoro non conviene: le dimissioni per fatti concludenti",
+   "riferimento_normativo": "L. 203/2024 (Collegato Lavoro); Circolare INPS n. 154 del 22/12/2025",
+   "data_run": "2026-08-04",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-04_2003.json"
+  },
+  {
+   "chiave": "buoni pasto - esenzione l. 199/2025 (legge di bilancio 2026) art. 1 c. 14; elettronici 10 €/gg, cartacei 4 €/gg",
+   "titolo": "Buoni pasto 2026: quelli elettronici sono esentasse fino a 10 € al giorno",
+   "riferimento_normativo": "Buoni pasto - esenzione L. 199/2025 (Legge di Bilancio 2026) art. 1 c. 14; elettronici 10 €/gg, cartacei 4 €/gg",
+   "data_run": "2026-08-05",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-05_1603.json"
+  },
+  {
+   "chiave": "contrattazione collettiva - rol (riduzione orario di lavoro) ed ex festività; ccnl applicato",
+   "titolo": "ROL ed ex festività: cosa sono quelle ore che vedi accantonate in busta",
+   "riferimento_normativo": "Contrattazione collettiva - ROL (riduzione orario di lavoro) ed ex festività; CCNL applicato",
+   "data_run": "2026-08-05",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-05_1603.json"
+  },
+  {
+   "chiave": "art. 12 tuir (dpr 917/1986) - detrazione altri familiari a carico (ascendenti conviventi); l. 207/2024; d.lgs. 192/2025",
+   "titolo": "Genitori o nonni a carico: dal 2026 la detrazione spetta solo se convivono",
+   "riferimento_normativo": "Art. 12 TUIR (DPR 917/1986) - detrazione altri familiari a carico (ascendenti conviventi); L. 207/2024; D.Lgs. 192/2025",
+   "data_run": "2026-08-05",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-05_1603.json"
+  },
+  {
+   "chiave": "art. 27-bis d.lgs. 151/2001 - congedo di paternità obbligatorio (10 giorni al 100%)",
+   "titolo": "Congedo di paternità: 10 giorni pagati al 100% che spettano al papà",
+   "riferimento_normativo": "Art. 27-bis D.Lgs. 151/2001 - congedo di paternità obbligatorio (10 giorni al 100%)",
+   "data_run": "2026-08-05",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-05_2003.json"
+  },
+  {
+   "chiave": "premi di risultato - l. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva 1% (biennio 2026-2027)",
+   "titolo": "Premio di risultato: nel 2026-2027 lo paghi con l'1% di tasse invece dell'IRPEF",
+   "riferimento_normativo": "Premi di risultato - L. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva 1% (biennio 2026-2027) entro 5.000 € lordi, reddito lav. dip. anno precedente ≤ 80.000 € - Legge di Bilancio 2026",
+   "data_run": "2026-08-05",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-05_2003.json"
+  },
+  {
+   "chiave": "art. 545 c.p.c. - limiti di pignorabilità dello stipendio",
+   "titolo": "Pignoramento dello stipendio: quanto ti possono trattenere (e quanto resta intoccabile)",
+   "riferimento_normativo": "Art. 545 c.p.c. - limiti di pignorabilità dello stipendio (1/5 ordinario; cumulo max 1/2; alimentari fino a 1/3)",
+   "data_run": "2026-08-05",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-05_2003.json"
+  },
+  {
+   "chiave": "assegno unico universale - d.lgs. 230/2021; circ. inps n. 7 del 30/01/2026 (importi 2026)",
+   "titolo": "Assegno unico 2026: perché non lo trovi più in busta paga (e quanto vale)",
+   "riferimento_normativo": "Assegno Unico Universale - D.Lgs. 230/2021; Circ. INPS n. 7 del 30/01/2026 (importi 2026)",
+   "data_run": "2026-08-06",
+   "ora_run": "0606",
+   "file": "ingest_payload_2026-08-06_0606.json"
+  },
+  {
+   "chiave": "art. 51 comma 5 tuir (dpr 917/1986) - indennità di trasferta",
+   "titolo": "Indennità di trasferta: fino a 46,48 € al giorno esentasse (77,47 € all'estero)",
+   "riferimento_normativo": "Art. 51 comma 5 TUIR (DPR 917/1986) - indennità di trasferta",
+   "data_run": "2026-08-06",
+   "ora_run": "0606",
+   "file": "ingest_payload_2026-08-06_0606.json"
+  },
+  {
+   "chiave": "legge di bilancio 2026 - fasce di reperibilità visite fiscali unificate; prassi inps 2026",
+   "titolo": "Malattia 2026: le nuove fasce per la visita fiscale (10-12 e 17-19, uguali per tutti)",
+   "riferimento_normativo": "Legge di Bilancio 2026 - fasce di reperibilità visite fiscali unificate; prassi INPS 2026",
+   "data_run": "2026-08-06",
+   "ora_run": "0606",
+   "file": "ingest_payload_2026-08-06_0606.json"
+  },
+  {
+   "chiave": "circolare inps n. 81 del 24/07/2026; art. 7-bis dl 19/2026 conv. l. 50/2026",
+   "titolo": "Assegno unico: ora spetta anche per i figli residenti in un altro Paese UE",
+   "riferimento_normativo": "Circolare INPS n. 81 del 24/07/2026; art. 7-bis DL 19/2026 conv. L. 50/2026",
+   "data_run": "2026-08-06",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-06_1003.json"
+  },
+  {
+   "chiave": "art. 51 comma 4 tuir (dpr 917/1986) - fringe benefit auto aziendale uso promiscuo",
+   "titolo": "Auto aziendale a uso promiscuo: perché la trovi tassata in busta paga",
+   "riferimento_normativo": "Art. 51 comma 4 lett. a) TUIR (DPR 917/1986); tabelle ACI 2026 (GU 23/12/2025)",
+   "data_run": "2026-08-06",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-06_1003.json"
+  },
+  {
+   "chiave": "d.lgs. 66/2003 - lavoro notturno (definizione e maggiorazioni ccnl)",
+   "titolo": "Lavoro notturno: quando \"scatta\" e perché in busta trovi una maggiorazione",
+   "riferimento_normativo": "D.Lgs. 66/2003 (definizione periodo e lavoratore notturno); maggiorazioni da CCNL applicato",
+   "data_run": "2026-08-06",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-06_1003.json"
+  },
+  {
+   "chiave": "cassazione ord. n. 18529 dell'08/06/2026 - retribuzione durante le ferie; d.lgs. 66/2003 art. 10",
+   "titolo": "In ferie la busta è più bassa? Non sempre è un errore",
+   "riferimento_normativo": "Cassazione ord. n. 18529 dell'08/06/2026; D.Lgs. 66/2003 art. 10 (ferie annuali)",
+   "data_run": "2026-08-06",
+   "ora_run": "2004",
+   "file": "ingest_payload_2026-08-06_2004.json"
+  },
+  {
+   "chiave": "lavoro festivo e domenicale - maggiorazioni ccnl e riposo compensativo; d.lgs. 66/2003",
+   "titolo": "Lavori la domenica o nei festivi? Ti spetta una maggiorazione (e spesso un riposo)",
+   "riferimento_normativo": "D.Lgs. 66/2003 (riposo settimanale e compensativo); maggiorazioni festivo/domenicale da CCNL applicato",
+   "data_run": "2026-08-06",
+   "ora_run": "2004",
+   "file": "ingest_payload_2026-08-06_2004.json"
+  },
+  {
+   "chiave": "art. 19 tuir - tfr tassazione separata (aliquota media); art. 11 d.lgs. 47/2000",
+   "titolo": "TFR: perché alla liquidazione paghi meno tasse (la tassazione separata)",
+   "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR; art. 11 D.Lgs. 47/2000",
+   "data_run": "2026-08-06",
+   "ora_run": "2004",
+   "file": "ingest_payload_2026-08-06_2004.json"
+  },
+  {
+   "chiave": "assegno per congedo matrimoniale (inps); disciplina ccnl applicato",
+   "titolo": "Congedo matrimoniale: 15 giorni di stipendio pieno per chi si sposa",
+   "data_run": "2026-08-07",
+   "ora_run": "0603",
+   "file": "ingest_payload_2026-08-07_0603.json"
+  },
+  {
+   "chiave": "art. 10 l. 300/1970 (statuto dei lavoratori); disciplina ccnl applicato",
+   "titolo": "Studi e lavori? Fino a 150 ore di permessi retribuiti l'anno",
+   "data_run": "2026-08-07",
+   "ora_run": "0603",
+   "file": "ingest_payload_2026-08-07_0603.json"
+  },
+  {
+   "chiave": "art. 51 commi 2 e 3 tuir (dpr 917/1986)",
+   "titolo": "Welfare aziendale: i servizi che NON pagano tasse (e non sono i fringe benefit)",
+   "data_run": "2026-08-07",
+   "ora_run": "0603",
+   "file": "ingest_payload_2026-08-07_0603.json"
+  },
+  {
+   "chiave": "Art. 33 L. 104/1992 - permessi per assistenza a familiari con disabilità grave",
+   "titolo": "Legge 104: 3 giorni al mese di permesso retribuito, ecco come si leggono in busta",
+   "data_run": "2026-08-07",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-07_1003.json"
+  },
+  {
+   "chiave": "Art. 51 comma 2 lett. c) TUIR; Legge di Bilancio 2026 - soglie esenzione buoni pasto",
+   "titolo": "Buoni pasto 2026: esenti fino a 10 € (elettronici) o 4 € (cartacei), il resto è tassato",
+   "data_run": "2026-08-07",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-07_1003.json"
+  },
+  {
+   "chiave": "Art. 2110 c.c. - sospensione del rapporto e conservazione del posto (comporto)",
+   "titolo": "Periodo di comporto: per quanto tempo la malattia non mette a rischio il posto",
+   "data_run": "2026-08-07",
+   "ora_run": "1003",
+   "file": "ingest_payload_2026-08-07_1003.json"
+  },
+  {
+   "chiave": "artt. 2118 e 2121 c.c. - indennità sostitutiva del preavviso e sua base di computo",
+   "titolo": "Indennità sostitutiva del preavviso: cos'è quella cifra quando il lavoro finisce di colpo",
+   "riferimento_normativo": "Artt. 2118 e 2121 c.c. - indennità sostitutiva del preavviso e sua base di computo",
+   "data_run": "2026-08-07",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-07_1603.json"
+  },
+  {
+   "chiave": "art. 4 l. 53/2000 - permessi per eventi e gravi motivi familiari (3 giorni retribuiti/anno)",
+   "titolo": "Permessi per lutto: 3 giorni retribuiti l'anno, ecco quando spettano",
+   "riferimento_normativo": "Art. 4 L. 53/2000 - permessi per eventi e gravi motivi familiari (3 giorni retribuiti/anno)",
+   "data_run": "2026-08-07",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-07_1603.json"
+  },
+  {
+   "chiave": "contrattazione collettiva - indennità di reperibilità (ccnl applicato); imponibile irpef e inps",
+   "titolo": "Indennità di reperibilità: la paghi per stare \"a disposizione\", anche senza lavorare",
+   "riferimento_normativo": "Contrattazione collettiva - indennità di reperibilità (CCNL applicato); imponibile IRPEF e INPS",
+   "data_run": "2026-08-07",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-07_1603.json"
+  },
+  {
+   "chiave": "contrattazione collettiva - quattordicesima mensilità; art. 2099 c.c.",
+   "titolo": "Quattordicesima: la mensilità in più che (forse) hai appena ricevuto",
+   "data_run": "2026-08-07",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-07_2003.json"
+  },
+  {
+   "chiave": "periodo di carenza malattia - prassi inps e ccnl applicato (indennità dal 4° giorno)",
+   "titolo": "Malattia: perché i primi 3 giorni li paga l'azienda (e non l'INPS)",
+   "data_run": "2026-08-07",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-07_2003.json"
+  },
+  {
+   "chiave": "contrattazione collettiva - scatti di anzianità (numero, importo e periodicità da ccnl applicato)",
+   "titolo": "Scatti di anzianità: l'aumento automatico che premia gli anni di lavoro",
+   "data_run": "2026-08-07",
+   "ora_run": "2003",
+   "file": "ingest_payload_2026-08-07_2003.json"
+  },
+  {
+   "chiave": "ccnl metalmeccanica pmi - confapi (unionmeccanica), codice cnel c018; ipotesi sottoscritta 04/06/2026, approvata 29/07/2026",
+   "titolo": "Rinnovato il contratto dei metalmeccanici delle piccole e medie imprese (Confapi)",
+   "riferimento_normativo": "CCNL Metalmeccanica PMI - Confapi (Unionmeccanica), codice CNEL C018; ipotesi sottoscritta 04/06/2026, approvata 29/07/2026",
+   "data_run": "2026-08-08",
+   "ora_run": "0739",
+   "file": "ingest_payload_2026-08-08_0739.json"
+  },
+  {
+   "chiave": "art. 39 e 40 d.lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennità a carico inps",
+   "titolo": "Riposi per allattamento: due ore al giorno pagate nel primo anno del bambino",
+   "riferimento_normativo": "Art. 39 e 40 D.Lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennità a carico INPS",
+   "data_run": "2026-08-08",
+   "ora_run": "0739",
+   "file": "ingest_payload_2026-08-08_0739.json"
+  },
+  {
+   "chiave": "art. 5 l. 260/1949 - festività cadente di domenica (retribuzione aggiuntiva)",
+   "titolo": "Una festività cade di domenica? Ti spetta un giorno di paga in più",
+   "riferimento_normativo": "Art. 5 L. 260/1949 - festività cadente di domenica (retribuzione aggiuntiva)",
+   "data_run": "2026-08-08",
+   "ora_run": "0739",
+   "file": "ingest_payload_2026-08-08_0739.json"
+  },
+  {
+   "chiave": "ccnl commercio anpit/unica (cisal terziario), cod. cnel h024; protocollo rinnovo 28/07/2026",
+   "titolo": "Commercio ANPIT/UNICA: contratto rinnovato, paghe base piu alte da agosto 2026",
+   "data_run": "2026-08-08",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-08_1603.json"
+  },
+  {
+   "chiave": "art. 51 comma 6 tuir (dpr 917/1986) - lavoratori trasfertisti, imponibile 50%",
+   "titolo": "Sei un \"trasfertista\"? In busta paga l'indennita e tassata solo al 50%",
+   "data_run": "2026-08-08",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-08_1603.json"
+  },
+  {
+   "chiave": "art. 2096 c.c. - assunzione in prova (retribuzione e durata)",
+   "titolo": "Periodo di prova: stipendio pieno e regole da conoscere",
+   "data_run": "2026-08-08",
+   "ora_run": "1603",
+   "file": "ingest_payload_2026-08-08_1603.json"
+  }
+ ]
 }

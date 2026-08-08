@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-08",
+  "notizie": [
+    {
+      "titolo": "Commercio ANPIT/UNICA: contratto rinnovato, paghe base piu alte da agosto 2026",
+      "testo": "Se la tua azienda applica il CCNL del Commercio siglato da ANPIT e UNICA (codice CNEL H024), il contratto e stato rinnovato: il protocollo firmato il 28 luglio 2026 e valido dal 1 agosto 2026 al 31 luglio 2029.\n\nCosa cambia in busta paga? Dal 1 agosto 2026 salgono i valori della Paga Base (PBNCM), con una seconda tappa di aumento dal 1 gennaio 2027. Sempre da agosto viene introdotto un nuovo elemento fisso chiamato EPAM (Elemento Perequativo Aggiuntivo Mensile, pagato per 13 mensilita) che sostituisce il vecchio EPMR, mentre la IMC (Indennita Mensile Contrattuale) diventa un elemento di garanzia fisso e assorbibile dagli eventuali importi individuali gia riconosciuti sopra i minimi.\n\nAlcuni numeri delle nuove tabelle da agosto 2026: livello C1 paga base 1.668,96 euro; livello B1 2.098,19 euro; Quadro 2.862,46 euro (a cui si aggiungono EPAM e IMC secondo il livello). Cambia anche l'indennita di cassa, che passa al 6% della paga base, e dal 2027 crescono gli importi di welfare contrattuale.\n\nAttenzione: questo e un contratto diverso dal CCNL Terziario Confcommercio (codice H011), quindi le tabelle valgono solo per chi applica proprio il contratto ANPIT/UNICA. Per capire se il tuo cedolino riporta il codice CNEL corretto e se la paga base del tuo livello e aggiornata, carica la busta paga su GioIA: confrontiamo i tuoi importi con le tabelle del contratto applicato e ti segnaliamo eventuali scostamenti.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "CCNL Commercio ANPIT/UNICA (CISAL Terziario), cod. CNEL H024; protocollo di rinnovo del 28/07/2026, tabelle in vigore dal 01/08/2026",
+      "fonte_url": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+    },
+    {
+      "titolo": "Sei un \"trasfertista\"? In busta paga l'indennita e tassata solo al 50%",
+      "testo": "Non tutti i lavoratori in giro per l'Italia sono uguali. Un conto e la trasferta occasionale (parti oggi per una sede diversa dalla tua), un altro e il trasfertista: chi, per la natura del lavoro, e sempre in movimento e non ha una sede di lavoro fissa indicata nel contratto.\n\nPer il trasfertista la legge prevede una regola precisa: l'indennita (di solito un importo fisso mensile) entra nell'imponibile fiscale e contributivo solo per il 50%, qualunque sia la cifra. In pratica, sulla meta di quell'indennita non paghi ne IRPEF ne contributi. E un regime agevolato, ma alternativo a quello della trasferta occasionale: al trasfertista non spettano in aggiunta l'indennita di trasferta esente ne i rimborsi spese esenti, perche l'agevolazione e gia il 50%.\n\nCome si legge in busta paga? Trovi una voce di indennita dedicata: solo la sua meta si somma agli altri importi tassati, l'altra meta resta esente. Sbagliare regime (trattare da trasfertista chi fa trasferte occasionali, o viceversa) e un errore frequente e con effetti su tasse e contributi.\n\nCon GioIA puoi verificare che l'indennita da trasfertista sia correttamente imponibile al 50% e non tassata per intero.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 51 comma 6 TUIR (DPR 917/1986) - lavoratori trasfertisti, imponibile 50%",
+      "fonte_url": "https://www.ecnews.it/lavoro/blog/trasfertisti-imponibile-contributivo-cassazione-ribadisce-alternativita-commi-5-6-art51-tuir/"
+    },
+    {
+      "titolo": "Periodo di prova: stipendio pieno e regole da conoscere",
+      "testo": "Sei stato assunto \"in prova\"? Il periodo di prova serve a datore e lavoratore per valutarsi, ma non e una zona franca: durante la prova hai diritto alla retribuzione piena prevista dal tuo contratto per il livello di inquadramento. In busta paga, insomma, non prendi meno perche sei in prova.\n\nCome funziona? Il patto di prova deve risultare da atto scritto (di solito nella lettera di assunzione) e indicare la durata. La legge fissa un tetto massimo di sei mesi; i contratti collettivi possono prevedere durate piu brevi in base al livello. Durante la prova ciascuna delle parti puo recedere senza obbligo di preavviso ne di indennita, salvo che sia stato pattuito un periodo minimo garantito.\n\nUn punto importante: una volta superata la prova, l'assunzione diventa definitiva e il periodo gia svolto conta a tutti gli effetti nell'anzianita di servizio (utile per scatti, TFR e altri istituti). Quindi quei mesi non sono \"persi\".\n\nDurante la prova maturano comunque ferie, permessi e ratei di tredicesima come per gli altri lavoratori. Con GioIA puoi controllare che la retribuzione durante il periodo di prova sia quella piena del tuo livello e che i ratei siano correttamente accantonati.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 2096 c.c. - assunzione in prova (forma scritta, durata max 6 mesi, retribuzione piena)",
+      "fonte_url": "https://www.brocardi.it/codice-civile/libro-quinto/titolo-ii/capo-i/sezione-iii/art2096.html"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+ "ccnl": {
+  "ccnl": "Commercio - Terziario ANPIT/UNICA (CISAL Terziario)",
+  "codice_cnel": "H024",
+  "parti_firmatarie": "ANPIT, UNICA, CISAL Terziario (assistenza CISAL)",
+  "ultimo_rinnovo": "2026-07-28",
+  "vigenza": "2026-08-01 / 2029-07-31",
+  "tredicesima": true,
+  "quattordicesima": false,
+  "scatti_anzianita": true,
+  "meccanismo_aumenti": "Protocollo di rinnovo del CCNL 01/09/2023 sottoscritto il 28/07/2026. Incremento Paga Base Conglobata (PBNCM) dal 01/08/2026 con 2a tranche dal 01/01/2027. Dal 01/08/2026 istituito EPAM (Elemento Perequativo Aggiuntivo Mensile, 13 mensilita) in sostituzione dell'EPMR; IMC diventa elemento di garanzia fisso assorbibile (13 mensilita). Indennita di cassa 6% della PBNCM. Welfare contrattuale con nuovi importi dal 01/01/2027.",
+  "note": "Scheda aggiunta 08/08/2026 (run 1603). Minimo tabellare = PBNCM; EPAM e IMC riportati a parte (entrambi x13 mensilita). NB: contratto Commercio ANPIT/UNICA (cod. CNEL H024), distinto dal CCNL Terziario Confcommercio (H011). Fonte tabelle CERTA (verbale accordo 28/07/2026, tabelle pubblicate). Reindirizzato fondo prev. compl. contrattuale: Eurorisparmio (contrib. aziendale 1,5% PBNCM se lavoratore versa almeno 1%).",
+  "aumenti_programmati": [
+   {
+    "decorrenza": "2027-01-01",
+    "nota": "2a tranche PBNCM + nuovi importi welfare contrattuale"
+   }
+  ],
+  "livelli": [
+   {
+    "livello": "Dirigente",
+    "minimo_tabellare_mensile": 4756.32,
+    "epam": 372.98,
+    "imc": 230.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026",
+    "indennita_funzione": 250.0
+   },
+   {
+    "livello": "Quadro",
+    "minimo_tabellare_mensile": 2862.46,
+    "epam": 251.04,
+    "imc": 150.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026",
+    "indennita_funzione": 160.0
+   },
+   {
+    "livello": "QA (ex-A1)",
+    "minimo_tabellare_mensile": 2560.17,
+    "epam": 225.78,
+    "imc": 130.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026",
+    "indennita_funzione": 140.0
+   },
+   {
+    "livello": "A2",
+    "minimo_tabellare_mensile": 2357.07,
+    "epam": 207.61,
+    "imc": 115.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "B1",
+    "minimo_tabellare_mensile": 2098.19,
+    "epam": 185.2,
+    "imc": 105.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "B2",
+    "minimo_tabellare_mensile": 1857.94,
+    "epam": 164.35,
+    "imc": 95.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "C1",
+    "minimo_tabellare_mensile": 1668.96,
+    "epam": 147.77,
+    "imc": 85.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "C2",
+    "minimo_tabellare_mensile": 1551.03,
+    "epam": 137.52,
+    "imc": 80.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "D1",
+    "minimo_tabellare_mensile": 1443.42,
+    "epam": 127.72,
+    "imc": 70.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "D2",
+    "minimo_tabellare_mensile": 1300.32,
+    "epam": 115.38,
+    "imc": 65.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "Operatore Vendita 1 Cat.",
+    "minimo_tabellare_mensile": 1994.38,
+    "epam": 185.2,
+    "imc": 105.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "Operatore Vendita 2 Cat.",
+    "minimo_tabellare_mensile": 1756.96,
+    "epam": 164.35,
+    "imc": 95.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "Operatore Vendita 3 Cat.",
+    "minimo_tabellare_mensile": 1590.76,
+    "epam": 147.77,
+    "imc": 85.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   },
+   {
+    "livello": "Operatore Vendita 4 Cat.",
+    "minimo_tabellare_mensile": 1274.98,
+    "epam": 137.52,
+    "imc": 80.0,
+    "decorrenza": "2026-08-01",
+    "affidabilita": "CERTO",
+    "fonte": "https://www.iqnotizie.it/notizia/IQ48837-30-0001/CCNL-Commercio-Anpit-aumenti-da-agosto-2026"
+   }
+  ]
+ }
+}
