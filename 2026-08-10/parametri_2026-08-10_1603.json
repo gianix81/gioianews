@@ -1,0 +1,59 @@
+{
+  "data": "2026-08-10",
+  "run": "1603",
+  "note": "Parametri busta paga 2026 invariati rispetto alle run 0728 e 1003. Nessun nuovo atto calc-critico privato in finestra. Coefficiente TFR luglio 2026 atteso 12/08/2026.",
+  "irpef_scaglioni": [
+    { "da": 0, "a": 28000, "aliquota": 0.23, "decorrenza": "2026-01-01", "fonte": "L. 199/2025" },
+    { "da": 28001, "a": 50000, "aliquota": 0.33, "decorrenza": "2026-01-01", "fonte": "L. 199/2025" },
+    { "da": 50001, "a": null, "aliquota": 0.43, "decorrenza": "2026-01-01", "fonte": "L. 199/2025" }
+  ],
+  "inps_lavoratore": {
+    "aliquota_ivs": 0.0919,
+    "contributo_aggiuntivo_1pct_soglia_annua": 56224,
+    "minimale_retribuzione_giornaliera": 58.13,
+    "massimale_annuo_base_contributiva": 122295,
+    "fonte": "Circ. INPS n. 6 del 30/01/2026"
+  },
+  "detrazioni": {
+    "no_tax_area_dipendenti": 8500,
+    "detrazione_lavoro_dip_max": 1955,
+    "fonte": "art. 13 TUIR"
+  },
+  "cuneo_2026": {
+    "soglia_esente": 20000,
+    "fascia_detrazione_da": 20001,
+    "fascia_detrazione_a": 40000,
+    "decorrenza": "2026-01-01",
+    "fonte": "L. 199/2025"
+  },
+  "tfr": {
+    "coeff_rivalutazione_giugno_2026": 2.786543,
+    "coeff_rivalutazione_luglio_2026": null,
+    "coeff_luglio_stato": "atteso 12/08/2026 (comunicato ISTAT)",
+    "imposta_sostitutiva_rivalutazione": 0.17,
+    "fonte": "art. 2120 c.c.; ISTAT 16/07/2026; art. 11 D.Lgs. 47/2000"
+  },
+  "malattia_inps": {
+    "carenza_giorni": 3,
+    "perc_dal_4_al_20": 0.50,
+    "perc_dal_21_al_180": 0.6666,
+    "massimale_annuo_indennita": 43486,
+    "giornaliero": 119.14,
+    "fonte": "D.L. 663/1979 conv. L. 33/1980; Circ. INPS 75/2026"
+  },
+  "ammortizzatori_2026": {
+    "naspi_massimale_mensile_riferimento": 1584.70,
+    "cig_massimale_lordo_mese": 1423.69,
+    "cig_maggiorazione_edilizia_lapidei": 0.20,
+    "riduzione_contributiva": 0.0584,
+    "fonte": "Circ. INPS 4/2026"
+  },
+  "fringe_e_welfare_2026": {
+    "premi_risultato_sostitutiva": 0.01,
+    "buoni_pasto_esenti_elettronici": 10,
+    "buoni_pasto_esenti_cartacei": 4,
+    "fringe_benefit_soglia_base": 1000,
+    "fringe_benefit_soglia_con_figli": 2000,
+    "fonte": "L. 199/2025; Legge di Bilancio 2026; L. 208/2015; L. 207/2024"
+  }
+}

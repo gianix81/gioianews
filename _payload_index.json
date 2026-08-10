@@ -678,6 +678,20 @@
       "data_run": "2026-08-10",
       "ora_run": "1003",
       "file": "ingest_payload_2026-08-10_1003.json"
+    },
+    {
+      "chiave": "l. 260/1949 - festivita' nazionali e infrasettimanali",
+      "titolo": "Ferragosto in busta paga: la festività del 15 agosto come si paga",
+      "data_run": "2026-08-10",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-10_1603.json"
+    },
+    {
+      "chiave": "d.l. 663/1979 conv. l. 33/1980 - indennita' economica di malattia (percentuali 50%/66,66%)",
+      "titolo": "Malattia: quanto ti paga l'INPS e come si calcola l'indennità",
+      "data_run": "2026-08-10",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-10_1603.json"
     }
   ]
 }

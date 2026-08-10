@@ -1,0 +1,19 @@
+{
+  "data": "2026-08-10",
+  "notizie": [
+    {
+      "titolo": "Ferragosto in busta paga: la festività del 15 agosto come si paga",
+      "testo": "Il 15 agosto è una festività nazionale a tutti gli effetti (legge del 1949), come Natale o il 25 aprile. Cosa significa per la tua busta paga?\n\nSe NON lavori: la festività ti spetta comunque retribuita. Se sei pagato a mese (mensilizzato), è già dentro il tuo stipendio fisso: non vedrai una voce in più, ma nemmeno una trattenuta per quel giorno di riposo. Se sei pagato a ore, in busta compare una quota specifica per la festività non goduta.\n\nSe LAVORI il 15 agosto: oltre alla normale retribuzione della giornata ti spetta anche il compenso per le ore lavorate, con la maggiorazione prevista dal tuo contratto (CCNL). Le percentuali cambiano da settore a settore, ma il lavoro nella festività va sempre pagato di più del normale.\n\nUn dettaglio sul 2026: quest'anno il 15 agosto cade di sabato. Per chi fa la settimana corta (lavoro dal lunedì al venerdì), il sabato è già un giorno non lavorativo: in questi casi la festività \"coincide\" con un giorno di riposo e il trattamento dipende dal CCNL applicato. Alcuni contratti riconoscono comunque una quota aggiuntiva di retribuzione, altri no. È proprio uno di quei punti dove conviene controllare.\n\nCon GioIA carichi il cedolino di agosto e verifichi se la festività e le eventuali maggiorazioni sono state conteggiate correttamente per il tuo contratto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "L. 260/1949 - festività nazionali e infrasettimanali",
+      "fonte_url": "https://www.studiocataldi.it/articoli/27084-ferragosto-come-viene-pagato.asp"
+    },
+    {
+      "titolo": "Malattia: quanto ti paga l'INPS e come si calcola l'indennità",
+      "testo": "Quando ti ammali, in busta paga non trovi lo stipendio pieno come in un mese normale: entrano in gioco delle regole precise su chi paga e quanto.\n\nI primi 3 giorni sono i \"giorni di carenza\": l'INPS non li indennizza. In molti casi però il tuo contratto (CCNL) prevede che li paghi comunque il datore di lavoro, quindi non è detto che tu ci rimetta. La carenza salta anche in caso di ricaduta della stessa malattia entro 30 giorni.\n\nDal 4° giorno in poi paga l'INPS, ma non al 100%:\n- dal 4° al 20° giorno ricevi il 50% della retribuzione media giornaliera;\n- dal 21° al 180° giorno la percentuale sale al 66,66%.\n\nPer gli operai sono indennizzabili tutti i giorni feriali, sabato compreso, mentre restano esclusi domeniche e festività. La formula in pratica è: retribuzione media giornaliera × percentuale × numero di giorni indennizzabili.\n\nLa buona notizia: moltissimi CCNL prevedono un'integrazione a carico dell'azienda che riporta la retribuzione fino al 100% (o quasi) nei primi periodi di malattia. Per questo due lavoratori con lo stesso reddito ma contratti diversi possono ritrovarsi in busta importi diversi durante la malattia.\n\nCon GioIA carichi il cedolino del mese in cui sei stato in malattia e controlli se percentuali INPS, giorni indennizzati ed eventuale integrazione aziendale sono stati applicati correttamente.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "D.L. 663/1979 conv. L. 33/1980 - indennità economica di malattia",
+      "fonte_url": "https://fiscomania.com/indennita-di-malattia/"
+    }
+  ]
+}

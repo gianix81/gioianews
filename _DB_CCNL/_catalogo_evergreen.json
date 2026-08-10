@@ -1,7 +1,7 @@
 {
  "schema": "gioia-catalogo-evergreen",
  "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
- "aggiornato_il": "2026-08-09 1325",
+ "aggiornato_il": "2026-08-10 1603",
  "argomenti": [
   {
    "id": "ev-indennita-preavviso",
@@ -368,6 +368,18 @@
    "tema": "Elemento di garanzia retributiva (EGR)",
    "riferimento_normativo": "Contrattazione collettiva - elemento di garanzia retributiva (CCNL applicato)",
    "angolo": "L'importo annuo che spetta ai dipendenti di aziende prive di contrattazione di secondo livello/premi: chi ne ha diritto e come compare in busta."
+  },
+  {
+   "id": "ev-festivita-nazionali-ferragosto",
+   "tema": "Festivita' nazionali (es. Ferragosto 15 agosto) in busta paga",
+   "riferimento_normativo": "L. 260/1949 - festivita' nazionali e infrasettimanali",
+   "angolo": "La festivita' nazionale non lavorata e' comunque retribuita (mensilizzati: gia' compresa; paga oraria: quota per festivita'); se lavorata spetta maggiorazione da CCNL. Se cade di sabato/domenica, trattamento della festivita' coincidente secondo il CCNL applicato."
+  },
+  {
+   "id": "ev-indennita-malattia-calcolo-inps",
+   "tema": "Indennita' di malattia INPS: percentuali e calcolo",
+   "riferimento_normativo": "D.L. 663/1979 conv. L. 33/1980 - indennita' economica di malattia (percentuali 50%/66,66%)",
+   "angolo": "Carenza primi 3 giorni; 50% della retribuzione media giornaliera dal 4o al 20o giorno, 66,66% dal 21o al 180o; per gli operai indennizzabili i giorni feriali (sabato incluso). Molti CCNL integrano fino al 100%."
   }
  ]
 }
