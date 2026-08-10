@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-09",
+  "notizie": [
+    {
+      "titolo": "Cedolino d'estate più basso o più alto? Può essere il conguaglio del 730",
+      "testo": "Se ad agosto il netto ti sembra diverso dal solito, spesso non è un errore: è il conguaglio della dichiarazione dei redditi.\n\nQuando presenti il 730, l'esito (un rimborso IRPEF a tuo favore o una trattenuta a debito) non lo incassi separatamente: viene applicato direttamente in busta paga da chi ti paga lo stipendio, cioè il tuo datore di lavoro come sostituto d'imposta. Ecco perché nei cedolini estivi compare una voce di \"rimborso 730\" oppure di \"trattenuta 730\".\n\nCome funziona:\n- se dal 730 risulti a CREDITO, ti arriva un rimborso che aumenta il netto del mese;\n- se risulti a DEBITO, parte una trattenuta (che può essere anche rateizzata nei mesi successivi fino a fine anno);\n- se hai chiesto un acconto (per esempio la seconda rata), lo vedrai trattenuto più avanti, di solito a novembre.\n\nIl mese esatto in cui parte dipende da quando è stato trasmesso il 730. Per i trattamenti pagati dall'INPS le istruzioni operative sono nei Messaggi INPS n. 2030 e n. 2035 del 18 giugno 2026; per i lavoratori dipendenti il meccanismo è lo stesso, gestito dal datore di lavoro.\n\nCosa controllare: che l'importo del rimborso o della trattenuta corrisponda a quanto risultava dal tuo 730, e che una trattenuta \"pesante\" sia eventualmente stata rateizzata come previsto.\n\nGioIA legge il tuo cedolino e ti aiuta a isolare la voce di conguaglio 730, così capisci subito perché questo mese il netto è cambiato e se i conti tornano.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Messaggi INPS n. 2030 e n. 2035 del 18/06/2026; DM 164/1999 (assistenza fiscale)",
+      "fonte_url": "https://www.enacinforma.it/conguagli-730-cedolino-agosto/"
+    },
+    {
+      "titolo": "Doni il sangue? Hai diritto a una giornata di riposo pagata",
+      "testo": "Poche persone lo sanno, ma se sei un lavoratore dipendente e doni sangue hai diritto a un permesso retribuito per l'intera giornata della donazione.\n\nCosa prevede la legge:\n- ti puoi assentare dal lavoro per tutto il giorno in cui doni, mantenendo la normale retribuzione (come se avessi lavorato);\n- vale per tutti i dipendenti: tempo pieno o part-time, a termine o indeterminato;\n- la donazione deve essere gratuita e fatta presso una struttura autorizzata, con un prelievo di almeno 250 grammi.\n\nIn busta paga quella giornata non ti viene tolta: la retribuzione è piena e i contributi previdenziali sono coperti. In pratica il datore ti anticipa lo stipendio della giornata e poi lo recupera dall'INPS tramite i flussi contributivi mensili.\n\nUn dettaglio utile: se ti presenti a donare ma vieni giudicato temporaneamente non idoneo, ti spetta comunque la retribuzione per il tempo necessario agli accertamenti.\n\nCosa controllare: che la giornata di donazione non sia stata scalata dalle ferie o dai permessi, e che risulti come assenza retribuita a sé stante.\n\nCon GioIA puoi verificare che il permesso per donazione sia stato trattato correttamente in busta, senza tagli indebiti su retribuzione o ferie.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 8 L. 219/2005 (permesso retribuito donatori); art. 8 L. 155/1981 (contributi)",
+      "fonte_url": "https://www.businessonline.it/articoli/come-funzionano-i-permessi-retribuiti-per-chi-dona-sangue-regole-per-dipendenti-e-aziende-spiegate-da-circolare-inps.html"
+    },
+    {
+      "titolo": "Arretrati da rinnovo del contratto: perché a volte pagano meno tasse",
+      "testo": "Quando il tuo CCNL viene rinnovato, in busta possono arrivare aumenti ma anche arretrati e una tantum: somme che coprono i mesi in cui hai lavorato con il contratto ancora scaduto. La cosa interessante è come vengono tassate.\n\nLa regola:\n- gli arretrati riferiti ad ANNI PRECEDENTI (non all'anno in corso) sono soggetti a tassazione separata. Significa che non si sommano allo stipendio del mese facendoti salire di aliquota, ma vengono tassati con l'aliquota media dei tuoi due anni precedenti. Spesso è più conveniente;\n- le somme riferite invece all'ANNO IN CORSO seguono la normale tassazione ordinaria, come il resto dello stipendio;\n- l'una tantum prevista alla firma del rinnovo per compensare il periodo di \"vacanza contrattuale\" segue la stessa logica.\n\nUn punto da non confondere: questi importi una tantum NON rientrano nell'agevolazione con imposta sostitutiva al 5% prevista per gli aumenti da rinnovo. Sono due cose diverse.\n\nAttenzione: con la tassazione separata il datore applica un'aliquota provvisoria; l'Agenzia delle Entrate ricalcola in seguito e può arrivare un conguaglio, a credito o a debito.\n\nCosa controllare: che gli arretrati di anni passati siano stati tassati separatamente e non sommati al mese, gonfiando l'IRPEF.\n\nGioIA ti aiuta a leggere la voce arretrati del cedolino e a capire se la tassazione applicata è quella corretta per la tua situazione.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 17 (già 16) TUIR - DPR 917/1986 (tassazione separata arretrati)",
+      "fonte_url": "https://www.informazionefiscale.it/arretrati-importi-una-tantum-ccnl-tassazione-separata"
+    }
+  ]
+}

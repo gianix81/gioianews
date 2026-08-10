@@ -1,7 +1,7 @@
 {
  "schema": "gioia-catalogo-evergreen",
  "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
- "aggiornato_il": "2026-08-08 2003",
+ "aggiornato_il": "2026-08-09 1325",
  "argomenti": [
   {
    "id": "ev-indennita-preavviso",
@@ -320,6 +320,54 @@
    "tema": "Retribuzione dell'apprendista (sotto-inquadramento)",
    "riferimento_normativo": "Art. 42 comma 5 lett. b) D.Lgs. 81/2015 - retribuzione apprendista",
    "angolo": "Le due modalita alternative (sotto-inquadramento max 2 livelli oppure percentuale crescente con l'anzianita) e il fatto che maturano comunque ferie, 13a, TFR."
+  },
+  {
+   "id": "ev-donazione-sangue",
+   "tema": "Permesso retribuito per donazione sangue",
+   "riferimento_normativo": "Art. 8 L. 219/2005 - permesso retribuito donatori; art. 8 L. 155/1981 (contributi)",
+   "angolo": "Giornata di astensione retribuita per chi dona sangue (prelievo >=250 gr), contributi coperti via Uniemens; retribuzione anche in caso di inidoneita accertata. PUBBLICATO 2026-08-09."
+  },
+  {
+   "id": "ev-arretrati-una-tantum-ccnl",
+   "tema": "Arretrati e una tantum da rinnovo CCNL: tassazione",
+   "riferimento_normativo": "Art. 17 (gia 16) TUIR - DPR 917/1986 - tassazione separata arretrati",
+   "angolo": "Arretrati riferiti ad anni precedenti tassati separatamente (aliquota media biennio); anno corrente tassazione ordinaria; una tantum esclusa dalla sostitutiva 5%. PUBBLICATO 2026-08-09."
+  },
+  {
+   "id": "ev-conguaglio-730-estivo",
+   "tema": "Conguaglio 730 nel cedolino estivo",
+   "riferimento_normativo": "Messaggi INPS 2030 e 2035 del 18/06/2026; DM 164/1999 (assistenza fiscale)",
+   "angolo": "Esito del 730 (rimborso o trattenuta IRPEF) applicato dal sostituto sui cedolini estivi; mese di partenza legato alla data di trasmissione. PUBBLICATO 2026-08-09."
+  },
+  {
+   "id": "ev-congedo-violenza-genere",
+   "tema": "Congedo per donne vittime di violenza di genere",
+   "riferimento_normativo": "Art. 24 D.Lgs. 80/2015 - congedo per donne inserite nei percorsi di protezione",
+   "angolo": "Fino a 90 giorni di congedo indennizzato spalmabili su 3 anni per lavoratrici in percorso certificato di protezione: come funziona e impatto in busta."
+  },
+  {
+   "id": "ev-minimale-contributivo",
+   "tema": "Minimale contributivo giornaliero INPS",
+   "riferimento_normativo": "Retribuzione minima imponibile ai fini contributivi (minimale INPS annuale)",
+   "angolo": "Perche i contributi non possono essere calcolati sotto un minimo giornaliero fissato ogni anno dall'INPS, anche con paga oraria bassa o part-time ridotto."
+  },
+  {
+   "id": "ev-rimborso-chilometrico-aci",
+   "tema": "Rimborso chilometrico (tabelle ACI)",
+   "riferimento_normativo": "Art. 51 comma 5 TUIR - rimborsi analitici; tabelle ACI costi chilometrici",
+   "angolo": "Quando usi l'auto propria per lavoro il rimborso km calcolato sulle tabelle ACI e esente: differenza tra rimborso analitico e forfettario in busta."
+  },
+  {
+   "id": "ev-cig-cassa-integrazione",
+   "tema": "Cassa integrazione (CIG) in busta paga",
+   "riferimento_normativo": "D.Lgs. 148/2015 - integrazioni salariali (CIGO/CIGS)",
+   "angolo": "Come si legge in busta l'integrazione salariale: percentuale dell'80%, massimali INPS e differenza tra pagamento diretto e a conguaglio col datore."
+  },
+  {
+   "id": "ev-elemento-garanzia-retributiva",
+   "tema": "Elemento di garanzia retributiva (EGR)",
+   "riferimento_normativo": "Contrattazione collettiva - elemento di garanzia retributiva (CCNL applicato)",
+   "angolo": "L'importo annuo che spetta ai dipendenti di aziende prive di contrattazione di secondo livello/premi: chi ne ha diritto e come compare in busta."
   }
  ]
 }

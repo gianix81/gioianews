@@ -622,6 +622,27 @@
    "data_run": "2026-08-08",
    "ora_run": "2003",
    "file": "ingest_payload_2026-08-08_2003.json"
+  },
+  {
+   "chiave": "messaggi inps 2030 e 2035 del 18/06/2026 - conguaglio 730 cedolino estivo",
+   "titolo": "Cedolino d'estate più basso o più alto? Può essere il conguaglio del 730",
+   "data_run": "2026-08-09",
+   "ora_run": "1325",
+   "file": "ingest_payload_2026-08-09_1325.json"
+  },
+  {
+   "chiave": "art. 8 l. 219/2005 - permesso retribuito donazione sangue",
+   "titolo": "Doni il sangue? Hai diritto a una giornata di riposo pagata",
+   "data_run": "2026-08-09",
+   "ora_run": "1325",
+   "file": "ingest_payload_2026-08-09_1325.json"
+  },
+  {
+   "chiave": "art. 17 tuir (dpr 917/1986) - tassazione separata arretrati e una tantum da rinnovo ccnl",
+   "titolo": "Arretrati da rinnovo del contratto: perché a volte pagano meno tasse",
+   "data_run": "2026-08-09",
+   "ora_run": "1325",
+   "file": "ingest_payload_2026-08-09_1325.json"
   }
  ]
 }
