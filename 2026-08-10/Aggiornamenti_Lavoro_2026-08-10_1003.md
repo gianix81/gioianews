@@ -1,0 +1,170 @@
+# Aggiornamenti Lavoro Dipendente — Italia
+
+> **Report di run automatica — busta paga / cedolino**
+> **Data ricerca:** 2026-08-10 (lunedì) · **Fascia/run:** h1003
+> **Destinazione:** dataset app GioIA + checklist paghe
+> **Finestra:** ultimi 30 giorni (≈ 11/07 → 10/08/2026), priorità ai più recenti
+> **Confronto DIFF:** run precedente 2026-08-10 (h0728)
+
+---
+
+## 0. Legenda affidabilità
+| Simbolo | Significato |
+|---|---|
+| ✅ CERTO | Norma pubblicata/in vigore (GU, circolare/messaggio emanato, CCNL sottoscritto, sentenza depositata) |
+| ⏳ IN ITER | Annunciata ma in attuazione/conversione |
+| ⚠️ DA VERIFICARE | Prospettico/ipotesi/prassi non confermata |
+
+> ⚠️ **Nota metodologica.** Numeri di legge/decreto, circolari/messaggi e date vanno riscontrati sul testo ufficiale (Gazzetta Ufficiale / Normattiva / portale INPS) prima dell'uso in produzione.
+
+---
+
+## 1. 🔥 TOP DEL GIORNO
+
+*Seconda run di lunedì 10 agosto 2026 (h1003). Ricerca su INPS (Circolari e Messaggi), Agenzia delle Entrate, Gazzetta Ufficiale/Normattiva, Ministero del Lavoro, INL, INAIL, CNEL e Cassazione. **Nessun nuovo atto normativo calc-critico** sul cedolino privato rispetto alla run delle 07:28. Prosegue la sospensione estiva delle notifiche INPS (Msg 2371/2026, 27/07–31/08/2026). Il coefficiente di rivalutazione TFR di luglio è **atteso il 12/08/2026** (comunicato ISTAT): oggi 10/08 non è ancora disponibile. Payload alimentato con 2 post educativi evergreen certi (nessuna notizia nuova certa non ancora pubblicata nella finestra).*
+
+1. ✅ **Nessun nuovo atto calc-critico dopo la run 0728** — quadro parametri IRPEF/INPS/cuneo/TFR/NASpI/INAIL/malattia-maternità 2026 invariato; confermato da controllo su INPS/AdE/GU. [Portale INPS — retribuzione giornaliera minima 2026](https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.lavoratori-dipendenti-limite-minimo-di-retribuzione-giornaliera-2026.html)
+2. ✅ **Coefficiente rivalutazione TFR giugno 2026 = 2,786543** (indice FOI giugno 102,8, comunicato ISTAT 16/07/2026): resta il dato di riferimento fino alla pubblicazione del coefficiente di luglio (attesa 12/08). [avvocatoandreani.it](https://www.avvocatoandreani.it/servizi/coefficienti-rivalutazione-tfr.php)
+3. ⚠️ **CCNL Commercio Conflavoro 2026** — rinnovo segnalato in rassegna (rideterminazione minimi 2026-2027). Ancora da riscontrare su testo ufficiale/CNEL prima dell'uso a dataset. Distinto da Terziario Confcommercio (H011) e da Commercio ANPIT/UNICA (H024). [FISCOeTASSE](https://www.fiscoetasse.com/new-rassegna-stampa/4135-ccnl-commercio-conflavoro-2026-aumenti.html)
+
+---
+
+## 2. Quadro di sintesi
+
+La run delle h1003 **non registra nuovi atti normativi certificati calc-critici** sul cedolino privato rispetto alla run delle h0728. Il quadro parametri IRPEF/INPS/cuneo/TFR/NASpI/INAIL/malattia-maternità 2026 resta **invariato**. L'INPS è in sospensione estiva delle notifiche fino al 31/08/2026 (Msg 2371/2026); Agenzia delle Entrate, Gazzetta Ufficiale/Normattiva, Ministero del Lavoro, INL, INAIL e CNEL non presentano nuovi atti calc-critici nella finestra.
+
+**Elementi stagionali/di finestra confermati (già a report/payload precedenti):**
+- **Conguaglio 730/2025** nei cedolini estivi (rimborso/trattenuta IRPEF a cura del sostituto). Rif. INPS: Msg 2030 e 2035 del 18/06/2026. ✅
+- **Coefficiente TFR luglio 2026** atteso 12/08/2026 (non ancora pubblicato). ⏳
+
+**Riscontri già consolidati della finestra (già a report/payload):**
+- **CCNL Commercio ANPIT/UNICA (H024)** — rinnovo 28/07/2026, tabelle 01/08/2026. ✅ (a `ccnl_master.json`)
+- **CCNL Metalmeccanici PMI–Confapi (C018)** — rinnovo 2026-2028. ✅
+- **NASpI — Msg INPS 2540 del 03/08/2026:** dimissioni per violenza di genere equiparate a giusta causa. ✅
+- **Assegno Unico — Circ. INPS 81 del 24/07/2026:** estensione figli residenti in altro Stato UE. ✅
+- **Detassazione incrementi retributivi 2026** (Circ. AdE 3/E del 24/06/2026): sostitutiva 5% e 15%. ✅
+- **Codice CNEL in busta:** obbligo dal 01/05/2026 (art. 11 DL 62/2026 conv. L. 112/2026). ✅
+- **TFR / previdenza complementare** (L. 112/2026), decorrenza 01/07/2026; plafond deducibilità 5.300 €/anno. ✅
+- **Indennità malattia/maternità 2026:** massimale annuo 43.486 €, giornaliero 119,14 € (Circ. INPS 75/2026). ✅
+- **Contributo aggiuntivo 1% IVS** — soglia 56.224 €/anno (Circ. INPS 6/2026). ✅
+- **Massimali ammortizzatori 2026** (Circ. INPS 4/2026): massimale CIG lordo 1.423,69 €/mese; +20% edilizia/lapidei. ✅
+- **Tabelle ACI 2026** per rimborso chilometrico/fringe benefit auto — pubblicate in GU Serie Generale n. 297 del 23/12/2025 (art. 51 c.4 TUIR). ✅
+
+**Da monitorare (non ancora certo):**
+- **CCNL Commercio Conflavoro 2026** — rinnovo segnalato in rassegna; da riscontrare su fonte ufficiale/CNEL. ⚠️
+- **Coefficiente rivalutazione TFR luglio 2026** — pubblicazione ISTAT attesa 12/08/2026. ⏳
+
+**Dataset CCNL (`ccnl_master.json`): INVARIATO** — nessun nuovo rinnovo certo dopo la scheda H024. I 13 contratti restano invariati.
+
+**Catalogo evergreen: INVARIATO** (61 argomenti). Usati 2 argomenti liberi non ancora pubblicati (rimborso chilometrico ACI; congedo per donne vittime di violenza di genere).
+
+---
+
+## 3. DIFF vs run precedente (2026-08-10 h0728)
+
+| Tema | Stato 10/08 h0728 | Oggi 10/08 h1003 |
+|---|---|---|
+| Nuovi atti INPS/AdE calc-critici | nessuno | **nessuno** |
+| Coefficiente TFR luglio 2026 | atteso 12/08 | invariato (atteso **12/08/2026**) |
+| CCNL Commercio Conflavoro 2026 | segnalato ⚠️ | invariato ⚠️ (da verificare) |
+| Dataset CCNL (`ccnl_master.json`) | 13 contratti | **13 contratti** (invariato) |
+| Parametri IRPEF/INPS/cuneo/TFR/NASpI/INAIL/malattia-maternità | invariati | invariati |
+| Sospensione estiva notifiche INPS (Msg 2371/2026) | ✅ in vigore | invariato ✅ (fino 31/08/2026) |
+| Catalogo evergreen | 61 | **61** (invariato) |
+| Evergreen usati (run) | 3 (minimale, CIG, EGR) | **2** (rimborso km ACI, congedo violenza genere) |
+
+**Nuove norme/atti certificati del settore privato busta paga rispetto a h0728:** 0. **Novità a payload:** 0 notizie nuove → 2 evergreen. **Aggiornamento dataset CCNL:** nessuno. **Decadute:** nessuna.
+
+---
+
+## 4. Tabella sinottica
+
+| Tema | Cosa cambia | Decorrenza | Impatto sul cedolino/calcolo | Affidabilità | Fonte |
+|---|---|---|---|---|---|
+| Nessun nuovo atto calc-critico | — | — | Parametri 2026 invariati | ✅ | INPS/AdE/GU (nessun atto in finestra) |
+| Coefficiente TFR luglio 2026 | Attesa pubblicazione ISTAT | 12/08/2026 | Rivalutazione quota TFR accantonata | ⏳ | Comunicato ISTAT (atteso) |
+| CCNL Commercio Conflavoro 2026 | Rinnovo minimi 2026-2027 (segnalato) | da verificare | Paga base per livello (se confermato) | ⚠️ | FISCOeTASSE (rassegna) |
+| Rimborso chilometrico ACI (evergreen) | Rimborso km su tabelle ACI esente se ≤ costo tabellare; anche trasferte nel comune se documentate | 01/01/2026 | Voce di rimborso spese non imponibile (entro tabella ACI) | ✅ | Art. 51 c.4-5 TUIR; Tabelle ACI 2026 (GU 297 del 23/12/2025) |
+| Congedo violenza di genere (evergreen) | Congedo indennizzato al 100%, max 90 giorni lavorativi spalmabili su 3 anni; contribuzione figurativa | in vigore | Voce di indennità/assenza tutelata; copertura figurativa | ✅ | Art. 24 D.Lgs. 80/2015 |
+
+---
+
+## 5. Schede dettaglio (temi calc-critici)
+
+### 5.1 IRPEF 2026 (invariata) ✅
+- Scaglioni: 23% fino a 28.000 €; 33% da 28.000 a 50.000 €; 43% oltre. Detrazione lavoro dipendente base fino a 1.955 €; no tax area dipendenti ~8.500 €. Decorrenza 01/01/2026. Fonte: L. 199/2025; art. 13 TUIR.
+
+### 5.2 Contributi INPS lavoratore (invariati) ✅
+- Aliquota IVS a carico del dipendente **9,19%** (settore industria/terziario standard); contributo aggiuntivo **1%** oltre la prima fascia di retribuzione pensionabile (soglia 2026 **56.224 €/anno**, ~4.685 €/mese). Fonte: art. 3-ter L. 438/1992; Circ. INPS 6/2026.
+- **Minimale di retribuzione giornaliera 2026 = 58,13 €**; **massimale annuo base contributiva = 122.295 €**. Fonte: Circ. INPS n. 6 del 30/01/2026.
+
+### 5.3 Cuneo fiscale 2026 (invariato) ✅
+- Somma integrativa esente per redditi ≤ 20.000 €; detrazione aggiuntiva per la fascia 20.001–40.000 €. Decorrenza 01/01/2026. Fonte: L. 199/2025.
+
+### 5.4 TFR ✅ / ⏳
+- Coefficiente di rivalutazione **giugno 2026 = 2,786543** (indice FOI giugno 102,8). Formula: 1,5% fisso + 75% incremento FOI su dicembre anno precedente. Imposta sostitutiva sulla rivalutazione **17%**. Coefficiente **luglio 2026 atteso 12/08/2026** (⏳ non ancora pubblicato). Fonte: art. 2120 c.c.; comunicato ISTAT 16/07/2026.
+
+### 5.5 NASpI / Ammortizzatori 2026 (invariati) ✅
+- NASpI: massimale mensile di riferimento 1.584,70 € (parametro 2026). CIG/FIS: massimale lordo **1.423,69 €/mese** (Circ. INPS 4/2026), +20% per edilizia/lapidei. Riduzione contributiva 5,84% sull'importo.
+
+### 5.6 Detrazioni lavoro dipendente 2026 (invariate) ✅
+- Art. 13 TUIR: detrazione decrescente al crescere del reddito; base fino a 1.955 €. Fonte: art. 13 TUIR; L. 199/2025.
+
+---
+
+## 6. Parametri di calcolo (per ingest app)
+
+Valori correnti 2026 (invariati rispetto alla run 0728). Salvati anche in `parametri_2026-08-10_1003.json`.
+
+| Parametro | Valore | Decorrenza | Fonte |
+|---|---|---|---|
+| IRPEF scaglione 1 | 23% fino a 28.000 € | 01/01/2026 | L. 199/2025 |
+| IRPEF scaglione 2 | 33% da 28.001 a 50.000 € | 01/01/2026 | L. 199/2025 |
+| IRPEF scaglione 3 | 43% oltre 50.000 € | 01/01/2026 | L. 199/2025 |
+| Aliquota IVS lavoratore | 9,19% | in vigore | Circ. INPS 6/2026 |
+| Contributo aggiuntivo 1% (soglia) | 56.224 €/anno | 2026 | art. 3-ter L. 438/1992 |
+| Minimale retribuzione giornaliera | 58,13 € | 01/01/2026 | Circ. INPS 6/2026 |
+| Massimale annuo base contributiva | 122.295 € | 2026 | Circ. INPS 6/2026 |
+| No tax area dipendenti | ~8.500 € | 2026 | art. 13 TUIR |
+| Detrazione lavoro dip. max | 1.955 € | 2026 | art. 13 TUIR |
+| Cuneo — soglia esente | ≤ 20.000 € | 01/01/2026 | L. 199/2025 |
+| Cuneo — fascia detrazione | 20.001–40.000 € | 01/01/2026 | L. 199/2025 |
+| Massimale CIG lordo | 1.423,69 €/mese | 2026 | Circ. INPS 4/2026 |
+| Coeff. rivalutazione TFR giugno | 2,786543 | 06/2026 | ISTAT 16/07/2026 |
+| Coeff. rivalutazione TFR luglio | n.d. (atteso 12/08) | 07/2026 | ISTAT (atteso) |
+| Imposta sost. rivalutazione TFR | 17% | in vigore | art. 11 D.Lgs. 47/2000 |
+| Indennità malattia/maternità — massimale annuo | 43.486 € | 2026 | Circ. INPS 75/2026 |
+| Indennità malattia/maternità — giornaliero | 119,14 € | 2026 | Circ. INPS 75/2026 |
+| Premi risultato — sostitutiva | 1% (2026-2027) | 2026 | L. 208/2015; L. 207/2024 |
+| Buoni pasto esenti | 10 € elettronici / 4 € cartacei | 2026 | L. 199/2025 |
+| Fringe benefit soglia | 1.000 € / 2.000 € con figli | 2026 | Legge di Bilancio 2026 |
+
+---
+
+## 7. Checklist operativa gestionale paghe
+
+- [ ] Confermare parametri IRPEF/INPS/cuneo 2026 invariati nel software paghe (nessun nuovo atto in finestra).
+- [ ] Attendere e recepire il coefficiente di rivalutazione TFR di **luglio 2026** (pubblicazione ISTAT 12/08/2026).
+- [ ] Verificare l'applicazione delle Tabelle ACI 2026 per rimborsi chilometrici e fringe benefit auto (GU 297 del 23/12/2025).
+- [ ] Monitorare rinnovo **CCNL Commercio Conflavoro 2026** su fonte ufficiale/CNEL prima di aggiornare le tabelle.
+- [ ] Ricordare la sospensione estiva delle notifiche INPS fino al 31/08/2026 (Msg 2371/2026).
+- [ ] Continuare a esporre il codice CNEL del CCNL applicato in busta (obbligo dal 01/05/2026).
+
+---
+
+## 8. Fonti
+
+**Istituzionali**
+- [Portale INPS — limite minimo retribuzione giornaliera 2026](https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.lavoratori-dipendenti-limite-minimo-di-retribuzione-giornaliera-2026.html)
+- [Portale INPS — Congedo indennizzato donne vittime di violenza di genere](https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.congedo-indennizzato-per-le-donne-vittime-di-violenza-di-genere-52401.congedo-indennizzato-per-le-donne-vittime-di-violenza-di-genere.html)
+- Gazzetta Ufficiale / Normattiva — Tabelle ACI 2026 (Serie Generale n. 297 del 23/12/2025); nessun nuovo atto calc-critico in finestra.
+- Agenzia delle Entrate — nessuna nuova circolare/risoluzione calc-critica in finestra.
+
+**Prassi / riscontro (segnalate come tali)**
+- [FISCOeTASSE — CCNL Commercio Conflavoro 2026 (rassegna)](https://www.fiscoetasse.com/new-rassegna-stampa/4135-ccnl-commercio-conflavoro-2026-aumenti.html)
+- [avvocatoandreani.it — coefficienti rivalutazione TFR](https://www.avvocatoandreani.it/servizi/coefficienti-rivalutazione-tfr.php)
+- [Recivu — rimborso chilometrico 2026: tabelle ACI e trasferte nel comune](https://www.recivu.it/blog/rimborso-chilometrico-2026-tabelle-aci-calcolo-e-cosa-e-cambiato-per-le-trasferte-nel-comune)
+
+---
+
+*Fine report. Generato da automazione GioIA (run h1003). Dati da riscontrare su fonte ufficiale prima dell'uso in produzione.*

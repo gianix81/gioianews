@@ -1,0 +1,57 @@
+{
+  "data": "2026-08-10",
+  "run": "1003",
+  "note": "Parametri di calcolo busta paga 2026 invariati rispetto alla run 0728. Nessun nuovo atto calc-critico in finestra.",
+  "irpef_scaglioni": [
+    { "da": 0, "a": 28000, "aliquota": 0.23, "decorrenza": "2026-01-01", "fonte": "L. 199/2025" },
+    { "da": 28001, "a": 50000, "aliquota": 0.33, "decorrenza": "2026-01-01", "fonte": "L. 199/2025" },
+    { "da": 50001, "a": null, "aliquota": 0.43, "decorrenza": "2026-01-01", "fonte": "L. 199/2025" }
+  ],
+  "contributi": {
+    "aliquota_ivs_lavoratore": 0.0919,
+    "contributo_aggiuntivo_1pct_soglia_annua": 56224,
+    "minimale_retribuzione_giornaliera": 58.13,
+    "massimale_annuo_base_contributiva": 122295,
+    "fonte": "Circ. INPS n. 6 del 30/01/2026; art. 3-ter L. 438/1992"
+  },
+  "detrazioni_lavoro_dipendente": {
+    "no_tax_area": 8500,
+    "detrazione_base_max": 1955,
+    "fonte": "art. 13 TUIR; L. 199/2025"
+  },
+  "cuneo_fiscale": {
+    "soglia_somma_esente": 20000,
+    "fascia_detrazione": [20001, 40000],
+    "decorrenza": "2026-01-01",
+    "fonte": "L. 199/2025"
+  },
+  "tfr": {
+    "coeff_rivalutazione_giugno_2026": 2.786543,
+    "coeff_rivalutazione_luglio_2026": null,
+    "coeff_luglio_atteso": "2026-08-12",
+    "imposta_sostitutiva_rivalutazione": 0.17,
+    "indice_foi_giugno_2026": 102.8,
+    "fonte": "art. 2120 c.c.; comunicato ISTAT 16/07/2026; art. 11 D.Lgs. 47/2000"
+  },
+  "ammortizzatori": {
+    "naspi_massimale_mensile_riferimento": 1584.70,
+    "cig_massimale_lordo_mensile": 1423.69,
+    "cig_maggiorazione_edilizia_lapidei_pct": 0.20,
+    "riduzione_contributiva_pct": 0.0584,
+    "fonte": "Circ. INPS n. 4 del 28/01/2026"
+  },
+  "malattia_maternita": {
+    "massimale_annuo": 43486,
+    "giornaliero": 119.14,
+    "fonte": "Circ. INPS n. 75 del 17/07/2026"
+  },
+  "welfare_fringe": {
+    "premi_risultato_sostitutiva": 0.01,
+    "buoni_pasto_esente_elettronici": 10.00,
+    "buoni_pasto_esente_cartacei": 4.00,
+    "fringe_benefit_soglia_base": 1000,
+    "fringe_benefit_soglia_con_figli": 2000,
+    "tabelle_aci_2026_pubblicazione": "GU Serie Generale n. 297 del 23/12/2025",
+    "fonte": "L. 208/2015; L. 199/2025; Legge di Bilancio 2026; art. 51 c.4 TUIR"
+  }
+}
