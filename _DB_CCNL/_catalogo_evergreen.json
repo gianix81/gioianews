@@ -416,6 +416,24 @@
       "tema": "Trattenuta quota sindacale in busta paga",
       "riferimento_normativo": "Trattenuta quota sindacale su delega volontaria del lavoratore (cessione di credito ex art. 1260 c.c.); contrattazione collettiva",
       "angolo": "La quota sindacale e' una trattenuta volontaria: nasce solo dalla delega firmata dal lavoratore ed e' revocabile"
+    },
+    {
+      "id": "ev-trattenuta-sciopero",
+      "tema": "Trattenuta per sciopero in busta paga",
+      "riferimento_normativo": "Art. 40 Costituzione - diritto di sciopero; trattenuta retributiva proporzionale alle ore di astensione (prassi)",
+      "angolo": "quanto viene trattenuto (giornata intera vs ore), niente contributi ma restano le detrazioni"
+    },
+    {
+      "id": "ev-indennita-cassa",
+      "tema": "Indennita di cassa / maneggio denaro",
+      "riferimento_normativo": "Indennita di cassa/maneggio denaro - contrattazione collettiva; CCNL Commercio Confcommercio art. 218 (5% cassieri, 4% maneggio denaro)",
+      "angolo": "extra per chi maneggia denaro con continuita; imponibile fisc. e prev."
+    },
+    {
+      "id": "ev-aspettativa-non-retribuita",
+      "tema": "Aspettativa non retribuita",
+      "riferimento_normativo": "Aspettativa non retribuita - sospensione del rapporto senza retribuzione ne contribuzione; riscatto per gravi motivi familiari ex art. 4 L. 53/2000",
+      "angolo": "stipendio azzerato, contributi congelati, periodo non utile a pensione salvo riscatto; posto garantito"
     }
   ]
 }

@@ -740,6 +740,27 @@
       "data_run": "2026-08-11",
       "ora_run": "1013",
       "file": "ingest_payload_2026-08-11_1013.json"
+    },
+    {
+      "chiave": "art. 40 costituzione - diritto di sciopero; trattenuta retributiva proporzionale alle ore di astensione (prassi)",
+      "titolo": "Sciopero e busta paga: quanto ti trattengono davvero (e cosa resta salvo)",
+      "data_run": "2026-08-11",
+      "ora_run": "1608",
+      "file": "ingest_payload_2026-08-11_1608.json"
+    },
+    {
+      "chiave": "indennita di cassa/maneggio denaro - contrattazione collettiva; ccnl commercio confcommercio art. 218 (5% cassieri, 4% maneggio denaro); voce imponibile fisc. e prev.",
+      "titolo": "Indennità di cassa: l'extra in busta per chi maneggia denaro (nel Commercio è il 5%)",
+      "data_run": "2026-08-11",
+      "ora_run": "1608",
+      "file": "ingest_payload_2026-08-11_1608.json"
+    },
+    {
+      "chiave": "aspettativa non retribuita - sospensione del rapporto senza retribuzione ne contribuzione; riscatto per gravi motivi familiari ex art. 4 l. 53/2000 su domanda inps",
+      "titolo": "Aspettativa non retribuita: cosa succede a stipendio, contributi e pensione",
+      "data_run": "2026-08-11",
+      "ora_run": "1608",
+      "file": "ingest_payload_2026-08-11_1608.json"
     }
   ]
 }
