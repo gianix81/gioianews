@@ -1,385 +1,421 @@
 {
- "schema": "gioia-catalogo-evergreen",
- "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
- "aggiornato_il": "2026-08-10 1603",
- "argomenti": [
-  {
-   "id": "ev-indennita-preavviso",
-   "tema": "Indennita' sostitutiva del preavviso",
-   "riferimento_normativo": "Artt. 2118 e 2121 c.c. - indennita' sostitutiva del preavviso",
-   "angolo": "Se il rapporto finisce senza preavviso lavorato, in busta compare un'indennita' pari alla retribuzione del periodo di preavviso (ratei 13a/14a inclusi): come si legge alla cessazione."
-  },
-  {
-   "id": "ev-permessi-lutto",
-   "tema": "Permessi per lutto e gravi motivi familiari",
-   "riferimento_normativo": "Art. 4 L. 53/2000 - permessi per eventi e gravi motivi familiari",
-   "angolo": "3 giorni retribuiti l'anno per lutto o grave infermita' di coniuge/convivente/parente entro il 2o grado: requisiti, termine dei 7 giorni ed estensioni del CCNL."
-  },
-  {
-   "id": "ev-indennita-reperibilita",
-   "tema": "Indennita' di reperibilita'",
-   "riferimento_normativo": "Contrattazione collettiva - indennita' di reperibilita' (CCNL applicato)",
-   "angolo": "La quota per stare 'a disposizione' fuori orario: importo fisso o percentuale da CCNL, tassata IRPEF+INPS; gli interventi effettivi si pagano a parte."
-  },
-  {
-   "id": "ev-congedo-paternita-obbligatorio",
-   "tema": "Congedo di paternita' obbligatorio (10 giorni)",
-   "riferimento_normativo": "Art. 27-bis D.Lgs. 151/2001 - congedo di paternita' obbligatorio",
-   "angolo": "10 giorni obbligatori al 100% per il padre: quando spettano e come si vedono in busta."
-  },
-  {
-   "id": "ev-premio-risultato",
-   "tema": "Premio di risultato detassato",
-   "riferimento_normativo": "L. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva premi di risultato (aliquota agevolata)",
-   "angolo": "Il premio di produttivita' tassato con imposta sostitutiva agevolata invece dell'IRPEF: soglie e requisiti."
-  },
-  {
-   "id": "ev-pignoramento-stipendio",
-   "tema": "Pignoramento e cessione del quinto dello stipendio",
-   "riferimento_normativo": "Art. 545 c.p.c. - limiti di pignorabilita' dello stipendio",
-   "angolo": "Quanto dello stipendio e' pignorabile: limite 1/5, alimentari fino 1/3, cumulo max 1/2."
-  },
-  {
-   "id": "ev-no-tax-area",
-   "tema": "No tax area dipendenti (8.500 €)",
-   "riferimento_normativo": "Art. 13 TUIR - no tax area lavoro dipendente",
-   "angolo": "Sotto una certa soglia non paghi IRPEF: come funziona la no tax area."
-  },
-  {
-   "id": "ev-addizionali",
-   "tema": "Addizionali regionali e comunali",
-   "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF",
-   "angolo": "Perche' da marzo/aprile il netto cala: acconto e saldo addizionali."
-  },
-  {
-   "id": "ev-conguaglio-fine-anno",
-   "tema": "Conguaglio fiscale di fine anno",
-   "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta",
-   "angolo": "Perche' a dicembre la busta cambia: il conguaglio IRPEF annuale."
-  },
-  {
-   "id": "ev-tredicesima",
-   "tema": "Tredicesima mensilita'",
-   "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.",
-   "angolo": "Come si calcola la tredicesima e perche' e' tassata di piu'."
-  },
-  {
-   "id": "ev-quattordicesima",
-   "tema": "Quattordicesima mensilita'",
-   "riferimento_normativo": "Contrattazione collettiva - quattordicesima",
-   "angolo": "Chi ha diritto alla quattordicesima e come si matura."
-  },
-  {
-   "id": "ev-tfr-anticipazione",
-   "tema": "Anticipazione del TFR",
-   "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR",
-   "angolo": "Quando puoi chiedere l'anticipo del TFR: 8 anni di anzianita', max 70%, causali."
-  },
-  {
-   "id": "ev-scatti-anzianita",
-   "tema": "Scatti di anzianita'",
-   "riferimento_normativo": "Contrattazione collettiva - scatti di anzianita'",
-   "angolo": "Cosa sono gli scatti di anzianita' e come compaiono in busta."
-  },
-  {
-   "id": "ev-straordinario",
-   "tema": "Lavoro straordinario e maggiorazioni",
-   "riferimento_normativo": "D.Lgs. 66/2003 art. 5 - lavoro straordinario",
-   "angolo": "Straordinario: limite 250h/anno e maggiorazioni previste dal CCNL."
-  },
-  {
-   "id": "ev-ferie-non-monetizzabili",
-   "tema": "Ferie: divieto di monetizzazione",
-   "riferimento_normativo": "D.Lgs. 66/2003 art. 10 - ferie annuali",
-   "angolo": "Perche' le 4 settimane di ferie non si possono pagare al posto di goderle."
-  },
-  {
-   "id": "ev-permessi-rol",
-   "tema": "Permessi ROL ed ex festivita'",
-   "riferimento_normativo": "Contrattazione collettiva - ROL e permessi",
-   "angolo": "ROL ed ex festivita': cosa sono e come si leggono in busta."
-  },
-  {
-   "id": "ev-malattia-carenza",
-   "tema": "Malattia: giorni di carenza",
-   "riferimento_normativo": "Prassi INPS e CCNL - carenza malattia",
-   "angolo": "I primi 3 giorni di malattia: chi paga e le regole di carenza."
-  },
-  {
-   "id": "ev-comporto",
-   "tema": "Periodo di comporto",
-   "riferimento_normativo": "Art. 2110 c.c. - comporto per malattia",
-   "angolo": "Comporto: quanto puoi restare in malattia senza rischiare il licenziamento."
-  },
-  {
-   "id": "ev-maternita-congedo",
-   "tema": "Congedo di maternita' obbligatorio",
-   "riferimento_normativo": "D.Lgs. 151/2001 - congedo di maternita'",
-   "angolo": "5 mesi di maternita' obbligatoria: indennita' e come funziona in busta."
-  },
-  {
-   "id": "ev-congedo-parentale",
-   "tema": "Congedo parentale",
-   "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale",
-   "angolo": "Congedo parentale: mesi spettanti e percentuali di indennita'."
-  },
-  {
-   "id": "ev-permessi-104",
-   "tema": "Permessi Legge 104",
-   "riferimento_normativo": "L. 104/1992 art. 33 - permessi assistenza disabili",
-   "angolo": "3 giorni al mese di permesso retribuito: requisiti e come si indicano."
-  },
-  {
-   "id": "ev-codice-cnel",
-   "tema": "Codice CNEL obbligatorio in busta",
-   "riferimento_normativo": "Obbligo indicazione codice CNEL del CCNL applicato in busta paga",
-   "angolo": "Il codice CNEL sul cedolino: cosa e' e perche' e' obbligatorio."
-  },
-  {
-   "id": "ev-inps-9-19",
-   "tema": "Contributi INPS a carico del lavoratore (9,19%)",
-   "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%",
-   "angolo": "Quel 9,19% trattenuto ogni mese: dove va e a cosa serve."
-  },
-  {
-   "id": "ev-imponibile-fiscale-vs-previdenziale",
-   "tema": "Imponibile fiscale vs imponibile previdenziale",
-   "riferimento_normativo": "TUIR e normativa contributiva - basi imponibili",
-   "angolo": "Perche' in busta ci sono due imponibili diversi e come si calcolano."
-  },
-  {
-   "id": "ev-lordo-netto",
-   "tema": "Dal lordo al netto",
-   "riferimento_normativo": "Struttura della retribuzione - lordo/netto",
-   "angolo": "Il percorso dal lordo al netto: tutte le trattenute spiegate."
-  },
-  {
-   "id": "ev-detrazione-coniuge",
-   "tema": "Detrazione per coniuge a carico",
-   "riferimento_normativo": "Art. 12 TUIR - detrazione coniuge a carico",
-   "angolo": "Coniuge a carico: quando spetta la detrazione e quanto vale."
-  },
-  {
-   "id": "ev-tfr-fondo-vs-azienda",
-   "tema": "TFR in azienda o nel fondo pensione",
-   "riferimento_normativo": "D.Lgs. 252/2005 - destinazione del TFR",
-   "angolo": "Lasciare il TFR in azienda o versarlo al fondo: differenze e scelta."
-  },
-  {
-   "id": "ev-cud-cu",
-   "tema": "Certificazione Unica (CU)",
-   "riferimento_normativo": "Certificazione Unica - art. 4 DPR 322/1998",
-   "angolo": "La CU: cos'e', quando arriva e come si collega alla busta paga."
-  },
-  {
-   "id": "ev-preavviso-dimissioni",
-   "tema": "Preavviso e dimissioni telematiche",
-   "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26",
-   "angolo": "Dimissioni: preavviso, procedura telematica e cosa succede in busta."
-  },
-  {
-   "id": "ev-detrazione-familiari-altri",
-   "tema": "Detrazioni per altri familiari a carico",
-   "riferimento_normativo": "Art. 12 TUIR - altri familiari a carico",
-   "angolo": "Genitori o parenti conviventi a carico: quando danno diritto a detrazione."
-  },
-  {
-   "id": "ev-buoni-pasto",
-   "tema": "Buoni pasto (ticket restaurant)",
-   "riferimento_normativo": "Buoni pasto - esenzione fiscale (elettronici/cartacei)",
-   "angolo": "Soglie esenti dei buoni pasto: elettronici 10 €/gg, cartacei 4 €/gg; tassazione dell'eccedenza."
-  },
-  {
-   "id": "ev-assegno-unico",
-   "tema": "Assegno Unico Universale (AUU)",
-   "riferimento_normativo": "Assegno Unico Universale - D.Lgs. 230/2021; importi annuali da circolare INPS",
-   "angolo": "Perche' l'assegno per i figli non e' piu' in busta paga e quanto vale in base all'ISEE."
-  },
-  {
-   "id": "ev-indennita-trasferta",
-   "tema": "Indennita' di trasferta (esenzione fiscale)",
-   "riferimento_normativo": "Art. 51 comma 5 TUIR - indennita' di trasferta",
-   "angolo": "Quota esente dell'indennita' di trasferta: 46,48 €/gg Italia, 77,47 €/gg estero; riduzioni con rimborso spese."
-  },
-  {
-   "id": "ev-visite-fiscali",
-   "tema": "Visite fiscali e fasce di reperibilita'",
-   "riferimento_normativo": "Fasce di reperibilita' visite fiscali (regole INPS/Legge di Bilancio)",
-   "angolo": "Fasce orarie 10-12 e 17-19 (festivi inclusi) e effetti sull'indennita' di malattia in busta."
-  },
-  {
-   "id": "ev-fringe-auto-uso-promiscuo",
-   "tema": "Fringe benefit auto aziendale uso promiscuo",
-   "riferimento_normativo": "Art. 51 comma 4 lett. a) TUIR - fringe benefit auto uso promiscuo",
-   "angolo": "Valore forfettario tassato in busta: 15.000 km x costo km ACI x % alimentazione (10% BEV, 20% PHEV, 50% altri)."
-  },
-  {
-   "id": "ev-lavoro-notturno",
-   "tema": "Lavoro notturno: definizione e maggiorazioni",
-   "riferimento_normativo": "D.Lgs. 66/2003 - lavoro notturno; maggiorazioni da CCNL",
-   "angolo": "Quando scatta il lavoro notturno (periodo 24-5, 7h consecutive) e maggiorazione prevista dal CCNL in busta."
-  },
-  {
-   "id": "ev-congedo-malattia-figlio",
-   "tema": "Congedo per malattia del figlio",
-   "riferimento_normativo": "D.Lgs. 151/2001 art. 47 - congedo per malattia del bambino",
-   "angolo": "Permessi per malattia del figlio: illimitati e non retribuiti fino a 3 anni, 5 giorni/anno tra 3 e 8 anni; come incide in busta."
-  },
-  {
-   "id": "ev-superminimo",
-   "tema": "Superminimo individuale (assorbibile e non)",
-   "riferimento_normativo": "Contrattazione individuale/collettiva - superminimo; principi giurisprudenziali su assorbibilita'",
-   "angolo": "Cos'e' il superminimo in busta e quando puo' essere assorbito dagli aumenti contrattuali."
-  },
-  {
-   "id": "ev-retribuzione-ferie",
-   "tema": "Retribuzione durante le ferie",
-   "riferimento_normativo": "D.Lgs. 66/2003 art. 10 - ferie annuali; Cassazione ord. n. 18529/2026 - retribuzione feriale comparabile ma non identica",
-   "angolo": "Perche' nel mese di ferie il netto puo' risultare piu' basso: le voci legate all'attivita' effettiva (notturno/festivo/turni) possono non comparire in ferie."
-  },
-  {
-   "id": "ev-lavoro-festivo-domenicale",
-   "tema": "Lavoro festivo e domenicale: maggiorazioni",
-   "riferimento_normativo": "D.Lgs. 66/2003 - riposo settimanale e compensativo; maggiorazioni festivo/domenicale da CCNL applicato",
-   "angolo": "Maggiorazione (indicativamente 15-50% a seconda del CCNL), riposo compensativo e festivita' non goduta: come si leggono in busta."
-  },
-  {
-   "id": "ev-tfr-tassazione-separata",
-   "tema": "TFR: tassazione separata alla liquidazione",
-   "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR (aliquota media); art. 11 D.Lgs. 47/2000",
-   "angolo": "Perche' alla liquidazione il TFR e' tassato con aliquota media e non con l'IRPEF ordinaria: come si calcola il reddito di riferimento."
-  },
-  {
-   "id": "ev-congedo-matrimoniale",
-   "tema": "Congedo matrimoniale (15 giorni retribuiti)",
-   "riferimento_normativo": "Assegno per congedo matrimoniale (INPS); disciplina CCNL applicato",
-   "angolo": "15 giorni retribuiti per chi si sposa: come si legge in busta e differenza operai/impiegati"
-  },
-  {
-   "id": "ev-permessi-studio-150-ore",
-   "tema": "Permessi 150 ore per il diritto allo studio",
-   "riferimento_normativo": "Art. 10 L. 300/1970 (Statuto dei Lavoratori); disciplina CCNL applicato",
-   "angolo": "Fino a 150 ore/triennio retribuite per studiare: chi ne ha diritto e come compaiono in busta"
-  },
-  {
-   "id": "ev-welfare-aziendale-c2",
-   "tema": "Welfare aziendale (art. 51 c.2 TUIR) vs fringe benefit",
-   "riferimento_normativo": "Art. 51 commi 2 e 3 TUIR (DPR 917/1986)",
-   "angolo": "Servizi a finalita' sociale esenti senza limite: differenza con i fringe benefit e impatto sul netto"
-  },
-  {
-   "id": "ev-riposi-allattamento",
-   "tema": "Riposi giornalieri per allattamento",
-   "riferimento_normativo": "Art. 39 e 40 D.Lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennita' a carico INPS",
-   "angolo": "Due ore al giorno retribuite nel primo anno del bambino (una se orario <6h, doppie per parto gemellare): ore lavorate a tutti gli effetti, indennita' INPS anticipata dal datore in busta. PUBBLICATO 2026-08-08."
-  },
-  {
-   "id": "ev-festivita-domenica",
-   "tema": "Festivita' cadente di domenica: retribuzione aggiuntiva",
-   "riferimento_normativo": "Art. 5 L. 260/1949 - festivita' cadente di domenica",
-   "angolo": "Quando una festivita' nazionale cade di domenica spetta una quota di paga in piu' (per i mensilizzati circa 1/26 della mensilita'), a prescindere dal lavoro svolto. PUBBLICATO 2026-08-08."
-  },
-  {
-   "id": "ev-contributo-aggiuntivo-1pct",
-   "tema": "Contributo aggiuntivo IVS 1% sulla quota eccedente la prima fascia di pensionabilita'",
-   "riferimento_normativo": "Art. 3-ter L. 438/1992 - contributo aggiuntivo 1%",
-   "angolo": "Sui redditi elevati, sulla parte di retribuzione oltre la prima fascia di pensionabilita (2026: 56.224 EUR/anno = 4.685 EUR/mese, Circ. INPS 6/2026), si aggiunge un 1% di contributo a carico del lavoratore. PUBBLICATO 2026-08-08."
-  },
-  {
-   "id": "ev-part-time-riproporzionamento",
-   "tema": "Part-time: riproporzionamento di paga e istituti",
-   "riferimento_normativo": "D.Lgs. 81/2015 (disciplina del lavoro a tempo parziale)",
-   "angolo": "Nel part-time paga base, ferie, permessi, 13a/14a e TFR sono riproporzionati alle ore effettive: come si legge in busta e cosa controllare. PUBBLICATO 2026-08-08."
-  },
-  {
-   "id": "ev-trasfertista",
-   "tema": "Trasfertista: indennita imponibile al 50%",
-   "riferimento_normativo": "Art. 51 comma 6 TUIR (DPR 917/1986) - indennita trasfertista (imponibile 50%)",
-   "angolo": "Chi non ha una sede di lavoro fissa (trasfertista) riceve un'indennita fissa mensile tassata solo per meta: regime alternativo a quello della trasferta occasionale (comma 5). PUBBLICATO 2026-08-08."
-  },
-  {
-   "id": "ev-periodo-prova",
-   "tema": "Periodo di prova: retribuzione e regole",
-   "riferimento_normativo": "Art. 2096 c.c. - assunzione in prova (retribuzione e durata)",
-   "angolo": "Durante la prova spetta la retribuzione piena del livello; patto in forma scritta, durata max 6 mesi (minori da CCNL), recesso senza preavviso. PUBBLICATO 2026-08-08."
-  },
-  {
-   "id": "ev-mance-turismo",
-   "tema": "Detassazione mance settore turismo",
-   "riferimento_normativo": "Art. 1 co. 58-62 L. 197/2022, mod. art. 1 co. 520 L. 207/2024 - imposta sostitutiva 5% mance",
-   "angolo": "Come le mance nel turismo/ristorazione siano tassate al 5% entro il 30% del reddito (franchigia), soglia reddito 75.000 euro; voce dedicata in busta."
-  },
-  {
-   "id": "ev-tfr-fondo-tesoreria",
-   "tema": "TFR al Fondo di Tesoreria INPS (aziende >= 50 addetti)",
-   "riferimento_normativo": "L. 296/2006 art. 1 co. 755-757 - Fondo di Tesoreria INPS",
-   "angolo": "Perche nelle aziende >=50 addetti il TFR non conferito a previdenza compl. va all'INPS ma resta credito individuale del lavoratore; liquidazione sempre tramite datore."
-  },
-  {
-   "id": "ev-apprendistato-retribuzione",
-   "tema": "Retribuzione dell'apprendista (sotto-inquadramento)",
-   "riferimento_normativo": "Art. 42 comma 5 lett. b) D.Lgs. 81/2015 - retribuzione apprendista",
-   "angolo": "Le due modalita alternative (sotto-inquadramento max 2 livelli oppure percentuale crescente con l'anzianita) e il fatto che maturano comunque ferie, 13a, TFR."
-  },
-  {
-   "id": "ev-donazione-sangue",
-   "tema": "Permesso retribuito per donazione sangue",
-   "riferimento_normativo": "Art. 8 L. 219/2005 - permesso retribuito donatori; art. 8 L. 155/1981 (contributi)",
-   "angolo": "Giornata di astensione retribuita per chi dona sangue (prelievo >=250 gr), contributi coperti via Uniemens; retribuzione anche in caso di inidoneita accertata. PUBBLICATO 2026-08-09."
-  },
-  {
-   "id": "ev-arretrati-una-tantum-ccnl",
-   "tema": "Arretrati e una tantum da rinnovo CCNL: tassazione",
-   "riferimento_normativo": "Art. 17 (gia 16) TUIR - DPR 917/1986 - tassazione separata arretrati",
-   "angolo": "Arretrati riferiti ad anni precedenti tassati separatamente (aliquota media biennio); anno corrente tassazione ordinaria; una tantum esclusa dalla sostitutiva 5%. PUBBLICATO 2026-08-09."
-  },
-  {
-   "id": "ev-conguaglio-730-estivo",
-   "tema": "Conguaglio 730 nel cedolino estivo",
-   "riferimento_normativo": "Messaggi INPS 2030 e 2035 del 18/06/2026; DM 164/1999 (assistenza fiscale)",
-   "angolo": "Esito del 730 (rimborso o trattenuta IRPEF) applicato dal sostituto sui cedolini estivi; mese di partenza legato alla data di trasmissione. PUBBLICATO 2026-08-09."
-  },
-  {
-   "id": "ev-congedo-violenza-genere",
-   "tema": "Congedo per donne vittime di violenza di genere",
-   "riferimento_normativo": "Art. 24 D.Lgs. 80/2015 - congedo per donne inserite nei percorsi di protezione",
-   "angolo": "Fino a 90 giorni di congedo indennizzato spalmabili su 3 anni per lavoratrici in percorso certificato di protezione: come funziona e impatto in busta."
-  },
-  {
-   "id": "ev-minimale-contributivo",
-   "tema": "Minimale contributivo giornaliero INPS",
-   "riferimento_normativo": "Retribuzione minima imponibile ai fini contributivi (minimale INPS annuale)",
-   "angolo": "Perche i contributi non possono essere calcolati sotto un minimo giornaliero fissato ogni anno dall'INPS, anche con paga oraria bassa o part-time ridotto."
-  },
-  {
-   "id": "ev-rimborso-chilometrico-aci",
-   "tema": "Rimborso chilometrico (tabelle ACI)",
-   "riferimento_normativo": "Art. 51 comma 5 TUIR - rimborsi analitici; tabelle ACI costi chilometrici",
-   "angolo": "Quando usi l'auto propria per lavoro il rimborso km calcolato sulle tabelle ACI e esente: differenza tra rimborso analitico e forfettario in busta."
-  },
-  {
-   "id": "ev-cig-cassa-integrazione",
-   "tema": "Cassa integrazione (CIG) in busta paga",
-   "riferimento_normativo": "D.Lgs. 148/2015 - integrazioni salariali (CIGO/CIGS)",
-   "angolo": "Come si legge in busta l'integrazione salariale: percentuale dell'80%, massimali INPS e differenza tra pagamento diretto e a conguaglio col datore."
-  },
-  {
-   "id": "ev-elemento-garanzia-retributiva",
-   "tema": "Elemento di garanzia retributiva (EGR)",
-   "riferimento_normativo": "Contrattazione collettiva - elemento di garanzia retributiva (CCNL applicato)",
-   "angolo": "L'importo annuo che spetta ai dipendenti di aziende prive di contrattazione di secondo livello/premi: chi ne ha diritto e come compare in busta."
-  },
-  {
-   "id": "ev-festivita-nazionali-ferragosto",
-   "tema": "Festivita' nazionali (es. Ferragosto 15 agosto) in busta paga",
-   "riferimento_normativo": "L. 260/1949 - festivita' nazionali e infrasettimanali",
-   "angolo": "La festivita' nazionale non lavorata e' comunque retribuita (mensilizzati: gia' compresa; paga oraria: quota per festivita'); se lavorata spetta maggiorazione da CCNL. Se cade di sabato/domenica, trattamento della festivita' coincidente secondo il CCNL applicato."
-  },
-  {
-   "id": "ev-indennita-malattia-calcolo-inps",
-   "tema": "Indennita' di malattia INPS: percentuali e calcolo",
-   "riferimento_normativo": "D.L. 663/1979 conv. L. 33/1980 - indennita' economica di malattia (percentuali 50%/66,66%)",
-   "angolo": "Carenza primi 3 giorni; 50% della retribuzione media giornaliera dal 4o al 20o giorno, 66,66% dal 21o al 180o; per gli operai indennizzabili i giorni feriali (sabato incluso). Molti CCNL integrano fino al 100%."
-  }
- ]
+  "schema": "gioia-catalogo-evergreen",
+  "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
+  "aggiornato_il": "2026-08-11",
+  "argomenti": [
+    {
+      "id": "ev-indennita-preavviso",
+      "tema": "Indennita' sostitutiva del preavviso",
+      "riferimento_normativo": "Artt. 2118 e 2121 c.c. - indennita' sostitutiva del preavviso",
+      "angolo": "Se il rapporto finisce senza preavviso lavorato, in busta compare un'indennita' pari alla retribuzione del periodo di preavviso (ratei 13a/14a inclusi): come si legge alla cessazione."
+    },
+    {
+      "id": "ev-permessi-lutto",
+      "tema": "Permessi per lutto e gravi motivi familiari",
+      "riferimento_normativo": "Art. 4 L. 53/2000 - permessi per eventi e gravi motivi familiari",
+      "angolo": "3 giorni retribuiti l'anno per lutto o grave infermita' di coniuge/convivente/parente entro il 2o grado: requisiti, termine dei 7 giorni ed estensioni del CCNL."
+    },
+    {
+      "id": "ev-indennita-reperibilita",
+      "tema": "Indennita' di reperibilita'",
+      "riferimento_normativo": "Contrattazione collettiva - indennita' di reperibilita' (CCNL applicato)",
+      "angolo": "La quota per stare 'a disposizione' fuori orario: importo fisso o percentuale da CCNL, tassata IRPEF+INPS; gli interventi effettivi si pagano a parte."
+    },
+    {
+      "id": "ev-congedo-paternita-obbligatorio",
+      "tema": "Congedo di paternita' obbligatorio (10 giorni)",
+      "riferimento_normativo": "Art. 27-bis D.Lgs. 151/2001 - congedo di paternita' obbligatorio",
+      "angolo": "10 giorni obbligatori al 100% per il padre: quando spettano e come si vedono in busta."
+    },
+    {
+      "id": "ev-premio-risultato",
+      "tema": "Premio di risultato detassato",
+      "riferimento_normativo": "L. 208/2015 art. 1 co. 182 e ss.; imposta sostitutiva premi di risultato (aliquota agevolata)",
+      "angolo": "Il premio di produttivita' tassato con imposta sostitutiva agevolata invece dell'IRPEF: soglie e requisiti."
+    },
+    {
+      "id": "ev-pignoramento-stipendio",
+      "tema": "Pignoramento e cessione del quinto dello stipendio",
+      "riferimento_normativo": "Art. 545 c.p.c. - limiti di pignorabilita' dello stipendio",
+      "angolo": "Quanto dello stipendio e' pignorabile: limite 1/5, alimentari fino 1/3, cumulo max 1/2."
+    },
+    {
+      "id": "ev-no-tax-area",
+      "tema": "No tax area dipendenti (8.500 €)",
+      "riferimento_normativo": "Art. 13 TUIR - no tax area lavoro dipendente",
+      "angolo": "Sotto una certa soglia non paghi IRPEF: come funziona la no tax area."
+    },
+    {
+      "id": "ev-addizionali",
+      "tema": "Addizionali regionali e comunali",
+      "riferimento_normativo": "D.Lgs. 360/1998 e L. 42/2009 - addizionali IRPEF",
+      "angolo": "Perche' da marzo/aprile il netto cala: acconto e saldo addizionali."
+    },
+    {
+      "id": "ev-conguaglio-fine-anno",
+      "tema": "Conguaglio fiscale di fine anno",
+      "riferimento_normativo": "Art. 23 DPR 600/1973 - conguaglio del sostituto d'imposta",
+      "angolo": "Perche' a dicembre la busta cambia: il conguaglio IRPEF annuale."
+    },
+    {
+      "id": "ev-tredicesima",
+      "tema": "Tredicesima mensilita'",
+      "riferimento_normativo": "Contrattazione collettiva - gratifica natalizia; art. 2099 c.c.",
+      "angolo": "Come si calcola la tredicesima e perche' e' tassata di piu'."
+    },
+    {
+      "id": "ev-quattordicesima",
+      "tema": "Quattordicesima mensilita'",
+      "riferimento_normativo": "Contrattazione collettiva - quattordicesima",
+      "angolo": "Chi ha diritto alla quattordicesima e come si matura."
+    },
+    {
+      "id": "ev-tfr-anticipazione",
+      "tema": "Anticipazione del TFR",
+      "riferimento_normativo": "Art. 2120 c.c. commi 6-9 - anticipazione TFR",
+      "angolo": "Quando puoi chiedere l'anticipo del TFR: 8 anni di anzianita', max 70%, causali."
+    },
+    {
+      "id": "ev-scatti-anzianita",
+      "tema": "Scatti di anzianita'",
+      "riferimento_normativo": "Contrattazione collettiva - scatti di anzianita'",
+      "angolo": "Cosa sono gli scatti di anzianita' e come compaiono in busta."
+    },
+    {
+      "id": "ev-straordinario",
+      "tema": "Lavoro straordinario e maggiorazioni",
+      "riferimento_normativo": "D.Lgs. 66/2003 art. 5 - lavoro straordinario",
+      "angolo": "Straordinario: limite 250h/anno e maggiorazioni previste dal CCNL."
+    },
+    {
+      "id": "ev-ferie-non-monetizzabili",
+      "tema": "Ferie: divieto di monetizzazione",
+      "riferimento_normativo": "D.Lgs. 66/2003 art. 10 - ferie annuali",
+      "angolo": "Perche' le 4 settimane di ferie non si possono pagare al posto di goderle."
+    },
+    {
+      "id": "ev-permessi-rol",
+      "tema": "Permessi ROL ed ex festivita'",
+      "riferimento_normativo": "Contrattazione collettiva - ROL e permessi",
+      "angolo": "ROL ed ex festivita': cosa sono e come si leggono in busta."
+    },
+    {
+      "id": "ev-malattia-carenza",
+      "tema": "Malattia: giorni di carenza",
+      "riferimento_normativo": "Prassi INPS e CCNL - carenza malattia",
+      "angolo": "I primi 3 giorni di malattia: chi paga e le regole di carenza."
+    },
+    {
+      "id": "ev-comporto",
+      "tema": "Periodo di comporto",
+      "riferimento_normativo": "Art. 2110 c.c. - comporto per malattia",
+      "angolo": "Comporto: quanto puoi restare in malattia senza rischiare il licenziamento."
+    },
+    {
+      "id": "ev-maternita-congedo",
+      "tema": "Congedo di maternita' obbligatorio",
+      "riferimento_normativo": "D.Lgs. 151/2001 - congedo di maternita'",
+      "angolo": "5 mesi di maternita' obbligatoria: indennita' e come funziona in busta."
+    },
+    {
+      "id": "ev-congedo-parentale",
+      "tema": "Congedo parentale",
+      "riferimento_normativo": "D.Lgs. 151/2001 artt. 32 e ss. - congedo parentale",
+      "angolo": "Congedo parentale: mesi spettanti e percentuali di indennita'."
+    },
+    {
+      "id": "ev-permessi-104",
+      "tema": "Permessi Legge 104",
+      "riferimento_normativo": "L. 104/1992 art. 33 - permessi assistenza disabili",
+      "angolo": "3 giorni al mese di permesso retribuito: requisiti e come si indicano."
+    },
+    {
+      "id": "ev-codice-cnel",
+      "tema": "Codice CNEL obbligatorio in busta",
+      "riferimento_normativo": "Obbligo indicazione codice CNEL del CCNL applicato in busta paga",
+      "angolo": "Il codice CNEL sul cedolino: cosa e' e perche' e' obbligatorio."
+    },
+    {
+      "id": "ev-inps-9-19",
+      "tema": "Contributi INPS a carico del lavoratore (9,19%)",
+      "riferimento_normativo": "Aliquota contributiva IVS lavoratore dipendente 9,19%",
+      "angolo": "Quel 9,19% trattenuto ogni mese: dove va e a cosa serve."
+    },
+    {
+      "id": "ev-imponibile-fiscale-vs-previdenziale",
+      "tema": "Imponibile fiscale vs imponibile previdenziale",
+      "riferimento_normativo": "TUIR e normativa contributiva - basi imponibili",
+      "angolo": "Perche' in busta ci sono due imponibili diversi e come si calcolano."
+    },
+    {
+      "id": "ev-lordo-netto",
+      "tema": "Dal lordo al netto",
+      "riferimento_normativo": "Struttura della retribuzione - lordo/netto",
+      "angolo": "Il percorso dal lordo al netto: tutte le trattenute spiegate."
+    },
+    {
+      "id": "ev-detrazione-coniuge",
+      "tema": "Detrazione per coniuge a carico",
+      "riferimento_normativo": "Art. 12 TUIR - detrazione coniuge a carico",
+      "angolo": "Coniuge a carico: quando spetta la detrazione e quanto vale."
+    },
+    {
+      "id": "ev-tfr-fondo-vs-azienda",
+      "tema": "TFR in azienda o nel fondo pensione",
+      "riferimento_normativo": "D.Lgs. 252/2005 - destinazione del TFR",
+      "angolo": "Lasciare il TFR in azienda o versarlo al fondo: differenze e scelta."
+    },
+    {
+      "id": "ev-cud-cu",
+      "tema": "Certificazione Unica (CU)",
+      "riferimento_normativo": "Certificazione Unica - art. 4 DPR 322/1998",
+      "angolo": "La CU: cos'e', quando arriva e come si collega alla busta paga."
+    },
+    {
+      "id": "ev-preavviso-dimissioni",
+      "tema": "Preavviso e dimissioni telematiche",
+      "riferimento_normativo": "Dimissioni telematiche - D.Lgs. 151/2015 art. 26",
+      "angolo": "Dimissioni: preavviso, procedura telematica e cosa succede in busta."
+    },
+    {
+      "id": "ev-detrazione-familiari-altri",
+      "tema": "Detrazioni per altri familiari a carico",
+      "riferimento_normativo": "Art. 12 TUIR - altri familiari a carico",
+      "angolo": "Genitori o parenti conviventi a carico: quando danno diritto a detrazione."
+    },
+    {
+      "id": "ev-buoni-pasto",
+      "tema": "Buoni pasto (ticket restaurant)",
+      "riferimento_normativo": "Buoni pasto - esenzione fiscale (elettronici/cartacei)",
+      "angolo": "Soglie esenti dei buoni pasto: elettronici 10 €/gg, cartacei 4 €/gg; tassazione dell'eccedenza."
+    },
+    {
+      "id": "ev-assegno-unico",
+      "tema": "Assegno Unico Universale (AUU)",
+      "riferimento_normativo": "Assegno Unico Universale - D.Lgs. 230/2021; importi annuali da circolare INPS",
+      "angolo": "Perche' l'assegno per i figli non e' piu' in busta paga e quanto vale in base all'ISEE."
+    },
+    {
+      "id": "ev-indennita-trasferta",
+      "tema": "Indennita' di trasferta (esenzione fiscale)",
+      "riferimento_normativo": "Art. 51 comma 5 TUIR - indennita' di trasferta",
+      "angolo": "Quota esente dell'indennita' di trasferta: 46,48 €/gg Italia, 77,47 €/gg estero; riduzioni con rimborso spese."
+    },
+    {
+      "id": "ev-visite-fiscali",
+      "tema": "Visite fiscali e fasce di reperibilita'",
+      "riferimento_normativo": "Fasce di reperibilita' visite fiscali (regole INPS/Legge di Bilancio)",
+      "angolo": "Fasce orarie 10-12 e 17-19 (festivi inclusi) e effetti sull'indennita' di malattia in busta."
+    },
+    {
+      "id": "ev-fringe-auto-uso-promiscuo",
+      "tema": "Fringe benefit auto aziendale uso promiscuo",
+      "riferimento_normativo": "Art. 51 comma 4 lett. a) TUIR - fringe benefit auto uso promiscuo",
+      "angolo": "Valore forfettario tassato in busta: 15.000 km x costo km ACI x % alimentazione (10% BEV, 20% PHEV, 50% altri)."
+    },
+    {
+      "id": "ev-lavoro-notturno",
+      "tema": "Lavoro notturno: definizione e maggiorazioni",
+      "riferimento_normativo": "D.Lgs. 66/2003 - lavoro notturno; maggiorazioni da CCNL",
+      "angolo": "Quando scatta il lavoro notturno (periodo 24-5, 7h consecutive) e maggiorazione prevista dal CCNL in busta."
+    },
+    {
+      "id": "ev-congedo-malattia-figlio",
+      "tema": "Congedo per malattia del figlio",
+      "riferimento_normativo": "D.Lgs. 151/2001 art. 47 - congedo per malattia del bambino",
+      "angolo": "Permessi per malattia del figlio: illimitati e non retribuiti fino a 3 anni, 5 giorni/anno tra 3 e 8 anni; come incide in busta."
+    },
+    {
+      "id": "ev-superminimo",
+      "tema": "Superminimo individuale (assorbibile e non)",
+      "riferimento_normativo": "Contrattazione individuale/collettiva - superminimo; principi giurisprudenziali su assorbibilita'",
+      "angolo": "Cos'e' il superminimo in busta e quando puo' essere assorbito dagli aumenti contrattuali."
+    },
+    {
+      "id": "ev-retribuzione-ferie",
+      "tema": "Retribuzione durante le ferie",
+      "riferimento_normativo": "D.Lgs. 66/2003 art. 10 - ferie annuali; Cassazione ord. n. 18529/2026 - retribuzione feriale comparabile ma non identica",
+      "angolo": "Perche' nel mese di ferie il netto puo' risultare piu' basso: le voci legate all'attivita' effettiva (notturno/festivo/turni) possono non comparire in ferie."
+    },
+    {
+      "id": "ev-lavoro-festivo-domenicale",
+      "tema": "Lavoro festivo e domenicale: maggiorazioni",
+      "riferimento_normativo": "D.Lgs. 66/2003 - riposo settimanale e compensativo; maggiorazioni festivo/domenicale da CCNL applicato",
+      "angolo": "Maggiorazione (indicativamente 15-50% a seconda del CCNL), riposo compensativo e festivita' non goduta: come si leggono in busta."
+    },
+    {
+      "id": "ev-tfr-tassazione-separata",
+      "tema": "TFR: tassazione separata alla liquidazione",
+      "riferimento_normativo": "Art. 19 TUIR (DPR 917/1986) - tassazione separata del TFR (aliquota media); art. 11 D.Lgs. 47/2000",
+      "angolo": "Perche' alla liquidazione il TFR e' tassato con aliquota media e non con l'IRPEF ordinaria: come si calcola il reddito di riferimento."
+    },
+    {
+      "id": "ev-congedo-matrimoniale",
+      "tema": "Congedo matrimoniale (15 giorni retribuiti)",
+      "riferimento_normativo": "Assegno per congedo matrimoniale (INPS); disciplina CCNL applicato",
+      "angolo": "15 giorni retribuiti per chi si sposa: come si legge in busta e differenza operai/impiegati"
+    },
+    {
+      "id": "ev-permessi-studio-150-ore",
+      "tema": "Permessi 150 ore per il diritto allo studio",
+      "riferimento_normativo": "Art. 10 L. 300/1970 (Statuto dei Lavoratori); disciplina CCNL applicato",
+      "angolo": "Fino a 150 ore/triennio retribuite per studiare: chi ne ha diritto e come compaiono in busta"
+    },
+    {
+      "id": "ev-welfare-aziendale-c2",
+      "tema": "Welfare aziendale (art. 51 c.2 TUIR) vs fringe benefit",
+      "riferimento_normativo": "Art. 51 commi 2 e 3 TUIR (DPR 917/1986)",
+      "angolo": "Servizi a finalita' sociale esenti senza limite: differenza con i fringe benefit e impatto sul netto"
+    },
+    {
+      "id": "ev-riposi-allattamento",
+      "tema": "Riposi giornalieri per allattamento",
+      "riferimento_normativo": "Art. 39 e 40 D.Lgs. 151/2001 - riposi giornalieri (permessi per allattamento); indennita' a carico INPS",
+      "angolo": "Due ore al giorno retribuite nel primo anno del bambino (una se orario <6h, doppie per parto gemellare): ore lavorate a tutti gli effetti, indennita' INPS anticipata dal datore in busta. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-festivita-domenica",
+      "tema": "Festivita' cadente di domenica: retribuzione aggiuntiva",
+      "riferimento_normativo": "Art. 5 L. 260/1949 - festivita' cadente di domenica",
+      "angolo": "Quando una festivita' nazionale cade di domenica spetta una quota di paga in piu' (per i mensilizzati circa 1/26 della mensilita'), a prescindere dal lavoro svolto. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-contributo-aggiuntivo-1pct",
+      "tema": "Contributo aggiuntivo IVS 1% sulla quota eccedente la prima fascia di pensionabilita'",
+      "riferimento_normativo": "Art. 3-ter L. 438/1992 - contributo aggiuntivo 1%",
+      "angolo": "Sui redditi elevati, sulla parte di retribuzione oltre la prima fascia di pensionabilita (2026: 56.224 EUR/anno = 4.685 EUR/mese, Circ. INPS 6/2026), si aggiunge un 1% di contributo a carico del lavoratore. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-part-time-riproporzionamento",
+      "tema": "Part-time: riproporzionamento di paga e istituti",
+      "riferimento_normativo": "D.Lgs. 81/2015 (disciplina del lavoro a tempo parziale)",
+      "angolo": "Nel part-time paga base, ferie, permessi, 13a/14a e TFR sono riproporzionati alle ore effettive: come si legge in busta e cosa controllare. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-trasfertista",
+      "tema": "Trasfertista: indennita imponibile al 50%",
+      "riferimento_normativo": "Art. 51 comma 6 TUIR (DPR 917/1986) - indennita trasfertista (imponibile 50%)",
+      "angolo": "Chi non ha una sede di lavoro fissa (trasfertista) riceve un'indennita fissa mensile tassata solo per meta: regime alternativo a quello della trasferta occasionale (comma 5). PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-periodo-prova",
+      "tema": "Periodo di prova: retribuzione e regole",
+      "riferimento_normativo": "Art. 2096 c.c. - assunzione in prova (retribuzione e durata)",
+      "angolo": "Durante la prova spetta la retribuzione piena del livello; patto in forma scritta, durata max 6 mesi (minori da CCNL), recesso senza preavviso. PUBBLICATO 2026-08-08."
+    },
+    {
+      "id": "ev-mance-turismo",
+      "tema": "Detassazione mance settore turismo",
+      "riferimento_normativo": "Art. 1 co. 58-62 L. 197/2022, mod. art. 1 co. 520 L. 207/2024 - imposta sostitutiva 5% mance",
+      "angolo": "Come le mance nel turismo/ristorazione siano tassate al 5% entro il 30% del reddito (franchigia), soglia reddito 75.000 euro; voce dedicata in busta."
+    },
+    {
+      "id": "ev-tfr-fondo-tesoreria",
+      "tema": "TFR al Fondo di Tesoreria INPS (aziende >= 50 addetti)",
+      "riferimento_normativo": "L. 296/2006 art. 1 co. 755-757 - Fondo di Tesoreria INPS",
+      "angolo": "Perche nelle aziende >=50 addetti il TFR non conferito a previdenza compl. va all'INPS ma resta credito individuale del lavoratore; liquidazione sempre tramite datore."
+    },
+    {
+      "id": "ev-apprendistato-retribuzione",
+      "tema": "Retribuzione dell'apprendista (sotto-inquadramento)",
+      "riferimento_normativo": "Art. 42 comma 5 lett. b) D.Lgs. 81/2015 - retribuzione apprendista",
+      "angolo": "Le due modalita alternative (sotto-inquadramento max 2 livelli oppure percentuale crescente con l'anzianita) e il fatto che maturano comunque ferie, 13a, TFR."
+    },
+    {
+      "id": "ev-donazione-sangue",
+      "tema": "Permesso retribuito per donazione sangue",
+      "riferimento_normativo": "Art. 8 L. 219/2005 - permesso retribuito donatori; art. 8 L. 155/1981 (contributi)",
+      "angolo": "Giornata di astensione retribuita per chi dona sangue (prelievo >=250 gr), contributi coperti via Uniemens; retribuzione anche in caso di inidoneita accertata. PUBBLICATO 2026-08-09."
+    },
+    {
+      "id": "ev-arretrati-una-tantum-ccnl",
+      "tema": "Arretrati e una tantum da rinnovo CCNL: tassazione",
+      "riferimento_normativo": "Art. 17 (gia 16) TUIR - DPR 917/1986 - tassazione separata arretrati",
+      "angolo": "Arretrati riferiti ad anni precedenti tassati separatamente (aliquota media biennio); anno corrente tassazione ordinaria; una tantum esclusa dalla sostitutiva 5%. PUBBLICATO 2026-08-09."
+    },
+    {
+      "id": "ev-conguaglio-730-estivo",
+      "tema": "Conguaglio 730 nel cedolino estivo",
+      "riferimento_normativo": "Messaggi INPS 2030 e 2035 del 18/06/2026; DM 164/1999 (assistenza fiscale)",
+      "angolo": "Esito del 730 (rimborso o trattenuta IRPEF) applicato dal sostituto sui cedolini estivi; mese di partenza legato alla data di trasmissione. PUBBLICATO 2026-08-09."
+    },
+    {
+      "id": "ev-congedo-violenza-genere",
+      "tema": "Congedo per donne vittime di violenza di genere",
+      "riferimento_normativo": "Art. 24 D.Lgs. 80/2015 - congedo per donne inserite nei percorsi di protezione",
+      "angolo": "Fino a 90 giorni di congedo indennizzato spalmabili su 3 anni per lavoratrici in percorso certificato di protezione: come funziona e impatto in busta."
+    },
+    {
+      "id": "ev-minimale-contributivo",
+      "tema": "Minimale contributivo giornaliero INPS",
+      "riferimento_normativo": "Retribuzione minima imponibile ai fini contributivi (minimale INPS annuale)",
+      "angolo": "Perche i contributi non possono essere calcolati sotto un minimo giornaliero fissato ogni anno dall'INPS, anche con paga oraria bassa o part-time ridotto."
+    },
+    {
+      "id": "ev-rimborso-chilometrico-aci",
+      "tema": "Rimborso chilometrico (tabelle ACI)",
+      "riferimento_normativo": "Art. 51 comma 5 TUIR - rimborsi analitici; tabelle ACI costi chilometrici",
+      "angolo": "Quando usi l'auto propria per lavoro il rimborso km calcolato sulle tabelle ACI e esente: differenza tra rimborso analitico e forfettario in busta."
+    },
+    {
+      "id": "ev-cig-cassa-integrazione",
+      "tema": "Cassa integrazione (CIG) in busta paga",
+      "riferimento_normativo": "D.Lgs. 148/2015 - integrazioni salariali (CIGO/CIGS)",
+      "angolo": "Come si legge in busta l'integrazione salariale: percentuale dell'80%, massimali INPS e differenza tra pagamento diretto e a conguaglio col datore."
+    },
+    {
+      "id": "ev-elemento-garanzia-retributiva",
+      "tema": "Elemento di garanzia retributiva (EGR)",
+      "riferimento_normativo": "Contrattazione collettiva - elemento di garanzia retributiva (CCNL applicato)",
+      "angolo": "L'importo annuo che spetta ai dipendenti di aziende prive di contrattazione di secondo livello/premi: chi ne ha diritto e come compare in busta."
+    },
+    {
+      "id": "ev-festivita-nazionali-ferragosto",
+      "tema": "Festivita' nazionali (es. Ferragosto 15 agosto) in busta paga",
+      "riferimento_normativo": "L. 260/1949 - festivita' nazionali e infrasettimanali",
+      "angolo": "La festivita' nazionale non lavorata e' comunque retribuita (mensilizzati: gia' compresa; paga oraria: quota per festivita'); se lavorata spetta maggiorazione da CCNL. Se cade di sabato/domenica, trattamento della festivita' coincidente secondo il CCNL applicato."
+    },
+    {
+      "id": "ev-indennita-malattia-calcolo-inps",
+      "tema": "Indennita' di malattia INPS: percentuali e calcolo",
+      "riferimento_normativo": "D.L. 663/1979 conv. L. 33/1980 - indennita' economica di malattia (percentuali 50%/66,66%)",
+      "angolo": "Carenza primi 3 giorni; 50% della retribuzione media giornaliera dal 4o al 20o giorno, 66,66% dal 21o al 180o; per gli operai indennizzabili i giorni feriali (sabato incluso). Molti CCNL integrano fino al 100%."
+    },
+    {
+      "id": "ev-edr",
+      "tema": "EDR - Elemento Distinto della Retribuzione (10,33 EUR)",
+      "riferimento_normativo": "Protocollo interconfederale 31/07/1992 - Elemento Distinto della Retribuzione (EDR)",
+      "angolo": "Voce fissa 10,33 EUR/mese x 13 mensilita per i dipendenti privati (esclusi dirigenti); origine dal blocco della scala mobile; imponibile fiscale e previdenziale"
+    },
+    {
+      "id": "ev-ivc-vacanza-contrattuale",
+      "tema": "Indennita di vacanza contrattuale (IVC)",
+      "riferimento_normativo": "Indennita di vacanza contrattuale - contrattazione collettiva (periodo tra scadenza CCNL e rinnovo)",
+      "angolo": "Acconto provvisorio a tutela del potere d acquisto quando il CCNL e scaduto; riassorbita al rinnovo dai nuovi minimi e arretrati"
+    },
+    {
+      "id": "ev-cessione-del-quinto",
+      "tema": "Cessione del quinto dello stipendio",
+      "riferimento_normativo": "DPR 180/1950 - cessione del quinto dello stipendio (trattenuta max 1/5, durata max 10 anni)",
+      "angolo": "Trattenuta volontaria da finanziamento; limite 20% del netto; differenza rispetto al pignoramento; tutela in caso di riduzione stipendio"
+    },
+    {
+      "id": "ev-fondi-sanitari-integrativi",
+      "tema": "Contributi ai fondi sanitari integrativi (esenzione 3.615,20 €)",
+      "riferimento_normativo": "Art. 51 comma 2 lett. a) TUIR (DPR 917/1986) - contributi a casse/fondi sanitari esenti fino a 3.615,20 EUR/anno",
+      "angolo": "Il contributo al fondo sanitario in busta e' esente da IRPEF entro soglia: un vantaggio spesso ignorato"
+    },
+    {
+      "id": "ev-lavoro-supplementare-parttime",
+      "tema": "Lavoro supplementare nel part-time (+15%)",
+      "riferimento_normativo": "D.Lgs. 81/2015 art. 6 - lavoro supplementare nel part-time; maggiorazione 15%",
+      "angolo": "Le ore extra del part-time non sono straordinario e vanno pagate con la maggiorazione del 15%"
+    },
+    {
+      "id": "ev-quota-sindacale",
+      "tema": "Trattenuta quota sindacale in busta paga",
+      "riferimento_normativo": "Trattenuta quota sindacale su delega volontaria del lavoratore (cessione di credito ex art. 1260 c.c.); contrattazione collettiva",
+      "angolo": "La quota sindacale e' una trattenuta volontaria: nasce solo dalla delega firmata dal lavoratore ed e' revocabile"
+    }
+  ]
 }

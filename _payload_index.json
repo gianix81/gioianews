@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-10 10:03",
+  "aggiornato_il": "2026-08-11 10:13",
   "pubblicate": [
     {
       "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
@@ -692,6 +692,54 @@
       "data_run": "2026-08-10",
       "ora_run": "1603",
       "file": "ingest_payload_2026-08-10_1603.json"
+    },
+    {
+      "chiave": "protocollo interconfederale 31/07/1992 - elemento distinto della retribuzione (edr), 10,33 eur/mese x 13 mensilita",
+      "titolo": "EDR in busta paga: quei 10,33 EUR fissi ogni mese, e cosa sono davvero",
+      "riferimento_normativo": "Protocollo interconfederale 31/07/1992 - Elemento Distinto della Retribuzione (EDR), 10,33 EUR/mese x 13 mensilita",
+      "data_run": "2026-08-11",
+      "ora_run": "0812",
+      "file": "ingest_payload_2026-08-11_0812.json"
+    },
+    {
+      "chiave": "indennita di vacanza contrattuale (ivc) - contrattazione collettiva; erogata tra scadenza ccnl e rinnovo",
+      "titolo": "Indennita di vacanza contrattuale: l acconto che compare quando il tuo contratto e scaduto",
+      "riferimento_normativo": "Indennita di vacanza contrattuale (IVC) - contrattazione collettiva; erogata tra scadenza CCNL e rinnovo",
+      "data_run": "2026-08-11",
+      "ora_run": "0812",
+      "file": "ingest_payload_2026-08-11_0812.json"
+    },
+    {
+      "chiave": "dpr 180/1950 - cessione del quinto dello stipendio; trattenuta max 1/5 (20%) dello stipendio netto, durata max 10 anni",
+      "titolo": "Cessione del quinto: perche una parte dello stipendio puo finire trattenuta (e fino a quanto)",
+      "riferimento_normativo": "DPR 180/1950 - cessione del quinto dello stipendio; trattenuta max 1/5 (20%) dello stipendio netto, durata max 10 anni",
+      "data_run": "2026-08-11",
+      "ora_run": "0812",
+      "file": "ingest_payload_2026-08-11_0812.json"
+    },
+    {
+      "chiave": "art. 51 comma 2 lett. a) tuir (dpr 917/1986) - contributi a casse/fondi sanitari: esenzione fino a 3.615,20 eur/anno (incluso art. 10 c.1 lett. e-ter)",
+      "titolo": "Fondo sanitario in busta paga: il contributo che ti fa risparmiare tasse (fino a 3.615 €)",
+      "riferimento_normativo": "Art. 51 comma 2 lett. a) TUIR (DPR 917/1986) - contributi a casse/fondi sanitari: esenzione fino a 3.615,20 EUR/anno (incluso art. 10 c.1 lett. e-ter)",
+      "data_run": "2026-08-11",
+      "ora_run": "1013",
+      "file": "ingest_payload_2026-08-11_1013.json"
+    },
+    {
+      "chiave": "d.lgs. 81/2015 art. 6 - lavoro supplementare nel part-time; maggiorazione 15% della retribuzione oraria globale di fatto",
+      "titolo": "Part-time: le ore in più non sono \"straordinario\", e hanno una maggiorazione del 15%",
+      "riferimento_normativo": "D.Lgs. 81/2015 art. 6 - lavoro supplementare nel part-time; maggiorazione 15% della retribuzione oraria globale di fatto",
+      "data_run": "2026-08-11",
+      "ora_run": "1013",
+      "file": "ingest_payload_2026-08-11_1013.json"
+    },
+    {
+      "chiave": "trattenuta quota sindacale su delega volontaria del lavoratore (cessione di credito ex art. 1260 c.c.); disciplina di contrattazione collettiva",
+      "titolo": "Quota sindacale in busta paga: cos'è quella trattenuta e perché è volontaria",
+      "riferimento_normativo": "Trattenuta quota sindacale su delega volontaria del lavoratore (cessione di credito ex art. 1260 c.c.); disciplina di contrattazione collettiva",
+      "data_run": "2026-08-11",
+      "ora_run": "1013",
+      "file": "ingest_payload_2026-08-11_1013.json"
     }
   ]
 }
