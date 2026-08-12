@@ -1,7 +1,7 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-11",
+  "aggiornato_il": "2026-08-12",
   "argomenti": [
     {
       "id": "ev-indennita-preavviso",
@@ -434,6 +434,24 @@
       "tema": "Aspettativa non retribuita",
       "riferimento_normativo": "Aspettativa non retribuita - sospensione del rapporto senza retribuzione ne contribuzione; riscatto per gravi motivi familiari ex art. 4 L. 53/2000",
       "angolo": "stipendio azzerato, contributi congelati, periodo non utile a pensione salvo riscatto; posto garantito"
+    },
+    {
+      "id": "ev-trattamento-integrativo",
+      "tema": "Trattamento integrativo (ex Bonus Renzi)",
+      "riferimento_normativo": "Art. 1 D.L. 3/2020 conv. L. 21/2020 (trattamento integrativo); art. 13 TUIR",
+      "angolo": "Somma non tassata (fino a 1.200 €/anno) per redditi bassi che aumenta il netto: soglie 15.000/28.000 € e condizione di capienza IRPEF."
+    },
+    {
+      "id": "ev-detrazione-lavoro-dipendente",
+      "tema": "Detrazione da lavoro dipendente (art. 13 TUIR)",
+      "riferimento_normativo": "Art. 13 D.P.R. 917/1986 (TUIR) - detrazioni per redditi di lavoro dipendente",
+      "angolo": "Lo sconto d'imposta che abbatte l'IRPEF mese per mese: 1.955 € fino a 15.000 €, poi formule decrescenti; rapportato ai giorni lavorati."
+    },
+    {
+      "id": "ev-assemblea-retribuita",
+      "tema": "Assemblea retribuita in orario di lavoro",
+      "riferimento_normativo": "Art. 20 L. 300/1970 (Statuto dei Lavoratori) - diritto di assemblea (10 ore annue retribuite)",
+      "angolo": "10 ore/anno di assemblea in orario pagate come ore lavorate, senza incidere su ferie/TFR; il CCNL può migliorare."
     }
   ]
 }

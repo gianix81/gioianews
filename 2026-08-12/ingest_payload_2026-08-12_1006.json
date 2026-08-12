@@ -1,0 +1,25 @@
+{
+  "data": "2026-08-12",
+  "notizie": [
+    {
+      "titolo": "Fondo pensione: sale a 5.300 € il tetto di contributi che puoi dedurre dalle tasse",
+      "testo": "Se versi soldi a un fondo pensione (previdenza complementare), c'e' una buona notizia per il 2026. Il limite annuo di contributi che puoi scaricare dalle tasse sale da 5.164,57 € a 5.300 € l'anno. E' la prima volta che questo tetto viene alzato dopo quasi vent'anni.\n\nCosa significa in pratica? I contributi che versi al fondo pensione (piu' quelli eventualmente versati dal tuo datore di lavoro) non fanno reddito fino a 5.300 € l'anno: quella cifra viene tolta dall'imponibile su cui si calcola l'IRPEF. Piu' contributi deducibili = meno tasse. Attenzione: il TFR che decidi di far confluire nel fondo NON rientra in questo limite, perche' segue regole sue.\n\nLa misura arriva dalla Legge di Bilancio 2026 e vale per tutto l'anno d'imposta 2026, con decorrenza formale dal 1° luglio 2026. In busta paga la trovi tra le trattenute/contributi legati alla previdenza complementare; l'effetto lo vedi sull'imponibile fiscale piu' basso.\n\nGioIA controlla per te che la deduzione applicata al tuo cedolino rispetti il nuovo tetto e che l'IRPEF sia calcolata sull'imponibile corretto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Legge di Bilancio 2026; art. 8 co. 4 D.Lgs. 252/2005 (deducibilita previdenza complementare 5.300 EUR/anno)",
+      "fonte_url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/ddl-bilancio-tetto-deducibilita--previdenza-integrativa-salira--a-5300-euro-nRC_12122025_1447_379183379.html"
+    },
+    {
+      "titolo": "Congedo di paternita': 10 giorni obbligatori pagati al 100% per i neopapa'",
+      "testo": "Sei diventato o stai per diventare padre? Ti spettano 10 giorni di congedo di paternita' obbligatorio, pagati al 100% della retribuzione. Non e' un favore dell'azienda: e' un tuo diritto previsto dalla legge.\n\nCome funziona: i 10 giorni (lavorativi, non frazionabili a ore) si possono prendere da due mesi prima della data presunta del parto fino a cinque mesi dopo la nascita, anche non di seguito. L'indennita' e' pari al 100% dello stipendio per tutto il periodo; una parte e' a carico dell'INPS, e diversi contratti collettivi integrano fino a coprire l'intero importo. Questi giorni contano a tutti gli effetti per anzianita', tredicesima e ferie.\n\nIn busta paga il congedo compare come voce dedicata: se noti importi che non tornano o giornate non riconosciute, e' il caso di verificare. GioIA analizza il tuo cedolino e ti segnala se i giorni di paternita' sono stati pagati e conteggiati come previsto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 27-bis D.Lgs. 151/2001 - congedo di paternita' obbligatorio (10 giorni al 100%)",
+      "fonte_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.congedo-di-paternit-obbligatorio-58988.congedo-di-paternit-obbligatorio.html"
+    },
+    {
+      "titolo": "Ti licenziano senza preavviso? Ecco l'indennita' sostitutiva che ti spetta",
+      "testo": "Quando un rapporto di lavoro finisce, di regola c'e' un periodo di preavviso: chi recede (azienda o lavoratore) deve avvisare l'altro con un certo anticipo, stabilito dal contratto collettivo in base a livello e anzianita'. Ma se il datore di lavoro ti manda via subito, senza farti lavorare il preavviso, deve pagarti l'indennita' sostitutiva del preavviso.\n\nQuanto vale? E' pari alla retribuzione che avresti percepito durante il periodo di preavviso non lavorato. In busta paga (di solito nell'ultimo cedolino o nelle competenze di fine rapporto) la trovi come voce a se', separata dal TFR e dalle altre spettanze finali. Funziona anche al contrario: se sei tu a dimetterti senza rispettare il preavviso, l'azienda puo' trattenerti l'importo corrispondente.\n\nAlla cessazione del rapporto le voci in gioco sono tante e facili da confondere. GioIA legge il tuo ultimo cedolino e ti aiuta a capire se preavviso, TFR e competenze finali sono stati calcolati correttamente.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Artt. 2118 e 2121 c.c. - indennita' sostitutiva del preavviso"
+    }
+  ]
+}

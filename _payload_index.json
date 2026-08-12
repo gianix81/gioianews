@@ -761,6 +761,48 @@
       "data_run": "2026-08-11",
       "ora_run": "1608",
       "file": "ingest_payload_2026-08-11_1608.json"
+    },
+    {
+      "chiave": "art. 1 d.l. 3/2020 conv. l. 21/2020 (trattamento integrativo); art. 13 tuir",
+      "titolo": "Trattamento integrativo: i 100 € al mese (ex Bonus Renzi) che aumentano il tuo netto",
+      "data_run": "2026-08-12",
+      "ora_run": "0855",
+      "file": "ingest_payload_2026-08-12_0855.json"
+    },
+    {
+      "chiave": "art. 13 d.p.r. 917/1986 (tuir) - detrazioni per redditi di lavoro dipendente",
+      "titolo": "Detrazione da lavoro dipendente: l'importo \"invisibile\" che ti abbassa l'IRPEF ogni mese",
+      "data_run": "2026-08-12",
+      "ora_run": "0855",
+      "file": "ingest_payload_2026-08-12_0855.json"
+    },
+    {
+      "chiave": "art. 20 l. 300/1970 (statuto dei lavoratori) - diritto di assemblea (10 ore annue retribuite)",
+      "titolo": "Assemblea in orario di lavoro: 10 ore l'anno pagate come se avessi lavorato",
+      "data_run": "2026-08-12",
+      "ora_run": "0855",
+      "file": "ingest_payload_2026-08-12_0855.json"
+    },
+    {
+      "chiave": "legge di bilancio 2026; art. 8 co. 4 d.lgs. 252/2005 - deducibilita previdenza complementare 5.300 eur/anno",
+      "titolo": "Fondo pensione: sale a 5.300 EUR il tetto di contributi deducibili",
+      "data_run": "2026-08-12",
+      "ora_run": "1006",
+      "file": "ingest_payload_2026-08-12_1006.json"
+    },
+    {
+      "chiave": "art. 27-bis d.lgs. 151/2001 - congedo di paternita obbligatorio (10 giorni al 100%)",
+      "titolo": "Congedo di paternita: 10 giorni obbligatori al 100%",
+      "data_run": "2026-08-12",
+      "ora_run": "1006",
+      "file": "ingest_payload_2026-08-12_1006.json"
+    },
+    {
+      "chiave": "artt. 2118 e 2121 c.c. - indennita sostitutiva del preavviso",
+      "titolo": "Indennita sostitutiva del preavviso",
+      "data_run": "2026-08-12",
+      "ora_run": "1006",
+      "file": "ingest_payload_2026-08-12_1006.json"
     }
   ]
 }

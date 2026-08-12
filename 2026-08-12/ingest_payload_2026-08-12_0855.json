@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-12",
+  "notizie": [
+    {
+      "titolo": "Trattamento integrativo: i 100 € al mese (ex Bonus Renzi) che aumentano il tuo netto",
+      "testo": "C'è una voce in busta paga che non è uno stipendio in più e nemmeno una tassa: è il trattamento integrativo, quello che molti chiamano ancora \"Bonus Renzi\". È una somma che NON viene tassata e va ad aumentare direttamente il tuo netto.\n\nCome funziona nel 2026:\n- Se il tuo reddito complessivo è fino a 15.000 € l'anno, ti spetta l'intero importo, fino a 1.200 € l'anno (cioè circa 100 € al mese). C'è una condizione tecnica: l'IRPEF lorda deve essere superiore alla detrazione da lavoro dipendente diminuita di 75 €. In pratica serve che tu abbia \"capienza\" fiscale.\n- Tra 15.000 e 28.000 € il bonus non è automatico: spetta solo in certi casi e in misura che si riduce man mano che il reddito sale, fino ad azzerarsi.\n- Oltre 28.000 € non spetta.\n\nDove lo vedi: compare tra le competenze del cedolino con una dicitura tipo \"trattamento integrativo\" o \"credito L. 21/2020\", separato da imposte e contributi. Il datore di lavoro lo anticipa mese per mese in base al reddito che prevedi di avere; se a fine anno il reddito effettivo cambia, in sede di conguaglio (o con il 730) l'importo viene ricalcolato e potresti doverne restituire una parte o riceverne un'integrazione.\n\nPerché ti interessa: è una delle voci che più spesso vengono calcolate male, soprattutto per chi cambia lavoro in corso d'anno o ha più rapporti. GioIA legge il tuo cedolino e verifica se il trattamento integrativo è stato applicato correttamente rispetto al tuo reddito.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 1 D.L. 3/2020 conv. L. 21/2020 (trattamento integrativo); art. 13 TUIR",
+      "fonte_url": "https://fiscomania.com/trattamento-integrativo-come-funziona/"
+    },
+    {
+      "titolo": "Detrazione da lavoro dipendente: l'importo \"invisibile\" che ti abbassa l'IRPEF ogni mese",
+      "testo": "Sul tuo cedolino l'IRPEF non si calcola solo con le aliquote: prima di arrivare al netto entra in gioco la detrazione da lavoro dipendente, prevista dall'art. 13 del TUIR. È uno sconto d'imposta che il datore applica automaticamente ogni mese e che, per i redditi più bassi, può azzerare del tutto l'IRPEF.\n\nCome si calcola nel 2026, in base al reddito complessivo:\n- fino a 15.000 €: detrazione fissa di 1.955 € l'anno (con un minimo garantito di 690 €, che salgono a 1.380 € per i contratti a tempo determinato);\n- da 15.001 a 28.000 €: 1.910 € + 1.190 × (28.000 − reddito) / 13.000;\n- da 28.001 a 50.000 €: 1.910 × (50.000 − reddito) / 22.000;\n- oltre 50.000 €: nessuna detrazione.\nIn più, chi ha un reddito tra 25.000 e 35.000 € ha diritto a ulteriori 65 € (il cosiddetto comma 1-bis).\n\nDue cose importanti da sapere. Primo: la detrazione è rapportata ai giorni di lavoro nell'anno, quindi se lavori solo alcuni mesi ti spetta in proporzione. Secondo: più alto è il reddito, più la detrazione si riduce; è per questo che, salendo di stipendio, il netto non cresce mai in modo proporzionale al lordo.\n\nDove la vedi: spesso è indicata tra i dati fiscali del cedolino come \"detrazioni lav. dip.\" e viene sottratta dall'IRPEF lorda. GioIA controlla che l'importo applicato sia coerente con il tuo reddito e i giorni lavorati, così eviti sorprese al conguaglio di fine anno.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 13 D.P.R. 917/1986 (TUIR) - detrazioni per redditi di lavoro dipendente",
+      "fonte_url": "https://fiscomania.com/detrazioni-per-redditi-da-lavoro-dipendente/"
+    },
+    {
+      "titolo": "Assemblea in orario di lavoro: 10 ore l'anno pagate come se avessi lavorato",
+      "testo": "Non tutti sanno che hai diritto a partecipare alle assemblee sul luogo di lavoro anche durante l'orario, senza perdere un euro. Lo prevede l'art. 20 dello Statuto dei Lavoratori (Legge 300/1970): fino a 10 ore all'anno di assemblea in orario di lavoro sono retribuite con la normale retribuzione.\n\nCosa significa in concreto:\n- Le 10 ore sono un monte annuo calcolato per ciascun lavoratore.\n- Quelle ore si considerano a tutti gli effetti come ore lavorate: non ti tolgono nulla su ferie, permessi, TFR o tredicesima.\n- Il contratto collettivo applicato può prevedere condizioni di miglior favore (ad esempio più ore): in quel caso vale la regola del tuo CCNL.\n\nAttenzione a non confonderle: le ore di assemblea NON sono ferie né permessi personali, e non vanno scalate dai tuoi ROL. Se in busta paga vedi una decurtazione a fronte di ore di assemblea regolarmente svolte entro il limite, qualcosa non torna.\n\nPerché te ne parliamo: è uno di quei diritti che incidono in modo silenzioso sul cedolino, e un errore di conteggio si nota solo guardando bene le ore. GioIA analizza le voci del tuo cedolino e ti aiuta a capire se ore e importi sono stati registrati nel modo giusto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 20 L. 300/1970 (Statuto dei Lavoratori) - diritto di assemblea (10 ore annue retribuite)",
+      "fonte_url": "https://trovalegge.it/statuto-lavoratori/art-20-l-300-70-assemblea"
+    }
+  ]
+}
