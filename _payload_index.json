@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-12 16:03",
+  "aggiornato_il": "2026-08-12 20:03",
   "pubblicate": [
     {
       "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
@@ -819,6 +819,30 @@
       "data_run": "2026-08-12",
       "ora_run": "1603",
       "file": "ingest_payload_2026-08-12_1603.json"
+    },
+    {
+      "chiave": "imponibile previdenziale vs imponibile fiscale; art. 51 tuir; aliquota ivs 9,19%",
+      "titolo": "Perché in busta paga ci sono due \"imponibili\" diversi (e non è un errore)",
+      "riferimento_normativo": "Imponibile previdenziale vs imponibile fiscale; art. 51 TUIR (DPR 917/1986); aliquota IVS 9,19%",
+      "data_run": "2026-08-12",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-12_2003.json"
+    },
+    {
+      "chiave": "ratei di ferie, permessi e mensilita aggiuntive; art. 2109 c.c.; ccnl applicato",
+      "titolo": "Ferie, permessi e tredicesima: ogni mese ne \"metti da parte\" un pezzo",
+      "riferimento_normativo": "Ratei di ferie, permessi e mensilita aggiuntive; art. 2109 c.c. (ferie); contrattazione collettiva",
+      "data_run": "2026-08-12",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-12_2003.json"
+    },
+    {
+      "chiave": "banca ore e riposo compensativo - contrattazione collettiva; d.lgs. 66/2003",
+      "titolo": "Banca ore: gli straordinari che non incassi subito, ma recuperi come riposo",
+      "riferimento_normativo": "Banca ore e riposo compensativo - CCNL applicato; D.Lgs. 66/2003",
+      "data_run": "2026-08-12",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-12_2003.json"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-12",
+  "notizie": [
+    {
+      "titolo": "Perché in busta paga ci sono due \"imponibili\" diversi (e non è un errore)",
+      "testo": "Guardando il cedolino trovi due basi di calcolo che sembrano simili ma non coincidono: l'imponibile previdenziale e l'imponibile fiscale. Non è una svista: servono a due cose diverse e si calcolano in momenti diversi.\n\nL'imponibile previdenziale è la base su cui l'INPS calcola i contributi. È molto vicino alla retribuzione lorda e su di esso si applica la tua quota di contributi (per la generalità dei dipendenti il 9,19%). Prima vengono i contributi.\n\nL'imponibile fiscale arriva dopo: si parte dal lordo, si sottraggono i contributi a tuo carico (e gli eventuali oneri deducibili) e si ottiene la base su cui si calcolano IRPEF e addizionali. Per questo l'imponibile fiscale è quasi sempre più basso di quello previdenziale: i contributi che hai già pagato non vengono tassati.\n\nLe due basi possono divergere anche perché alcune voci sono trattate diversamente dal fisco e dalla previdenza (per esempio certe quote di welfare o rimborsi). Capire questo doppio binario è il primo passo per leggere davvero la busta paga: se i contributi o l'IRPEF ti sembrano \"strani\", spesso è perché si sta guardando la base sbagliata. GioIA ricostruisce entrambi gli imponibili dal tuo cedolino e verifica che contributi e imposte siano calcolati sulla base corretta.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Imponibile previdenziale vs imponibile fiscale; art. 51 TUIR (DPR 917/1986) e normativa contributiva; aliquota IVS 9,19%",
+      "fonte_url": "https://www.lexplain.it/imponibile-fiscale-e-previdenziale-differenza-armonizzazione-calcolo-esempi/"
+    },
+    {
+      "titolo": "Ferie, permessi e tredicesima: ogni mese ne \"metti da parte\" un pezzo",
+      "testo": "Ferie, permessi e tredicesima non arrivano dal nulla a fine anno: li maturi un po' ogni mese di lavoro. Sono i cosiddetti ratei, e spesso li vedi indicati in un riquadro del cedolino.\n\nLe ferie maturano in proporzione ai mesi lavorati: se il tuo contratto prevede, ad esempio, 26 giorni l'anno, ne accumuli circa 2,16 al mese. Lo stesso vale per i permessi (ROL ed ex festività) e per la tredicesima, che matura in ratei mensili (1/12 per ogni mese lavorato) e ti viene liquidata a dicembre. Se in un mese lavori solo alcuni giorni, il rateo di quel mese viene ridotto in proporzione.\n\nPerché è importante? Perché i ratei rappresentano soldi e giorni che ti spettano. Alla cessazione del rapporto, ferie e permessi non goduti e i ratei di tredicesima (e quattordicesima dove prevista) ti vengono pagati nella busta di liquidazione. La misura esatta della maturazione dipende dal CCNL applicato.\n\nControllare i ratei significa assicurarsi di non perdere quote che hai già maturato. GioIA legge il tuo cedolino, ricostruisce ferie, permessi e mensilità aggiuntive maturate e ti segnala se i conteggi non tornano.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Ratei di ferie, permessi e mensilita aggiuntive; art. 2109 c.c. (ferie); contrattazione collettiva (CCNL applicato)",
+      "fonte_url": "https://www.fiscoetasse.com/busta-paga"
+    },
+    {
+      "titolo": "Banca ore: gli straordinari che non incassi subito, ma recuperi come riposo",
+      "testo": "Hai fatto ore in più e non le vedi pagate in busta? Potrebbero essere finite nella banca ore. È uno strumento previsto da molti contratti collettivi che ti permette di accantonare le ore di straordinario e usarle in seguito come riposo compensativo, invece di riceverle subito in denaro.\n\nCome funziona: le ore extra vengono registrate in una sorta di \"conto\" e restano a tua disposizione; quando vuoi (nei limiti fissati dal contratto) le recuperi assentandoti dal lavoro senza perdere retribuzione. In genere resta pagata subito la maggiorazione per lo straordinario, mentre la parte \"a paga base\" viene accantonata come tempo da recuperare: le regole precise dipendono dal CCNL applicato e dagli accordi aziendali.\n\nAttenzione alle scadenze: molti contratti prevedono un termine entro cui le ore vanno recuperate, oltre il quale devono essere liquidate. Per questo è utile tenere d'occhio il saldo della banca ore che alcune buste paga riportano.\n\nLa banca ore non è regolata da una legge specifica ma dalla contrattazione, quindi le condizioni cambiano da settore a settore. GioIA ti aiuta a leggere le voci legate a straordinari e recuperi nel tuo cedolino e a capire se le ore accantonate risultano correttamente.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Banca ore e riposo compensativo - contrattazione collettiva (CCNL applicato); D.Lgs. 66/2003 (orario di lavoro e straordinario)",
+      "fonte_url": "https://www.consulentedellavoro.it/recupero-compensativo-o-riposo-compensativo/"
+    }
+  ]
+}
