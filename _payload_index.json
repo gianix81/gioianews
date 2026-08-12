@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-11 10:13",
+  "aggiornato_il": "2026-08-12 16:03",
   "pubblicate": [
     {
       "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
@@ -803,6 +803,22 @@
       "data_run": "2026-08-12",
       "ora_run": "1006",
       "file": "ingest_payload_2026-08-12_1006.json"
+    },
+    {
+      "chiave": "art. 42 comma 5 d.lgs. 151/2001 - congedo straordinario assistenza disabili gravi; massimali 2026 circ. inps 6/2026",
+      "titolo": "Assisti un familiare disabile grave? Fino a 2 anni di congedo pagato",
+      "riferimento_normativo": "Art. 42 comma 5 D.Lgs. 151/2001 - congedo straordinario assistenza disabili gravi; massimali 2026 Circ. INPS 6/2026",
+      "data_run": "2026-08-12",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-12_1603.json"
+    },
+    {
+      "chiave": "lavoro intermittente - d.lgs. 81/2015 artt. 13-18; indennita di disponibilita minima 20% (decreto ministero del lavoro)",
+      "titolo": "Lavoro \"a chiamata\"? C e un indennita anche per i periodi in cui non lavori",
+      "riferimento_normativo": "Lavoro intermittente - D.Lgs. 81/2015 artt. 13-18; indennita di disponibilita minima 20% (decreto Ministero del Lavoro)",
+      "data_run": "2026-08-12",
+      "ora_run": "1603",
+      "file": "ingest_payload_2026-08-12_1603.json"
     }
   ]
 }

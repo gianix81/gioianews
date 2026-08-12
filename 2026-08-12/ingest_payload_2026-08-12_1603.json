@@ -1,0 +1,19 @@
+{
+  "data": "2026-08-12",
+  "notizie": [
+    {
+      "titolo": "Assisti un familiare disabile grave? Fino a 2 anni di congedo pagato",
+      "testo": "Se ti prendi cura di un familiare con disabilita' grave (riconosciuta ai sensi della Legge 104), oltre ai permessi mensili puoi avere diritto al congedo straordinario retribuito: fino a 2 anni complessivi nell'arco della vita lavorativa.\n\nCome funziona: durante il congedo continui a ricevere un'indennita' pari all'ultima retribuzione (voci fisse e continuative) e il periodo e' coperto da contribuzione figurativa, quindi utile ai fini della pensione. C'e' pero' un tetto annuo, rivalutato ogni anno dall'INPS: per il 2026 l'importo complessivo massimo e' di 57.837 € l'anno (di cui 43.380 € di retribuzione e 14.460 € di contribuzione figurativa), pari a un massimo di 125,82 € al giorno. Ne hanno diritto, con un ordine di priorita' stabilito dalla legge, coniuge/unito civilmente, genitori, figli o fratelli conviventi del disabile grave.\n\nIn busta paga il periodo compare come voce dedicata (indennita' per congedo straordinario). Se noti importi che non tornano o giornate non riconosciute, e' bene verificare. GioIA analizza il tuo cedolino e ti segnala se l'indennita' e' stata calcolata nel rispetto del massimale.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 42 comma 5 D.Lgs. 151/2001 - congedo straordinario assistenza disabili gravi; massimali 2026 Circ. INPS 6/2026",
+      "fonte_url": "https://www.money.it/indennita-congedo-straordinario-legge-104-quanto-spetta-importo-aggiornato-2026"
+    },
+    {
+      "titolo": "Lavoro \"a chiamata\"? C'e' un'indennita' anche per i periodi in cui non lavori",
+      "testo": "Nel lavoro intermittente (detto anche \"a chiamata\" o job on call) l'azienda ti chiama solo quando serve. Ma se ti impegni per contratto a rispondere sempre alla chiamata, hai diritto a un compenso anche nei periodi in cui resti in attesa: e' la cosiddetta indennita' di disponibilita'.\n\nQuanto vale? La misura la fissano i contratti collettivi, ma la legge stabilisce un minimo: non puo' essere inferiore al 20% della retribuzione prevista dal CCNL applicato (percentuale fissata con decreto del Ministero del Lavoro). L'indennita' spetta solo se ti sei obbligato a essere disponibile: se sei libero di rifiutare la chiamata, non ti spetta. Attenzione: in caso di malattia o impedimento devi avvisare subito il datore, e per quel periodo l'indennita' non matura. Questa voce e' soggetta a contributi per il suo effettivo importo, ma resta esclusa dal calcolo di ferie, tredicesima e altri istituti.\n\nIn busta paga la trovi come riga separata dalle ore effettivamente lavorate. Con GioIA puoi controllare che l'indennita' di disponibilita' sia presente e calcolata almeno sul minimo previsto dal tuo contratto.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Lavoro intermittente - D.Lgs. 81/2015 artt. 13-18; indennita' di disponibilita' minima 20% (decreto Ministero del Lavoro)",
+      "fonte_url": "https://www.fiscoetasse.com/approfondimenti/13244-lavoro-intermittente-tutte-le-regole.html"
+    }
+  ]
+}

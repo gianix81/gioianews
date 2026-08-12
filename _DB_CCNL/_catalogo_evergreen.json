@@ -452,6 +452,18 @@
       "tema": "Assemblea retribuita in orario di lavoro",
       "riferimento_normativo": "Art. 20 L. 300/1970 (Statuto dei Lavoratori) - diritto di assemblea (10 ore annue retribuite)",
       "angolo": "10 ore/anno di assemblea in orario pagate come ore lavorate, senza incidere su ferie/TFR; il CCNL può migliorare."
+    },
+    {
+      "id": "ev-congedo-straordinario-104-biennale",
+      "tema": "Congedo straordinario retribuito 2 anni (assistenza disabili gravi)",
+      "riferimento_normativo": "Art. 42 comma 5 D.Lgs. 151/2001 - congedo straordinario per assistenza a familiari con disabilita grave",
+      "angolo": "Fino a 2 anni di congedo pagato con contribuzione figurativa; massimale annuo rivalutato (2026: 57.837 EUR)"
+    },
+    {
+      "id": "ev-lavoro-intermittente-disponibilita",
+      "tema": "Lavoro intermittente (a chiamata) e indennita di disponibilita",
+      "riferimento_normativo": "D.Lgs. 81/2015 artt. 13-18 - lavoro intermittente; indennita di disponibilita minima 20% CCNL",
+      "angolo": "Compenso per i periodi di attesa quando ci si obbliga a rispondere alla chiamata; minimo 20% retribuzione CCNL"
     }
   ]
 }
