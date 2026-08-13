@@ -1,8 +1,24 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-13 10:13",
+  "aggiornato_il": "2026-08-13 16:10",
   "pubblicate": [
+    {
+      "chiave": "ccnl funzioni centrali 2025-2027 (aran) - firma definitiva 06/08/2026, in vigore dal 07/08/2026; incremento medio 162 eur/mese su 13 mensilita",
+      "titolo": "Statali: firmato il rinnovo del contratto, in busta fino a 162 euro in più al mese",
+      "riferimento_normativo": "CCNL Funzioni Centrali 2025-2027 (ARAN) - firma definitiva 06/08/2026, in vigore dal 07/08/2026; incremento medio 162 €/mese su 13 mensilità",
+      "data_run": "2026-08-13",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-13_1604.json"
+    },
+    {
+      "chiave": "art. 2 l. 297/1982 - fondo di garanzia tfr; d.lgs. 80/1992 (ultime 3 mensilita); messaggio inps n. 2601 del 10/08/2026",
+      "titolo": "Se l'azienda fallisce, chi ti paga il TFR? Il Fondo di Garanzia INPS",
+      "riferimento_normativo": "Art. 2 L. 297/1982 - Fondo di Garanzia TFR; D.Lgs. 80/1992; Messaggio INPS n. 2601 del 10/08/2026",
+      "data_run": "2026-08-13",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-13_1604.json"
+    },
     {
       "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
       "titolo": "Guadagni oltre 4.685 € al mese? Su quella parte paghi un 1% di contributi in più",
