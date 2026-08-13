@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-12 20:03",
+  "aggiornato_il": "2026-08-13 10:13",
   "pubblicate": [
     {
       "chiave": "art. 3-ter l. 438/1992 - contributo aggiuntivo 1% ivs; soglia prima fascia 2026 56.224 eur/anno (circ. inps 6/2026)",
@@ -843,6 +843,30 @@
       "data_run": "2026-08-12",
       "ora_run": "2003",
       "file": "ingest_payload_2026-08-12_2003.json"
+    },
+    {
+      "chiave": "l. 260/1949 - festivita' nazionali; art. 5 l. 260/1949 - festivita' cadente di domenica",
+      "titolo": "Ferragosto e le altre feste nazionali: come vengono pagate in busta paga",
+      "riferimento_normativo": "L. 260/1949 - festivita' nazionali e infrasettimanali; art. 5 L. 260/1949",
+      "data_run": "2026-08-13",
+      "ora_run": "1013",
+      "file": "ingest_payload_2026-08-13_1013.json"
+    },
+    {
+      "chiave": "fasce di reperibilita' visite fiscali inps 2026 (10-12 e 17-19); d.l. 663/1979 conv. l. 33/1980",
+      "titolo": "Malato in estate? Attento alle fasce di reperibilita' per le visite fiscali",
+      "riferimento_normativo": "Fasce di reperibilita' visite fiscali INPS 2026; D.L. 663/1979 conv. L. 33/1980",
+      "data_run": "2026-08-13",
+      "ora_run": "1013",
+      "file": "ingest_payload_2026-08-13_1013.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - scatti di anzianita' (ccnl applicato)",
+      "titolo": "Scatti di anzianita': l'aumento automatico che matura con gli anni di lavoro",
+      "riferimento_normativo": "Contrattazione collettiva - scatti di anzianita' (CCNL applicato)",
+      "data_run": "2026-08-13",
+      "ora_run": "1013",
+      "file": "ingest_payload_2026-08-13_1013.json"
     }
   ]
 }

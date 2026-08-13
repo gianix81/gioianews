@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-13",
+  "notizie": [
+    {
+      "titolo": "Ferragosto e le altre feste nazionali: come vengono pagate in busta paga",
+      "testo": "Il 15 agosto, Ferragosto, e' una delle festivita' nazionali riconosciute per legge (L. 260/1949). Ma cosa cambia davvero nel tuo cedolino quando cade una festa?\n\nSe sei un lavoratore mensilizzato (paga fissa ogni mese), la festivita' e' gia' compresa nello stipendio: non ti viene tolto nulla se non lavori. Se invece lavori nel giorno di festa, ti spetta la normale retribuzione PIU' una maggiorazione per lavoro festivo, la cui percentuale e' fissata dal tuo CCNL.\n\nUn caso da conoscere: quando una festivita' nazionale (o infrasettimanale) cade di domenica, hai diritto a una quota di retribuzione aggiuntiva (una giornata in piu'), perche' la domenica e' gia' di per se' giorno di riposo. Nel 2026 il 15 agosto cade di sabato, quindi la regola della \"festa in domenica\" non scatta, ma vale la pena sapere che esiste per gli anni in cui capita.\n\nLe voci da guardare in busta sono quelle come \"festivita' godute\", \"festivita' non godute\" o \"lavoro festivo\": e' li' che questi importi compaiono.\n\nGioIA legge il tuo cedolino e controlla se le festivita' del mese sono state conteggiate correttamente e se la maggiorazione per il lavoro festivo e' coerente con il tuo contratto: carica la busta e verifica in un attimo.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "L. 260/1949 - festivita' nazionali e infrasettimanali; art. 5 L. 260/1949 - festivita' cadente di domenica",
+      "fonte_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1949-05-27;260"
+    },
+    {
+      "titolo": "Malato in estate? Attento alle fasce di reperibilita' per le visite fiscali",
+      "testo": "Ti ammali ad agosto e mandi il certificato: da quel momento devi essere reperibile a casa per l'eventuale visita di controllo INPS. Nel 2026 le fasce orarie sono uguali per tutti, dipendenti pubblici e privati: dalle 10:00 alle 12:00 e dalle 17:00 alle 19:00, tutti i giorni della settimana, compresi sabato, domenica e festivi.\n\nVuol dire che, anche in vacanza o durante un ponte, se sei in malattia devi trovarti all'indirizzo che hai comunicato durante quelle quattro ore. Puoi uscire per motivi giustificati (una visita medica, l'acquisto di farmaci), ma sta a te poterlo dimostrare.\n\nPerche' riguarda la busta paga? Perche' se il medico fiscale non ti trova e l'assenza risulta ingiustificata, rischi di perdere l'indennita' di malattia INPS per i giorni interessati, secondo una gradualita' che diventa piu' pesante con la ripetizione. In busta l'indennita' di malattia e' spesso anticipata dal datore per conto dell'INPS: una decurtazione si vede eccome.\n\nGioIA ti aiuta a controllare che i giorni di malattia in busta siano indennizzati con le percentuali corrette (50% o 66,66% a seconda del periodo) e che non ci siano decurtazioni anomale.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Fasce di reperibilita' visite fiscali INPS 2026 (10-12 e 17-19, tutti i giorni); D.L. 663/1979 conv. L. 33/1980 (indennita' malattia)",
+      "fonte_url": "https://fiscomania.com/orari-visita-fiscale-inps/"
+    },
+    {
+      "titolo": "Scatti di anzianita': l'aumento automatico che matura con gli anni di lavoro",
+      "testo": "Tra le voci della busta paga ce n'e' una che cresce da sola con il passare del tempo: lo scatto di anzianita'. E' un aumento della retribuzione che maturi automaticamente al raggiungimento di determinati periodi di servizio presso lo stesso datore di lavoro (di solito ogni due o tre anni), secondo quanto previsto dal tuo CCNL.\n\nNon e' un premio discrezionale: se il contratto lo prevede e hai maturato l'anzianita' richiesta, lo scatto ti spetta. In busta lo trovi come voce autonoma, spesso indicata proprio come \"scatti di anzianita'\", che si somma al minimo tabellare e agli altri elementi fissi.\n\nOgni CCNL stabilisce quanti scatti sono previsti al massimo, ogni quanti anni maturano e l'importo di ciascuno scatto (che di norma varia in base al livello di inquadramento). Attenzione: gli scatti fanno base per il calcolo di TFR, tredicesima ed eventuale quattordicesima, quindi pesano piu' di quanto sembri.\n\nUn errore frequente e' lo scatto \"dimenticato\": maturi l'anzianita' ma l'aumento non compare. GioIA confronta la tua anzianita' e il tuo livello con le regole del contratto applicato e segnala se manca uno scatto che avresti gia' dovuto ricevere.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Contrattazione collettiva - scatti di anzianita' (CCNL applicato)",
+      "fonte_url": "https://www.cnel.it/Archivio-Contratti-Collettivi/Entra-nellarchivio"
+    }
+  ]
+}
