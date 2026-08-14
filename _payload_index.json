@@ -883,6 +883,48 @@
       "data_run": "2026-08-13",
       "ora_run": "1013",
       "file": "ingest_payload_2026-08-13_1013.json"
+    },
+    {
+      "chiave": "ccnl istruzione e ricerca (scuola) 2025-2027 - parte economica sottoscritta in via definitiva (aran, luglio 2026); aumenti e arretrati nel cedolino di agosto 2026 (noipa); arretrati a tassazione separata ex art. 17 tuir",
+      "titolo": "Scuola: nel cedolino di agosto arrivano aumenti e arretrati del nuovo contratto",
+      "data_run": "2026-08-13",
+      "ora_run": "2254",
+      "file": "ingest_payload_2026-08-13_2254.json"
+    },
+    {
+      "chiave": "agenzia delle entrate - risposta a interpello n. 159/e del 07/08/2026; art. 51 comma 2 lett. f-bis tuir (dpr 917/1986) - rimborso spese di istruzione nei piani di welfare aziendale",
+      "titolo": "Welfare aziendale: rimborsabili le spese scolastiche anche se le paga il coniuge",
+      "data_run": "2026-08-13",
+      "ora_run": "2254",
+      "file": "ingest_payload_2026-08-13_2254.json"
+    },
+    {
+      "chiave": "art. 51 comma 2 lett. d-bis tuir (dpr 917/1986) - abbonamenti al trasporto pubblico locale, regionale e interregionale erogati/rimborsati dal datore: esenzione per dipendente e familiari a carico",
+      "titolo": "L'abbonamento ai mezzi pagato dall'azienda non ti fa pagare tasse: come funziona",
+      "data_run": "2026-08-13",
+      "ora_run": "2254",
+      "file": "ingest_payload_2026-08-13_2254.json"
+    },
+    {
+      "chiave": "l. 52/2001 - permessi retribuiti e conservazione della retribuzione per i donatori di midollo osseo; contribuzione figurativa a carico dello stato (circ. inps 97/2006)",
+      "titolo": "Doni il midollo osseo? Hai diritto allo stipendio pieno per prelievi e recupero",
+      "data_run": "2026-08-14",
+      "ora_run": "0603",
+      "file": "ingest_payload_2026-08-14_0603.json"
+    },
+    {
+      "chiave": "art. 7 d.lgs. 119/2011 - congedo per cure per gli invalidi con riduzione capacità lavorativa > 50% (30 giorni/anno, trattamento economico di malattia, escluso dal comporto)",
+      "titolo": "Invalidità oltre il 50%? Ci sono 30 giorni di congedo per cure, oltre alla malattia",
+      "data_run": "2026-08-14",
+      "ora_run": "0603",
+      "file": "ingest_payload_2026-08-14_0603.json"
+    },
+    {
+      "chiave": "indennità di turno per lavoro a turni avvicendati - contrattazione collettiva (ccnl applicato); voce imponibile ai fini fiscali e previdenziali",
+      "titolo": "Lavori su turni? In busta paga può esserci l'indennità di turno: ecco cos'è",
+      "data_run": "2026-08-14",
+      "ora_run": "0603",
+      "file": "ingest_payload_2026-08-14_0603.json"
     }
   ]
 }

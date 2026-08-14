@@ -1,7 +1,7 @@
 {
   "schema": "gioia-catalogo-evergreen",
   "descrizione": "Pool di argomenti educativi CERTI (evergreen) sulla busta paga italiana, usati per completare il payload a 2-3 post quando le notizie nuove della finestra 30gg non bastano (FASE 3B). Il dedup resta gestito da _payload_index.json (chiave = riferimento normativo normalizzato): un argomento gia' presente nell'indice NON va ripescato. Ogni voce va comunque verificata con 1 web search prima di scrivere il post, per confermare importi/soglie dell'anno corrente. NON inventare numeri: se un valore non e' confermabile, salta l'argomento.",
-  "aggiornato_il": "2026-08-12",
+  "aggiornato_il": "2026-08-14",
   "argomenti": [
     {
       "id": "ev-indennita-preavviso",
@@ -464,6 +464,30 @@
       "tema": "Lavoro intermittente (a chiamata) e indennita di disponibilita",
       "riferimento_normativo": "D.Lgs. 81/2015 artt. 13-18 - lavoro intermittente; indennita di disponibilita minima 20% CCNL",
       "angolo": "Compenso per i periodi di attesa quando ci si obbliga a rispondere alla chiamata; minimo 20% retribuzione CCNL"
+    },
+    {
+      "id": "ev-abbonamenti-trasporto-pubblico",
+      "tema": "Abbonamenti trasporto pubblico rimborsati dal datore (esenzione)",
+      "riferimento_normativo": "Art. 51 comma 2 lett. d-bis TUIR - abbonamenti trasporto pubblico locale/regionale/interregionale erogati o rimborsati dal datore (esenzione per dipendente e familiari a carico)",
+      "angolo": "Il rimborso o l'erogazione dell'abbonamento ai mezzi pubblici da parte del datore non fa reddito; vale anche per i familiari a carico; distinguere dalla detrazione 19% in dichiarazione."
+    },
+    {
+      "id": "ev-donazione-midollo",
+      "tema": "Permessi retribuiti per donatori di midollo osseo",
+      "riferimento_normativo": "L. 52/2001 - permessi retribuiti e conservazione della retribuzione per i donatori di midollo osseo; contribuzione figurativa a carico dello Stato (circ. INPS 97/2006)",
+      "angolo": "Permessi retribuiti per tipizzazione, compatibilità, idoneità e retribuzione piena nei giorni di ricovero e recupero per l'espianto; contribuzione figurativa a carico dello Stato, datore anticipa e chiede rimborso INPS. PUBBLICATO 2026-08-14."
+    },
+    {
+      "id": "ev-congedo-cure-invalidi",
+      "tema": "Congedo per cure per invalidi (30 giorni)",
+      "riferimento_normativo": "Art. 7 D.Lgs. 119/2011 - congedo per cure per gli invalidi con riduzione capacità lavorativa > 50% (30 giorni/anno, trattamento economico di malattia, escluso dal comporto)",
+      "angolo": "30 giorni/anno frazionabili per cure per lavoratori con invalidità > 50% (non serve L. 104); trattamento economico di malattia ma escluso dal periodo di comporto. PUBBLICATO 2026-08-14."
+    },
+    {
+      "id": "ev-indennita-turno",
+      "tema": "Indennità di turno (lavoro a turni avvicendati)",
+      "riferimento_normativo": "Indennità di turno per lavoro a turni avvicendati - contrattazione collettiva (CCNL applicato); voce imponibile ai fini fiscali e previdenziali",
+      "angolo": "Compenso per il disagio dei turni avvicendati stabilito dal CCNL (importo fisso o percentuale, spesso maggiorato la notte); distinta dalla maggiorazione notturno/festivo; imponibile fisc. e prev. PUBBLICATO 2026-08-14."
     }
   ]
 }
