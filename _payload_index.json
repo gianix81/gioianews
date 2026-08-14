@@ -967,6 +967,27 @@
       "data_run": "2026-08-14",
       "ora_run": "1604",
       "file": "ingest_payload_2026-08-14_1604.json"
+    },
+    {
+      "chiave": "circolare agenzia delle entrate n. 7/e del 07/08/2026; d.lgs. 36/2021 art. 36 co. 6 (esenzione fiscale compensi sportivi dilettantistici fino a 15.000 eur/anno)",
+      "titolo": "Lavoratori sportivi: i primi 15.000 € non pagano IRPEF (i chiarimenti dell'Agenzia delle Entrate)",
+      "data_run": "2026-08-14",
+      "ora_run": "2005",
+      "file": "ingest_payload_2026-08-14_2005.json"
+    },
+    {
+      "chiave": "legge 199/2025 (legge di bilancio 2026) - imposta sostitutiva 5% sugli incrementi retributivi da rinnovo ccnl; chiarimenti circolare agenzia delle entrate n. 3/e del 24/06/2026",
+      "titolo": "Aumento da rinnovo del contratto? Nel 2026 su quella parte paghi solo il 5% di tasse",
+      "data_run": "2026-08-14",
+      "ora_run": "2005",
+      "file": "ingest_payload_2026-08-14_2005.json"
+    },
+    {
+      "chiave": "circolare inps n. 42 del 03/04/2026 - incentivo alla prosecuzione dell'attivita lavorativa (c.d. bonus maroni): rinuncia all'accredito della quota ivs 9,19% a carico del lavoratore, erogata in busta paga e non imponibile fiscalmente",
+      "titolo": "Puoi andare in pensione anticipata ma resti al lavoro? Il 9,19% di contributi te lo danno in busta paga",
+      "data_run": "2026-08-14",
+      "ora_run": "2005",
+      "file": "ingest_payload_2026-08-14_2005.json"
     }
   ]
 }
