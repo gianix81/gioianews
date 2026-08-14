@@ -488,6 +488,24 @@
       "tema": "Indennità di turno (lavoro a turni avvicendati)",
       "riferimento_normativo": "Indennità di turno per lavoro a turni avvicendati - contrattazione collettiva (CCNL applicato); voce imponibile ai fini fiscali e previdenziali",
       "angolo": "Compenso per il disagio dei turni avvicendati stabilito dal CCNL (importo fisso o percentuale, spesso maggiorato la notte); distinta dalla maggiorazione notturno/festivo; imponibile fisc. e prev. PUBBLICATO 2026-08-14."
+    },
+    {
+      "id": "ev-indennita-sostitutiva-mensa",
+      "tema": "Indennita sostitutiva di mensa (esente 5,29 EUR/gg in casi ristretti)",
+      "riferimento_normativo": "Art. 51 comma 2 lett. c) TUIR (DPR 917/1986) - indennità sostitutiva di mensa esente fino a 5,29 €/gg per addetti a cantieri, strutture temporanee o unità produttive in zone prive di servizi di ristorazione",
+      "angolo": "Differenza tra indennita in denaro, buoni pasto e mensa aziendale; esenzione limitata a 5,29 EUR/gg per categorie specifiche."
+    },
+    {
+      "id": "ev-indennita-contingenza",
+      "tema": "Indennita di contingenza (voce storica congelata dal 1992)",
+      "riferimento_normativo": "Indennità di contingenza - scala mobile congelata dal 31/07/1992 (Protocollo Governo-parti sociali); importo confluito nei minimi tabellari dei CCNL",
+      "angolo": "Ex scala mobile congelata dal 1992, confluita nei minimi tabellari; come si legge in busta."
+    },
+    {
+      "id": "ev-lavoro-a-cottimo",
+      "tema": "Lavoro a cottimo (retribuzione a rendimento)",
+      "riferimento_normativo": "Artt. 2099-2101 c.c. - retribuzione a tempo o a cottimo; obbligatorietà del cottimo; comunicazione preventiva delle tariffe",
+      "angolo": "Paga a tempo vs a cottimo; cottimo misto con minimo garantito; obblighi di comunicazione delle tariffe."
     }
   ]
 }
