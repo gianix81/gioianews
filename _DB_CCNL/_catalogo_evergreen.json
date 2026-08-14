@@ -506,6 +506,24 @@
       "tema": "Lavoro a cottimo (retribuzione a rendimento)",
       "riferimento_normativo": "Artt. 2099-2101 c.c. - retribuzione a tempo o a cottimo; obbligatorietà del cottimo; comunicazione preventiva delle tariffe",
       "angolo": "Paga a tempo vs a cottimo; cottimo misto con minimo garantito; obblighi di comunicazione delle tariffe."
+    },
+    {
+      "id": "ev-mansioni-superiori",
+      "tema": "Mansioni superiori e diritto alla retribuzione corrispondente",
+      "riferimento_normativo": "Art. 2103 c.c. (come modificato dal D.Lgs. 81/2015) - mansioni superiori e diritto alla retribuzione corrispondente",
+      "angolo": "Se svolgi stabilmente mansioni di livello superiore hai diritto subito alla paga corrispondente e, dopo il periodo da CCNL o 6 mesi, alla promozione"
+    },
+    {
+      "id": "ev-rivalutazione-interessi-crediti",
+      "tema": "Rivalutazione e interessi sui crediti di lavoro pagati in ritardo",
+      "riferimento_normativo": "Art. 429 comma 3 c.p.c. - rivalutazione monetaria (indici ISTAT) e interessi legali sui crediti di lavoro",
+      "angolo": "Sui pagamenti tardivi di stipendi e arretrati spettano rivalutazione monetaria e interessi legali come voci autonome"
+    },
+    {
+      "id": "ev-prescrizione-crediti-retributivi",
+      "tema": "Prescrizione quinquennale dei crediti retributivi",
+      "riferimento_normativo": "Art. 2948 n. 4 c.c. - prescrizione quinquennale dei crediti retributivi; decorrenza dalla cessazione del rapporto per i rapporti privi di stabilita reale (Cass. ord. n. 26246/2022)",
+      "angolo": "I crediti da stipendio si prescrivono in 5 anni; nel privato senza tutela reale il termine decorre dalla fine del rapporto"
     }
   ]
 }

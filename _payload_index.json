@@ -946,6 +946,27 @@
       "data_run": "2026-08-14",
       "ora_run": "0603",
       "file": "ingest_payload_2026-08-14_0603.json"
+    },
+    {
+      "chiave": "art. 2103 c.c. (come modificato dal d.lgs. 81/2015) - mansioni superiori e diritto alla retribuzione corrispondente",
+      "titolo": "Fai da tempo il lavoro di un livello superiore? Ti spetta la paga più alta",
+      "data_run": "2026-08-14",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-14_1604.json"
+    },
+    {
+      "chiave": "art. 429 comma 3 c.p.c. - rivalutazione monetaria (indici istat) e interessi legali sui crediti di lavoro",
+      "titolo": "Ti hanno pagato in ritardo stipendi o arretrati? Ti spettano anche rivalutazione e interessi",
+      "data_run": "2026-08-14",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-14_1604.json"
+    },
+    {
+      "chiave": "art. 2948 n. 4 c.c. - prescrizione quinquennale dei crediti retributivi; decorrenza dalla cessazione del rapporto per i rapporti privi di stabilita reale (cass. ord. n. 26246/2022)",
+      "titolo": "Stipendi e differenze non pagati: hai 5 anni per chiederli, ma occhio a quando parte il conto",
+      "data_run": "2026-08-14",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-14_1604.json"
     }
   ]
 }

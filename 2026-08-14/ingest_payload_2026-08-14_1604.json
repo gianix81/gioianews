@@ -1,0 +1,26 @@
+{
+  "data": "2026-08-14",
+  "notizie": [
+    {
+      "titolo": "Fai da tempo il lavoro di un livello superiore? Ti spetta la paga più alta",
+      "testo": "Se il datore ti assegna stabilmente mansioni di un livello più alto rispetto a quello per cui sei stato assunto, hai diritto SUBITO alla retribuzione corrispondente a quelle mansioni: la paga base del livello superiore, dal primo giorno in cui le svolgi (art. 2103 del Codice civile, come riscritto dal D.Lgs. 81/2015).\n\nNon solo: se continui a svolgere quelle mansioni superiori per il periodo fissato dal tuo CCNL (o, se il contratto non dice nulla, per 6 mesi continuativi), l'assegnazione diventa DEFINITIVA e maturi il diritto al passaggio di livello. Fanno eccezione due casi: se stai semplicemente sostituendo un collega assente con diritto alla conservazione del posto (es. in malattia o maternità), oppure se tu stesso rinunci alla promozione.\n\nIn busta paga la cosa si legge così: controlla il livello/qualifica indicato e la paga base. Se svolgi mansioni superiori ma il cedolino riporta ancora il livello inferiore, può comparire (o dovrebbe comparire) una voce di 'differenza per mansioni superiori'. Se manca, stai probabilmente ricevendo meno del dovuto.\n\nGioIA ti aiuta a verificarlo: carichi il PDF del cedolino e controlla se il livello applicato e la paga base sono coerenti con il CCNL e con le mansioni che dichiari di svolgere, segnalando eventuali differenze da recuperare.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 2103 c.c. (come modificato dal D.Lgs. 81/2015) - mansioni superiori e diritto alla retribuzione corrispondente",
+      "fonte_url": "https://www.brocardi.it/codice-civile/libro-quinto/titolo-ii/capo-i/sezione-iii/art2103.html"
+    },
+    {
+      "titolo": "Ti hanno pagato in ritardo stipendi o arretrati? Ti spettano anche rivalutazione e interessi",
+      "testo": "Quando il datore paga in ritardo somme che ti deve come lavoratore (stipendi arretrati, differenze di paga, straordinari non liquidati, TFR), non ti spetta solo l'importo 'secco': la legge prevede in tuo favore anche la rivalutazione monetaria e gli interessi legali (art. 429, comma 3, del Codice di procedura civile).\n\nCome funziona: la rivalutazione monetaria adegua il credito alla perdita di valore della moneta nel tempo, calcolata in base agli indici ISTAT; gli interessi legali si aggiungono come voce autonoma. Le due componenti si sommano al capitale dovuto e servono a compensarti per l'attesa e a scoraggiare i ritardi di pagamento.\n\nAttenzione: questi importi NON compaiono automaticamente nel cedolino ordinario del mese. Emergono quando c'è un pagamento tardivo riconosciuto o una controversia, e vanno quantificati sul periodo di ritardo. È un diritto che vale per tutti i crediti collegati al rapporto di lavoro, non solo per lo stipendio in senso stretto.\n\nGioIA ti serve per la prima verifica: leggendo le tue buste paga può aiutarti a individuare voci pagate in ritardo o differenze mai liquidate, il punto di partenza per capire se ti spettano anche rivalutazione e interessi.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 429 comma 3 c.p.c. - rivalutazione monetaria (indici ISTAT) e interessi legali sui crediti di lavoro",
+      "fonte_url": "https://www.wikilabour.it/dizionario/retribuzione/rivalutazione-e-interessi/"
+    },
+    {
+      "titolo": "Stipendi e differenze non pagati: hai 5 anni per chiederli, ma occhio a quando parte il conto",
+      "testo": "I crediti retributivi (stipendio, tredicesima e quattordicesima, straordinari, differenze di paga) si prescrivono in 5 anni: passato quel termine, il diritto a incassarli si perde (art. 2948, n. 4, del Codice civile). La prescrizione breve di 5 anni vale perché si tratta di somme che maturano periodicamente.\n\nIl punto delicato è: da quando partono i 5 anni? Per i rapporti di lavoro privato privi di una tutela reale contro il licenziamento, secondo la Cassazione (ordinanza n. 26246/2022) la prescrizione NON corre durante il rapporto, ma inizia a decorrere solo dalla cessazione del rapporto stesso. In pratica, finché sei in servizio il termine resta 'sospeso'; il conto alla rovescia dei 5 anni parte da quando il rapporto finisce.\n\nCosa significa per te: se sospetti differenze mai pagate, non dai per scontato che siano 'troppo vecchie'. Molte voci restano recuperabili proprio perché il termine parte dalla fine del rapporto. Fai comunque valere i tuoi diritti per tempo: la prescrizione può essere interrotta con una richiesta scritta.\n\nGioIA ti aiuta a fare l'inventario: analizzando le buste paga può evidenziare voci mancanti o incoerenti (paga base, maggiorazioni, mensilità aggiuntive), utili a capire cosa eventualmente reclamare entro i termini.",
+      "affidabilita": "CERTO",
+      "riferimento_normativo": "Art. 2948 n. 4 c.c. - prescrizione quinquennale dei crediti retributivi; decorrenza dalla cessazione del rapporto per i rapporti privi di stabilita reale (Cass. ord. n. 26246/2022)",
+      "fonte_url": "https://www.laleggepertutti.it/codice-civile/art-2948-codice-civile-prescrizione-di-cinque-anni"
+    }
+  ]
+}
