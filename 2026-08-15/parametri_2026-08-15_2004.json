@@ -1,0 +1,270 @@
+{
+  "data_run": "2026-08-15",
+  "ora_run": "2004",
+  "finestra": "ultimi 30 giorni (16/07 - 15/08/2026)",
+  "note": "Run h2004 del 15/08/2026. Set parametri INVARIATO rispetto alla run h1604 (IRPEF, INPS, cuneo, NASpI, TFR, fringe benefit, buoni pasto). NOVITA' DI FINESTRA recepita a livello di regole (non di importi): D.Lgs. 7 agosto 2026 n. 148 (GU n. 185 dell'11/08/2026, S.O. n. 30), in vigore dal 12/08/2026 - art. 1 (familiari art. 433 c.c.: eliminato il requisito di convivenza quando la norma richiama solo i familiari ex art. 12 TUIR, con effetto dal periodo d'imposta in corso al 20/12/2025) e art. 2 (fringe benefit auto: maggiorazione forfetaria 5% per accessori e allestimenti non valorizzati nelle tabelle ACI e non acquistati dal dipendente, dal periodo d'imposta 2026).",
+  "parametri": [
+    {
+      "parametro": "IRPEF scaglione 1",
+      "valore": "23% fino a 28.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "IRPEF scaglione 2",
+      "valore": "33% da 28.001 a 50.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "IRPEF scaglione 3",
+      "valore": "43% oltre 50.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "Aliquota IVS lavoratore dipendente",
+      "valore": "9,19%",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "Contributo aggiuntivo 1% - soglia prima fascia",
+      "valore": "56.224 EUR/anno",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "art. 3-ter L. 438/1992; Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "Minimale retribuzione giornaliera",
+      "valore": "58,13 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "Massimale annuo base contributiva",
+      "valore": "122.295 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "No tax area dipendenti",
+      "valore": "~8.500 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "art. 13 TUIR"
+    },
+    {
+      "parametro": "Detrazione lavoro dipendente max",
+      "valore": "1.955 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "art. 13 TUIR"
+    },
+    {
+      "parametro": "Cuneo - soglia esente",
+      "valore": "<= 20.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "Cuneo - fascia detrazione",
+      "valore": "20.001-40.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "Massimale CIG lordo",
+      "valore": "1.423,69 EUR/mese",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 4/2026"
+    },
+    {
+      "parametro": "Coeff. rivalutazione TFR giugno 2026",
+      "valore": "2,786543",
+      "decorrenza": "2026-06",
+      "affidabilita": "CERTO",
+      "fonte": "ISTAT (comunicato 16/07/2026)"
+    },
+    {
+      "parametro": "Coeff. rivalutazione TFR luglio 2026",
+      "valore": "3,136358% (indice FOI luglio 2026 = 103,11)",
+      "decorrenza": "2026-07",
+      "affidabilita": "CERTO",
+      "fonte": "ISTAT (indice FOI luglio 2026 103,11); riscontro Assolombarda/prassi"
+    },
+    {
+      "parametro": "Imposta sostitutiva rivalutazione TFR",
+      "valore": "17%",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "art. 11 D.Lgs. 47/2000"
+    },
+    {
+      "parametro": "EDR - elemento distinto della retribuzione",
+      "valore": "10,33 EUR/mese x 13 mensilita",
+      "decorrenza": "dal 1993",
+      "affidabilita": "CERTO",
+      "fonte": "Protocollo interconfederale 31/07/1992"
+    },
+    {
+      "parametro": "Cessione del quinto - quota massima",
+      "valore": "1/5 (20%) dello stipendio netto",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "DPR 180/1950"
+    },
+    {
+      "parametro": "Malattia INPS - % dal 4 al 20 giorno",
+      "valore": "50% RMG",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "D.L. 663/1979 conv. L. 33/1980"
+    },
+    {
+      "parametro": "Malattia INPS - % dal 21 al 180 giorno",
+      "valore": "66,66% RMG",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "D.L. 663/1979 conv. L. 33/1980"
+    },
+    {
+      "parametro": "Indennita malattia/maternita - massimale annuo",
+      "valore": "43.486 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 75/2026"
+    },
+    {
+      "parametro": "Indennita malattia/maternita - giornaliero",
+      "valore": "119,14 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 75/2026"
+    },
+    {
+      "parametro": "Premi di risultato - imposta sostitutiva",
+      "valore": "1% (biennio 2026-2027)",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "L. 208/2015; L. 207/2024"
+    },
+    {
+      "parametro": "Buoni pasto esenti",
+      "valore": "10 EUR elettronici / 4 EUR cartacei",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025 (Legge di Bilancio 2026); art. 51 c.2 lett. c TUIR"
+    },
+    {
+      "parametro": "Indennita di trasferta - quota esente Italia",
+      "valore": "46,48 EUR/giorno",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "art. 51 comma 5 TUIR (DPR 917/1986)"
+    },
+    {
+      "parametro": "Indennita di trasferta - quota esente estero",
+      "valore": "77,47 EUR/giorno",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "art. 51 comma 5 TUIR (DPR 917/1986)"
+    },
+    {
+      "parametro": "Fringe benefit - soglia esenzione",
+      "valore": "1.000 EUR / 2.000 EUR con figli",
+      "decorrenza": "2026 (triennio 2025-2027)",
+      "affidabilita": "CERTO",
+      "fonte": "art. 51 co. 3 TUIR; Legge di Bilancio 2025"
+    },
+    {
+      "parametro": "Deducibilita contributi previdenza complementare",
+      "valore": "5.300 EUR/anno (prima 5.164,57 EUR)",
+      "decorrenza": "2026-07-01 (intero periodo d'imposta 2026)",
+      "affidabilita": "CERTO",
+      "fonte": "Legge di Bilancio 2026; art. 8 co. 4 D.Lgs. 252/2005"
+    },
+    {
+      "parametro": "CCNL Forestali e Agrari - indennita di funzione quadri",
+      "valore": "120 EUR/mese su tutte le mensilita contrattuali, computabile nel TFR",
+      "decorrenza": "2026-08-01",
+      "affidabilita": "CERTO",
+      "fonte": "https://www.hrcapital.it/novita-e-rinnovi-ccnl/agosto-2026-novita-e-rinnovi-ccnl (prassi - riscontro su testo CCNL)"
+    },
+    {
+      "parametro": "CCNL Call Center outsourcing (Confimitalia-Snalp) - welfare",
+      "valore": "200 EUR onnicomprensivi, esclusi dalla base di calcolo TFR, utilizzabili entro il 31/05/2027",
+      "decorrenza": "2026-08",
+      "affidabilita": "CERTO",
+      "fonte": "https://www.hrcapital.it/novita-e-rinnovi-ccnl/agosto-2026-novita-e-rinnovi-ccnl (prassi - riscontro su testo CCNL)"
+    },
+    {
+      "parametro": "Welfare aziendale - familiari art. 433 c.c. (norme che richiamano solo l'art. 12 TUIR)",
+      "valore": "Requisito di convivenza NON richiesto (basta il legame di parentela ex art. 433 c.c.)",
+      "decorrenza": "periodo d'imposta in corso al 20/12/2025",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 1 (GU n. 185 dell'11/08/2026, S.O. n. 30)"
+    },
+    {
+      "parametro": "Detrazioni che richiedono lo status di 'familiare fiscalmente a carico'",
+      "valore": "Convivenza (o assegno alimentare non giudiziale) ANCORA richiesta, oltre ai limiti di reddito",
+      "decorrenza": "periodo d'imposta in corso al 20/12/2025",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 1"
+    },
+    {
+      "parametro": "Fringe benefit auto uso promiscuo - maggiorazione accessori/allestimenti",
+      "valore": "+5% forfetario per accessori e allestimenti non valorizzati nelle tabelle ACI e non acquistati dal dipendente (al netto delle somme trattenute al lavoratore)",
+      "decorrenza": "periodo d'imposta 2026 (anche per veicoli in regime di salvaguardia, dal 01/01/2026)",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 2"
+    },
+    {
+      "parametro": "Fringe benefit auto - percentuali forfetarie tabelle ACI",
+      "valore": "50% del costo chilometrico convenzionale; 10% veicoli elettrici; 20% ibridi plug-in",
+      "decorrenza": "confermate dal D.Lgs. 148/2026",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 2"
+    }
+  ],
+  "agevolazioni": {},
+  "detassazione_rinnovi_ccnl_2026": {
+    "aliquota_imposta_sostitutiva_pct": 5.0,
+    "sostituisce": "IRPEF + addizionali regionale e comunale",
+    "requisito_reddito_lavoro_dipendente_2025_max_eur": 33000,
+    "ambito": "lavoratori dipendenti settore privato; somme corrisposte nel 2026 in attuazione di CCNL sottoscritti dal 01/01/2024 al 31/12/2026",
+    "rinunciabile_dal_lavoratore": true,
+    "decorrenza": "2026",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025 (Legge di Bilancio 2026); chiarimenti Circ. AdE n. 3/E del 24/06/2026",
+    "nota": "Non si applica all'intera retribuzione ma alle sole voci collegate all'incremento da rinnovo: dettaglio da riscontrare sul testo della circolare."
+  },
+  "compensi_sportivi_dilettantistici": {
+    "soglia_esenzione_irpef_annua_eur": 15000,
+    "soglia_obbligo_contributivo_annua_eur": 5000,
+    "gestione_previdenziale": "Gestione Separata INPS",
+    "decorrenza": "in vigore",
+    "affidabilita": "CERTO (soglia fiscale) / DA_VERIFICARE (estremi articolo soglia contributiva)",
+    "fonte": "D.Lgs. 36/2021 art. 36 co. 6 (soglia fiscale); Circolare Agenzia delle Entrate n. 7/E del 07/08/2026",
+    "fonte_url": "https://www.agenziaentrate.gov.it/portale/-/cs-7-agosto-2026",
+    "nota": "Imponibile fiscale e imponibile previdenziale NON coincidono: tra 5.000 e 15.000 EUR contributi si / IRPEF no."
+  },
+  "bonus_maroni_2026": {
+    "quota_erogata_in_busta_pct": 9.19,
+    "descrizione": "Rinuncia all'accredito contributivo della quota IVS a carico del lavoratore che ha maturato i requisiti per la pensione anticipata; l'importo e' erogato in busta paga.",
+    "imponibile_fiscalmente": false,
+    "durata": "dalla domanda fino all'eta' per la pensione di vecchiaia o alla revoca",
+    "decorrenza": "2026",
+    "affidabilita": "CERTO",
+    "fonte": "Circolare INPS n. 42 del 03/04/2026 (estremi da riscontrare sul portale INPS)"
+  }
+}

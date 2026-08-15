@@ -1051,6 +1051,27 @@
       "data_run": "2026-08-15",
       "ora_run": "1604",
       "file": "ingest_payload_2026-08-15_1604.json"
+    },
+    {
+      "chiave": "d.lgs. 148/2026 art. 1 - familiari art. 433 c.c.; eliminato requisito di convivenza per le norme che richiamano l'art. 12 tuir (welfare aziendale); effetto dal periodo d'imposta in corso al 20/12/2025",
+      "titolo": "Welfare aziendale: torna esentasse anche per i familiari che non vivono con te",
+      "data_run": "2026-08-15",
+      "ora_run": "2004",
+      "file": "ingest_payload_2026-08-15_2004.json"
+    },
+    {
+      "chiave": "d.lgs. 148/2026 art. 2 - fringe benefit auto uso promiscuo; maggiorazione forfetaria 5% accessori e allestimenti non valorizzati nelle tabelle aci; salvaguardia estesa alla riassegnazione",
+      "titolo": "Auto aziendale a uso promiscuo: dal 2026 scatta un +5% sul valore tassato",
+      "data_run": "2026-08-15",
+      "ora_run": "2004",
+      "file": "ingest_payload_2026-08-15_2004.json"
+    },
+    {
+      "chiave": "d.p.r. 1124/1965 (t.u. inail) - infortunio sul lavoro: giorno dell'infortunio 100% e 3 giorni di carenza al 60% a carico del datore; indennita inail 60% fino al 90 giorno e 75% dal 91",
+      "titolo": "Infortunio sul lavoro: chi ti paga i primi giorni e come si legge l'indennità INAIL",
+      "data_run": "2026-08-15",
+      "ora_run": "2004",
+      "file": "ingest_payload_2026-08-15_2004.json"
     }
   ]
 }

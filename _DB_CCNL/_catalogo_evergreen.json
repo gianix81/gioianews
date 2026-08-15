@@ -536,6 +536,66 @@
       "tema": "Bonus Maroni: rinuncia all'accredito IVS con erogazione in busta paga",
       "riferimento_normativo": "Circolare INPS n. 42 del 03/04/2026 - incentivo alla prosecuzione dell'attivita lavorativa (c.d. Bonus Maroni): rinuncia all'accredito della quota IVS 9,19% a carico del lavoratore, erogata in busta paga e non imponibile fiscalmente",
       "angolo": "Chi puo' andare in pensione anticipata ma resta al lavoro riceve il 9,19% di contributi in busta, non tassato: pro, contro e come si legge nel cedolino."
+    },
+    {
+      "id": "ev-infortunio-inail",
+      "tema": "Infortunio sul lavoro: indennita INAIL in busta paga",
+      "riferimento_normativo": "d.P.R. 1124/1965 (T.U. INAIL) - indennita giornaliera per inabilita temporanea assoluta",
+      "angolo": "Giorno dell'infortunio al 100% e 3 giorni di carenza al 60% a carico del datore; INAIL 60% fino al 90 giorno, 75% dal 91."
+    },
+    {
+      "id": "ev-somministrazione-parita",
+      "tema": "Lavoro in somministrazione e parita di trattamento retributivo",
+      "riferimento_normativo": "D.Lgs. 81/2015 art. 35 - parita di trattamento del lavoratore somministrato",
+      "angolo": "Chi lavora tramite agenzia ha diritto a condizioni economiche non inferiori a quelle dei dipendenti diretti di pari livello."
+    },
+    {
+      "id": "ev-tirocinio-indennita",
+      "tema": "Tirocinio extracurriculare e indennita di partecipazione",
+      "riferimento_normativo": "Linee guida Stato-Regioni sui tirocini extracurriculari; normativa regionale",
+      "angolo": "Il tirocinio non e un rapporto di lavoro: niente busta paga in senso proprio, ma indennita minima fissata dalle Regioni."
+    },
+    {
+      "id": "ev-indennita-trasferimento",
+      "tema": "Trasferimento del lavoratore e indennita di trasferimento",
+      "riferimento_normativo": "Art. 2103 c.c. - trasferimento per comprovate ragioni tecniche, organizzative e produttive; discipline CCNL",
+      "angolo": "Quando l'azienda ti sposta di sede: requisiti, preavviso e voci di rimborso o indennita previste dal CCNL."
+    },
+    {
+      "id": "ev-ferie-e-malattia",
+      "tema": "Malattia durante le ferie: la sospensione del periodo feriale",
+      "riferimento_normativo": "Art. 2109 c.c.; principi giurisprudenziali sulla sospensione delle ferie per malattia",
+      "angolo": "Se ti ammali in ferie, a certe condizioni i giorni si convertono in malattia e le ferie restano da godere."
+    },
+    {
+      "id": "ev-ore-di-viaggio",
+      "tema": "Tempo di viaggio e trasferta: quando e orario di lavoro",
+      "riferimento_normativo": "D.Lgs. 66/2003 - nozione di orario di lavoro; discipline CCNL sul tempo di viaggio",
+      "angolo": "Quando lo spostamento per lavoro va retribuito e quando invece e coperto dalla sola indennita di trasferta."
+    },
+    {
+      "id": "ev-dis-coll",
+      "tema": "DIS-COLL: la disoccupazione dei collaboratori",
+      "riferimento_normativo": "Art. 15 D.Lgs. 22/2015 - indennita DIS-COLL",
+      "angolo": "Chi ha un contratto di collaborazione coordinata e continuativa non prende la NASpI ma la DIS-COLL: requisiti e durata."
+    },
+    {
+      "id": "ev-anf-residuale",
+      "tema": "Assegno per il nucleo familiare (ANF) dopo l'Assegno Unico",
+      "riferimento_normativo": "D.L. 69/1988 conv. L. 153/1988 - assegno per il nucleo familiare; residuo per nuclei senza figli",
+      "angolo": "L'ANF non e sparito del tutto: resta per alcuni nuclei senza figli e in busta paga si vede ancora."
+    },
+    {
+      "id": "ev-retribuzione-globale-di-fatto",
+      "tema": "Retribuzione globale di fatto: la base di calcolo di molti istituti",
+      "riferimento_normativo": "Nozione di retribuzione globale di fatto - contrattazione collettiva e giurisprudenza",
+      "angolo": "Cos'e la retribuzione globale di fatto e perche cambia l'importo di ferie, 13a, TFR e indennita."
+    },
+    {
+      "id": "ev-contribuzione-figurativa",
+      "tema": "Contribuzione figurativa: i contributi che maturi senza lavorare",
+      "riferimento_normativo": "Normativa previdenziale sulla contribuzione figurativa (malattia, maternita, CIG, NASpI, permessi L. 104/1992)",
+      "angolo": "Nei periodi coperti da contribuzione figurativa il rapporto e sospeso ma la pensione continua a maturare."
     }
   ]
 }
