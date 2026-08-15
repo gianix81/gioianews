@@ -988,6 +988,48 @@
       "data_run": "2026-08-14",
       "ora_run": "2005",
       "file": "ingest_payload_2026-08-14_2005.json"
+    },
+    {
+      "chiave": "contrattazione collettiva - aumento minimi retributivi tabellari con decorrenza 01/08/2026 (ccnl indicati)",
+      "titolo": "Dal 1° agosto paghe base più alte in dieci contratti: controlla se c'è anche il tuo",
+      "data_run": "2026-08-15",
+      "ora_run": "0839",
+      "file": "ingest_payload_2026-08-15_0839.json"
+    },
+    {
+      "chiave": "ccnl forestali e agrari - indennita di funzione quadri 120 eur/mese dal 01/08/2026, computabile sul tfr",
+      "titolo": "Quadri dei Forestali e Agrari: 120 € al mese in più, e finiscono anche nel TFR",
+      "data_run": "2026-08-15",
+      "ora_run": "0839",
+      "file": "ingest_payload_2026-08-15_0839.json"
+    },
+    {
+      "chiave": "addizionale regionale e comunale all'irpef - d.lgs. 360/1998; art. 50 d.lgs. 446/1997; acconto comunale 30% in max 9 rate, saldo in max 11 rate",
+      "titolo": "Da marzo il netto cala e il lordo è uguale? Sono le addizionali IRPEF",
+      "data_run": "2026-08-15",
+      "ora_run": "0839",
+      "file": "ingest_payload_2026-08-15_0839.json"
+    },
+    {
+      "chiave": "ccnl call center in outsourcing (operatori telefonici outbound) - welfare contrattuale 200 eur ad agosto 2026, onnicomprensivo, escluso dalla base di calcolo del tfr, utilizzabile entro il 31/05/2027",
+      "titolo": "Lavori in un call center? Ad agosto arrivano 200 euro di welfare (ma non finiscono nel TFR)",
+      "data_run": "2026-08-15",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-15_1003.json"
+    },
+    {
+      "chiave": "conguaglio del modello 730 tramite sostituto d'imposta - assistenza fiscale (d.m. 164/1999); rimborsi e trattenute nel cedolino da luglio secondo la data di invio della dichiarazione",
+      "titolo": "Nella busta paga di luglio o agosto c'e' una cifra strana? Probabilmente e' il conguaglio del 730",
+      "data_run": "2026-08-15",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-15_1003.json"
+    },
+    {
+      "chiave": "art. 33 l. 104/1992 - permessi retribuiti (3 giorni mensili) per lavoratori con disabilita' grave e per chi assiste familiari in situazione di gravita'; indennita' a carico inps anticipata dal datore, con contribuzione figurativa",
+      "titolo": "Permessi Legge 104: chi te li paga davvero e perche' in busta paga li vedi diversi dal solito",
+      "data_run": "2026-08-15",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-15_1003.json"
     }
   ]
 }
