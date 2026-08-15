@@ -1030,6 +1030,27 @@
       "data_run": "2026-08-15",
       "ora_run": "1003",
       "file": "ingest_payload_2026-08-15_1003.json"
+    },
+    {
+      "chiave": "art. 51 comma 8-bis tuir (dpr 917/1986); d.i. 29/05/2026 (gu n. 133 dell'11/06/2026); circ. inps n. 66 del 18/06/2026",
+      "titolo": "Lavori all'estero per la tua azienda italiana? Le tasse si calcolano su uno stipendio \"finto\"",
+      "data_run": "2026-08-15",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-15_1604.json"
+    },
+    {
+      "chiave": "artt. 33 e 34 d.lgs. 151/2001 - prolungamento del congedo parentale per figli con disabilità grave, indennità 30%",
+      "titolo": "Figlio con disabilità grave: fino a 3 anni di congedo parentale pagati al 30%",
+      "data_run": "2026-08-15",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-15_1604.json"
+    },
+    {
+      "chiave": "art. 7 l. 300/1970 (statuto dei lavoratori) - sanzioni disciplinari: multa max 4 ore di retribuzione base, sospensione max 10 giorni, contestazione scritta e termine di 5 giorni",
+      "titolo": "Ti hanno trattenuto una \"multa\" in busta paga? La legge fissa un tetto preciso",
+      "data_run": "2026-08-15",
+      "ora_run": "1604",
+      "file": "ingest_payload_2026-08-15_1604.json"
     }
   ]
 }

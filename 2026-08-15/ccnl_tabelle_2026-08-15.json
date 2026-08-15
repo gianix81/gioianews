@@ -1,0 +1,99 @@
+{
+  "data": "2026-08-15",
+  "ora_run": "1604",
+  "aggiornati": [
+    {
+      "ccnl": "Pulizie / Multiservizi - Servizi di pulizia e servizi integrati (ANIP Confindustria, Legacoop Produzione e Servizi, Confcooperative Lavoro e Servizi, AGCI Servizi di Lavoro, Unionservizi Confapi)",
+      "codice_cnel": "K511",
+      "ultimo_rinnovo": "2025-06-13",
+      "vigenza": "/ 2028-12-31",
+      "note": "Accordo di rinnovo 13/06/2025 + accordo integrativo/economico 06/08/2025. Minimi con decorrenza 01/05/2026; ulteriore tranche dal 01/10/2026. 'minimo_tabellare_mensile' = retribuzione tabellare; 'totale_base_piu_contingenza_edr' = tabellare + indennita di contingenza + EDR 10,33 EUR (fisso per tutti i livelli). Scala parametrale 100-220. Valori da aggregatore di prassi che dichiara come fonte gli accordi depositati all'Archivio CNEL: da riscontrare sul testo ufficiale prima dell'uso in produzione.",
+      "tredicesima": true,
+      "quattordicesima": null,
+      "edr_mensile": 10.33,
+      "livelli": [
+        {
+          "livello": "Q",
+          "minimo_tabellare_mensile": 1724.08,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 2266.47,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        },
+        {
+          "livello": "7",
+          "minimo_tabellare_mensile": 1575.18,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 2117.57,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        },
+        {
+          "livello": "6",
+          "minimo_tabellare_mensile": 1363.59,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 1898.69,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        },
+        {
+          "livello": "5",
+          "minimo_tabellare_mensile": 1097.13,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 1625.99,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        },
+        {
+          "livello": "4",
+          "minimo_tabellare_mensile": 1003.1,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 1530.93,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        },
+        {
+          "livello": "3",
+          "minimo_tabellare_mensile": 924.74,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 1450.49,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        },
+        {
+          "livello": "2",
+          "minimo_tabellare_mensile": 854.21,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 1378.5,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        },
+        {
+          "livello": "1",
+          "minimo_tabellare_mensile": 783.68,
+          "ex_contingenza": null,
+          "totale_base_piu_contingenza_edr": 1306.72,
+          "decorrenza": "2026-05-01",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        }
+      ],
+      "aumenti_programmati": [
+        {
+          "decorrenza": "2026-10-01",
+          "nota": "Nuovi minimi tabellari: liv. Q = 1794.72 EUR, liv. 7 = 1639.72 EUR, liv. 6 = 1419.46 EUR, liv. 5 = 1142.08 EUR, liv. 4 = 1044.20 EUR, liv. 3 = 962.63 EUR, liv. 2 = 889.21 EUR, liv. 1 = 815.79 EUR",
+          "affidabilita": "DA_VERIFICARE",
+          "fonte": "https://www.contratticcnl.it/multiservizi/tabelle-retributive/"
+        }
+      ]
+    }
+  ],
+  "nota": "In questa run e stato aggiunto/aggiornato il solo CCNL Pulizie-Multiservizi (K511). Gli altri CCNL del master restano invariati: nessun rinnovo di finestra con minimi per livello reperibili da fonte ufficiale."
+}
