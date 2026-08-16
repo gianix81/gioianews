@@ -596,6 +596,18 @@
       "tema": "Contribuzione figurativa: i contributi che maturi senza lavorare",
       "riferimento_normativo": "Normativa previdenziale sulla contribuzione figurativa (malattia, maternita, CIG, NASpI, permessi L. 104/1992)",
       "angolo": "Nei periodi coperti da contribuzione figurativa il rapporto e sospeso ma la pensione continua a maturare."
+    },
+    {
+      "id": "ev-lavoro-domestico-minimi",
+      "tema": "Minimi retributivi del lavoro domestico (colf, badanti, baby-sitter)",
+      "riferimento_normativo": "CCNL Lavoro Domestico - tabella minimi retributivi aggiornata annualmente dalla Commissione Nazionale presso il Ministero del Lavoro",
+      "angolo": "Come si verifica se la paga di una colf o di una badante rispetta i minimi: valori mensili per i conviventi, valori orari per i non conviventi, indennita' convenzionali di vitto e alloggio."
+    },
+    {
+      "id": "ev-cigo-contribuzione-figurativa",
+      "tema": "Cassa integrazione: come cambia il cedolino e cosa sono i contributi figurativi",
+      "riferimento_normativo": "D.Lgs. 148/2015 - integrazioni salariali; contribuzione figurativa sui periodi coperti",
+      "angolo": "Quando l'attivita' si ferma: ore a integrazione salariale al posto delle ordinarie, anticipazione dal datore o pagamento diretto INPS, e perche' i contributi maturano comunque."
     }
   ]
 }

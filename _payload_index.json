@@ -1114,6 +1114,27 @@
       "data_run": "2026-08-16",
       "ora_run": "1003",
       "file": "ingest_payload_2026-08-16_1003.json"
+    },
+    {
+      "chiave": "art. 6 d.l. 26 giugno 2026, n. 107; messaggio inps n. 2418 del 20/07/2026 (cigo e cisoa per eventi climatici eccezionali)",
+      "titolo": "Caldo estremo: cassa integrazione senza consumare il plafond fino a dicembre",
+      "data_run": "2026-08-16",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-16_2003.json"
+    },
+    {
+      "chiave": "art. 51 comma 5 tuir (dpr 917/1986) - rimborsi analitici e rimborso chilometrico su costi aci",
+      "titolo": "Rimborso chilometrico: se e' calcolato sulle tabelle ACI non paghi tasse",
+      "data_run": "2026-08-16",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-16_2003.json"
+    },
+    {
+      "chiave": "art. 2103 c.c. - trasferimento del lavoratore; art. 51 comma 7 tuir - indennita' di trasferimento imponibili al 50% entro 1.549,37 eur (italia) / 4.648,11 eur (estero)",
+      "titolo": "Ti trasferiscono? L'indennita' di trasferimento e' tassata solo per meta'",
+      "data_run": "2026-08-16",
+      "ora_run": "2003",
+      "file": "ingest_payload_2026-08-16_2003.json"
     }
   ]
 }

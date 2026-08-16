@@ -34,9 +34,10 @@
     "nota_run_2026-07-31": "Nessun rinnovo Priorita 1 con tabelle inedite CERTIFICATE tra 25-31/07/2026. Valori CCNL privati INVARIATI vs 2026-07-24. Settimana: CCNL Istruzione e Ricerca 2025-2027 (PUBBLICO IMPIEGO, fuori scope busta privata) con aumenti+arretrati nel cedolino agosto 2026 e una tantum 110 EUR ATA gen-2027. Commercio Confcommercio H011: tranche +35 EUR liv.IV dal 01/11/2026 gia tracciata; ulteriori tranche (feb-2027) e valori per livello dal riscontro ufficiale ancora DA_VERIFICARE (fonti prassi discordanti). Archivio CNEL non consultato in questa run automatica (Claude in Chrome richiede browser connesso; non disponibile in esecuzione non interattiva) -> codici CNEL noti invariati (C011, H052, H011, H442, K574, H012).",
     "nota_run_2026-08-08": "AGGIORNAMENTO DATASET. Recepito rinnovo CCNL Metalmeccanica PMI-Confapi (Unionmeccanica, codice CNEL C018): ipotesi di accordo sottoscritta 04/06/2026, approvata dalla consulta lavoratori 29/07/2026, vigenza 04/06/2026-31/12/2028. Aggiunta scheda C018 con minimi per categoria (1a-9a/9Q) al 01/06/2026 e aumenti programmati 01/06/2027 e 01/06/2028 (aumento complessivo a regime 146,04->278,24 EUR). Fonte: FISCOeTASSE / testo integrale accordo (CERTO, minimi confermati da tabella pubblicata). Chiude il monitoraggio 'ipotesi Metalmecc. PMI-Confapi' delle run precedenti. Segnalato anche CCNL Commercio-Terziario Conflavoro PMI (codice CNEL H02H, sottoscritto 19/05/2026, vigenza 01/06/2026-31/05/2029, tranche minimi 01/11/2026 e 01/02/2027): distinto da Confcommercio H011, minimi per livello dietro PDF - DA_VERIFICARE, non ancora inserito come scheda. Altri CCNL INVARIATI. Codici CNEL noti aggiornati: C011, C018, H011, H012, H052, H442, K574 (+ H02H segnalato).",
     "nota_run_2026-08-08_1603": "Aggiunta scheda CCNL Commercio ANPIT/UNICA (cod. CNEL H024), rinnovo sottoscritto 28/07/2026, tabelle 01/08/2026 CERTE. Altri CCNL invariati.",
-    "ultima_run": "1604",
+    "ultima_run": "2026-08-16_2003",
     "nota_ultima_run": "Aggiunto CCNL Pulizie/Multiservizi K511 (ANIP Confindustria e altri) con minimi per livello dal 01/05/2026 e tranche 01/10/2026 - affidabilita DA_VERIFICARE (fonte di prassi che cita accordi depositati al CNEL).",
-    "nota_run_2026-08-16": "Aggiunta scheda CCNL CED/ICT (rinnovo 28/07/2025, vigenza 01/09/2025-31/08/2028) con decorrenze e importi certi. Minimi per livello NON reperiti da fonte ufficiale -> array livelli vuoto, nessun valore stimato. Nessun altro CCNL modificato in questa run."
+    "nota_run_2026-08-16": "Aggiunta scheda CCNL CED/ICT (rinnovo 28/07/2025, vigenza 01/09/2025-31/08/2028) con decorrenze e importi certi. Minimi per livello NON reperiti da fonte ufficiale -> array livelli vuoto, nessun valore stimato. Nessun altro CCNL modificato in questa run.",
+    "nota_ultima_modifica": "Chiuso il gap Lavoro Domestico: 8/8 livelli valorizzati (Tabella A conviventi + Tabella C non conviventi) da fonte istituzionale MLPS, decorrenza 01/01/2026. Nessun altro CCNL modificato (approccio incrementale: nessun rinnovo nuovo dal DIFF)."
   },
   "ccnl": [
     {
@@ -130,8 +131,8 @@
       "ccnl": "Lavoro Domestico (colf, badanti, baby sitter)",
       "codice_cnel": "da verificare su CNEL",
       "parti_firmatarie": "Fidaldo, Domina, Filcams-Cgil, Fisascat-Cisl, Uiltucs, Federcolf",
-      "ultimo_rinnovo": "tabelle Commissione nazionale - pubblicate 11/02/2026",
-      "vigenza": "tariffe in vigore dal 2026-01-01",
+      "ultimo_rinnovo": "2025-10-28",
+      "vigenza": "2025-11-01 / 2028-10-31",
       "tredicesima": true,
       "quattordicesima": false,
       "scatti_anzianita": true,
@@ -139,75 +140,109 @@
       "livelli": [
         {
           "livello": "A",
-          "minimo_tabellare_mensile_convivente": 908.1,
-          "tariffa_oraria_non_convivente": 6.51,
+          "minimo_tabellare_mensile": 908.1,
+          "paga_oraria_non_convivente": 6.51,
+          "indennita_art14_mensile": null,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         },
         {
           "livello": "AS",
-          "minimo_tabellare_mensile_convivente": 958.55,
-          "tariffa_oraria_non_convivente": 6.76,
+          "minimo_tabellare_mensile": 958.55,
+          "paga_oraria_non_convivente": 6.76,
+          "indennita_art14_mensile": null,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         },
         {
           "livello": "B",
-          "minimo_tabellare_mensile_convivente": 983.16,
-          "tariffa_oraria_non_convivente": 7.01,
+          "minimo_tabellare_mensile": 983.16,
+          "paga_oraria_non_convivente": 7.01,
+          "indennita_art14_mensile": null,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         },
         {
           "livello": "BS",
-          "minimo_tabellare_mensile_convivente": 1053.39,
-          "tariffa_oraria_non_convivente": 7.45,
+          "minimo_tabellare_mensile": 1053.39,
+          "paga_oraria_non_convivente": 7.45,
+          "indennita_art14_mensile": null,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         },
         {
           "livello": "C",
-          "minimo_tabellare_mensile_convivente": 1123.63,
-          "tariffa_oraria_non_convivente": 7.86,
+          "minimo_tabellare_mensile": 1123.63,
+          "paga_oraria_non_convivente": 7.86,
+          "indennita_art14_mensile": null,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         },
         {
           "livello": "CS",
-          "minimo_tabellare_mensile_convivente": 1193.84,
-          "tariffa_oraria_non_convivente": 8.3,
+          "minimo_tabellare_mensile": 1193.84,
+          "paga_oraria_non_convivente": 8.3,
+          "indennita_art14_mensile": null,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         },
         {
           "livello": "D",
-          "minimo_tabellare_mensile_convivente": 1612.2,
-          "tariffa_oraria_non_convivente": 9.57,
+          "minimo_tabellare_mensile": 1404.51,
+          "paga_oraria_non_convivente": 9.57,
+          "indennita_art14_mensile": 207.69,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         },
         {
           "livello": "DS",
-          "minimo_tabellare_mensile_convivente": 1682.42,
-          "tariffa_oraria_non_convivente": 9.97,
+          "minimo_tabellare_mensile": 1474.73,
+          "paga_oraria_non_convivente": 9.97,
+          "indennita_art14_mensile": 207.69,
+          "ex_contingenza": null,
           "decorrenza": "2026-01-01",
           "affidabilita": "CERTO",
-          "fonte": "https://www.colf.info/minimi-contrattuali-colf-badanti-2026.asp"
+          "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
         }
       ],
       "aumenti_programmati": [
         {
           "decorrenza": "2027-01-01",
-          "nota": "secondo step del percorso +100 EUR entro 2028 + adeguamento ISTAT"
+          "nota": "Liv. BS +30,00 EUR/mese (2a tranche rinnovo 28/10/2025) + rivalutazione 90% indice ISTAT"
+        },
+        {
+          "decorrenza": "2028-01-01",
+          "nota": "Liv. BS +15,00 EUR/mese (3a tranche)"
+        },
+        {
+          "decorrenza": "2028-09-01",
+          "nota": "Liv. BS +15,00 EUR/mese (4a tranche)"
         }
-      ]
+      ],
+      "note_minimi": "Minimi da tabella ministeriale MLPS (Verbale Commissione Nazionale 11/02/2026), decorrenza 01/01/2026, variazione ISTAT applicata 1,00%. 'minimo_tabellare_mensile' = Tabella A lavoratori conviventi; 'paga_oraria_non_convivente' = Tabella C lavoratori non conviventi. Tabella B (conviventi orario ridotto, mensili): B 702,25 - BS 737,39 - C 814,60. Tabella E assistenza notturna (mensili): autosufficiente liv. BS 1.211,38 - non autosufficiente liv. CS 1.372,91. Tabella F indennita vitto/alloggio giornaliere: pranzo/colazione 2,33 - cena 2,33 - alloggio 2,00 - totale 6,66.",
+      "indennita_vitto_alloggio_giornaliere": {
+        "pranzo_o_colazione": 2.33,
+        "cena": 2.33,
+        "alloggio": 2.0,
+        "totale": 6.66,
+        "decorrenza": "2026-01-01",
+        "affidabilita": "CERTO",
+        "fonte": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026"
+      }
     },
     {
       "ccnl": "Turismo / Pubblici Esercizi (Federalberghi-FIPE aziende alberghiere)",
