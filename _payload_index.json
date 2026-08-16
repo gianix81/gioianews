@@ -1072,6 +1072,48 @@
       "data_run": "2026-08-15",
       "ora_run": "2004",
       "file": "ingest_payload_2026-08-15_2004.json"
+    },
+    {
+      "chiave": "art. 35 d.lgs. 81/2015; cass. sez. lavoro sentenze nn. 16326 e 16328 del 26/05/2026",
+      "titolo": "Lavori tramite agenzia? Il premio di risultato dell'azienda spetta anche a te",
+      "data_run": "2026-08-16",
+      "ora_run": "0950",
+      "file": "ingest_payload_2026-08-16_0950.json"
+    },
+    {
+      "chiave": "ccnl centri elaborazione dati, imprese ict, professioni digitali e stp - rinnovo 28/07/2025, decorrenze 01/09/2026",
+      "titolo": "CED e ICT: a settembre 180 euro di welfare e indennita' piu' alta per i quadri",
+      "data_run": "2026-08-16",
+      "ora_run": "0950",
+      "file": "ingest_payload_2026-08-16_0950.json"
+    },
+    {
+      "chiave": "art. 2109 c.c.; corte costituzionale sentenza n. 616/1987; circolare inps n. 109/1999",
+      "titolo": "Ti ammali in ferie? I giorni si recuperano, ma devi avvisare subito",
+      "data_run": "2026-08-16",
+      "ora_run": "0950",
+      "file": "ingest_payload_2026-08-16_0950.json"
+    },
+    {
+      "chiave": "art. 2120 c.c. (tfr); art. 2099 c.c.; nozione di retribuzione globale di fatto definita dalla contrattazione collettiva",
+      "titolo": "Retribuzione globale di fatto: la voce invisibile che decide quanto vali davvero",
+      "data_run": "2026-08-16",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-16_1003.json"
+    },
+    {
+      "chiave": "normativa previdenziale sulla contribuzione figurativa (malattia, maternità, cig, naspi, permessi l. 104/1992)",
+      "titolo": "Contribuzione figurativa: i contributi che maturi anche quando non lavori",
+      "data_run": "2026-08-16",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-16_1003.json"
+    },
+    {
+      "chiave": "d.lgs. 66/2003 (nozione di orario di lavoro; art. 8 comma 3 - rinvio alla contrattazione collettiva); art. 51 comma 5 tuir per l'indennità di trasferta",
+      "titolo": "Ore di viaggio per lavoro: quando vanno pagate e quando no",
+      "data_run": "2026-08-16",
+      "ora_run": "1003",
+      "file": "ingest_payload_2026-08-16_1003.json"
     }
   ]
 }
