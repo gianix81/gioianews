@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-14 10:04",
+  "aggiornato_il": "2026-08-17 06:04",
   "pubblicate": [
     {
       "chiave": "artt. 2099-2101 c.c. - retribuzione a tempo o a cottimo; obbligatorieta del cottimo; comunicazione preventiva delle tariffe",
@@ -1135,6 +1135,30 @@
       "data_run": "2026-08-16",
       "ora_run": "2003",
       "file": "ingest_payload_2026-08-16_2003.json"
+    },
+    {
+      "chiave": "ccnl lavoro domestico - tabella minimi retributivi 2026 pubblicata dal ministero del lavoro (verbale commissione nazionale 11/02/2026), decorrenza 01/01/2026, rivalutazione istat 1,00%",
+      "titolo": "Colf e badanti: i minimi 2026 sono fissati dal Ministero, non dal datore di lavoro",
+      "riferimento_normativo": "CCNL Lavoro Domestico - tabella minimi retributivi 2026 pubblicata dal Ministero del Lavoro (verbale Commissione Nazionale 11/02/2026), decorrenza 01/01/2026, rivalutazione ISTAT 1,00%",
+      "data_run": "2026-08-17",
+      "ora_run": "0604",
+      "file": "ingest_payload_2026-08-17_0604.json"
+    },
+    {
+      "chiave": "d.lgs. 22/2015 - indennità dis-coll; parametri 2026: massimale 1.584,70 €/mese, soglia reddito medio 1.456,72 €, décalage 3% dal 151° giorno, durata max 12 mesi",
+      "titolo": "Hai un co.co.co. che finisce? Esiste una disoccupazione anche per te: si chiama DIS-COLL",
+      "riferimento_normativo": "D.Lgs. 22/2015 - indennità DIS-COLL; parametri 2026: massimale 1.584,70 €/mese, soglia reddito medio 1.456,72 €, décalage 3% dal 151° giorno, durata max 12 mesi",
+      "data_run": "2026-08-17",
+      "ora_run": "0604",
+      "file": "ingest_payload_2026-08-17_0604.json"
+    },
+    {
+      "chiave": "assegno per il nucleo familiare residuale (nuclei senza figli) - rivalutazione livelli di reddito +1,4%, validità 01/07/2026 - 30/06/2027; d.lgs. 230/2021 per l'assegno unico e universale",
+      "titolo": "ANF: l'assegno familiare non è sparito del tutto, e per qualcuno è ancora in busta paga",
+      "riferimento_normativo": "Assegno per il Nucleo Familiare residuale (nuclei senza figli) - rivalutazione livelli di reddito +1,4%, validità 01/07/2026 - 30/06/2027; D.Lgs. 230/2021 per l'Assegno Unico e Universale",
+      "data_run": "2026-08-17",
+      "ora_run": "0604",
+      "file": "ingest_payload_2026-08-17_0604.json"
     }
   ]
 }
