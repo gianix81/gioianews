@@ -1159,6 +1159,27 @@
       "data_run": "2026-08-17",
       "ora_run": "0604",
       "file": "ingest_payload_2026-08-17_0604.json"
+    },
+    {
+      "chiave": "legge 18 luglio 2025, n. 106, art. 2 - permessi retribuiti 10 ore annue, decorrenza 01/01/2026",
+      "titolo": "Malattie oncologiche e croniche: dal 2026 hai 10 ore l'anno di permesso retribuito in più",
+      "data_run": "2026-08-17",
+      "ora_run": "1004",
+      "file": "ingest_payload_2026-08-17_1004.json"
+    },
+    {
+      "chiave": "art. 2112 c.c. - trasferimento d'azienda e responsabilita' solidale; clausole sociali di ccnl nel cambio appalto",
+      "titolo": "Cambio appalto: la tua anzianita' e il TFR ti seguono? Dipende da una distinzione precisa",
+      "data_run": "2026-08-17",
+      "ora_run": "1004",
+      "file": "ingest_payload_2026-08-17_1004.json"
+    },
+    {
+      "chiave": "art. 50 tuir (d.p.r. 917/1986) - indennita' di tirocinio come reddito assimilato a lavoro dipendente; nessuna contribuzione ivs, obbligo assicurativo inail",
+      "titolo": "Stage e tirocini: perche' nel prospetto non c'e' la trattenuta INPS (e cosa comporta)",
+      "data_run": "2026-08-17",
+      "ora_run": "1004",
+      "file": "ingest_payload_2026-08-17_1004.json"
     }
   ]
 }

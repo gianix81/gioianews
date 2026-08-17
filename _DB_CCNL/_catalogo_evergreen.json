@@ -608,6 +608,24 @@
       "tema": "Cassa integrazione: come cambia il cedolino e cosa sono i contributi figurativi",
       "riferimento_normativo": "D.Lgs. 148/2015 - integrazioni salariali; contribuzione figurativa sui periodi coperti",
       "angolo": "Quando l'attivita' si ferma: ore a integrazione salariale al posto delle ordinarie, anticipazione dal datore o pagamento diretto INPS, e perche' i contributi maturano comunque."
+    },
+    {
+      "id": "ev-permessi-l106-oncologici",
+      "tema": "Permessi retribuiti 10 ore annue per malattie oncologiche, invalidanti e croniche",
+      "riferimento_normativo": "Legge 18 luglio 2025, n. 106, art. 2 - permessi retribuiti 10 ore annue, decorrenza 01/01/2026",
+      "angolo": "10 ore l'anno aggiuntive rispetto al CCNL per visite, esami e cure: retribuite e con copertura contributiva."
+    },
+    {
+      "id": "ev-cambio-appalto-anzianita",
+      "tema": "Cambio appalto: anzianita', TFR e clausola sociale",
+      "riferimento_normativo": "Art. 2112 c.c. - trasferimento d'azienda e responsabilita' solidale; clausole sociali di CCNL nel cambio appalto",
+      "angolo": "Quando la nuova impresa deve riconoscerti anzianita' e TFR pregresso, e quando invece assume ex novo."
+    },
+    {
+      "id": "ev-tirocinio-indennita-fisco",
+      "tema": "Tirocinio extracurriculare: tassazione dell'indennita' di partecipazione",
+      "riferimento_normativo": "Art. 50 TUIR (d.P.R. 917/1986) - indennita' di tirocinio come reddito assimilato a lavoro dipendente; nessuna contribuzione IVS, obbligo assicurativo INAIL",
+      "angolo": "Perche' nel prospetto dello stagista c'e' l'IRPEF ma non i contributi INPS, e cosa comporta per la pensione."
     }
   ]
 }

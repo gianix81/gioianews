@@ -1,0 +1,488 @@
+{
+  "data_run": "2026-08-17",
+  "ora_run": "1004",
+  "finestra": "ultimi 30 giorni (18/07 - 17/08/2026)",
+  "note": "Set invariato rispetto alla run h0604 del 17/08/2026: nessuna variazione di aliquote, scaglioni, soglie, massimali o coefficienti. Aggiunto il blocco descrittivo 'permessi_l106_2025' (voce di assenza retribuita, non parametro economico). Rilevata in finestra l'istruzione operativa INAIL del 24/07/2026 sul modello OT23 anno 2027: nessun impatto sul cedolino del lavoratore (premio a carico del datore); protocollo e percentuali di riduzione DA VERIFICARE su portale INAIL, non valorizzati.",
+  "parametri": [
+    {
+      "parametro": "IRPEF scaglione 1",
+      "valore": "23% fino a 28.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "IRPEF scaglione 2",
+      "valore": "33% da 28.001 a 50.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "IRPEF scaglione 3",
+      "valore": "43% oltre 50.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "Aliquota IVS lavoratore dipendente",
+      "valore": "9,19%",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "Contributo aggiuntivo 1% - soglia prima fascia",
+      "valore": "56.224 EUR/anno",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "art. 3-ter L. 438/1992; Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "Minimale retribuzione giornaliera",
+      "valore": "58,13 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "Massimale annuo base contributiva",
+      "valore": "122.295 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 6/2026"
+    },
+    {
+      "parametro": "No tax area dipendenti",
+      "valore": "~8.500 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "art. 13 TUIR"
+    },
+    {
+      "parametro": "Detrazione lavoro dipendente max",
+      "valore": "1.955 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "art. 13 TUIR"
+    },
+    {
+      "parametro": "Cuneo - soglia esente",
+      "valore": "<= 20.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "Cuneo - fascia detrazione",
+      "valore": "20.001-40.000 EUR",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025"
+    },
+    {
+      "parametro": "Massimale CIG lordo",
+      "valore": "1.423,69 EUR/mese",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 4/2026"
+    },
+    {
+      "parametro": "Coeff. rivalutazione TFR giugno 2026",
+      "valore": "2,786543",
+      "decorrenza": "2026-06",
+      "affidabilita": "CERTO",
+      "fonte": "ISTAT (comunicato 16/07/2026)"
+    },
+    {
+      "parametro": "Coeff. rivalutazione TFR luglio 2026",
+      "valore": "3,136358% (indice FOI luglio 2026 = 103,11)",
+      "decorrenza": "2026-07",
+      "affidabilita": "CERTO",
+      "fonte": "ISTAT (indice FOI luglio 2026 103,11); riscontro Assolombarda/prassi"
+    },
+    {
+      "parametro": "Imposta sostitutiva rivalutazione TFR",
+      "valore": "17%",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "art. 11 D.Lgs. 47/2000"
+    },
+    {
+      "parametro": "EDR - elemento distinto della retribuzione",
+      "valore": "10,33 EUR/mese x 13 mensilita",
+      "decorrenza": "dal 1993",
+      "affidabilita": "CERTO",
+      "fonte": "Protocollo interconfederale 31/07/1992"
+    },
+    {
+      "parametro": "Cessione del quinto - quota massima",
+      "valore": "1/5 (20%) dello stipendio netto",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "DPR 180/1950"
+    },
+    {
+      "parametro": "Malattia INPS - % dal 4 al 20 giorno",
+      "valore": "50% RMG",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "D.L. 663/1979 conv. L. 33/1980"
+    },
+    {
+      "parametro": "Malattia INPS - % dal 21 al 180 giorno",
+      "valore": "66,66% RMG",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "D.L. 663/1979 conv. L. 33/1980"
+    },
+    {
+      "parametro": "Indennita malattia/maternita - massimale annuo",
+      "valore": "43.486 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 75/2026"
+    },
+    {
+      "parametro": "Indennita malattia/maternita - giornaliero",
+      "valore": "119,14 EUR",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "Circ. INPS 75/2026"
+    },
+    {
+      "parametro": "Premi di risultato - imposta sostitutiva",
+      "valore": "1% (biennio 2026-2027)",
+      "decorrenza": "2026",
+      "affidabilita": "CERTO",
+      "fonte": "L. 208/2015; L. 207/2024"
+    },
+    {
+      "parametro": "Buoni pasto esenti",
+      "valore": "10 EUR elettronici / 4 EUR cartacei",
+      "decorrenza": "2026-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "L. 199/2025 (Legge di Bilancio 2026); art. 51 c.2 lett. c TUIR"
+    },
+    {
+      "parametro": "Indennita di trasferta - quota esente Italia",
+      "valore": "46,48 EUR/giorno",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "art. 51 comma 5 TUIR (DPR 917/1986)"
+    },
+    {
+      "parametro": "Indennita di trasferta - quota esente estero",
+      "valore": "77,47 EUR/giorno",
+      "decorrenza": "in vigore",
+      "affidabilita": "CERTO",
+      "fonte": "art. 51 comma 5 TUIR (DPR 917/1986)"
+    },
+    {
+      "parametro": "Fringe benefit - soglia esenzione",
+      "valore": "1.000 EUR / 2.000 EUR con figli",
+      "decorrenza": "2026 (triennio 2025-2027)",
+      "affidabilita": "CERTO",
+      "fonte": "art. 51 co. 3 TUIR; Legge di Bilancio 2025"
+    },
+    {
+      "parametro": "Deducibilita contributi previdenza complementare",
+      "valore": "5.300 EUR/anno (prima 5.164,57 EUR)",
+      "decorrenza": "2026-07-01 (intero periodo d'imposta 2026)",
+      "affidabilita": "CERTO",
+      "fonte": "Legge di Bilancio 2026; art. 8 co. 4 D.Lgs. 252/2005"
+    },
+    {
+      "parametro": "CCNL Forestali e Agrari - indennita di funzione quadri",
+      "valore": "120 EUR/mese su tutte le mensilita contrattuali, computabile nel TFR",
+      "decorrenza": "2026-08-01",
+      "affidabilita": "CERTO",
+      "fonte": "https://www.hrcapital.it/novita-e-rinnovi-ccnl/agosto-2026-novita-e-rinnovi-ccnl (prassi - riscontro su testo CCNL)"
+    },
+    {
+      "parametro": "CCNL Call Center outsourcing (Confimitalia-Snalp) - welfare",
+      "valore": "200 EUR onnicomprensivi, esclusi dalla base di calcolo TFR, utilizzabili entro il 31/05/2027",
+      "decorrenza": "2026-08",
+      "affidabilita": "CERTO",
+      "fonte": "https://www.hrcapital.it/novita-e-rinnovi-ccnl/agosto-2026-novita-e-rinnovi-ccnl (prassi - riscontro su testo CCNL)"
+    },
+    {
+      "parametro": "Welfare aziendale - familiari art. 433 c.c. (norme che richiamano solo l'art. 12 TUIR)",
+      "valore": "Requisito di convivenza NON richiesto (basta il legame di parentela ex art. 433 c.c.)",
+      "decorrenza": "periodo d'imposta in corso al 20/12/2025",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 1 (GU n. 185 dell'11/08/2026, S.O. n. 30)"
+    },
+    {
+      "parametro": "Detrazioni che richiedono lo status di 'familiare fiscalmente a carico'",
+      "valore": "Convivenza (o assegno alimentare non giudiziale) ANCORA richiesta, oltre ai limiti di reddito",
+      "decorrenza": "periodo d'imposta in corso al 20/12/2025",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 1"
+    },
+    {
+      "parametro": "Fringe benefit auto uso promiscuo - maggiorazione accessori/allestimenti",
+      "valore": "+5% forfetario per accessori e allestimenti non valorizzati nelle tabelle ACI e non acquistati dal dipendente (al netto delle somme trattenute al lavoratore)",
+      "decorrenza": "periodo d'imposta 2026 (anche per veicoli in regime di salvaguardia, dal 01/01/2026)",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 2"
+    },
+    {
+      "parametro": "Fringe benefit auto - percentuali forfetarie tabelle ACI",
+      "valore": "50% del costo chilometrico convenzionale; 10% veicoli elettrici; 20% ibridi plug-in",
+      "decorrenza": "confermate dal D.Lgs. 148/2026",
+      "affidabilita": "CERTO",
+      "fonte": "D.Lgs. 7 agosto 2026 n. 148, art. 2"
+    },
+    {
+      "parametro": "Somministrazione - premio di risultato (regola)",
+      "valore": "Il premio di risultato previsto dalla contrattazione dell'impresa utilizzatrice spetta anche ai lavoratori somministrati (parita' art. 35 D.Lgs. 81/2015); il silenzio del CCNL non equivale a esclusione, le clausole di esclusione espressa sono nulle",
+      "decorrenza": "2026-05-26",
+      "affidabilita": "CERTO",
+      "fonte": "Cass. Sez. Lav. nn. 16326 e 16328 del 26/05/2026"
+    },
+    {
+      "parametro": "Contributo esonerativo L. 68/1999 (regola)",
+      "valore": "44,32 EUR per giornata lavorativa e per lavoratore con disabilita' non assunto; sanzione ex art. 15 c.4 L. 68/1999 = 5 volte l'importo",
+      "decorrenza": "2027-01-01",
+      "affidabilita": "CERTO",
+      "fonte": "D.M. Ministero del Lavoro n. 100 del 03/08/2026 (estremi da riscontrare in GU/Normattiva)"
+    },
+    {
+      "parametro": "CCNL CED/ICT - indennita' di funzione Q/Direzione",
+      "valore": "296,00 EUR/mese",
+      "decorrenza": "2026-09-01",
+      "affidabilita": "CERTO",
+      "fonte": "CCNL CED rinnovo 28/07/2025 - https://www.ecnews.it/lavoro/approfondimenti/rinnovo-ccnl-ced-calendario-principali-novita/"
+    },
+    {
+      "parametro": "CCNL CED/ICT - indennita' di funzione Q",
+      "valore": "258,00 EUR/mese",
+      "decorrenza": "2026-09-01",
+      "affidabilita": "CERTO",
+      "fonte": "CCNL CED rinnovo 28/07/2025 - https://www.ecnews.it/lavoro/approfondimenti/rinnovo-ccnl-ced-calendario-principali-novita/"
+    },
+    {
+      "parametro": "CCNL CED/ICT - welfare contrattuale annuo",
+      "valore": "180,00 EUR (non riproporzionabile per part-time)",
+      "decorrenza": "2026-09-30",
+      "affidabilita": "CERTO",
+      "fonte": "CCNL CED rinnovo 28/07/2025 - https://www.ecnews.it/lavoro/approfondimenti/rinnovo-ccnl-ced-calendario-principali-novita/"
+    }
+  ],
+  "agevolazioni": {},
+  "detassazione_rinnovi_ccnl_2026": {
+    "aliquota_imposta_sostitutiva_pct": 5.0,
+    "sostituisce": "IRPEF + addizionali regionale e comunale",
+    "requisito_reddito_lavoro_dipendente_2025_max_eur": 33000,
+    "ambito": "lavoratori dipendenti settore privato; somme corrisposte nel 2026 in attuazione di CCNL sottoscritti dal 01/01/2024 al 31/12/2026",
+    "rinunciabile_dal_lavoratore": true,
+    "decorrenza": "2026",
+    "affidabilita": "CERTO",
+    "fonte": "L. 199/2025 (Legge di Bilancio 2026); chiarimenti Circ. AdE n. 3/E del 24/06/2026",
+    "nota": "Non si applica all'intera retribuzione ma alle sole voci collegate all'incremento da rinnovo: dettaglio da riscontrare sul testo della circolare."
+  },
+  "compensi_sportivi_dilettantistici": {
+    "soglia_esenzione_irpef_annua_eur": 15000,
+    "soglia_obbligo_contributivo_annua_eur": 5000,
+    "gestione_previdenziale": "Gestione Separata INPS",
+    "decorrenza": "in vigore",
+    "affidabilita": "CERTO (soglia fiscale) / DA_VERIFICARE (estremi articolo soglia contributiva)",
+    "fonte": "D.Lgs. 36/2021 art. 36 co. 6 (soglia fiscale); Circolare Agenzia delle Entrate n. 7/E del 07/08/2026",
+    "fonte_url": "https://www.agenziaentrate.gov.it/portale/-/cs-7-agosto-2026",
+    "nota": "Imponibile fiscale e imponibile previdenziale NON coincidono: tra 5.000 e 15.000 EUR contributi si / IRPEF no."
+  },
+  "bonus_maroni_2026": {
+    "quota_erogata_in_busta_pct": 9.19,
+    "descrizione": "Rinuncia all'accredito contributivo della quota IVS a carico del lavoratore che ha maturato i requisiti per la pensione anticipata; l'importo e' erogato in busta paga.",
+    "imponibile_fiscalmente": false,
+    "durata": "dalla domanda fino all'eta' per la pensione di vecchiaia o alla revoca",
+    "decorrenza": "2026",
+    "affidabilita": "CERTO",
+    "fonte": "Circolare INPS n. 42 del 03/04/2026 (estremi da riscontrare sul portale INPS)"
+  },
+  "lavoro_domestico_2026": {
+    "fonte": "Ministero del Lavoro e delle Politiche Sociali - DG Rapporti di Lavoro e Relazioni Industriali, Div. III - Tabella minimi retributivi lavoro domestico, decorrenza 01/01/2026",
+    "fonte_url": "https://www.lavoro.gov.it/temi-e-priorita-rapporti-di-lavoro-e-relazioni-industriali/focus/tabella-lavoro-domestico-2026",
+    "verbale_commissione_nazionale": "11/02/2026",
+    "decorrenza": "2026-01-01",
+    "variazione_indice_istat_applicata_pct": 1.0,
+    "affidabilita": "CERTO",
+    "tabella_A_conviventi_valori_mensili": {
+      "A": 908.1,
+      "AS": 958.55,
+      "B": 983.16,
+      "BS": 1053.39,
+      "C": 1123.63,
+      "CS": 1193.84,
+      "D": 1404.51,
+      "DS": 1474.73
+    },
+    "tabella_A_indennita_aggiuntiva_art14_valori_mensili": {
+      "D": 207.69,
+      "DS": 207.69
+    },
+    "tabella_B_conviventi_orario_ridotto_art14c2_valori_mensili": {
+      "B": 702.25,
+      "BS": 737.39,
+      "C": 814.6
+    },
+    "tabella_C_non_conviventi_valori_orari": {
+      "A": 6.51,
+      "AS": 6.76,
+      "B": 7.01,
+      "BS": 7.45,
+      "C": 7.86,
+      "CS": 8.3,
+      "D": 9.57,
+      "DS": 9.97
+    },
+    "tabella_E_assistenza_notturna_valori_mensili": {
+      "autosufficiente_liv_BS": 1211.38,
+      "non_autosufficiente_liv_CS": 1372.91
+    },
+    "tabella_F_indennita_vitto_alloggio_valori_giornalieri": {
+      "pranzo_o_colazione": 2.33,
+      "cena": 2.33,
+      "alloggio": 2.0,
+      "totale": 6.66
+    },
+    "altri_valori_tabella_ministeriale": {
+      "nota": "Attribuzione alle rispettive tabelle ricostruita dal PDF ministeriale a impaginazione multi-colonna: verifica visiva sul documento originale raccomandata prima dell'uso in produzione.",
+      "affidabilita": "DA_VERIFICARE",
+      "indennita_art34_c3_mensili": [
+        138.54,
+        97.06
+      ],
+      "indennita_art34_c3_orari": 0.84,
+      "indennita_art34_c4_mensili": 119.66,
+      "indennita_art34_c4_orari": 0.7,
+      "indennita_art34_c7_mensili": 30.27,
+      "presenza_notturna_art10_livello_unico_mensile": 811.09
+    },
+    "rinnovo_parte_economica": {
+      "ipotesi_accordo": "2025-10-28",
+      "vigenza": "2025-11-01 / 2028-10-31",
+      "aumento_liv_BS_complessivo_eur_mese": 100.0,
+      "scaglionamento": [
+        {
+          "decorrenza": "2026-01-01",
+          "importo": 40.0
+        },
+        {
+          "decorrenza": "2027-01-01",
+          "importo": 30.0
+        },
+        {
+          "decorrenza": "2028-01-01",
+          "importo": 15.0
+        },
+        {
+          "decorrenza": "2028-09-01",
+          "importo": 15.0
+        }
+      ],
+      "rivalutazione_inflazione": "90% dell'indice ISTAT",
+      "affidabilita": "CERTO",
+      "nota": "Testo integrale del verbale da riscontrare; dati confermati da fonti di prassi e dalla comunicazione ministeriale."
+    }
+  },
+  "ammortizzatori_eventi_climatici_2026": {
+    "base_normativa": "Art. 6 D.L. 26 giugno 2026, n. 107",
+    "istruzioni_operative": "Messaggio INPS n. 2418 del 20/07/2026",
+    "ambito_temporale": {
+      "dal": "2026-07-01",
+      "al": "2026-12-31"
+    },
+    "strumenti": [
+      "CIGO",
+      "CISOA"
+    ],
+    "settori_cigo_indicati": [
+      "edilizia",
+      "lapidei",
+      "escavazione"
+    ],
+    "settori_cisoa": [
+      "operai agricoli"
+    ],
+    "effetto_chiave": "I periodi richiesti per causali da eventi climatici eccezionali (incluse ondate di calore) NON sono computati nel limite massimo di 52 settimane della disciplina ordinaria",
+    "impatto_cedolino": "Ore a integrazione salariale in luogo delle ordinarie; contribuzione figurativa sui periodi coperti; anticipazione dal datore con conguaglio o pagamento diretto INPS",
+    "affidabilita": "CERTO",
+    "nota_verifica": "Testo integrale del Msg INPS 2418/2026 (portale INPS) ed elenco tassativo dei settori CIGO, nonche' testo dell'art. 6 D.L. 107/2026 (Normattiva), DA RISCONTRARE prima dell'implementazione nel motore di calcolo.",
+    "fonti": [
+      "https://www.ipsoa.it/documents/quotidiano/2026/07/22/emergenza-climatica-cigo-cisoa-d-l-n-107-2026",
+      "https://www.consulentidellavoro.it/home/storico-articoli/19765-emergenza-caldo-le-istruzioni-inps-per-gli-ammortizzatori-sociali"
+    ]
+  },
+  "dis_coll_2026": {
+    "descrizione": "Indennita di disoccupazione DIS-COLL per collaboratori coordinati e continuativi, assegnisti di ricerca e dottorandi con borsa, iscritti in via esclusiva alla Gestione separata INPS. Non e' una voce di cedolino: rileva alla cessazione del rapporto.",
+    "base_normativa": "D.Lgs. 22/2015",
+    "anno": 2026,
+    "importo_massimo_mensile": 1584.7,
+    "soglia_reddito_medio_mensile": 1456.72,
+    "regola_calcolo": "75% del reddito medio mensile fino alla soglia; oltre la soglia si aggiunge il 25% della differenza, entro il massimale",
+    "decalage_percentuale_mensile": 3.0,
+    "decalage_dal_giorno": 151,
+    "durata_massima_mesi": 12,
+    "affidabilita": "CERTO",
+    "nota_affidabilita": "Impianto normativo CERTO. Importi 2026 confermati da piu' fonti di prassi e di patronato: riscontro sulla circolare INPS annuale di rivalutazione DA_VERIFICARE prima dell'uso in produzione.",
+    "fonte": "https://www.money.it/dis-coll-2026-importi-requisiti-aggiornati-disoccupazione-collaboratori"
+  },
+  "anf_residuale_2026_2027": {
+    "descrizione": "Assegno per il Nucleo Familiare in forma residuale, spettante ai soli nuclei SENZA figli (coniugi, fratelli, sorelle, nipoti orfani di entrambi i genitori) dopo l'introduzione dell'Assegno Unico e Universale (D.Lgs. 230/2021). Voce di busta paga anticipata dal datore e conguagliata via UniEmens.",
+    "perimetro": "nuclei familiari senza figli",
+    "rivalutazione_livelli_reddito_percentuale": 1.4,
+    "base_rivalutazione": "variazione indice FOI al netto dei tabacchi 2024-2025",
+    "validita_dal": "2026-07-01",
+    "validita_al": "2027-06-30",
+    "tabelle_aggiornate": [
+      "19",
+      "20A",
+      "20B",
+      "21A",
+      "21B",
+      "21C",
+      "21D"
+    ],
+    "imponibile_fiscale": false,
+    "imponibile_previdenziale": false,
+    "atto_riferimento": "Circolare INPS n. 61 del 26/05/2026",
+    "affidabilita": "CERTO",
+    "nota_affidabilita": "Perimetro, rivalutazione e periodo di validita' confermati da piu' fonti di prassi qualificata. Estremi della circolare INPS e valori puntuali delle singole tabelle DA_VERIFICARE sul portale INPS.",
+    "fonte": "https://www.informazionefiscale.it/assegni-nucleo-familiare-INPS-ANF-tabelle-2026-importo-domanda"
+  },
+  "permessi_l106_2025": {
+    "descrizione": "Permessi retribuiti aggiuntivi per visite, esami e cure mediche frequenti",
+    "fonte_normativa": "Legge 18 luglio 2025, n. 106, art. 2",
+    "pubblicazione_gu": "2025-07-25",
+    "entrata_in_vigore_legge": "2025-08-09",
+    "decorrenza_permessi": "2026-01-01",
+    "monte_ore_annuo": 10,
+    "unita": "ore intere",
+    "retribuiti": true,
+    "copertura_contributiva": true,
+    "aggiuntivi_rispetto_al_ccnl": true,
+    "beneficiari": [
+      "lavoratori con malattie oncologiche in fase attiva o in follow-up precoce",
+      "lavoratori con patologie invalidanti o croniche, anche rare, con invalidita' >= 74%",
+      "lavoratori con figlio minorenne affetto dalle stesse patologie"
+    ],
+    "settori": "datori di lavoro pubblici e privati",
+    "impatto_cedolino": "voce di permesso retribuito; nessuna decurtazione della paga base; contribuzione regolare",
+    "affidabilita": "CERTO",
+    "note_verifica": "Estremi della circolare/messaggio INPS applicativo DA VERIFICARE sul portale INPS",
+    "fonte": "https://www.leggioggi.it/malati-oncologici-permessi-extra-dal-2026/"
+  },
+  "inail_ot23_2027": {
+    "descrizione": "Modello OT23 per la riduzione del tasso medio di tariffa per prevenzione - anno 2027",
+    "atto": "INAIL - istruzione operativa del 24/07/2026",
+    "numero_protocollo": null,
+    "impatto_cedolino": "nessuno - il premio INAIL e' interamente a carico del datore di lavoro",
+    "percentuali_riduzione": null,
+    "affidabilita": "DA_VERIFICARE",
+    "note_verifica": "Numero di protocollo (indicato da una sola fonte come 6732), denominazione del modello (OT22 vs OT23) e percentuali di riduzione DA RISCONTRARE sul portale INAIL. Valori non stimati.",
+    "fonte": "https://www.inail.it/portale/it/atti-e-documenti/note-provvedimenti-e-istruzioni-operative/istruzioni-operative.html"
+  }
+}
