@@ -626,6 +626,12 @@
       "tema": "Tirocinio extracurriculare: tassazione dell'indennita' di partecipazione",
       "riferimento_normativo": "Art. 50 TUIR (d.P.R. 917/1986) - indennita' di tirocinio come reddito assimilato a lavoro dipendente; nessuna contribuzione IVS, obbligo assicurativo INAIL",
       "angolo": "Perche' nel prospetto dello stagista c'e' l'IRPEF ma non i contributi INPS, e cosa comporta per la pensione."
+    },
+    {
+      "id": "ev-apprendistato-busta-paga",
+      "tema": "Apprendistato: contribuzione ridotta 5,84% e sottoinquadramento in busta paga",
+      "riferimento_normativo": "D.Lgs. 81/2015 art. 42 (sottoinquadramento fino a due livelli); art. 1 comma 773 L. 296/2006 (contribuzione apprendisti 5,84%)",
+      "angolo": "Perche' il cedolino dell'apprendista ha aliquota e livello diversi e cosa controllare"
     }
   ]
 }

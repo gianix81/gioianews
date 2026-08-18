@@ -1,7 +1,7 @@
 {
   "schema": "gioia-payload-index",
   "descrizione": "Registro cumulativo notizie gia' inserite nei payload newsletter GioIA. Usato per il dedup permanente cross-day (FASE 3).",
-  "aggiornato_il": "2026-08-17 06:04",
+  "aggiornato_il": "2026-08-18 1411",
   "pubblicate": [
     {
       "chiave": "artt. 2099-2101 c.c. - retribuzione a tempo o a cottimo; obbligatorieta del cottimo; comunicazione preventiva delle tariffe",
@@ -1180,6 +1180,27 @@
       "data_run": "2026-08-17",
       "ora_run": "1004",
       "file": "ingest_payload_2026-08-17_1004.json"
+    },
+    {
+      "chiave": "d.m. ministero del lavoro n. 98 del 3 agosto 2026; delibera cda inail 9 aprile 2026 n. 42",
+      "titolo": "Infortunio sul lavoro: dal 1° luglio l'indennizzo del danno biologico e' piu' alto dell'1,4%",
+      "data_run": "2026-08-18",
+      "ora_run": "1411",
+      "file": "ingest_payload_2026-08-18_1411.json"
+    },
+    {
+      "chiave": "ipotesi di ccnl comparto funzioni locali 2025-2027, sottoscritta all'aran il 21 luglio 2026",
+      "titolo": "Dipendenti di Comuni e Regioni: firmata l'ipotesi di contratto, fino a 152 euro al mese (ma non e' ancora fatta)",
+      "data_run": "2026-08-18",
+      "ora_run": "1411",
+      "file": "ingest_payload_2026-08-18_1411.json"
+    },
+    {
+      "chiave": "d.lgs. 81/2015 art. 42 (sottoinquadramento fino a due livelli); art. 1 comma 773 l. 296/2006 (contribuzione apprendisti 5,84%)",
+      "titolo": "Sei apprendista? In busta paga paghi il 5,84% di contributi invece del 9,19%",
+      "data_run": "2026-08-18",
+      "ora_run": "1411",
+      "file": "ingest_payload_2026-08-18_1411.json"
     }
   ]
 }
